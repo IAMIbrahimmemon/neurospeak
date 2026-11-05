@@ -260,3 +260,49 @@ Limits:
 - Cost on normal text comes from the earlier run on different text (0.007 nats) and wasn't remeasured here. The other arms' numbers can't be compared across seeds.
 
 Scorer: `whyfix/score_self_doubt.py`. Data: `runs/whyfix/gsm64_dir_self_doubt*_traces.jsonl`, `runs/whyfix/self_doubt_results.json`.
+
+## Replication on unused problems
+
+Bars in [PLAN_REPLICATE.md](PLAN_REPLICATE.md), committed in `33d385f` before any output existed. 64 GSM8K test problems no earlier test used, a new seed (4), the same 3,000-token cap, and the same saved directions. **All seven bars pass. The self-doubt result replicates. It boxes more right answers than the repetition direction, but that lead isn't clear on the stricter count. As before, this is about answering within the cap, and it doesn't show better math.**
+
+| | Unedited | Matched random | Self-doubt | Repetition direction |
+|---|---|---|---|---|
+| Correct | 4/64 | 5/64 | **26/64** | 14/64 |
+| Correct, numbers compared by value | 7/64 | 6/64 | 26/64 | 15/64 |
+| Boxed an answer | 8/64 | 7/64 | 28/64 | 17/64 |
+| Finished before the cap | 0/64 | 1/64 | 14/64 | 10/64 |
+| Finished and correct | 0/64 | 1/64 | 14/64 | 9/64 |
+| Repeats | 48.8% | 46.4% | 26.1% | 8.1% |
+| Doubt words per 100 | 1.77 | 1.32 | 0.23 | 0.72 |
+| Collapsed runs | 0 | 0 | 0 | 1 |
+
+| Bar | Needed | Result | Verdict |
+|---|---|---|---|
+| R1. Correct | at least +5 points, CI above 0 | +34.4 points (CI +23.4 to +45.3), 22 gained, 0 lost | Pass |
+| R2. Repeats | at most 32.5% | 26.1% | Pass |
+| R3. Control | beats matched random on both | correct +32.8 (CI +20.3 to +45.3), repeats −20.3 (CI −28.4 to −12.5) | Pass |
+| R4. Intact | at most 2 collapsed runs | 0 | Pass |
+| R5. On target | at most 1.18 doubt words per 100 | 0.23 | Pass |
+| R6. Stricter count | finished and correct, CI above 0 | +21.9 points (CI +12.5 to +32.8) | Pass |
+| R7. Against repetition | correct, CI above 0 | +18.8 points (CI +6.2 to +31.2) | Pass |
+
+**Against the repetition direction, only R7's count is clear.** Counting only runs that finished and were right, comparing numbers by value, self-doubt's lead over repetition has intervals that include 0 on both seeds: +6.2 points (CI −6.2 to +18.8) here and +4.7 (CI −4.7 to +15.6) at seed 3. Repeats went the other way: self-doubt left 18.0 points more than the repetition direction (CI +11.7 to +24.6). Across both tests, comparing numbers by value, correct answers out of 128 are 11 unedited, 10 matched random, 49 self-doubt and 28 repetition direction.
+
+**A scorer miss found after scoring.** The frozen scorer marks `12.00` wrong against 12. Three of these are in the unedited arm, one in the matched arm and one in the repetition arm, so it slightly favors self-doubt. The bars stand as scored, as the plan says. Comparing numbers by value (`sensitivity_replicate.py`) gives self-doubt minus unedited +29.7 points (CI +17.2 to +42.2) and against repetition +17.2 (CI +4.7 to +31.2), so every comparison keeps its interval above 0. It doesn't change the seed 3 counts.
+
+What this adds:
+
+- **It stops some runs.** 14 runs finished here and all 14 were right, against none unedited. 12 of the 26 correct runs still hit the cap, and all 12 boxed inside the thinking block.
+- **It's still about answering.** A rough text check finds the right number after an equals sign in 36 of 64 unedited runs and 46 of 64 self-doubt runs. A different check by the reviewer gave 42 and 51, so treat these as approximate. Most unedited runs never box it. Whether longer runs close the gap isn't tested.
+- **Less repetition isn't the whole story.** Across both seeds the repetition direction leaves fewer repeats and fewer right answers. So repeats alone don't predict correct answers here.
+
+Limits:
+
+- Two seeds and 128 problems of one kind, on one model, at one cap.
+- Self-doubt's repeats were 26.1% here, against 17.5% at seed 3. R2 passes because it's relative to unedited, which also rose, to 48.8%.
+- The commit showing the plan came first exists only on this Mac, so its timestamp isn't independent proof. `directions.pt` isn't in git, and its unchanged state rests on a file time of 08:39 that morning.
+- The direction's meaning is still untested. "Self-doubt" names the examples it came from. The overlap-removed arm wasn't rerun, so its failure rests on seed 3 alone.
+- Cost on normal text wasn't remeasured.
+- I wrote the pairs, scores and bars, and one person's small set of hand-written pairs produced this direction.
+
+Scorer: `whyfix/score_replicate.py`, `whyfix/sensitivity_replicate.py`, `whyfix/audit_replicate.py`. Data: `runs/whyfix/gsm64b_*_traces.jsonl`, `runs/whyfix/replicate_results.json`, `runs/whyfix/replicate_sensitivity.json`.
