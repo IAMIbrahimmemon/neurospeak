@@ -1,0 +1,6182 @@
+[
+ {
+  "id": "N00",
+  "band": "early",
+  "layer": 2,
+  "neuron": 478,
+  "stats": {
+   "max": 4.25,
+   "min": -0.594,
+   "mean": 0.0103
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 4.25,
+     "text": "… in search of the base of the Land of Sky , who plans to invade Kon[[oha]] ; in the"
+    },
+    {
+     "act": 2.953,
+     "text": "… of stone soldiers ; in the fifth , Shikamaru is sent alongside Kak[[ashi]] and Sai in"
+    },
+    {
+     "act": 2.906,
+     "text": "…in , Shikamaru is appointed the leader of a team to prevent Sas[[uke]] Uchiha"
+    },
+    {
+     "act": 2.812,
+     "text": "…s team manages to defeat the Otogakure ninja barring their way , Sas[[uke]] manages to escape"
+    },
+    {
+     "act": 2.688,
+     "text": "… where they were . \" ⏎ = = Career = = ⏎ = = = Harry[[ Potter]] = = ="
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.594,
+     "text": "…-@ to @-@ air refuelling aircraft were also based in Man[[as]] Air Base in"
+    },
+    {
+     "act": -0.508,
+     "text": "… to wear a fat suit like those used in the 1996 Eddie[[ Murphy]] film The Nut"
+    },
+    {
+     "act": -0.463,
+     "text": "… in executing the contract \" . When it became known that Microsoft 's Windows [[2]]000"
+    },
+    {
+     "act": -0.428,
+     "text": "…980 – 1990 . Hot Press editor Niall[[ Stokes]] stated that this"
+    },
+    {
+     "act": -0.426,
+     "text": "… real bosses ( rather than one single person ) to avoid being sued . ⏎ Jamie[[ Fo]]xx as Dean"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 3.203,
+     "text": "… members of Team 10 to avenge their mentor with the aid of Kak[[ashi]] Hatake"
+    },
+    {
+     "act": 2.922,
+     "text": "… to his easygoing nature despite being a genius , and contrasted him against Sas[[uke]] Uchiha"
+    },
+    {
+     "act": 2.812,
+     "text": "… by SpongeBob 's use of his \" word \" and leave . Squid[[ward]] then informs Mr"
+    },
+    {
+     "act": 2.719,
+     "text": "… the mantle of a leader when assigned to lead a team in order to retrieve Sas[[uke]] Uchiha"
+    },
+    {
+     "act": 2.609,
+     "text": "… insight and intelligence he demonstrated against Temari . As a Chunin , Shik[[amar]]u is appointed"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.578,
+     "text": "… band Kiss — Peter Criss , Ace Frehley , Gene Simmons and Paul[[ Stanley]] —"
+    },
+    {
+     "act": -0.479,
+     "text": "…ers Rest , South Carolina to investigate the deaths of film director Lew Carroll ( Paul[[ Stanley]] ) and Marta"
+    },
+    {
+     "act": -0.461,
+     "text": "… the use of American Indian symbols in popular American culture . He focuses on such phenomena[[ as]] Tony Hillerman"
+    },
+    {
+     "act": -0.428,
+     "text": "… that . I used to think it was Belfast ... \" Journalist Niall[[ Stokes]] believes the title"
+    },
+    {
+     "act": -0.406,
+     "text": "… Inc . ' s lead designer , Jack McCornack was impressed by director Lee[[ Tam]]ahori '"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N01",
+  "band": "early",
+  "layer": 1,
+  "neuron": 371,
+  "stats": {
+   "max": 0.566,
+   "min": -0.875,
+   "mean": 0.0048
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.566,
+     "text": "… of PopMatters remarked that \" There 's no better song to kick things[[ off]] than the master"
+    },
+    {
+     "act": 0.539,
+     "text": "…quina Clutch submission hold when Cage ascended a padded turnbuckle and jumped[[ off]] onto Booker T"
+    },
+    {
+     "act": 0.531,
+     "text": "… ⏎ The court held that it was proven that Blythe had thrown Nosek[[ off]] the stage ."
+    },
+    {
+     "act": 0.504,
+     "text": "… Parachute battalion and also Raider Company B , pushing the Parachutists[[ off]] the east side"
+    },
+    {
+     "act": 0.5,
+     "text": "… for climbing the stage . He testified that he pulled one person[[ off]] the stage and"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.875,
+     "text": "… September 14 , dry air and wind shear caused the remnants to dissipate[[ entirely]] . ⏎ ="
+    },
+    {
+     "act": -0.824,
+     "text": "… , bassist and lead songwriter of the J @-@ pop band Dreams Come[[ True]] . The game"
+    },
+    {
+     "act": -0.809,
+     "text": "… Masato Nakamura 's demo recordings and the third comprises songs by Dreams Come[[ True]] and their Ak"
+    },
+    {
+     "act": -0.797,
+     "text": "… the car pointed in the right direction , the broken axle prevented the car from driving[[ straight]] . After being"
+    },
+    {
+     "act": -0.762,
+     "text": "…alk responded by announcing that he had not , and that he would henceforth cease[[ all]] contact with a"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.543,
+     "text": "… the fan by his hair to the edge of the stage , where the fan jumped[[ off]] . It was"
+    },
+    {
+     "act": 0.535,
+     "text": "… to tackle the English player Stoddart , and in the process ripped his shorts[[ off]] . The N"
+    },
+    {
+     "act": 0.52,
+     "text": "… included night @-@ time surprise attacks , and positioning forces to drive the natives[[ off]] cliffs or force"
+    },
+    {
+     "act": 0.5,
+     "text": "…2013 , it was proven that Blythe had thrown Nosek[[ off]]stage and thus"
+    },
+    {
+     "act": 0.496,
+     "text": "… they 'd be tipped[[ off]] as to where"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.871,
+     "text": "… was never prosecuted in relation to the conspiracy , and left the United States after pleading[[ guilty]] to immigration fraud"
+    },
+    {
+     "act": -0.809,
+     "text": "…@ fighters . They left China in March 1901 , having played[[ only]] a minor role"
+    },
+    {
+     "act": -0.797,
+     "text": "… , and an additional unindicted eighth member of the Rajneesh commune pleaded[[ guilty]] to murder conspiracy"
+    },
+    {
+     "act": -0.766,
+     "text": "… American carriers as a distraction . They inflicted no damage and caused the Americans to search[[ in]] the direction from"
+    },
+    {
+     "act": -0.754,
+     "text": "…space* and/or the *inventory*.⏎    *   Let's re-read[[ carefully]]: \"In"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N02",
+  "band": "early",
+  "layer": 3,
+  "neuron": 143,
+  "stats": {
+   "max": 0.52,
+   "min": -0.734,
+   "mean": 0.0019
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.52,
+     "text": "… notes , evidence , notes . I think we did an absolutely fabulous job , \"[[ said]] one of the"
+    },
+    {
+     "act": 0.404,
+     "text": "…anness in the first place . It 's become increasingly so ever since . \"[[ (]] David Barsam"
+    },
+    {
+     "act": 0.297,
+     "text": "… , A Midsummer Night 's Dream , The Tempest , The Merchant of[[ Venice]] and Macbeth"
+    },
+    {
+     "act": 0.291,
+     "text": "… ⏎ \" David Horowitz vs. Ward Churchill \" . insidehighered.com.[[ Retrieved]] 20"
+    },
+    {
+     "act": 0.285,
+     "text": "…(\"$\\parbox{1cm}{move \\\\ 1 space \\\\ left}$[[\",]]center+r/"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.734,
+     "text": "…. How many more vegetables could Pauline plant in her garden?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.727,
+     "text": "… rest are black. How many black cars are on the lot?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.703,
+     "text": "… the rest of the students failed.  How many students failed?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.688,
+     "text": "…, how many pounds of dog food are left after a week?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.68,
+     "text": "… buy a new book. How much money does he have left?⏎Please reason[[ step]] by step,"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.455,
+     "text": "… translating Du Fu , which is why we need as many different translations as possible \"[[ (]] p. xx"
+    },
+    {
+     "act": 0.35,
+     "text": "… want some potatoes ? ' ' Ooh you , boogaloo ! '[[ \"]] Starr also recalled"
+    },
+    {
+     "act": 0.293,
+     "text": "… divisions between people and touch upon the things that matter the most to us all .[[ \"]] Bono wrote"
+    },
+    {
+     "act": 0.285,
+     "text": "… an intellectual matter , not one which affects them deeply . Here is the tragedy ![[ \"]] ⏎ = ="
+    },
+    {
+     "act": 0.283,
+     "text": "…Final Polish:** Ensure the reasoning is clear and the final box is formatted correctly.[[ (]]The prompt asks"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.73,
+     "text": "…lés for the party.  How many eggs will she need?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.715,
+     "text": "… 9 small boxes. How many dolls are there in total?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.695,
+     "text": "… games at first, how many games did Henry have at first?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.68,
+     "text": "… a $20 bill. How much change did she get?⏎Please reason[[ step]] by step,"
+    },
+    {
+     "act": -0.676,
+     "text": "…0, how many feet of the field will not be fenced?⏎Please reason[[ step]] by step,"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N03",
+  "band": "early",
+  "layer": 3,
+  "neuron": 2838,
+  "stats": {
+   "max": 0.879,
+   "min": -2.078,
+   "mean": -0.01
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.879,
+     "text": "… \" dark \" as its premise required , saying \" what edginess the film[[ does]] have comes instead"
+    },
+    {
+     "act": 0.672,
+     "text": "… presence on both the US and UK versions of The X Factor seemed fitting . Not[[ only]] Take Me Home"
+    },
+    {
+     "act": 0.559,
+     "text": "… , it is the final main track on the US edition of Now That 's[[ What]] I Call Music"
+    },
+    {
+     "act": 0.531,
+     "text": "… Exit Through the Kwik @-@ E @-@ Mart \" was \"[[ somewhat]] amusing and far"
+    },
+    {
+     "act": 0.508,
+     "text": "… you through procedures and giving you the confidence to stand there and look like you know[[ what]] you 're"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.078,
+     "text": "… how many more sessions).⏎⏎    *Wait, I might be overcomplic[[ating]] this. Let"
+    },
+    {
+     "act": -1.344,
+     "text": "… *   Let's check if the \"8 semesters\" part is a distr[[actor]] or a constraint"
+    },
+    {
+     "act": -1.211,
+     "text": "…            *   Usually, in math word problems, \"found\" is a distr[[actor]] or implies he"
+    },
+    {
+     "act": -1.047,
+     "text": "… standard interpretation of such problems. Usually, the \"found\" part is a distr[[actor]] or implies he"
+    },
+    {
+     "act": -0.988,
+     "text": "… no elimination occurs . ( See Interrupted cyclizations below ) ⏎ Along this same[[ vein]] , allenyl"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.727,
+     "text": "… a press interview , \" it wasn 't a slap in his face or anything[[ like]] that when we"
+    },
+    {
+     "act": 0.578,
+     "text": "… . \" Twelve U.S. Marines were killed ; Japanese casualties are unknown but perhaps[[ somewhat]] greater . Although"
+    },
+    {
+     "act": 0.555,
+     "text": "…ure up the ultimate U2 live @-@ song \" , so he imagined[[ what]] he would like"
+    },
+    {
+     "act": 0.527,
+     "text": "… ) frontman Dave Brockie said : “ I don ’ t think it was[[ right]] for him to"
+    },
+    {
+     "act": 0.494,
+     "text": "… but Dr. Penrose cannot help them further , though Peter suspects he is hiding[[ something]] . Unseen"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.75,
+     "text": "… 45 – 13 blowout . Despite having his season sidetr[[acked]] by injuries ,"
+    },
+    {
+     "act": -1.266,
+     "text": "… who has resorted to physical comedy when his jokes fall flat , getting to the[[ point]] where he pours"
+    },
+    {
+     "act": -1.141,
+     "text": "… an Ethiopian village . He thought this visual accompaniment made the song come full[[ circle]] , saying ,"
+    },
+    {
+     "act": -0.992,
+     "text": "… with both hands . \" He further said that Blythe 's behavior dev[[iated]] from all the"
+    },
+    {
+     "act": -0.98,
+     "text": "….⏎    *   Let's re-read the prompt again. Maybe I'm[[ missing]] a detail about"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N04",
+  "band": "early",
+  "layer": 1,
+  "neuron": 403,
+  "stats": {
+   "max": 1.297,
+   "min": -0.539,
+   "mean": 0.0041
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.297,
+     "text": "… to small effective population sizes , possibly due to adaptation to the local environment . The[[ first]] of these is"
+    },
+    {
+     "act": 1.273,
+     "text": "… the requisite cation is arrived at by a variety of rearrangements . One[[ such]] example involves the"
+    },
+    {
+     "act": 1.258,
+     "text": "…  **Step-by-Step Breakdown:**⏎⏎    *   *Step [[1]]: Determine the"
+    },
+    {
+     "act": 1.211,
+     "text": "….  **Step-by-Step Calculation:**⏎⏎    *   *Step [[1]]: Calculate the"
+    },
+    {
+     "act": 1.195,
+     "text": "….  **Step-by-Step Calculation:**⏎⏎    *   *Step [[1]]: Calculate total"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.539,
+     "text": "… or Weltanschauung ; these are equal before German law ) , and second[[ly]] , whether or"
+    },
+    {
+     "act": -0.531,
+     "text": "… thinking process to solve the problem:⏎⏎1.  **Understand the Goal[[:**]] The objective is"
+    },
+    {
+     "act": -0.516,
+     "text": "… typically lower . ⏎ = = = Alternative cation generation = = = ⏎ By[[ extension]] , any pent"
+    },
+    {
+     "act": -0.494,
+     "text": "…⏎⏎1.  **Analyze the Request:**⏎    *   **Goal[[:**]] Calculate the total"
+    },
+    {
+     "act": -0.484,
+     "text": "…⏎⏎1.  **Analyze the Request:**⏎    *   **Goal[[:**]] Calculate the length"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.281,
+     "text": "… and included two of the new themes created for The World Is Not Enough . The[[ first]] , originally used"
+    },
+    {
+     "act": 1.258,
+     "text": "… number of dolls in each box and then add them together.⏎⏎**Step [[1]]: Calculate the"
+    },
+    {
+     "act": 1.25,
+     "text": "… London . ⏎ The team had two further matches before their international against England . The[[ first]] was against one"
+    },
+    {
+     "act": 1.211,
+     "text": "…arov cyclization suffers from several drawbacks which modern variants attempt to circumvent . The[[ first]] two are not"
+    },
+    {
+     "act": 1.195,
+     "text": "…}⏎⏎    Let's write out the response clearly.⏎⏎    **Step [[1]]:** Find the"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.535,
+     "text": "… process that leads to the solution:⏎⏎1.  **Analyze the Request[[:**]]⏎    *"
+    },
+    {
+     "act": -0.516,
+     "text": "…⏎<think>⏎Here's a thinking process that leads to the solution:⏎⏎1[[.]]  **An"
+    },
+    {
+     "act": -0.512,
+     "text": "…⏎⏎1.  **Analyze the Problem:**⏎    *   **Goal[[:**]] Calculate the total"
+    },
+    {
+     "act": -0.494,
+     "text": "… during the song 's opening , \" the arena ERUPTS \" . In[[ other]] reviews , the"
+    },
+    {
+     "act": -0.482,
+     "text": "…⏎⏎1.  **Analyze the Request:**⏎    *   **Goal[[:**]] Calculate the number"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N05",
+  "band": "early",
+  "layer": 2,
+  "neuron": 969,
+  "stats": {
+   "max": 0.559,
+   "min": -2.625,
+   "mean": -0.0153
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.559,
+     "text": "… @-@ off film based on Michelle Yeoh 's character , Wai[[ Lin]] , in "
+    },
+    {
+     "act": 0.42,
+     "text": "… taken to Chang 'an . In the autumn , his youngest son , Du Z[[ong]]wu ( Baby"
+    },
+    {
+     "act": 0.381,
+     "text": "… by 1/25 of Harry[['s]] current age?\""
+    },
+    {
+     "act": 0.357,
+     "text": "… , including one from the Wind and Watermill Section of the Society for the Protection[[ of]] Ancient Buildings ."
+    },
+    {
+     "act": 0.348,
+     "text": "… : Publications of German regional governments – Website of the German Federal Office for the Protection[[ of]] the Constitution ("
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.625,
+     "text": "… in a course run by a Scientologist management and communication consultancy firm . Thomas Gott[[sch]]alk , a"
+    },
+    {
+     "act": -2.359,
+     "text": "…ürttemberg , expressed concern that Scientologist John Travolta was to appear on Gott[[sch]]alk 's"
+    },
+    {
+     "act": -2.031,
+     "text": "… characters . ⏎ In this episode , Federal Bureau of Investigation agents Frank Black ( Lance[[ Henri]]ksen ) and"
+    },
+    {
+     "act": -1.562,
+     "text": "…begin{pmatrix} 7 \\\\ -4 \\\\ -4 \\end{[[pm]]atrix}$ and"
+    },
+    {
+     "act": -1.531,
+     "text": "… win the tournament , thus causing Team TNA ( Kaz , Alex Shelley , Chris[[ S]]abin , and"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.449,
+     "text": "… agent Mr. Chang . In early drafts of the script , it was Wai[[ Lin]] ( Michelle Ye"
+    },
+    {
+     "act": 0.42,
+     "text": "…s Todd VanDerWerff rated the episode a \" B \" . VanDer[[Wer]]ff felt that"
+    },
+    {
+     "act": 0.361,
+     "text": "… ⏎ Judi Dench as M , the head of MI6 . ⏎ Will Yun[[ Lee]] as Colonel Moon"
+    },
+    {
+     "act": 0.355,
+     "text": "…i 's concern for the poor , Lu You 's patriotism , and Mei[[ Yao]]chen 's"
+    },
+    {
+     "act": 0.34,
+     "text": "… received mixed reviews from critics . The A.V. Club 's Todd VanDer[[Wer]]ff rated the"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.578,
+     "text": "… accused in 1993 of having taken part in Scientology courses ; Gott[[sch]]alk responded by"
+    },
+    {
+     "act": -2.094,
+     "text": "… ⏎ = = Plot = = ⏎ Federal Bureau of Investigation agents Frank Black ( Lance[[ Henri]]ksen ) and"
+    },
+    {
+     "act": -1.727,
+     "text": "… the boundary of the Indomalaya and Australasia ecozones . The variety kin[[ab]]aluensis ("
+    },
+    {
+     "act": -1.531,
+     "text": "…atrix} 2 & 1 \\\\ 7 & -3 \\end{[[pm]]atrix}\\]"
+    },
+    {
+     "act": -1.484,
+     "text": "… executing the contract \" . When it became known that Microsoft 's Windows 2[[0]]00 operating"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N06",
+  "band": "early",
+  "layer": 1,
+  "neuron": 126,
+  "stats": {
+   "max": 0.562,
+   "min": -0.926,
+   "mean": -0.0123
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.562,
+     "text": "…int i;⏎for(i=1;i<=3;++i)⏎⏎{[[⏎⏎]]draw(center--"
+    },
+    {
+     "act": 0.424,
+     "text": "…[asy]⏎import graph;⏎⏎unitsize(1.5 cm);[[⏎⏎]]pair A,"
+    },
+    {
+     "act": 0.404,
+     "text": "… the college moved to its present location in 1965 . After des[[eg]]regation laws were"
+    },
+    {
+     "act": 0.367,
+     "text": "… Holland , Chloë Grace Moretz , Asa Butterfield , Jeff Gold[[bl]]um and Abraham"
+    },
+    {
+     "act": 0.365,
+     "text": "… color, are used to construct a regular octahedron. How many distinguish[[able]] ways are there"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.926,
+     "text": "…8 % in Fall 2009 . In the same period , W[[Z]]KS ( FM"
+    },
+    {
+     "act": -0.711,
+     "text": "… . The tour visited Asia , Australia and the United States , with rehearsals taking[[ place]] in December "
+    },
+    {
+     "act": -0.695,
+     "text": "… a nearby hospital less than a kilometer from the venue , where the initial diagnosis took[[ place]] . Since this"
+    },
+    {
+     "act": -0.691,
+     "text": "… were shot first , followed by the shot of the skaters . The shoot took[[ place]] for over two"
+    },
+    {
+     "act": -0.68,
+     "text": "… in two more major battles in 1951 , with the first taking[[ place]] during fighting which"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.467,
+     "text": "… areas . For example : ⏎ = = = In acting = = = ⏎ Al[[vin]] Childress ,"
+    },
+    {
+     "act": 0.406,
+     "text": "…draw(center--center+r*dir(120*i-30));[[⏎⏎]]}⏎label"
+    },
+    {
+     "act": 0.389,
+     "text": "…3 \\times 2$⏎        *   Result: $6[[⏎⏎]]4. "
+    },
+    {
+     "act": 0.367,
+     "text": "…⏎⏎[[   ]] *   *"
+    },
+    {
+     "act": 0.359,
+     "text": "… of Defense ) and provide more defense for white settlers and other Indians against the Os[[age]] , who had"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.734,
+     "text": "…and exchange with the carbonyl ester oxygen atom before the actual Michael addition takes[[ place]] to the opposite"
+    },
+    {
+     "act": -0.695,
+     "text": "… Plateau , between September and November 1917 . Individual actions took[[ place]] at Menin"
+    },
+    {
+     "act": -0.691,
+     "text": "… by the Total Nonstop Action Wrestling ( TNA ) promotion that took[[ place]] on June "
+    },
+    {
+     "act": -0.684,
+     "text": "… Britain , as Apple R 5944 , with a US release taking[[ place]] three days later"
+    },
+    {
+     "act": -0.68,
+     "text": "… the nickname G of the Bang . ⏎ The official unveiling by Linford Christie took[[ place]] on 1"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N07",
+  "band": "early",
+  "layer": 1,
+  "neuron": 1417,
+  "stats": {
+   "max": 1.039,
+   "min": -2.453,
+   "mean": -0.0006
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.039,
+     "text": "…eldt was recruited by Ivy League schools , rounded out the incoming class . T[[umm]]ala earned an"
+    },
+    {
+     "act": 0.586,
+     "text": "… On 20 September , a patrol from Edson 's Raiders encountered str[[ag]]glers from"
+    },
+    {
+     "act": 0.508,
+     "text": "… all of US 2 's former routing became a county road known as Mack[[in]]ac Trail ("
+    },
+    {
+     "act": 0.496,
+     "text": "… in the battle against the demon Satori ; in the ninth , the Limited Ts[[uk]]uyomi universe"
+    },
+    {
+     "act": 0.482,
+     "text": "… ) in length and built in 1920 . Increasing traffic along Mack[[in]]ac Trail prompted"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.453,
+     "text": "… to measure his influence as that of Shakespeare in England : it was hard[[ for]] any Chinese poet"
+    },
+    {
+     "act": -2.328,
+     "text": "… their wives wanted to go out to dinner together , they discovered that it was impossible[[ for]] the mixed race"
+    },
+    {
+     "act": -1.68,
+     "text": "… \" , and MTV 's Brandon Freeberg wrote : \" Congratulations are in order[[ for]] Matt Groening"
+    },
+    {
+     "act": -1.328,
+     "text": "… financial district ( known as the City of London ) . Attending school became difficult[[ for]] Radcliffe after"
+    },
+    {
+     "act": -1.25,
+     "text": "…ijian coups d 'état . While broadly successful , this deployment highlighted the need[[ for]] the ADF"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.008,
+     "text": "…s Bielfeldt Athletic Administration Building was endowed by his family . Sai T[[umm]]ala , who"
+    },
+    {
+     "act": 0.547,
+     "text": "… . When the two new Satsuma @-@ class battleships and two Ts[[uk]]uba @-"
+    },
+    {
+     "act": 0.508,
+     "text": "… court ruled that the University had \" quasi @-@ judicial immunity \" , up[[holding]] the trial court"
+    },
+    {
+     "act": 0.486,
+     "text": "… of other charges against him relating to firearms and wiretapping . Langford agreed[[ to]] testify against the"
+    },
+    {
+     "act": 0.477,
+     "text": "… Ignace . US 31 was truncated to the state ferry docks in Mack[[in]]aw City and"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.438,
+     "text": "… song , \" It took so long to get that song right , it was difficult[[ for]] us to make"
+    },
+    {
+     "act": -2.203,
+     "text": "… the air in celebration . ⏎ Although the band liked the demo , it was difficult[[ for]] them to record"
+    },
+    {
+     "act": -1.375,
+     "text": "…alators , which is a parody of Snakes and Ladders , was difficult[[ for]] the crew to"
+    },
+    {
+     "act": -1.305,
+     "text": "…50 miles ( 80 km ) ahead of the American carriers while waiting[[ for]] the Japanese ships"
+    },
+    {
+     "act": -1.234,
+     "text": "… the team all around him and beauty queens hanging all over him . It was important[[ for]] the people at"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N08",
+  "band": "early",
+  "layer": 3,
+  "neuron": 2552,
+  "stats": {
+   "max": 2.203,
+   "min": -0.523,
+   "mean": -0.0046
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.203,
+     "text": "…Mrs. Crocker made 11 pieces of[[ fried]] chicken for Ly"
+    },
+    {
+     "act": 0.961,
+     "text": "…There are 30 different[[ nuts]] in a bowl"
+    },
+    {
+     "act": 0.824,
+     "text": "… the grocery store. He saw that the Spam is $3 per can, the[[ peanut]] butter is $"
+    },
+    {
+     "act": 0.637,
+     "text": "… the bread at two different points in time, and then Emma decided she would make[[ toast]] with the remaining"
+    },
+    {
+     "act": 0.559,
+     "text": "…@ 1980s and utilizes stoichiometric amounts of iron tr[[ich]]loride to"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.523,
+     "text": "… , A Midsummer Night 's Dream , The Tempest , The Merchant of[[ Venice]] and Macbeth"
+    },
+    {
+     "act": -0.484,
+     "text": "…⏎    *   Wait, looking at the numbers:⏎        *   Tom[[atoes]]: 3"
+    },
+    {
+     "act": -0.441,
+     "text": "…aceae . The doubtfully edible mushroom has a reddish @-@ brown[[ bell]] @-@"
+    },
+    {
+     "act": -0.439,
+     "text": "… can plant.⏎    *   **Input Data:**⏎        *   Tom[[atoes]]: 3"
+    },
+    {
+     "act": -0.373,
+     "text": "… **Determine the Number of Vegetables Available:**⏎    *   **Tom[[atoes]]:**⏎       "
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.0,
+     "text": "… the price of the salami,  a 1/4 pound of ol[[ives]] that are $"
+    },
+    {
+     "act": 0.832,
+     "text": "… the bread is $2 per loaf. If he bought 12 cans of[[ spam]], 3"
+    },
+    {
+     "act": 0.754,
+     "text": "… 30 different nuts in a bowl. If 5/6 of the[[ nuts]] were eaten,"
+    },
+    {
+     "act": 0.609,
+     "text": "…A baker bakes 5 loaves of[[ bread]] an hour in"
+    },
+    {
+     "act": 0.551,
+     "text": "… the first major examination of this process . Nazarov correctly reasoned that the allylic[[ ole]]fin isomer"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.486,
+     "text": "… sentence. It says \"In it, Pauline has planted 3 kinds of[[ tomatoes]]...\". This"
+    },
+    {
+     "act": -0.443,
+     "text": "… , \" believing the term to be synonymous with \" junction \" ; the more agr[[arian]] residents of the"
+    },
+    {
+     "act": -0.439,
+     "text": "… can plant.⏎    *   **Input Data:**⏎        *   Tom[[atoes]]: 5"
+    },
+    {
+     "act": -0.42,
+     "text": "… to her pleopods . Females carrying eggs are said to be \" ber[[ried]] \" and can"
+    },
+    {
+     "act": -0.371,
+     "text": "… it , \" and that the bridge has been featured in Ripley 's Believe[[ It]] or Not !"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N09",
+  "band": "early",
+  "layer": 2,
+  "neuron": 2522,
+  "stats": {
+   "max": 1.422,
+   "min": -4.156,
+   "mean": -0.0069
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.422,
+     "text": "… the location of the crime by looking at the images left in the woman 's[[ optical]] nerves induced by"
+    },
+    {
+     "act": 0.443,
+     "text": "…Given that $x<1$ and \\[(\\log_{1[[0]]} x)^"
+    },
+    {
+     "act": 0.377,
+     "text": "… norvegicus are hosts to the three known species of the animal phylum Cycl[[i]]ophora ;"
+    },
+    {
+     "act": 0.312,
+     "text": "…ons . ⏎ Most of the range is public land administered by the federal Bureau of[[ Land]] Management . There"
+    },
+    {
+     "act": 0.297,
+     "text": "… Cedrela odorata ) , and Honduras mahogany ( Swietenia macro[[phy]]lla ) ."
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.156,
+     "text": "… = 20.⏎    \"He then spends a quarter of what is[[ left]] to buy a"
+    },
+    {
+     "act": -4.062,
+     "text": "… 6 weeks of lessons.⏎    *   He needs to continue for the[[ remaining]] time.⏎"
+    },
+    {
+     "act": -4.031,
+     "text": "…  An hour before closing, she has sold 15 bags and marks the[[ remaining]] 5 bags"
+    },
+    {
+     "act": -3.906,
+     "text": "…0 per head. How much money would the devastated farmer lose if he sold the[[ remaining]] cattle at the"
+    },
+    {
+     "act": -3.875,
+     "text": "…20$.⏎    *   \"He then spends a quarter of what is[[ left]] to buy a"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.75,
+     "text": "… It has a geometric albedo of 0 @.@ 35 in visible[[ light]] . ⏎ ="
+    },
+    {
+     "act": 0.393,
+     "text": "… = 48,\\]compute the value of \\[(\\log_{1[[0]]}x)^"
+    },
+    {
+     "act": 0.322,
+     "text": "…celes trapezoid shown has side lengths as labeled. How long is[[ segment]] AC? ["
+    },
+    {
+     "act": 0.297,
+     "text": "…+3^{y+1} &=18.⏎\\end{align[[*]]}"
+    },
+    {
+     "act": 0.287,
+     "text": "… end of the song , peace doves were shown on the screen and bright beams of[[ light]] flanking the"
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.125,
+     "text": "… of it on a new video game. He then spends a quarter of what is[[ left]] to buy a"
+    },
+    {
+     "act": -4.062,
+     "text": "… *   Wait, did I misread \"spends a quarter of what is[[ left]]\"?⏎       "
+    },
+    {
+     "act": -3.953,
+     "text": "… two different points in time, and then Emma decided she would make toast with the[[ remaining]] slices. If"
+    },
+    {
+     "act": -3.891,
+     "text": "… Three of the wings are dedicated to paintings. The artifacts are divided evenly among the[[ remaining]] wings. One"
+    },
+    {
+     "act": -3.875,
+     "text": "… 20 skeletons.  Half of these skeletons are adult women, and the[[ remaining]] number are split"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N10",
+  "band": "early",
+  "layer": 2,
+  "neuron": 608,
+  "stats": {
+   "max": 0.457,
+   "min": -1.094,
+   "mean": -0.0044
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.457,
+     "text": "… ⏎ Radcliffe maintains a home in the West Village of Lower Manhattan in New York[[ City]] . As of"
+    },
+    {
+     "act": 0.43,
+     "text": "… stages in the United States , second only to the Roxy Theater in New York[[ City]] . Today ,"
+    },
+    {
+     "act": 0.414,
+     "text": "… City and Washington D.C. During the band 's first show in New York[[ City]] following the attacks"
+    },
+    {
+     "act": 0.385,
+     "text": "…Let $[[S]]$ be the"
+    },
+    {
+     "act": 0.379,
+     "text": "… \" The Bourgeois Blues \" in December 1938 in New York[[ City]] , for donation"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.094,
+     "text": "… Response[[:**]]⏎⏎    *"
+    },
+    {
+     "act": -0.494,
+     "text": "… the new Emperor . The court offered him the position of Drafter for the Secret[[ariat]] ( zhong"
+    },
+    {
+     "act": -0.43,
+     "text": "…[[ States]] during the segregation"
+    },
+    {
+     "act": -0.375,
+     "text": "… per class = Total classes[[.]] Then Total classes"
+    },
+    {
+     "act": -0.322,
+     "text": "….⏎[[       ]] *   Alternatively"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.434,
+     "text": "… by Professor Scott Denmark of the University of Illinois , Urbana @-@ Ch[[ampaign]] in the mid"
+    },
+    {
+     "act": 0.426,
+     "text": "… suit to challenge the law . The substance of the law was upheld in the circuit[[ court]] and the Kentucky"
+    },
+    {
+     "act": 0.396,
+     "text": "… of the Elevation Tour , the September 11 attacks occurred in New York[[ City]] and Washington D"
+    },
+    {
+     "act": 0.385,
+     "text": "…Let $[[S]]$ be a"
+    },
+    {
+     "act": 0.379,
+     "text": "… fleet withdrew northward to help the main British army in its campaign against New York[[ City]] . To add"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.73,
+     "text": "… a \" corrupt form of legal[[ism]] \" to establish"
+    },
+    {
+     "act": -0.451,
+     "text": "… Scientology proved unable to gain significant numbers of followers in the territories of the former German[[ Democratic]] Republic ; most"
+    },
+    {
+     "act": -0.387,
+     "text": "… eliminated by Ohio[[ State]] for the third"
+    },
+    {
+     "act": -0.322,
+     "text": "….⏎[[       ]] *   *"
+    },
+    {
+     "act": -0.318,
+     "text": "… A - Students with B or C.[[⏎]]        *  "
+    }
+   ]
+  }
+ },
+ {
+  "id": "N11",
+  "band": "early",
+  "layer": 1,
+  "neuron": 749,
+  "stats": {
+   "max": 0.496,
+   "min": -1.836,
+   "mean": -0.0061
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.496,
+     "text": "… the battleship Mikasa into combat , this time against the Second and Third Pacific[[ Squad]]rons . Mik"
+    },
+    {
+     "act": 0.479,
+     "text": "… undefended . Edson and Thomas tried to persuade Vand[[egr]]ift to move"
+    },
+    {
+     "act": 0.463,
+     "text": "….S. Marines , under the overall command of U.S. Major General Alexander Vand[[egr]]ift , rep"
+    },
+    {
+     "act": 0.459,
+     "text": "… Field , but it resulted in an even more decisive defeat for the Japanese . Vand[[egr]]ift later stated"
+    },
+    {
+     "act": 0.447,
+     "text": "… of Guadalcanal east of the present day capital of Honiara . Vand[[egr]]ift placed his"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.836,
+     "text": "… \\cdots + \\underbrace{99\\ldots 99[[}_]]\\text{"
+    },
+    {
+     "act": -1.047,
+     "text": "…Find $p$ if $12^3=\\frac{9^2[[}]]3\\cdot"
+    },
+    {
+     "act": -1.031,
+     "text": "…The expression $\\dfrac{\\sqrt[3]{5[[}}]]{\\sqrt["
+    },
+    {
+     "act": -0.961,
+     "text": "…9 = \\$11$⏎⏎    Final Answer: $\\boxed{11[[}]]$.⏎</think>"
+    },
+    {
+     "act": -0.918,
+     "text": "…Evaluate $\\left\\lceil\\sqrt{\\frac{9}{4}}[[\\]]right\\rceil"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.496,
+     "text": "…12 and 14 September . ⏎ On 17 September , Vand[[egr]]ift sent two"
+    },
+    {
+     "act": 0.475,
+     "text": "…s final three episodes , and the first episode without Carell , \" The Inner[[ Circle]] \" , to"
+    },
+    {
+     "act": 0.461,
+     "text": "… They were low on ammunition , with one or two grenades for each Marine . Vand[[egr]]ift ordered a"
+    },
+    {
+     "act": 0.451,
+     "text": "…oring up and strengthening their Lunga defenses . On 14 September , Vand[[egr]]ift moved another"
+    },
+    {
+     "act": 0.447,
+     "text": "… this time . Tōgō was able to cross the T of the Russian[[ squad]]rons . K"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.203,
+     "text": "…Find $\\left(\\sqrt{(\\sqrt3)^3[[}\\]]right)^4"
+    },
+    {
+     "act": -1.039,
+     "text": "…+linewidth(0.7)); [/asy]⏎$\\textbf {(A[[)}]]\\ 2"
+    },
+    {
+     "act": -1.0,
+     "text": "… such that⏎\\[\\frac{f(x) f(y) - f(xy[[)}]]{3}"
+    },
+    {
+     "act": -0.941,
+     "text": "…label(\"$\\parbox{1cm}{move \\\\ 1 space \\\\ left[[}$]]\",center+r"
+    },
+    {
+     "act": -0.898,
+     "text": "… {(A)}\\ 210 \\qquad \\textbf {(B[[)}]]\\ 5"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N12",
+  "band": "early",
+  "layer": 3,
+  "neuron": 468,
+  "stats": {
+   "max": 0.941,
+   "min": -1.094,
+   "mean": 0.0014
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.941,
+     "text": "…5 in visible light . ⏎ = = Effect on its sun = = ⏎ U[[psilon]] Andromed"
+    },
+    {
+     "act": 0.742,
+     "text": "… only a lower limit on the mass can be found . In the case of U[[psilon]] Andromed"
+    },
+    {
+     "act": 0.594,
+     "text": "… . The variations were detected by making sensitive measurements of the Doppler shift of U[[psilon]] Andromed"
+    },
+    {
+     "act": 0.344,
+     "text": "… = = ⏎ Given the planet 's high mass , it is likely that U[[psilon]] Andromed"
+    },
+    {
+     "act": 0.34,
+     "text": "… = Homarus gam[[mar]]us = ⏎"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.094,
+     "text": "…head 's Retro Engine previously used in the 2011 rere[[lease]] of Sonic CD"
+    },
+    {
+     "act": -0.582,
+     "text": "… after the cover color , that was released in[[ ]]195"
+    },
+    {
+     "act": -0.535,
+     "text": "…9 : 1 with DTS @-@ HD Master Audio sound . Beginning[[ with]] the Blu @"
+    },
+    {
+     "act": -0.504,
+     "text": "… You \" on both the UK and US versions of The X Factor and 3[[ major]] concert tours :"
+    },
+    {
+     "act": -0.445,
+     "text": "… matches that started[[ with]] their victory over"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.848,
+     "text": "… Pegasi b , the first extrasolar planet discovered around a normal star , U[[psilon]] Andromed"
+    },
+    {
+     "act": 0.723,
+     "text": "…95 AU . ⏎ A limitation of the radial velocity method used to detect U[[psilon]] Andromed"
+    },
+    {
+     "act": 0.436,
+     "text": "… to Jupiter in composition and that its environment is close to chemical equilibrium , predicted U[[psilon]] Andromed"
+    },
+    {
+     "act": 0.342,
+     "text": "…2 . TNA created a section covering the event on their website . TNA[[ released]] a poster to"
+    },
+    {
+     "act": 0.314,
+     "text": "… the constellation of Andromeda . The planet orbits the Solar twin star , U[[psilon]] Andromed"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.797,
+     "text": "… version = = ⏎ Starr recorded a new[[ version]] of \" Back"
+    },
+    {
+     "act": -0.555,
+     "text": "…able releases = = = ⏎ Sonic the Hedgehog has been available for all three[[ major]] seventh @-"
+    },
+    {
+     "act": -0.531,
+     "text": "… = ⏎ = = = In Naruto = = = ⏎ Shikamaru first[[ major]] appearance in the"
+    },
+    {
+     "act": -0.488,
+     "text": "… = = Charts = = ⏎ = = Certifications = = ⏎ = = Release[[ history]] = = ⏎"
+    },
+    {
+     "act": -0.441,
+     "text": "… September 2009 . In October 2010 , it[[ was]] released as a"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N13",
+  "band": "early",
+  "layer": 1,
+  "neuron": 2060,
+  "stats": {
+   "max": 1.164,
+   "min": -0.609,
+   "mean": -0.0047
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.164,
+     "text": "… canadensis , Chenopodium album , Gentiana detonsa var. hall[[ii]] , and Big"
+    },
+    {
+     "act": 1.0,
+     "text": "…@ of @-@ the @-@ mountain ) , and Geum ross[[ii]] ( alpine"
+    },
+    {
+     "act": 0.902,
+     "text": "… which Hu took up residence was just to the north of the Nanjing Guoz[[ij]]ian ( National"
+    },
+    {
+     "act": 0.832,
+     "text": "…rails in the 1929 – 1930 bienn[[ium]] \" along with"
+    },
+    {
+     "act": 0.711,
+     "text": "… activities by the BfV after the North Rhine @-@ Westph[[alia]] Higher Administrative Court"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.609,
+     "text": "… Scientology would not qualify for protection as a \" religious or worldview community \" ( Relig[[ions]]- oder Welt"
+    },
+    {
+     "act": -0.418,
+     "text": "… , Correct and Erroneous ( Liushu Zheng 'e , 六[[書]]正譌"
+    },
+    {
+     "act": -0.365,
+     "text": "…00 and has been certified gold by the Recording Industry Association of America ( R[[IA]]A ) for"
+    },
+    {
+     "act": -0.35,
+     "text": "…100 and was certified gold by the Recording Industry Association of America ( R[[IA]]A ) on"
+    },
+    {
+     "act": -0.33,
+     "text": "… Identified and Corrected ( Sishu Dingben Bianzheng , 四[[書]]定本辨"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.07,
+     "text": "… declared that he will be a better leader for the sake of his friends . Man[[ia]] Entertainment 's"
+    },
+    {
+     "act": 1.0,
+     "text": "… Quadrant and Quiberon , while HMAS Ships Manoora , Westral[[ia]] and Kanim"
+    },
+    {
+     "act": 0.859,
+     "text": "…orea , Thalictrum fendleri , Aquilegia canadensis , Chenop[[odium]] album , Gent"
+    },
+    {
+     "act": 0.719,
+     "text": "… . It was found growing on the dead wood of Lithocarpus haviland[[ii]] , a stone"
+    },
+    {
+     "act": 0.703,
+     "text": "… shī shèng ) , a counterpart to the philosophical sage , Confuc[[ius]] . One of"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.494,
+     "text": "… Colin Farrell as Bobby Pellitt ⏎ Described as a \" weaselly sc[[ion]] \" and a"
+    },
+    {
+     "act": -0.414,
+     "text": "…Glor[[ia]] has five times"
+    },
+    {
+     "act": -0.361,
+     "text": "… praised for the many qualities her singing brought to music . The citation from the Camp[[ion]] Society of San"
+    },
+    {
+     "act": -0.34,
+     "text": "… in the Second Sino @-@ Japanese War . ⏎ Despite the expensive recon[[structions]] , both vessels"
+    },
+    {
+     "act": -0.33,
+     "text": "… being certified platinum in the United States by the Recording Industry Association of America ( R[[IA]]A ) and"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N14",
+  "band": "early",
+  "layer": 2,
+  "neuron": 1023,
+  "stats": {
+   "max": 0.443,
+   "min": -3.422,
+   "mean": 0.0172
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.443,
+     "text": "…)+fontsize(8));⏎⏎xaxis(-2,13,Ticks(O[[mit]]Format(-1"
+    },
+    {
+     "act": 0.299,
+     "text": "… there are picnic areas and trails down to the river . ⏎ Listed on the NR[[HP]] on December "
+    },
+    {
+     "act": 0.283,
+     "text": "… Commonwealth Naval Force were also soon established . ⏎ The Australian Commonwealth Military Forces came into[[ being]] on 1"
+    },
+    {
+     "act": 0.271,
+     "text": "… Line Bridge No. 191 . The structure was listed on the NR[[HP]] on December "
+    },
+    {
+     "act": 0.26,
+     "text": "… . \" Richmond and his father found a red , white and blue @-@[[ colored]] No. "
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.422,
+     "text": "… the attacking Japanese . A captured Japanese soldier later said that his unit was \" annihil[[ated]] \" by the"
+    },
+    {
+     "act": -2.5,
+     "text": "… unlikely to have large moons , since tidal forces would either eject them from orbit or[[ destroy]] them on short"
+    },
+    {
+     "act": -2.188,
+     "text": "…04 @-@ 8 . ⏎ To Disrupt , Discredit And[[ Destroy]] : The FBI"
+    },
+    {
+     "act": -1.945,
+     "text": "… indigenous inhabitants ' lands . European diseases decimated Aboriginal populations , and the occupation or[[ destruction]] of lands and"
+    },
+    {
+     "act": -1.906,
+     "text": "… hit after hit from the fort 's guns . Chain shot fired at Bristol eventually[[ destroyed]] much of her"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.303,
+     "text": "… three employees and their respective bosses ' homes and offices . Nick and H[[arken]] 's workplace"
+    },
+    {
+     "act": 0.297,
+     "text": "… ; two of these are also listed on the National Register of Historic Places ( NR[[HP]] ) . A"
+    },
+    {
+     "act": 0.281,
+     "text": "… dark / black comedy film , overtaking the 2004 The Step[[ford]] Wives ("
+    },
+    {
+     "act": 0.27,
+     "text": "… temperature difference has led to speculation that Upsilon Andromedae b is tidal[[ locked]] with the same"
+    },
+    {
+     "act": 0.258,
+     "text": "… areas have quaking aspen and willow groves . Cottonwood and al[[der]] groves can"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.203,
+     "text": "… by Vandegrift . By nightfall , the Japanese overran and nearly annihil[[ated]] the platoon"
+    },
+    {
+     "act": -2.344,
+     "text": "… 7 September , Kawaguchi issued his attack plan to \" rout and annihil[[ate]] the enemy in"
+    },
+    {
+     "act": -1.969,
+     "text": "… , I will go up to the town again . \" Admiral Parker eventually sought to[[ destroy]] the fort '"
+    },
+    {
+     "act": -1.945,
+     "text": "… naval warships be stationed off Lunga Point on September 12 to \"[[ destroy]] any Americans who"
+    },
+    {
+     "act": -1.898,
+     "text": "… last year of the Russo @-@ Japanese War , which culminated in the[[ destruction]] of the Russian"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N15",
+  "band": "early",
+  "layer": 1,
+  "neuron": 2733,
+  "stats": {
+   "max": 0.754,
+   "min": -0.785,
+   "mean": -0.004
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.754,
+     "text": "… ) , published in 1626 . Both Hu and Wu used emb[[oss]]ing to create"
+    },
+    {
+     "act": 0.711,
+     "text": "… Studio , in which he practised various multi @-@ colour printing and emb[[oss]]ing techniques ,"
+    },
+    {
+     "act": 0.543,
+     "text": "… and final film in 2011 . ⏎ Radcliffe began to branch[[ out]] to stage acting"
+    },
+    {
+     "act": 0.457,
+     "text": "… embossed designs \" ( gonghua , 拱花 ) or \" emb[[ossed]] blocks \" ("
+    },
+    {
+     "act": 0.426,
+     "text": "… at Sony Music Studios , New York , appeared on Starr 's VH1 Story[[t]]ellers live album"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.785,
+     "text": "… and Cavite . From his vantage point Cooke could see the Spanish squadron dis[[m]]asted and under"
+    },
+    {
+     "act": -0.578,
+     "text": "… later[[ ,]] in February "
+    },
+    {
+     "act": -0.578,
+     "text": "… in the contiguous United States[[ ,]] and La Plata"
+    },
+    {
+     "act": -0.566,
+     "text": "… television series Waking the Dead[[ ,]] followed by an"
+    },
+    {
+     "act": -0.555,
+     "text": "… stated utopian aim is to \" clear the planet \"[[ ,]] to bring about"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.727,
+     "text": "… a collection of paper samples , which made use of the gonghua stamped emb[[oss]]ing technique to"
+    },
+    {
+     "act": 0.699,
+     "text": "… which were not previously possible . ⏎ In some images , Hu employed a blind emb[[oss]]ing technique ("
+    },
+    {
+     "act": 0.475,
+     "text": "… for the song came to him overnight . When discussing the composition on VH1 Story[[t]]ellers in May"
+    },
+    {
+     "act": 0.43,
+     "text": "… 1889 by two half brothers , Israel Marks and Levi Rothen[[berg]] . During its"
+    },
+    {
+     "act": 0.422,
+     "text": "…. K. Rowling . Rowling had been searching for an unknown British actor to person[[ify]] the character ,"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.648,
+     "text": "… forewarned[[ ,]] Cooke abandoned his"
+    },
+    {
+     "act": -0.578,
+     "text": "… atop the platform[[ ,]] dressed in a"
+    },
+    {
+     "act": -0.566,
+     "text": "… the state ; in 2010 the Michigan Department of Transportation ( MD[[OT]] ) recorded a"
+    },
+    {
+     "act": -0.559,
+     "text": "… for the 2010 FIFA World Cup[[ ,]] with the South"
+    },
+    {
+     "act": -0.551,
+     "text": "… for fast gameplay , was influenced by the games of Super Mario series creator , Sh[[iger]]u Miyamoto"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N16",
+  "band": "early",
+  "layer": 3,
+  "neuron": 1908,
+  "stats": {
+   "max": 1.18,
+   "min": -2.969,
+   "mean": 0.012
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.18,
+     "text": "… natives of the city include : ⏎ Susan Akin who won the Miss America beauty[[ page]]ant in "
+    },
+    {
+     "act": 1.07,
+     "text": "… and her dancers strip of their clothes into new ones . Madonna wears a white le[[ot]]ard with a"
+    },
+    {
+     "act": 0.887,
+     "text": "… The video ends with the close @-@ up of Madonna in the purple le[[ot]]ard and fades"
+    },
+    {
+     "act": 0.77,
+     "text": "… . She donned a short mini @-@ skirt , alongside a sleeveless[[ white]] blouse and loose"
+    },
+    {
+     "act": 0.719,
+     "text": "…012 sold @-@ out show at New York City 's Madison[[ Square]] Garden . One"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.969,
+     "text": "… ⏎ Revlon also collaborated with the makers of Die Another Day to create a cosmetics[[ line]] based around the"
+    },
+    {
+     "act": -2.578,
+     "text": "… line based around the character Jinx . The limited edition 007 Colour[[ Collection]] was launched on"
+    },
+    {
+     "act": -2.391,
+     "text": "… charities . He designed the Cu @-@ Bed for Habitat 's VIP Kids[[ range]] ( a cube"
+    },
+    {
+     "act": -1.797,
+     "text": "… game was also released as part of the Nintendo 3DS 3D Classics[[ line]] in May "
+    },
+    {
+     "act": -1.547,
+     "text": "… ⏎ Goetz Botzenhardt – Mixing ⏎ Giovanni Bianco – Graphic Design , Art[[ Direction]] ⏎ Orlando Pu"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.078,
+     "text": "… video starts with Madonna standing in front of neon lighted screen in a purple le[[ot]]ard uttering"
+    },
+    {
+     "act": 1.008,
+     "text": "… Broadway run of Equus he auctioned off a pair of jeans and other items[[ worn]] in the show"
+    },
+    {
+     "act": 0.773,
+     "text": "… begins to experience strange events and hauntings from the ghost of a woman dressed[[ in]] black . He"
+    },
+    {
+     "act": 0.738,
+     "text": "… of Boyz II Men during their live performance of the song with Carey at Madison[[ Square]] Garden in "
+    },
+    {
+     "act": 0.703,
+     "text": "…set with her hair in 1970s retro inspired style and pair[[ of]] knee high silver"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.875,
+     "text": "…in themed segment . Madonna was dressed in a Jean @-@ Paul Gault[[ier]] kaftan"
+    },
+    {
+     "act": -2.438,
+     "text": "… . ⏎ A compilation album of bands that have been featured in the Ozzfest[[ line]] @-@"
+    },
+    {
+     "act": -1.922,
+     "text": "… tuxedo designed by the Italian fashion house Brioni . ⏎ Revlon also[[ collaborated]] with the makers"
+    },
+    {
+     "act": -1.625,
+     "text": "…1 m2 ) Bonita Lakes Mall offers over one hundred shopping venues , including[[ department]] stores , specialty"
+    },
+    {
+     "act": -1.523,
+     "text": "… court settlement being reached between Manchester City Council , the project 's designers Thomas Heather[[wick]] Studio Ltd ,"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N17",
+  "band": "early",
+  "layer": 1,
+  "neuron": 2463,
+  "stats": {
+   "max": 2.438,
+   "min": -0.711,
+   "mean": -0.0013
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.438,
+     "text": "… . ⏎ Commenting on the decision to drop the ban attempt , Ehrhart Kör[[ting]] , Berlin '"
+    },
+    {
+     "act": 1.375,
+     "text": "… new ones . Madonna wears a white leotard with a matching tassled cor[[set]] with her hair"
+    },
+    {
+     "act": 1.227,
+     "text": "… = = ⏎ A video of the restoration of the mill was produced by Viv C[[odd]] . ⏎ ="
+    },
+    {
+     "act": 1.195,
+     "text": "… final answer is inside `\\boxed{}`.⏎⏎    *   *Self-C[[or]]rection/Sanity"
+    },
+    {
+     "act": 1.18,
+     "text": "…4th Division assaulted the Hindenburg Line in the disastrous First Battle of Bullec[[ourt]] , losing over"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.711,
+     "text": "…11 comedy , just enough cleverness to admire , and just the right camar[[ader]]ie among its"
+    },
+    {
+     "act": -0.5,
+     "text": "…492 rushing yards and five touchdowns on 130 carries , as[[ well]] as 3"
+    },
+    {
+     "act": -0.486,
+     "text": "… . Jaguars , jaguarundis , and cou[[gars]] are also said"
+    },
+    {
+     "act": -0.457,
+     "text": "… with co @-@ stars Jaye Jacobs and Sharon D. Clarke , as[[ well]] as the \""
+    },
+    {
+     "act": -0.451,
+     "text": "… time , as[[ well]] as some of"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.5,
+     "text": "… Cort[[és]] passed within a"
+    },
+    {
+     "act": 1.234,
+     "text": "…⏎⏎    *   *Self-C[[or]]rection/Alternative"
+    },
+    {
+     "act": 1.227,
+     "text": "… dramas such as Law and Order and CSI : Crime Scene Investigation for inspiration . Kur[[zt]]man explained ,"
+    },
+    {
+     "act": 1.18,
+     "text": "… to take 40 classes per semester.⏎⏎    *   *Self-C[[or]]rection/Ref"
+    },
+    {
+     "act": 1.164,
+     "text": "…    *   The user requested a box.⏎⏎    *   *Self-C[[or]]rection/Double"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.543,
+     "text": "… The ruins lie among the tropical rainforests of northern Guatemala that formed the cr[[adle]] of lowland"
+    },
+    {
+     "act": -0.486,
+     "text": "…⏎    *   He needs 4 more weeks.⏎    *   So[[,]] 4 more"
+    },
+    {
+     "act": -0.469,
+     "text": "…wood and willow groves . There are also bighorn sheep , cou[[gars]] , and bob"
+    },
+    {
+     "act": -0.453,
+     "text": "… had 16 catches for 123 yards and two touchdowns , as[[ well]] as a career"
+    },
+    {
+     "act": -0.449,
+     "text": "… 348 rushing yards and five touchdowns on 67 attempts , as[[ well]] as seven special"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N18",
+  "band": "early",
+  "layer": 3,
+  "neuron": 364,
+  "stats": {
+   "max": 1.016,
+   "min": -3.344,
+   "mean": 0.0173
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.016,
+     "text": "… put in the lyrics that says necessarily he was a bad man , because to me[[ –]] well , isn"
+    },
+    {
+     "act": 0.844,
+     "text": "… the album , that 's the first one that we listened to and we were[[ like]] , ' Yeah"
+    },
+    {
+     "act": 0.645,
+     "text": "… to everything . It 's all part of his grandiose sense of self @[[-]]@ esteem ,"
+    },
+    {
+     "act": 0.594,
+     "text": "… taking you through procedures and giving you the confidence to stand there and look like you[[ know]] what you '"
+    },
+    {
+     "act": 0.59,
+     "text": "… King : \" Yeah , ' Slayer are Nazis , fascists , communists '[[ —]] all that fun"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.344,
+     "text": "… It was the number 2 best selling DVD of the week , finishing behind Green[[ Lantern]] , and the"
+    },
+    {
+     "act": -2.312,
+     "text": "… Lantern , and the number 3 Blu @-@ ray disc film behind Green[[ Lantern]] and The Lion"
+    },
+    {
+     "act": -2.141,
+     "text": "… with the Blu @-@ ray Disc release of Horrible Bosses and Green[[ Lantern]] , Warner Bros"
+    },
+    {
+     "act": -2.0,
+     "text": "… first black man they saw . Smith says that several would @-@ be vigil[[ante]] groups sought his"
+    },
+    {
+     "act": -1.898,
+     "text": "… on this development , calling Shikamaru 's emergence as \" an unlikely[[ hero]] \" one of"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.93,
+     "text": "… of course we got the most flak for it in Germany . I was always[[ like]] , ' Read"
+    },
+    {
+     "act": 0.672,
+     "text": "… even without these particular emasculators , Dale , Kurt and Nick would still be[[ —]] for lack of"
+    },
+    {
+     "act": 0.617,
+     "text": "… his lazy tendencies , Shikamaru is extremely intelligent ; his teacher , A[[suma]] Sarutobi"
+    },
+    {
+     "act": 0.594,
+     "text": "… Choji Akimichi , Ino Yamanaka , and team leader A[[suma]] Sarutobi"
+    },
+    {
+     "act": 0.59,
+     "text": "… manages to find their targets , the immortal Akatsuki member Hidan kills A[[suma]] Sarutobi"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.219,
+     "text": "… , and sports games , and has expanded into anime and manga , cartoons and comic[[ books]] , novels ,"
+    },
+    {
+     "act": -2.188,
+     "text": "…6 , escorted by 11 warships under the command of Admiral Sir Peter[[ Parker]] . Clinton left"
+    },
+    {
+     "act": -2.141,
+     "text": "… . Finding conditions unsuitable for their operations , General Henry Clinton and Admiral Sir Peter[[ Parker]] decided instead to"
+    },
+    {
+     "act": -1.945,
+     "text": "…1984 . ⏎ Agents of Repression : The FBI 's Secret[[ Wars]] Against the Black"
+    },
+    {
+     "act": -1.766,
+     "text": "… what we 're presenting . \" She has also been cast in the film D[[redd]] . ⏎ ="
+    }
+   ]
+  }
+ },
+ {
+  "id": "N19",
+  "band": "early",
+  "layer": 3,
+  "neuron": 2371,
+  "stats": {
+   "max": 0.906,
+   "min": -0.543,
+   "mean": -0.0181
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.906,
+     "text": "… 117 plants.⏎⏎3.  **Analyze the Constraints:**[[⏎⏎]]    *  "
+    },
+    {
+     "act": 0.734,
+     "text": "…5 + 12 + 90 = 117 plants.[[⏎⏎]]3. "
+    },
+    {
+     "act": 0.652,
+     "text": "….⏎        $8 \\times 3 = 24$ eggs.[[⏎⏎]]    *  "
+    },
+    {
+     "act": 0.625,
+     "text": "… means the dog food supply was not enough to cover the consumption for the whole week[[.]] The problem implies"
+    },
+    {
+     "act": 0.543,
+     "text": "… a box.⏎⏎    *   *Self-Correction/Double Check:*[[⏎]]        *  "
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.543,
+     "text": "…14.⏎⏎3. [[ **]]Review and Format"
+    },
+    {
+     "act": -0.443,
+     "text": "…Find the distance between the points[[ $(]]1,1"
+    },
+    {
+     "act": -0.406,
+     "text": "…The expression[[ $\\]]dfrac{\\"
+    },
+    {
+     "act": -0.391,
+     "text": "… the Zimbabwe African National Liberation Army ( ZANLA ) and adopted aspects of Mao[[ist]] doctrine , while"
+    },
+    {
+     "act": -0.375,
+     "text": "…frac{\\sqrt[3]{5}}{\\sqrt[5]{5}}$[[ equals]] 5 raised"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.754,
+     "text": "…4.  **Identify the \"Problem\" or \"Logic Gap\":**[[⏎⏎]]    *  "
+    },
+    {
+     "act": 0.703,
+     "text": "…14.⏎⏎3.  **Review and Format:**⏎[[   ]] *   The"
+    },
+    {
+     "act": 0.625,
+     "text": "… giving the mill an overall height of 45 feet ([[ ]]13 @"
+    },
+    {
+     "act": 0.586,
+     "text": "…:**⏎⏎    *   *Step 1: Savory Soufflés*[[⏎]]        Each savory"
+    },
+    {
+     "act": 0.535,
+     "text": "… adult women, and the remaining number are split evenly between adult men and children.[[ ]] If an adult"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.486,
+     "text": "…: $6$⏎⏎    *   **Step 5[[:]] Sum all costs"
+    },
+    {
+     "act": -0.418,
+     "text": "…There exist constants $a[[_]]1,$ $"
+    },
+    {
+     "act": -0.395,
+     "text": "…: $11.⏎⏎    *(Note: The prompt[[ asks]] for \"Please"
+    },
+    {
+     "act": -0.385,
+     "text": "…Find $2^x$ if⏎⏎\\begin{align*}[[⏎]]2^x"
+    },
+    {
+     "act": -0.35,
+     "text": "…Solve for $m$:[[ $(]]m-4"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N20",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 1104,
+  "stats": {
+   "max": 0.754,
+   "min": -0.656,
+   "mean": 0.0007
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.754,
+     "text": "… cost of a baker's purchase of ingredients.⏎    *   **Items:**[[⏎]]        *  "
+    },
+    {
+     "act": 0.727,
+     "text": "… cost of a baker's purchase.⏎    *   **Items and quantities:**[[⏎]]        *  "
+    },
+    {
+     "act": 0.57,
+     "text": "… number of other important themes in Australian strategic culture are also obvious . Such themes include[[ :]] an acceptance of"
+    },
+    {
+     "act": 0.547,
+     "text": "…516 cars in a parking lot.⏎    *   **Properties:**[[⏎]]        *  "
+    },
+    {
+     "act": 0.52,
+     "text": "… in `\\boxed{}`.⏎⏎2.  **Step-by-Step Calculation[[:**]]⏎⏎    *"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.656,
+     "text": "… area of academic research . In particular , the research has focused on a few key[[ areas]] : rendering the"
+    },
+    {
+     "act": -0.455,
+     "text": "… bombarded Fort Sullivan . ⏎ General Lee responded to the British landing with several[[ actions]] . He began"
+    },
+    {
+     "act": -0.441,
+     "text": "… Major streams that flow off the north slopes of the mountains include ( from west to[[ east]] ) Cottonwood"
+    },
+    {
+     "act": -0.43,
+     "text": "… literature on the subject prevents a comprehensive examination of this field ; key examples are given[[ below]] . ⏎ ="
+    },
+    {
+     "act": -0.412,
+     "text": "… often sculpted with figures and hieroglyphs . A selection of the most[[ notable]] stelae at"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.738,
+     "text": "… Calculate the total cost of items.⏎    *   **Items and quantities:**[[⏎]]        *  "
+    },
+    {
+     "act": 0.574,
+     "text": "… of a baker's purchase of ingredients.⏎    *   **Items:**⏎[[       ]] *   Flour"
+    },
+    {
+     "act": 0.562,
+     "text": "… final answer in $\\boxed{}$.⏎⏎2.  **Break Down the Calculation[[:**]]⏎⏎    *"
+    },
+    {
+     "act": 0.527,
+     "text": "…aking Soda: $3 per box⏎⏎2.  **Break Down the Calculation[[:**]]⏎    *"
+    },
+    {
+     "act": 0.52,
+     "text": "… . ⏎ = = Filmography = = ⏎ = = = Film = = =[[ ⏎]] = = ="
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.547,
+     "text": "… opened to positive critical reception , with several critics praising the ensemble cast , with each[[ lead]] being singled out"
+    },
+    {
+     "act": -0.455,
+     "text": "… ⏎ Several publications for manga , anime , video games , and other related media have[[ commented]] on Shik"
+    },
+    {
+     "act": -0.438,
+     "text": "…Drafting the Response:**⏎⏎    *   *Introduction:* State the items and[[ their]] quantities/price"
+    },
+    {
+     "act": -0.42,
+     "text": "… rocker \" , the song features a prominent slide guitar part by Harrison and contributions from[[ musicians]] Gary Wright and"
+    },
+    {
+     "act": -0.41,
+     "text": "… 1 December 1888 . Both teams had a number of leading[[ players]] out injured –"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N21",
+  "band": "middle",
+  "layer": 15,
+  "neuron": 258,
+  "stats": {
+   "max": 0.594,
+   "min": -4.562,
+   "mean": -0.0679
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.594,
+     "text": "… $60,000 \\times 18 = 1,[[0]]80,"
+    },
+    {
+     "act": 0.562,
+     "text": "…[[Franc]]ine has five"
+    },
+    {
+     "act": 0.531,
+     "text": "…{5000} \\approx 4 \\times 70.[[7]]1 = "
+    },
+    {
+     "act": 0.498,
+     "text": "….18 \\times 60,000 = 10[[,]]800"
+    },
+    {
+     "act": 0.467,
+     "text": "…:⏎            *   $0.80 + $0.40[[ =]] $1."
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.562,
+     "text": "… spots* or the *total space* is a constraint[[.]]⏎    *"
+    },
+    {
+     "act": -4.188,
+     "text": "…6 weeks of lessons[[.]]⏎        *"
+    },
+    {
+     "act": -3.984,
+     "text": "… eggs dessert[[).]]⏎    *"
+    },
+    {
+     "act": -3.719,
+     "text": "…37[[ ,]] and opened a"
+    },
+    {
+     "act": -3.672,
+     "text": "… means the time elapsed since the start of the timeline (or the prompt's context[[).]]⏎    *"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.586,
+     "text": "…0} = 600 \\times 18 = 10[[,]]800"
+    },
+    {
+     "act": 0.559,
+     "text": "… 6 \\times 82 \\times 100 = 4[[9]]2 \\times"
+    },
+    {
+     "act": 0.508,
+     "text": "…[[ Esk]]imos = ="
+    },
+    {
+     "act": 0.486,
+     "text": "…        *   $N_{black} = 516 - 4[[3]]0$⏎"
+    },
+    {
+     "act": 0.457,
+     "text": "…[[Ol]]ga purchases a"
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.375,
+     "text": "… the number of Black cars[[.]]⏎        $$"
+    },
+    {
+     "act": -4.031,
+     "text": "… quarter of *what is left* to buy a new book[[.]]⏎    *"
+    },
+    {
+     "act": -3.766,
+     "text": "…5 + 36 = 71[[$.]]⏎⏎4."
+    },
+    {
+     "act": -3.672,
+     "text": "…97[[ ,]] John Travolta"
+    },
+    {
+     "act": -3.578,
+     "text": "… by government staff[[ .]] Government officials have"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N22",
+  "band": "middle",
+  "layer": 15,
+  "neuron": 1238,
+  "stats": {
+   "max": 1.18,
+   "min": -1.422,
+   "mean": -0.0125
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.18,
+     "text": "… synthesis . The reaction has been used in several total syntheses and several reviews have[[ been]] published . ⏎"
+    },
+    {
+     "act": 1.117,
+     "text": "… answer within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's a thinking[[ process]] that leads to"
+    },
+    {
+     "act": 1.039,
+     "text": "… an invasion of central Burma . They may not have reached Pagan , and even[[ if]] they did ,"
+    },
+    {
+     "act": 1.016,
+     "text": "… man with considerably less imagination and guile than Cooke . Historian Richard Woodman[[ was]]"
+    },
+    {
+     "act": 0.879,
+     "text": "… students (those who didn't get A, B, or C) are the[[ ones]] who failed."
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.422,
+     "text": "… on 20 March at Lennon 's Tittenhurst Park residence while Starr[[ was]] looking after the"
+    },
+    {
+     "act": -1.281,
+     "text": "… 24 = 74.⏎        *   *Check:* Father[[ is]] 74"
+    },
+    {
+     "act": -1.227,
+     "text": "… First Crocodile ) had been installed as the tenth king of Tikal while he[[ was]] still a boy"
+    },
+    {
+     "act": -1.172,
+     "text": "… 's June 1937 trip to Washington , DC , when he[[ was]] invited by the"
+    },
+    {
+     "act": -1.109,
+     "text": "…00 feet.⏎    *   Interpretation 3: The side length[[ is]] 50"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.125,
+     "text": "… *   Is it possible that the students who received an A are distinct from the[[ students]] who received B"
+    },
+    {
+     "act": 1.094,
+     "text": "… grade. If a student got a B or C, they are distinct from a[[ student]] who got an"
+    },
+    {
+     "act": 1.031,
+     "text": "… found these in only a small fraction of the poems ) , and from Han Yu[[ ,]] who wrote a"
+    },
+    {
+     "act": 0.984,
+     "text": "… answer within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's a thinking[[ process]] to solve the"
+    },
+    {
+     "act": 0.852,
+     "text": "… British Airways Sikorsky S61N helicopter from Sumburgh Airport[[ was]] scrambled . They"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.328,
+     "text": "… and was shot by Madonna in London in January 2006 while she[[ was]] making plans for"
+    },
+    {
+     "act": -1.234,
+     "text": "… fired on the Hunyani about five minutes after it took off , while the aircraft[[ was]] still in the"
+    },
+    {
+     "act": -1.211,
+     "text": "… , and starring Ryan Phillippe , and Sahara , filmed in Morocco whilst Ayola[[ was]] pregnant with her"
+    },
+    {
+     "act": -1.172,
+     "text": "… , instructed the conspiractors about silencers , took responsibility for the weapons while they[[ were]] in the commune"
+    },
+    {
+     "act": -1.109,
+     "text": "…1 @,@ 872 ( 3 @.@ 7 % )[[ were]] associated with the"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N23",
+  "band": "middle",
+  "layer": 13,
+  "neuron": 3482,
+  "stats": {
+   "max": 0.4,
+   "min": -0.5,
+   "mean": -0.0045
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.4,
+     "text": "… were militias in support of British regulars , but when military support for the colonies[[ ended]] in 1"
+    },
+    {
+     "act": 0.338,
+     "text": "… there were some instances of individuals and groups acquiring and using firearms , this was not[[ widespread]] . The Ab"
+    },
+    {
+     "act": 0.324,
+     "text": "… decisive indeed ; they were very cool and took care not to fire except their guns[[ were]] exceedingly well directed"
+    },
+    {
+     "act": 0.303,
+     "text": "… appeared and Tikal underwent a political and cultural florescence as its giant northern neighbors[[ declined]] . At the"
+    },
+    {
+     "act": 0.291,
+     "text": "… reaction . ⏎ Protonation of the enolate is sometimes not stereoselect[[ive]] , meaning that"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.5,
+     "text": "… as the amount *she pays* (which is the change).⏎        In[[ this]] context, \""
+    },
+    {
+     "act": -0.432,
+     "text": "… a B or C\" usually implies the union of B and C, but in[[ this]] context, it"
+    },
+    {
+     "act": -0.355,
+     "text": "…1} + \\frac{y^2}{x - 1}\\][[for]] real numbers $"
+    },
+    {
+     "act": -0.342,
+     "text": "… plants she can plant?⏎        *   Usually, in these types of logic[[ puzzles]], \"How"
+    },
+    {
+     "act": -0.334,
+     "text": "…⏎    *   Let's look at the standard interpretation of these types of r[[iddles]]. Usually,"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.396,
+     "text": "… then thriving railroad industry and would take commissions in the area when commissions in California were[[ lean]] . His work"
+    },
+    {
+     "act": 0.326,
+     "text": "… piece of timber , or laminated stocks . Good quality pitch pine was not obtain[[able]] in the lengths"
+    },
+    {
+     "act": 0.303,
+     "text": "… Sonic and Robotnik as mainstays ) , surviving the end of Sega console[[ manufacturing]] after the Dream"
+    },
+    {
+     "act": 0.301,
+     "text": "… royal court , or as a chapel of ease in a large parish with a growing[[ population]] . It was"
+    },
+    {
+     "act": 0.287,
+     "text": "… bar and the harbor entrance . With the fort on Sullivan 's Island only half[[ complete]] , Admiral Parker"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.453,
+     "text": "… a high of $ 110 @,@ 000 for rush[[ hours]] . In order"
+    },
+    {
+     "act": -0.363,
+     "text": "…   This phrasing is slightly ambiguous. It could mean:⏎            *  [[ Scenario]] A: He"
+    },
+    {
+     "act": -0.344,
+     "text": "… found $0.50.\"⏎            *   Usually, in math word[[ problems]], \"found"
+    },
+    {
+     "act": -0.34,
+     "text": "…^2+y^2-6x+4y+18$ for[[ real]] $x$"
+    },
+    {
+     "act": -0.328,
+     "text": "…Let triangle $ABC$ be a right triangle[[ in]] the xy-plane"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N24",
+  "band": "middle",
+  "layer": 13,
+  "neuron": 1091,
+  "stats": {
+   "max": 0.305,
+   "min": -2.016,
+   "mean": 0.0204
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.305,
+     "text": "… dominated by a fascist movement that started from similarly small beginnings , Germany is very wary[[ of]] any ideological movement"
+    },
+    {
+     "act": 0.268,
+     "text": "… group the Parents Television Council and fans , who interpreted the episode as an example of[[ promoting]] and implicitly sat"
+    },
+    {
+     "act": 0.252,
+     "text": "… well done , which is the faint praise that we do not like to mete out[[ to]] anyone . \""
+    },
+    {
+     "act": 0.233,
+     "text": "… him to join the other captured officers in his cabin , while the boat 's[[ crew]] were imprisoned below"
+    },
+    {
+     "act": 0.229,
+     "text": "… defenses . Japanese bombers attacked the ridge during daytime on 11 – 1[[2]] September , causing"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.016,
+     "text": "… \" to Guadalcanal and back in a single night , minimizing their exposure to[[ Allied]] air attack ."
+    },
+    {
+     "act": -1.039,
+     "text": "… Allied landings with the mission of recapturing the airfield and driving the[[ Allied]] forces from the"
+    },
+    {
+     "act": -0.992,
+     "text": "… the following morning . Ozawa reversed course during the night , correctly believing that the[[ Americans]] would follow him"
+    },
+    {
+     "act": -0.93,
+     "text": "… conspirators intended to hide out at an international network of Rajneesh communes if[[ the]] plan was successful"
+    },
+    {
+     "act": -0.898,
+     "text": "…AN ships were involved in shelling Indonesian positions in Borneo and in rep[[elling]] infiltrators in"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.303,
+     "text": "… is up to me alone to face this terrible truth ... No person has the right[[ to]] do what I"
+    },
+    {
+     "act": 0.258,
+     "text": "… Marcus Tius of the University of Hawaii show dramatic rate acceleration due to the removal[[ of]] β @-"
+    },
+    {
+     "act": 0.236,
+     "text": "… Squadrons — which bombed and strafed the ground in front of the advancing infantry[[ ,]] as well as"
+    },
+    {
+     "act": 0.231,
+     "text": "… took place in 1989 and the beginning of 199[[0]] , \" Streets"
+    },
+    {
+     "act": 0.227,
+     "text": "… 83.33...$ (Wait, $6 \\times [[8]]0 = "
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.688,
+     "text": "… and Stork traveled by bus back to the Rajneesh commune so as to[[ avoid]] airport metal detectors"
+    },
+    {
+     "act": -1.039,
+     "text": "… , Sybille and Fox arrived in Manila Bay , slipping unchallenged[[ past]] the fortress of"
+    },
+    {
+     "act": -0.973,
+     "text": "… . In 762 , he left the city to[[ escape]] a rebellion ,"
+    },
+    {
+     "act": -0.918,
+     "text": "… the rest of the trip to Guadalcanal . Because of the damage caused by[[ Allied]] air attack to"
+    },
+    {
+     "act": -0.887,
+     "text": "… On two occasions Australian troops from 3 RAR were used to help mop up[[ infiltr]]ators from se"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N25",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 2684,
+  "stats": {
+   "max": 0.398,
+   "min": -0.566,
+   "mean": -0.002
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.398,
+     "text": "… make a gallon of lemonade, and there are four quarts in a gallon[[,]] how many qu"
+    },
+    {
+     "act": 0.369,
+     "text": "…/week, and he saves it for 4 weeks, does he earn $[[1]]0 *4"
+    },
+    {
+     "act": 0.357,
+     "text": "… magazine in 2007 . \" If there were any parties going on[[ ,]]"
+    },
+    {
+     "act": 0.336,
+     "text": "… a multinational peacekeeping force . Australia , which had contributed police to UNAMET[[ ,]] organised and led"
+    },
+    {
+     "act": 0.32,
+     "text": "… take *per semester*?\"⏎    *   If the answer is 4[[0]], that implies"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.566,
+     "text": "… sculpture took its name from a quotation of British sprinter Linford Christie , in[[ which]] he said that"
+    },
+    {
+     "act": -0.516,
+     "text": "… ) . The Richard Hawley song \" Tonight The Streets Are Ours \" ,[[ which]] is the theme"
+    },
+    {
+     "act": -0.396,
+     "text": "… for the Federal Office for the Protection of the Constitution pointed out that Hubbard had written[[ that]] civil rights ,"
+    },
+    {
+     "act": -0.365,
+     "text": "… should be protected from involvement in politics , Beckham opposed the Nineteenth Amendment ,[[ which]] granted women '"
+    },
+    {
+     "act": -0.354,
+     "text": "… pretty much how it happened in real life . \" The end of the episode ,[[ where]] Mr. Kr"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.385,
+     "text": "… *   Since she is in college for 8 semesters, she takes [[4]]0 classes."
+    },
+    {
+     "act": 0.361,
+     "text": "… \"After saving all his money for four weeks...\" -> Does he earn $1[[0]] *per week"
+    },
+    {
+     "act": 0.354,
+     "text": "…6\" or \"8\".⏎    *   If the answer is 4[[0]], then "
+    },
+    {
+     "act": 0.33,
+     "text": "… family 's couch . The theme song featured in the Game of Thrones opening sequence[[ was]] arranged by The"
+    },
+    {
+     "act": 0.318,
+     "text": "… refers to the remaining students after A and B/C, then Rest = 2[[4]] - 6"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.527,
+     "text": "… \" of the title from a 1963 Malcolm X speech , in[[ which]] Malcolm X linked"
+    },
+    {
+     "act": -0.469,
+     "text": "… . It took its name from a quotation of British sprinter Linford Christie in[[ which]] he said that"
+    },
+    {
+     "act": -0.367,
+     "text": "…uke to McCartney to abandon his legal stand against the Beatles and Apple Corps , which[[ was]] placed in receivers"
+    },
+    {
+     "act": -0.357,
+     "text": "… Morris and others openly supported the Miskito Indian group Misurasata , who[[ were]] allied with the"
+    },
+    {
+     "act": -0.344,
+     "text": "… opening sequence of the HBO medieval fantasy series Game of Thrones . The Game of Thrones[[ opening]] shows the various"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N26",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 1857,
+  "stats": {
+   "max": 0.754,
+   "min": -0.498,
+   "mean": -0.0025
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.754,
+     "text": "… riddles involve a specific number of vegetables already planted. The problem says \"In[[ it]], Pauline"
+    },
+    {
+     "act": 0.676,
+     "text": "….⏎    *   **Goal:** Calculate the change Sally gets.⏎   [[ *]]   **Format"
+    },
+    {
+     "act": 0.559,
+     "text": "…0 bill.⏎    *   Goal: Calculate the change received.⏎   [[ *]]   Format:"
+    },
+    {
+     "act": 0.508,
+     "text": "…⏎    *   **Goal:** Calculate the number of black cars.⏎   [[ *]]   **Format"
+    },
+    {
+     "act": 0.496,
+     "text": "…ine plant\". This implies we need to subtract the current number of vegetables she already[[ planted]] into the garden"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.498,
+     "text": "… total amount of money Lilith will have to find to buy her friend the birthday[[ gift]] after selling her"
+    },
+    {
+     "act": -0.359,
+     "text": "….\"⏎⏎    *   *Interpretation of \"found $0.5[[0]]\":*⏎"
+    },
+    {
+     "act": -0.33,
+     "text": "… ? (Need to find this).⏎    *   **Person 3:[[ Mike]].**⏎       "
+    },
+    {
+     "act": -0.312,
+     "text": "… the *following* week.⏎⏎3.  **Analyze the \"Missing[[ Week]]\" Context:**"
+    },
+    {
+     "act": -0.309,
+     "text": "… to clean towels daily\".⏎    *   **Key Constraint:** \"Missed[[ one]] week\".⏎⏎"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.727,
+     "text": "… look closer at the prompt's phrasing:* \"Pauline has a garden with[[ vegetables]]. In it"
+    },
+    {
+     "act": 0.57,
+     "text": "…  **Analyze the Problem Statement:**⏎    *   Rex is taking lessons[[.]]⏎    *"
+    },
+    {
+     "act": 0.512,
+     "text": "… Request:**⏎    *   **Goal:** Calculate the number of *additional*[[ vegetables]] Pauline can"
+    },
+    {
+     "act": 0.504,
+     "text": "… 50 crayons total. 20% are pink.⏎   [[ *]]   **Goal"
+    },
+    {
+     "act": 0.488,
+     "text": "… taxes.⏎    *   **Goal:** Determine the final amount.⏎   [[ *]]   **Format"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.461,
+     "text": "… that is $2.00.  How much does she spend at the[[ local]] shop?"
+    },
+    {
+     "act": -0.334,
+     "text": "…25 m&m's at the beginning, how many did she give to her[[ sister]]?"
+    },
+    {
+     "act": -0.316,
+     "text": "…⏎        *   *Note:* The problem says \"She paid with a $[[2]]0 bill\"."
+    },
+    {
+     "act": -0.312,
+     "text": "… his test.\"⏎            *   Wait, does \"until he has done his[[ test]]\" mean he"
+    },
+    {
+     "act": -0.305,
+     "text": "… item:** $3.⏎    *   **Payment method:** $20[[ bill]].⏎   "
+    }
+   ]
+  }
+ },
+ {
+  "id": "N27",
+  "band": "middle",
+  "layer": 15,
+  "neuron": 2725,
+  "stats": {
+   "max": 5.031,
+   "min": -1.086,
+   "mean": -0.0998
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 5.031,
+     "text": "… , drought , overfishing , competition with other fish , and hybridization with[[ introduced]] rainbow trout ,"
+    },
+    {
+     "act": 4.25,
+     "text": "… ⏎ Homarus gammarus , known as the European lobster or common lobster ,[[ is]] a species of"
+    },
+    {
+     "act": 3.984,
+     "text": "… year before hatching into planktonic larvae . Homarus gammarus is[[ a]] highly esteemed food"
+    },
+    {
+     "act": 3.781,
+     "text": "…Eddy’s spider[[ plant]] produces 2"
+    },
+    {
+     "act": 3.578,
+     "text": "… Sea . It is closely related to the American lobster , H. americanus .[[ It]] may grow to"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.086,
+     "text": "… . Mating occurs in the summer , producing eggs which are carried by the females[[ for]] up to a"
+    },
+    {
+     "act": -0.797,
+     "text": "…vegicus are hosts to the three known species of the animal phylum Cycli[[oph]]ora ; the"
+    },
+    {
+     "act": -0.637,
+     "text": "… depending on the temperature , attached to her pleopods . Females carrying eggs[[ are]] said to be"
+    },
+    {
+     "act": -0.586,
+     "text": "… In a molecular study of the large subunit ribosomal DNA sequences of mycor[[rh]]izal fungi"
+    },
+    {
+     "act": -0.531,
+     "text": "… turkeys , guans , toucans , green parrots and leafc[[utter]] ants can be"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 4.344,
+     "text": "… from the eastern Atlantic Ocean , Mediterranean Sea and parts of the Black Sea . It[[ is]] closely related to"
+    },
+    {
+     "act": 4.031,
+     "text": "… . ⏎ = = Habitat and distribution = = ⏎ Mycena inclinata is[[ a]] saprobic"
+    },
+    {
+     "act": 3.891,
+     "text": "… brown to pinkish , and the spore print is white . It is a[[ widespread]] saprobic"
+    },
+    {
+     "act": 3.703,
+     "text": "… their adult lives . ⏎ = = Distribution = = ⏎ Homarus gammarus[[ is]] found across the"
+    },
+    {
+     "act": 3.531,
+     "text": "…ii ( alpine avens ) . Also noted are Carex atrata var[[.]] pullata ,"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.961,
+     "text": "… therefore soft , and a hard @-@ shelled male . The female carries[[ the]] eggs for up"
+    },
+    {
+     "act": -0.734,
+     "text": "…6 mm ) , and have a close to subdistant spacing , with about[[ ]]26 –"
+    },
+    {
+     "act": -0.629,
+     "text": "… can be found throughout the year . ⏎ The eggs hatch at night , and the[[ larvae]] swim to the"
+    },
+    {
+     "act": -0.539,
+     "text": "… to attack the Lunga perimeter at the ridge , which they called \" the cent[[ip]]ede \" ("
+    },
+    {
+     "act": -0.527,
+     "text": "…ulata and M. maculata . ⏎ = = Taxonomy , phy[[log]]eny , and"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N28",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 2081,
+  "stats": {
+   "max": 0.439,
+   "min": -0.527,
+   "mean": -0.0009
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.439,
+     "text": "… *   Calculation: $5 \\times 6 = 30$⏎⏎[[3]].  **"
+    },
+    {
+     "act": 0.369,
+     "text": "…20}{3} = 40 \\text{ classes} $$⏎⏎[[2]].  **"
+    },
+    {
+     "act": 0.354,
+     "text": "… boxes = $9 \\times 4 = 36$.⏎⏎    [[3]].  **"
+    },
+    {
+     "act": 0.309,
+     "text": "…⏎⏎    *   Let's write the response.⏎⏎    *   **Step[[ ]]1:** Calculate"
+    },
+    {
+     "act": 0.293,
+     "text": "… *   Calculation: $3 \\times 8 = 24$⏎⏎[[2]].  **"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.527,
+     "text": "…0 \\times 3 = 30$⏎    *   Milk:[[ $]]5 \\times"
+    },
+    {
+     "act": -0.432,
+     "text": "… 8 = 24$⏎    *   *Dessert:*[[ $]]5 \\times"
+    },
+    {
+     "act": -0.324,
+     "text": "…Number of Semesters}} $$⏎    $$ \\text{Classes per Semester}[[ =]] \\frac{"
+    },
+    {
+     "act": -0.312,
+     "text": "… ' Sailor Mouth ' just barely missed being in the number one slot . \" Bas[[ile]] praised the episode"
+    },
+    {
+     "act": -0.307,
+     "text": "… \\times 7 = 35$.⏎    *   Small boxes:[[ $]]9 \\times"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.369,
+     "text": "…⏎</think>⏎⏎Here is the step-by-step reasoning to solve the problem:⏎⏎[[1]].  **"
+    },
+    {
+     "act": 0.367,
+     "text": "…/soufflé} = 30 \\text{ eggs}$.⏎⏎[[3]].  **"
+    },
+    {
+     "act": 0.314,
+     "text": "… frames} \\times \\$3/\\text{frame} = \\$9$$⏎⏎[[2]].  **"
+    },
+    {
+     "act": 0.297,
+     "text": "…Identify the payment:** Sally used a $\\$20$ bill.⏎⏎[[3]].  **"
+    },
+    {
+     "act": 0.273,
+     "text": "… the drafted response).⏎</think>⏎⏎Here is the step-by-step calculation:⏎⏎[[1]].  **"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.508,
+     "text": "… $3 \\times 3 = 9$⏎    *   Eggs:[[ $]]10 \\"
+    },
+    {
+     "act": -0.357,
+     "text": "… 8 = 24$⏎    *   *Step 2:*[[ $]]5 \\times"
+    },
+    {
+     "act": -0.32,
+     "text": "…Result after Action 1:** Henry has $H_1 = H_0[[ -]] 6$."
+    },
+    {
+     "act": -0.309,
+     "text": "… sides to isolate the term with $C$.⏎        *   $26[[ -]] 5 ="
+    },
+    {
+     "act": -0.303,
+     "text": "… number of small boxes by the dolls per box.⏎            $9 \\times[[ ]]4$⏎"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N29",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 23,
+  "stats": {
+   "max": 0.436,
+   "min": -0.852,
+   "mean": 0.0042
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.436,
+     "text": "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's a thinking process[[ to]] solve the problem"
+    },
+    {
+     "act": 0.412,
+     "text": "… easy access to US 75 and I @-@ 635[[ ⏎]] Level III :"
+    },
+    {
+     "act": 0.395,
+     "text": "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's my thought process[[ for]] solving this word"
+    },
+    {
+     "act": 0.371,
+     "text": "… ⏎ Overview of population trends ⏎ = = = Shipwrecks = = =[[ ⏎]] The coasts"
+    },
+    {
+     "act": 0.365,
+     "text": "… brown , and white to grayish veins that have numerous cross @-@ veins[[ .]] M. poly"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.852,
+     "text": "… $3⏎        *   Calculation: $3 \\times 2$⏎⏎[[   ]] *   *"
+    },
+    {
+     "act": -0.746,
+     "text": "…} = 3 \\times 1 = 3$ pounds.⏎   [[ *]]   **Step"
+    },
+    {
+     "act": -0.707,
+     "text": "…⏎        *   So, Luna has 10 pink crayons.⏎⏎[[   ]] *   **"
+    },
+    {
+     "act": -0.637,
+     "text": "…15 + 15 + 90 = 120$.[[⏎⏎]]3. "
+    },
+    {
+     "act": -0.609,
+     "text": "…4$.⏎        *   Number of B or C = 6.⏎⏎[[   ]] *   **"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.418,
+     "text": "… Khan 's attention turned to Southeast Asia once more in 1281[[ .]] He had had"
+    },
+    {
+     "act": 0.398,
+     "text": "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's my thought process[[ for]] solving this problem"
+    },
+    {
+     "act": 0.383,
+     "text": "… lie in House District 84 and are represented by Tad Campbell ( R )[[ .]] ⏎ On the"
+    },
+    {
+     "act": 0.369,
+     "text": "… . ⏎ = = = = Tikal and Dos Pilas = = = =[[ ⏎]] In 6"
+    },
+    {
+     "act": 0.363,
+     "text": "… for several miles , crossing into Frenchtown , where the route becomes Trenton Road[[ .]] Upon entering French"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.805,
+     "text": "… $2 \\times 12 = 24$ years.⏎⏎   [[ *]]   **Step"
+    },
+    {
+     "act": -0.707,
+     "text": "… = 6 \\times 7 = 42$ pounds.⏎   [[ *]]   **Step"
+    },
+    {
+     "act": -0.648,
+     "text": "…frac{1}{4} \\times 24 = 6$.⏎⏎[[   ]] *   **"
+    },
+    {
+     "act": -0.617,
+     "text": "… $5⏎        *   Calculation: $5 \\times 7$⏎⏎[[   ]] *   *"
+    },
+    {
+     "act": -0.602,
+     "text": "…⏎        *   So, 6 students received a B or C.⏎⏎[[   ]] *   **"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N30",
+  "band": "middle",
+  "layer": 13,
+  "neuron": 588,
+  "stats": {
+   "max": 0.447,
+   "min": -3.312,
+   "mean": -0.0146
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.447,
+     "text": "…$⏎        *   Total Flour Cost: $9⏎⏎    *   **[[Step]] 2:"
+    },
+    {
+     "act": 0.387,
+     "text": "… Churchill told the Colorado Daily that \" he was one @-@ sixteenth Creek[[ and]] Cherokee . \""
+    },
+    {
+     "act": 0.326,
+     "text": "…-step reasoning and the final answer in a box.⏎⏎2.  **Step[[ ]]1: Determine"
+    },
+    {
+     "act": 0.316,
+     "text": "… *   Calculate cost for Flour.⏎    *   Calculate cost for Eggs.[[⏎]]    *  "
+    },
+    {
+     "act": 0.301,
+     "text": "… , Irene Crane , Marie Eline , Violet Heming , Martin J. Faust[[ ,]] Thomas Fortune ,"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.312,
+     "text": "… same calculation).⏎            $7 + 7 + 7 + 7[[ +]] 7$"
+    },
+    {
+     "act": -2.969,
+     "text": "…theta_1,\\, \\theta_2, \\, \\theta_3[[,]] \\, \\"
+    },
+    {
+     "act": -2.891,
+     "text": "…th, 12th, 13th, 14th[[,]] 15"
+    },
+    {
+     "act": -2.797,
+     "text": "…_2^2 + a_3^2 + a_4^2[[ +]] a_5"
+    },
+    {
+     "act": -2.672,
+     "text": "…th, 14th, 15th, 16th[[,]] 17"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.416,
+     "text": "…⏎        *   Total Eggs Cost: $30⏎⏎    *   **[[Step]] 3:"
+    },
+    {
+     "act": 0.361,
+     "text": "… days.⏎    *   But he washed on the 8th, [[9]]th, "
+    },
+    {
+     "act": 0.316,
+     "text": "…0⏎        *   Calculation: $10 \\times 3$⏎⏎[[   ]] *   *"
+    },
+    {
+     "act": 0.312,
+     "text": "…Income} - \\text{Tax}$.⏎⏎3.  **Execute Step[[ ]]1: Calculate"
+    },
+    {
+     "act": 0.299,
+     "text": "… , Johnny Devine , Kamala , Karen Angle , Koko B. Ware[[ ,]] Raisha S"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.156,
+     "text": "…$. Find $\\theta_1 + \\theta_2 + \\theta_3[[ +]] \\theta_"
+    },
+    {
+     "act": -2.906,
+     "text": "…th, 16th, 17th, 18th[[,]] 19"
+    },
+    {
+     "act": -2.844,
+     "text": "….⏎        *   Total Potato Plants = 30 + 30[[ +]] 30"
+    },
+    {
+     "act": -2.703,
+     "text": "… plants.⏎        *   Total Cucumbers = 4 + 4[[ +]] 4 ="
+    },
+    {
+     "act": -2.531,
+     "text": "…th, 19th, 20th, 21st[[,]] 22"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N31",
+  "band": "middle",
+  "layer": 15,
+  "neuron": 1936,
+  "stats": {
+   "max": 2.078,
+   "min": -1.086,
+   "mean": 0.0044
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.078,
+     "text": "… composers that she would premiere in concert . She accepted and premiered almost all works sent[[ to]] her , the"
+    },
+    {
+     "act": 1.188,
+     "text": "… threw off the stage . Blythe responded by saying : \" To the best[[ of]] my knowledge ,"
+    },
+    {
+     "act": 1.07,
+     "text": "… *   Harry's father's age relationship: Father is 24 years older[[ than]] Harry.⏎"
+    },
+    {
+     "act": 1.055,
+     "text": "… contending that Lead Belly was unlikely to have written a work in a genre new[[ to]] him without a"
+    },
+    {
+     "act": 1.031,
+     "text": "…25.⏎⏎    *   **Step 2: Calculate the money found[[ by]] Yanni.**"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.086,
+     "text": "… from a number of the band 's songs – in this case , \" With[[ a]] Little Help from"
+    },
+    {
+     "act": -0.824,
+     "text": "… a halt . So when I got an offer to drive stock cars , I took[[ it]] , and it"
+    },
+    {
+     "act": -0.801,
+     "text": "… jailers . The video features scenes reminiscent of the films South Pacific , To Catch[[ a]] Thief , Jail"
+    },
+    {
+     "act": -0.766,
+     "text": "… on December 8 , 757 , he returned to Chang 'an[[ with]] the emperor following"
+    },
+    {
+     "act": -0.723,
+     "text": "… , Australia , and New Zealand . She remained in Java for four years , but[[ with]] the outbreak of"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.258,
+     "text": "…ogee , Oklahoma . After his mother , Jackie Conway , was unable to financially[[ support]] him , McC"
+    },
+    {
+     "act": 1.094,
+     "text": "… in my eyes when I took the checkered flag . Then every time anyone congrat[[ulated]] me , I"
+    },
+    {
+     "act": 1.055,
+     "text": "…romedae b orbits very close to its star , closer than Mercury does to[[ our]] Sun . The"
+    },
+    {
+     "act": 1.039,
+     "text": "… 21 . Ichiki 's assault was repulsed with devastating losses[[ for]] the attackers in"
+    },
+    {
+     "act": 0.965,
+     "text": "… to the devilish jungle , the brigade was scattered all over and was completely beyond[[ my]] control . In"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.844,
+     "text": "… pregnant minutes before giving birth , her child having accelerated aging disease . Walter is reminded[[ of]] having previously done"
+    },
+    {
+     "act": -0.805,
+     "text": "… with American singer Harry Nilsson that incorporates lyrics from Beatles songs such as \" With[[ a]] Little Help from"
+    },
+    {
+     "act": -0.789,
+     "text": "… had not seen anybody fall directly on the ground . Havlena had trouble recalling details[[ from]] the show ,"
+    },
+    {
+     "act": -0.746,
+     "text": "…text , perhaps directed at her more savage critics : ' there are more important things[[ than]] hearing you speak"
+    },
+    {
+     "act": -0.699,
+     "text": "…sembles the staff in the \" multipurpose room \" , including Dwight , who learned[[ from]] Gabe that"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N32",
+  "band": "middle",
+  "layer": 15,
+  "neuron": 1545,
+  "stats": {
+   "max": 0.852,
+   "min": -1.203,
+   "mean": 0.0129
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.852,
+     "text": "…        *   Red: 258.⏎        *   Total so[[ far]]: $1"
+    },
+    {
+     "act": 0.734,
+     "text": "…: Calculate money from Tulips.*⏎        *   Quantity: 20[[⏎]]        *  "
+    },
+    {
+     "act": 0.711,
+     "text": "… Spent on book: $20 / 4 = 5.⏎[[   ]] Remaining = "
+    },
+    {
+     "act": 0.711,
+     "text": "…⏎        *   Let's look at the numbers again.⏎        *  [[ Start]]: $0"
+    },
+    {
+     "act": 0.668,
+     "text": "… Baking Soda: 2 boxes⏎    *   **Unit Prices:**⏎[[       ]] *   Flour"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.203,
+     "text": "… contrary wind conditions prompted Parker to call it off for several days . ⏎ = =[[ Battle]] = = ⏎"
+    },
+    {
+     "act": -1.109,
+     "text": "…:⏎⏎1.  **Analyze the Request:**⏎    *   **[[Goal]]:** Calculate the"
+    },
+    {
+     "act": -1.109,
+     "text": "… remaining amount, then a quarter of that remaining amount).⏎    *   **[[Goal]]:** Calculate the"
+    },
+    {
+     "act": -1.086,
+     "text": "… *   **Missing Week:** Missed one week.⏎    *   **[[Goal]]:** Determine the"
+    },
+    {
+     "act": -1.055,
+     "text": "… *   **Item Cost:** $1.60⏎    *   **[[Goal]]:** Calculate the"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.762,
+     "text": "…85⏎        *   Add $0.40⏎        *  [[ Total]] = $1"
+    },
+    {
+     "act": 0.73,
+     "text": "…1.25⏎        *   Bought $1.60⏎       [[ *]]   Remaining ="
+    },
+    {
+     "act": 0.711,
+     "text": "… *what is left* (remaining from step 2).⏎    *  [[ Remaining]] from step "
+    },
+    {
+     "act": 0.68,
+     "text": "… *   Cost: $9.⏎    *   Paid: $20[[.]]⏎    *"
+    },
+    {
+     "act": 0.664,
+     "text": "…65+12=77$. Wait, let me re-add.[[⏎]]    *  "
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.195,
+     "text": "…:⏎⏎1.  **Analyze the Problem:**⏎    *   **[[Goal]]:** Calculate the"
+    },
+    {
+     "act": -1.109,
+     "text": "… **Missing Week:** He missed one week of laundry.⏎    *   **[[Goal]]:** Determine how"
+    },
+    {
+     "act": -1.109,
+     "text": "…:** Bought a toy for $1.60.⏎    *   **[[Goal]]:** Calculate the"
+    },
+    {
+     "act": -1.078,
+     "text": "… driven by the auxiliary engine via a fast and loose pulley . ⏎ = =[[ Mill]]ers = ="
+    },
+    {
+     "act": -1.055,
+     "text": "… amount of dog food bought: 30 pounds.⏎    *   **[[Goal]]:** Calculate the"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N33",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 221,
+  "stats": {
+   "max": 0.447,
+   "min": -0.562,
+   "mean": -0.0198
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.447,
+     "text": "… look closer at the prompt's phrasing:* \"Pauline has a garden with[[ vegetables]]. In it"
+    },
+    {
+     "act": 0.428,
+     "text": "…74$⏎    *   $74 + 6 = 8[[0]]$⏎   "
+    },
+    {
+     "act": 0.412,
+     "text": "… Charles Madigan , William Elliot , David Gage , Patrick Keogh , George[[ Wyn]]yard , Te"
+    },
+    {
+     "act": 0.402,
+     "text": "… *   Let's re-read carefully: \"Yanni has $0.8[[5]]. His mother"
+    },
+    {
+     "act": 0.395,
+     "text": "… *Interpretation A (Simple Addition):* He has $0.8[[5]]. He gets"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.562,
+     "text": "… officials , and the Edicts of the Imperial Ming ( Huang Ming Zhaozhi[[ ,]] 皇明"
+    },
+    {
+     "act": -0.508,
+     "text": "…2+0.05,sqrt(3)/2-0.1[[),]]W);⏎"
+    },
+    {
+     "act": -0.508,
+     "text": "…60^\\circ$\",(2-0.05,0.1[[),]]W);⏎"
+    },
+    {
+     "act": -0.494,
+     "text": "… m\",(1.75,sqrt(3)/4+0.1[[),]]E);⏎"
+    },
+    {
+     "act": -0.453,
+     "text": "…-@ 2008 , 1 @,@ 100[[ in]] early 2"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.434,
+     "text": "… spent.*⏎        *   Wait, the problem says \"While going to the[[ mall]], Yanni"
+    },
+    {
+     "act": 0.418,
+     "text": "… *   **Given:** A total of 516 cars in a parking[[ lot]].⏎   "
+    },
+    {
+     "act": 0.41,
+     "text": "…opards. What's the total number of animals Brinley counted at the[[ zoo]]?"
+    },
+    {
+     "act": 0.396,
+     "text": "… Cucumbers: 3 varieties, 4 of each.⏎        *[[  ]] Potatoes:"
+    },
+    {
+     "act": 0.393,
+     "text": "…        *   Cucumbers: 4 of each kind.⏎        *[[  ]] Potatoes:"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.543,
+     "text": "…1cm}{move \\\\ 1 space \\\\ right}$\",center+r/2[[*]]dir(2"
+    },
+    {
+     "act": -0.508,
+     "text": "…2-0.05,sqrt(3)/2-0.1[[),]]E);⏎"
+    },
+    {
+     "act": -0.5,
+     "text": "…⏎        *   Each small box contains 4 dolls.⏎        *  [[ Calculation]]: $9"
+    },
+    {
+     "act": -0.473,
+     "text": "…1cm}{move \\\\ 1 space \\\\ right}$\",center+r/2[[*]]dir(3"
+    },
+    {
+     "act": -0.451,
+     "text": "…A$\",A,W); label(\"$C$\",C,NW);label(\"$B[[$\",]]B,E);"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N34",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 2406,
+  "stats": {
+   "max": 0.371,
+   "min": -0.486,
+   "mean": -0.0035
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.371,
+     "text": "…\\text{(D)}\\ 12\\qquad\\text{(E[[)}]]\\ 1"
+    },
+    {
+     "act": 0.312,
+     "text": "…10,20), k=(20,20), l=([[3]]0,2"
+    },
+    {
+     "act": 0.311,
+     "text": "…aloo . ' ' Do you want some potatoes ? ' ' Ooh you[[ ,]] boogal"
+    },
+    {
+     "act": 0.291,
+     "text": "… spores are 7 – 9 by 5 – 6 @.@[[ ]]5 μm"
+    },
+    {
+     "act": 0.25,
+     "text": "… You had to be a quarter Cheyenne or a quarter Arapaho or[[ hopefully]] a quarter and"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.486,
+     "text": "… gameplay in general that it \" plays like a dream \" ; according to GameZone[[ it]] would enchant players"
+    },
+    {
+     "act": -0.4,
+     "text": "… 45 @.@ 4 km / h ; 28 @.@[[ ]]2 mph )"
+    },
+    {
+     "act": -0.373,
+     "text": "…. If they predict they'll get twice the amount of customers on Saturday as they[[ had]] on Friday,"
+    },
+    {
+     "act": -0.35,
+     "text": "…46 @.@ 78 km / h ; 29 @.@[[ ]]07 mph"
+    },
+    {
+     "act": -0.346,
+     "text": "… sound effects were also well received ; Dragon called them \" great \" , and Game[[Zone]] \" amazing \""
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.344,
+     "text": "…on Lockwood , William Martin Scott , Fernand \" Fred \" Bonsor capt[[ .]] , Frank E"
+    },
+    {
+     "act": 0.311,
+     "text": "… . ⏎ = = Description = = ⏎ The cap is light reddish @-[[@]] brown , with"
+    },
+    {
+     "act": 0.297,
+     "text": "…10,10), g=(20,10), h=([[3]]0,1"
+    },
+    {
+     "act": 0.254,
+     "text": "… a blocked opening to the east ( about 5 feet ( 1 @.@[[ ]]5 m )"
+    },
+    {
+     "act": 0.248,
+     "text": "… it\" -> Half of the total accumulated money.⏎    *   \"He[[ then]] spends a quarter"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.436,
+     "text": "…ate named Zhengmian ( Chinese : 征緬 ; Wade – Giles[[ :]] Cheng @-"
+    },
+    {
+     "act": -0.377,
+     "text": "… of Mianzhong ( Chinese : 緬中 ; Wade – Giles[[ :]] Mien @"
+    },
+    {
+     "act": -0.373,
+     "text": "… 17 @,@ 930 km ; 11 @,@[[ ]]140"
+    },
+    {
+     "act": -0.348,
+     "text": "…5 @,@ 000 @-@ square @-@ foot ([[ ]]34 @"
+    },
+    {
+     "act": -0.336,
+     "text": "… runs 34 @.@ 76 mi ( 55 @.@[[ ]]94 km"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N35",
+  "band": "middle",
+  "layer": 13,
+  "neuron": 671,
+  "stats": {
+   "max": 0.42,
+   "min": -1.18,
+   "mean": -0.0024
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.42,
+     "text": "… , Ms. Carey 's voice is no studio concoction . Her range extends[[ from]] a rich ,"
+    },
+    {
+     "act": 0.396,
+     "text": "… eastward over the Oregon and California coastal ranges and the Cascade Range , most precipitation[[ falls]] in those mountains"
+    },
+    {
+     "act": 0.365,
+     "text": "…⏎⏎2.  **Determine the Units:**⏎    *   The prompt[[ mixes]] dollars and cents"
+    },
+    {
+     "act": 0.363,
+     "text": "… @,@ 500 personnel , and included a significant ground force , supported[[ by]] air and naval"
+    },
+    {
+     "act": 0.336,
+     "text": "… terminus and I @-@ 95 , the route is a mix[[ of]] freeway and four"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.18,
+     "text": "…4N_{current}$.⏎        *   Wait, is the problem asking[[ for]] the *initial"
+    },
+    {
+     "act": -1.102,
+     "text": "… the time 8 years ago?⏎        *   The problem asks[[ for]] \"combined experience"
+    },
+    {
+     "act": -1.031,
+     "text": "…$. (Wait, let me re-read the prompt. No, the prompt asks[[ for]] total eggs,"
+    },
+    {
+     "act": -1.023,
+     "text": "… = $20. (Wait, \"spends half of it\" usually[[ implies]] spending half of"
+    },
+    {
+     "act": -0.977,
+     "text": "…    *Note on the phrasing:* \"How many eggs will she need?\"[[ implies]] a single number"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.418,
+     "text": "… first popularly elected senator following passage of the Seventeenth Amendment . ⏎ Descended[[ from]] a prominent political"
+    },
+    {
+     "act": 0.367,
+     "text": "…  Half of these skeletons are adult women, and the remaining number are split evenly[[ between]] adult men and"
+    },
+    {
+     "act": 0.365,
+     "text": "… % were married couples living together , 23 @.@ 3 % consisted[[ of]] a female house"
+    },
+    {
+     "act": 0.352,
+     "text": "… and Roberto Orci . When developing the series , they sought to find a medium[[ between]] serialized drama and"
+    },
+    {
+     "act": 0.334,
+     "text": "… Cullen Bohannon , the protagonist of the AMC series Hell on Wheels , h[[ails]] from Meridian"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.109,
+     "text": "… phrase \"now, Henry has 4 times more games than Neil\" usually refers[[ to]] the current state"
+    },
+    {
+     "act": -1.039,
+     "text": "…0 = $20.⏎    *   Wait, is the question asking[[ for]] the final amount"
+    },
+    {
+     "act": -1.031,
+     "text": "…$ and Neil has 7 games (from the prompt, though the prompt asks[[ for]] $H_"
+    },
+    {
+     "act": -1.008,
+     "text": "…  **Determine the Logic:**⏎    *   The problem asks for the[[ *]]remaining* length"
+    },
+    {
+     "act": -0.957,
+     "text": "…:*⏎        *   Is \"1/4 of the remaining students\" referring[[ to]] the set of"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N36",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 2282,
+  "stats": {
+   "max": 0.574,
+   "min": -0.754,
+   "mean": 0.0154
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.574,
+     "text": "… 's instructions were valid only within the Church of Scientology and were subject to interpretation[[ ,]] and at any"
+    },
+    {
+     "act": 0.475,
+     "text": "… @-@ Pennington Road , and the approach to the Washington Crossing Bridge[[ ,]] which continues into"
+    },
+    {
+     "act": 0.451,
+     "text": "… 310 per theater , making it the number two film for the weekend[[ ,]] behind Transformers :"
+    },
+    {
+     "act": 0.438,
+     "text": "… businesses by Scientologists , in line with Scientology 's declared aim to penetrate society[[ ,]] politics and business"
+    },
+    {
+     "act": 0.42,
+     "text": "… Interstate 95 , with the ramps within the median of Route 29[[ ,]] just to the"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.754,
+     "text": "… Communist Terrorist ( CT ) jungle bases . The RAAF were particularly successful ,[[ and]] in one such"
+    },
+    {
+     "act": -0.711,
+     "text": "… @.@ 05 seconds . He notched four more victories that season ,[[ and]] over a span"
+    },
+    {
+     "act": -0.617,
+     "text": "… Australia in 1834 . Such incidents were not officially sanctioned however ,[[ and]] after the My"
+    },
+    {
+     "act": -0.594,
+     "text": "… . Josephine regained a small amount of convection in the late night hours ,[[ but]] not enough to"
+    },
+    {
+     "act": -0.578,
+     "text": "… side played nine Victorian Rules matches in total , including one in New South Wales ,[[ but]] won only three"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.479,
+     "text": "… , which had not been revived since its first run in 1973[[ ,]] at the G"
+    },
+    {
+     "act": 0.467,
+     "text": "… National Socialist history , and to increase both membership figures and political influence in German society[[ ,]] with a special"
+    },
+    {
+     "act": 0.451,
+     "text": "… Infantry Battalion which would make the main frontal assault from the centre of the Australian line[[ ,]] crossing at the"
+    },
+    {
+     "act": 0.434,
+     "text": "… an American officer issues orders to the South Korean army in the defence of their homeland[[ ,]] and by a"
+    },
+    {
+     "act": 0.416,
+     "text": "… cirque , which can be attributed to its position amongst other mountains of similar height[[ ,]] causing it to"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.746,
+     "text": "…-@ episode . I 'd struggled to find the word to describe it ,[[ and]] the winner is"
+    },
+    {
+     "act": -0.652,
+     "text": "… dancers . New York was already home to many North American and European musical performers ,[[ so]] Gauthier"
+    },
+    {
+     "act": -0.609,
+     "text": "… for that year . Pakenham Watermill had previously benefited from the project ,[[ and]] its owners ,"
+    },
+    {
+     "act": -0.586,
+     "text": "… majority rule \" had recently gained ground in Britain and elsewhere amid decolonisation ,[[ and]] Rhodesia '"
+    },
+    {
+     "act": -0.57,
+     "text": "… Restoration of riparian areas began in the early 1970s ,[[ and]] plans to reduce"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N37",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 590,
+  "stats": {
+   "max": 0.871,
+   "min": -1.656,
+   "mean": 0.0032
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.871,
+     "text": "…, this type of math problem asks for the sum of the counts of the specific[[ items]] mentioned.⏎"
+    },
+    {
+     "act": 0.754,
+     "text": "… Rowland Hill had carefully collected the best possible team available . Such \" passing \"[[ as]] the Home men"
+    },
+    {
+     "act": 0.746,
+     "text": "… pizzas from Doc's Pizza and put them in their box. How many pieces of[[ pizza]] are the children"
+    },
+    {
+     "act": 0.652,
+     "text": "… Chunin , as the overseers of the exams were impressed by the insight and[[ intelligence]] he demonstrated against"
+    },
+    {
+     "act": 0.641,
+     "text": "… . By this point , the team was beset by injuries – of the fifteen[[ players]] that played against"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.656,
+     "text": "… face onto a public street \" which afford her the opportunity to put on the kind[[ of]] show she couldn"
+    },
+    {
+     "act": -1.406,
+     "text": "… was cancelled midway through its second series . She has since concluded that \" the kind[[ of]] audience they would"
+    },
+    {
+     "act": -1.281,
+     "text": "…eman and King deliver their ' intricate riffs ' , which offer the few hints[[ of]] melody on the"
+    },
+    {
+     "act": -1.133,
+     "text": "… is ' condensed ' . \" The Same Old Story \" has all of the sense[[ of]] mystery , discovery"
+    },
+    {
+     "act": -1.047,
+     "text": "… September , the remnants of the Kuma battalion conducted another attack on the same portion[[ of]] the Marine lines"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.773,
+     "text": "…aring , or running they were very much indeed Canterbury 's superior . Such runs[[ as]] were made by"
+    },
+    {
+     "act": 0.75,
+     "text": "… Fu 's works ( although he found these in only a small fraction of the[[ poems]] ) , and"
+    },
+    {
+     "act": 0.688,
+     "text": "…⏎⏎    *   *Correction:* I need to map the given information to the[[ variables]].⏎       "
+    },
+    {
+     "act": 0.645,
+     "text": "…, and the rest are black.\"⏎    *   This implies the set of[[ cars]] are partitioned"
+    },
+    {
+     "act": 0.633,
+     "text": "…OT for time they closed down traffic lanes — fees based on hourly assessments and the[[ time]] of day the"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.453,
+     "text": "… of bronze and Verde marble is also noteworthy as a very fine example of the type[[ of]] Post Office structures"
+    },
+    {
+     "act": -1.305,
+     "text": "… them installed . ⏎ The Amvets Memorial Drive designation was created for the section[[ of]] US 2"
+    },
+    {
+     "act": -1.148,
+     "text": "…322 and the Atlantic City Expressway in Hamilton Township . ⏎ The portion[[ of]]"
+    },
+    {
+     "act": -1.094,
+     "text": "… in the event of a hurricane . ⏎ = = History = = ⏎ The portion[[ of]] current Route "
+    },
+    {
+     "act": -1.023,
+     "text": "… effort between MDOT and its counterparts in Wisconsin , Minnesota and Ontario . The section[[ of]] US 2"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N38",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 1418,
+  "stats": {
+   "max": 0.559,
+   "min": -0.367,
+   "mean": -0.004
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.559,
+     "text": "… of classes *per semester*.⏎    *   Usually, a semester is a[[ block]] of time."
+    },
+    {
+     "act": 0.469,
+     "text": "… 's reagent ) . The basidia ( spore @-@ bearing[[ cells]] ) are four"
+    },
+    {
+     "act": 0.439,
+     "text": "…   The \"what is left\" refers to the amount remaining from the previous step[[.]]⏎    *"
+    },
+    {
+     "act": 0.426,
+     "text": "… \"two-hour sessions\" usually means the duration of the lesson is 2 hours[[,]] but the prompt"
+    },
+    {
+     "act": 0.404,
+     "text": "… \"per semester\" might mean the number of *classes* taken *per semester[[*]] is the variable"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.367,
+     "text": "… she get?\"⏎        Sometimes people might interpret \"change\" as the amount *[[she]] received* ("
+    },
+    {
+     "act": -0.344,
+     "text": "… ( 2004 ) , Churchill traces the history of removing American Indian[[ children]] from their homes"
+    },
+    {
+     "act": -0.328,
+     "text": "…157 men from the 3rd Provisional Marine Brigade ( the U[[.S]]. 7"
+    },
+    {
+     "act": -0.316,
+     "text": "…huang , 包背裝 ) style , in which the folio pages[[ are]] folded , stacked"
+    },
+    {
+     "act": -0.297,
+     "text": "… of the students failed\" confirms we need to find the number of students who did[[ not]] receive A,"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.539,
+     "text": "…ua , 饾板印刷 ) . This system made use of multiple blocks[[ ,]] each carved with"
+    },
+    {
+     "act": 0.451,
+     "text": "… from each of the city 's five wards , considered single @-@ member[[ districts]] . The mayor"
+    },
+    {
+     "act": 0.439,
+     "text": "… four @-@ spored . The pleurocystidia ( cystidia[[ on]] the gill"
+    },
+    {
+     "act": 0.41,
+     "text": "… term that has not been precisely translated but that implies something akin to \" high king[[ \"]] . ⏎ The"
+    },
+    {
+     "act": 0.402,
+     "text": "… the sum of the *total* vacation count and the *total* class count[[.]]⏎    *"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.35,
+     "text": "…4 times more games than Neil, it means the total number of games Henry has[[ is]] 4 times"
+    },
+    {
+     "act": -0.334,
+     "text": "… broadcast , meaning that 5 @.@ 4 percent of households in the United[[ States]] viewed the episode"
+    },
+    {
+     "act": -0.322,
+     "text": "…) = 6.⏎        *   $H_{current}$ (games[[ Henry]] has) ="
+    },
+    {
+     "act": -0.309,
+     "text": "… Henry had) = ?⏎        *   $H_{given}$ (games[[ Henry]] gave) ="
+    },
+    {
+     "act": -0.293,
+     "text": "… that was the federal government 's first use of \" blood quantum \" to define[[ individual]] membership in tribes"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N39",
+  "band": "middle",
+  "layer": 11,
+  "neuron": 2169,
+  "stats": {
+   "max": 0.855,
+   "min": -0.715,
+   "mean": -0.0064
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.855,
+     "text": "… of Marco Polo . Although the Burmese chronicles have no record of the[[ border]] war , a"
+    },
+    {
+     "act": 0.49,
+     "text": "… VHS and DVD entitled Around the World . The VHS featured performances from Tokyo[[ Dome]] , Aloha"
+    },
+    {
+     "act": 0.477,
+     "text": "… \" ' Dolphin noise ' you too ! \" during the Eels and Escal[[ators]] game . It"
+    },
+    {
+     "act": 0.434,
+     "text": "… power on the primary generator , which happened during filming . ⏎ The depiction of the[[ police]] attempting to shut"
+    },
+    {
+     "act": 0.416,
+     "text": "… school textbook prices , a reform both he and Goebel had advocated during the gubern[[atorial]] campaign . However"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.715,
+     "text": "… they had been told that it would involve six films shot in Los Angeles . Warner[[ Bros]]. instead offered"
+    },
+    {
+     "act": -0.535,
+     "text": "…olta was to appear on Gottschalk 's programme , and asked the Z[[DF]] TV station to"
+    },
+    {
+     "act": -0.52,
+     "text": "… United Kingdom , Iceland , and Cádiz , Spain . Other locations included Pinewood[[ Studios]] ' 0"
+    },
+    {
+     "act": -0.512,
+     "text": "…ennertz recorded the soundtrack at The Village recording studio in West Los Angeles and Capitol[[ Records]] . Lenn"
+    },
+    {
+     "act": -0.486,
+     "text": "… minority , so the unilateral declaration went unrecognised internationally . Britain and the United[[ Nations]] imposed economic sanctions"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.719,
+     "text": "… American forces faced each other across the channel , engaging in occasional and largely inconsequential[[ cannon]] fire at long"
+    },
+    {
+     "act": 0.484,
+     "text": "… booming automobile industry in the 1920s . Even through the stock[[ market]]"
+    },
+    {
+     "act": 0.443,
+     "text": "… maze in spin attack . Although the player earns a continue with each 50[[ rings]] found , their"
+    },
+    {
+     "act": 0.432,
+     "text": "… 's defeat at Ngasaunggyan . The Mongol accounts of the[[ border]] war contain certain"
+    },
+    {
+     "act": 0.412,
+     "text": "…@ judicial immunity \" . In February 2010 , Churchill appealed the[[ judge]] 's decision"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.605,
+     "text": "… most popular song from the album . In 2010 , American sports[[ network]] ESPN used the"
+    },
+    {
+     "act": -0.523,
+     "text": "… vote of his home county in the general election , and Beckham 's native Nelson[[ County]] was already committed"
+    },
+    {
+     "act": -0.516,
+     "text": "… their personalities on the music . \" In addition , the article reported that Syco[[ Records]] was working on"
+    },
+    {
+     "act": -0.494,
+     "text": "… seeking missile hit the plane 's starboard wing and exploded , causing the inner[[ engine]] to also explode"
+    },
+    {
+     "act": -0.484,
+     "text": "… This had little effect , though later the Spanish recovered at least 450[[ cannon]]balls from different"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N40",
+  "band": "late",
+  "layer": 19,
+  "neuron": 2746,
+  "stats": {
+   "max": 2.016,
+   "min": -1.344,
+   "mean": 0.0369
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.016,
+     "text": "… modifications to the reaction focused on remedying its issues continue to be an active area[[ of]] academic research ."
+    },
+    {
+     "act": 1.117,
+     "text": "… for elimination , various products are often observed as mixtures . This is highly undesirable[[ from]] an efficiency standpoint"
+    },
+    {
+     "act": 0.777,
+     "text": "… sword @-@ fight ) , Bond is invited by Graves to Iceland for a[[ scientific]] demonstration . Shortly"
+    },
+    {
+     "act": 0.715,
+     "text": "… development of an enantioselective Nazarov cyclization is a desirable addition[[ to]] the repertoire of"
+    },
+    {
+     "act": 0.598,
+     "text": "… divided on the appropriate level of sanctions . The Standing Committee on[[ Research]] Misconduct accepted"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.344,
+     "text": "…ae 's spectrum . The planet 's existence was announced in January 1[[9]]97 ,"
+    },
+    {
+     "act": -1.133,
+     "text": "…es an elimination reaction to lose a β @-@ hydrogen . Subsequent t[[aut]]omerization of"
+    },
+    {
+     "act": -1.0,
+     "text": "… esteemed programmer Yuji Naka , who had impressed them through his work on Ph[[antasy]] Star and the"
+    },
+    {
+     "act": -0.863,
+     "text": "… with 51 Pegasi b ) was deemed a candidate for direct imaging by[[ Planet]]pol . Prel"
+    },
+    {
+     "act": -0.84,
+     "text": "… attempted murder , arson , wiretapping and the 1984 bi[[ot]]error attack in"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.203,
+     "text": "… = ⏎ The shortcomings noted above limit the usefulness of the Nazarov cyclization reaction[[ in]] its canonical form"
+    },
+    {
+     "act": 1.117,
+     "text": "… mechanistic pathway . ⏎ The success of the Nazarov cyclization as a tool[[ in]] organic synthesis stems"
+    },
+    {
+     "act": 0.77,
+     "text": "… enantioselective variants of various kinds have been developed . The sheer volume[[ of]] literature on the"
+    },
+    {
+     "act": 0.637,
+     "text": "…ates for total synthesis . The reaction has been used in several total syntheses and[[ several]] reviews have been"
+    },
+    {
+     "act": 0.594,
+     "text": "… to decolorize synthetic dyes that are used in the textile , plastics ,[[ biomedical]] and foodstuff"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.297,
+     "text": "…97 , together with 55 Cancri b and the planet orbiting[[ Tau]] Boötis"
+    },
+    {
+     "act": -1.039,
+     "text": "… extensively above , the typical course for this intermediate is elimination followed by enolate t[[aut]]omerization ."
+    },
+    {
+     "act": -0.926,
+     "text": "… the cyclization . Almost all of the attempts are based on the idea of tor[[qu]]oselectivity"
+    },
+    {
+     "act": -0.855,
+     "text": "… 's suffrage . The amendment failed on February 10 , 1[[9]]19 ,"
+    },
+    {
+     "act": -0.785,
+     "text": "… October 1985 by federal law enforcement officials that Leslie L. Z[[ait]]z , an"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N41",
+  "band": "late",
+  "layer": 20,
+  "neuron": 1860,
+  "stats": {
+   "max": 1.156,
+   "min": -1.156,
+   "mean": -0.0226
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.156,
+     "text": "… southern tip and surrounded on[[ three]] sides by thick"
+    },
+    {
+     "act": 0.895,
+     "text": "… \" he has made me a better man , as a moral agent and as a[[ per]]ceiving organism \""
+    },
+    {
+     "act": 0.855,
+     "text": "… come through very well in translation \" — p. ix ) . One extreme on[[ each]] issue is represented"
+    },
+    {
+     "act": 0.828,
+     "text": "… . These pyramids are flat @-@ topped and have stairways on all[[ four]] sides . A"
+    },
+    {
+     "act": 0.801,
+     "text": "… inspiration . Kurztman explained , \" While we make sure that our episodes are[[ self]] @-@"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.156,
+     "text": "…Let $S$ be a region in[[ the]] plane with area"
+    },
+    {
+     "act": -0.898,
+     "text": "… stylistic and thematic shifts \" in poems which enable the poet to represent different facets[[ of]] a situation ,"
+    },
+    {
+     "act": -0.797,
+     "text": "…cologist Elias Magnus Fries in 1838 , it was assigned[[ its]] current name in"
+    },
+    {
+     "act": -0.746,
+     "text": "… two blue and two green marbles. What is the probability that one marble of[[ each]] color is selected"
+    },
+    {
+     "act": -0.707,
+     "text": "… Taxonomic history = = ⏎ Homarus gammarus was first given a bin[[omial]] name by Carl"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.93,
+     "text": "… texts and royal portraits . The North Acropolis continued to receive burials into the[[ Post]]classic Period ."
+    },
+    {
+     "act": 0.871,
+     "text": "…. She needs 120 credits to graduate. If each class is [[3]] credits, how"
+    },
+    {
+     "act": 0.855,
+     "text": "… Linda Ronstadt , Leon Russell , Nancy Sinatra , Johnny Winter , and The By[[r]]ds . ⏎"
+    },
+    {
+     "act": 0.824,
+     "text": "… sacrificial victims were intact . ⏎ Burial 85 dates to the Late[[ Pre]]classic and was"
+    },
+    {
+     "act": 0.789,
+     "text": "… Matthews entered a guilty plea and was convicted in federal court , she was sentenced to[[ five]] years in prison"
+    }
+   ],
+   "negative": [
+    {
+     "act": -0.902,
+     "text": "… printing methods to obtain gradations of colour in the images , rather than obvious outlines[[ or]] overlaps . The"
+    },
+    {
+     "act": -0.809,
+     "text": "…        *   Usually, in these problems, \"received an A\" implies the[[ specific]] grade. If"
+    },
+    {
+     "act": -0.766,
+     "text": "… on calligraphy , poetry and art ; medical textbooks ; books on etymology and[[ phon]]etics ; and"
+    },
+    {
+     "act": -0.719,
+     "text": "…95 , as determined by Direction 51 of the International Commission on Zo[[ological]] Nomenclature"
+    },
+    {
+     "act": -0.707,
+     "text": "… . The mechanism may be similar to that responsible for the activity of RS Canum[[ Ven]]aticorum variable"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N42",
+  "band": "late",
+  "layer": 19,
+  "neuron": 1704,
+  "stats": {
+   "max": 4.688,
+   "min": -1.43,
+   "mean": -0.0055
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 4.688,
+     "text": "… The first casualties occurred soon after at Sunnyside on 1 January [[1]]900"
+    },
+    {
+     "act": 3.75,
+     "text": "… from INTERFET to UNTAET was completed on 28 February [[2]]000"
+    },
+    {
+     "act": 3.453,
+     "text": "…    *   But he washed on the 8th, 9th,[[ ]]10th"
+    },
+    {
+     "act": 3.094,
+     "text": "…69 \" Paul Is Dead \" hoax . The latter rumour circulated during September[[ and]] October of that"
+    },
+    {
+     "act": 2.828,
+     "text": "… (total), he spends $20.⏎    *   Remaining: $[[2]]0.⏎"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.43,
+     "text": "…TS and operated Supermarine Southampton flying boats and de Havilland Gipsy[[ Mo]]th floatplanes"
+    },
+    {
+     "act": -1.18,
+     "text": "… greatly in its timbre , ( \" he sighs ; he[[ mo]]ans ; he"
+    },
+    {
+     "act": -0.891,
+     "text": "… modernist and neoclassical works by Arnold Schoenberg , Darius Mil[[ha]]ud , Bé"
+    },
+    {
+     "act": -0.828,
+     "text": "…els:** 18.⏎    *   **Wash Cycle:** Every[[ ]]7 days ("
+    },
+    {
+     "act": -0.805,
+     "text": "… the sum of all positive integers less than 100 that are squares of[[ perfect]] squares?"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 4.375,
+     "text": "… 94$⏎        *   $94 + 6 = [[1]]00$"
+    },
+    {
+     "act": 3.734,
+     "text": "….\" -> Total = 40. Half = 20. Remaining =[[ ]]20."
+    },
+    {
+     "act": 3.375,
+     "text": "…baked) + 1 (eaten) = 5. Left =[[ ]]4.⏎"
+    },
+    {
+     "act": 2.891,
+     "text": "… for only 124 yards . ⏎ = = = = 20[[1]]0 season ="
+    },
+    {
+     "act": 2.75,
+     "text": "… . Four infantry divisions were formed during 1939 and 19[[4]]0 , three"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.289,
+     "text": "… never actually killed anyone , having been imprisoned for bootlegging the film Snow Falling[[ on]] Cedars ."
+    },
+    {
+     "act": -1.055,
+     "text": "… them , and Ozawa ordered them to reverse course and head for Amami �[[�]]shima . When"
+    },
+    {
+     "act": -0.859,
+     "text": "…250 Japanese troops remained behind to guard the brigade 's supply base at[[ Ta]]ivu . ⏎"
+    },
+    {
+     "act": -0.809,
+     "text": "… and in the 2011 Broadway revival of the musical How to S[[ucceed]] in Business Without"
+    },
+    {
+     "act": -0.801,
+     "text": "… 4 hours a day from Monday to Friday, and 6 hours a day[[ on]] Saturday and Sunday"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N43",
+  "band": "late",
+  "layer": 20,
+  "neuron": 2713,
+  "stats": {
+   "max": 2.938,
+   "min": -3.109,
+   "mean": 0.0312
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.938,
+     "text": "… for a last encounter with Robotnik . ⏎ The player begins with three lives ([[ power]] @-@"
+    },
+    {
+     "act": 1.727,
+     "text": "… for really knocking this one out of the park . \" Jenna Busch of Zap[[2]]it and Kelly"
+    },
+    {
+     "act": 1.555,
+     "text": "…0 when he returns to the checkpoint . If all lives are lost at any point[[ in]] the game ,"
+    },
+    {
+     "act": 1.383,
+     "text": "… trapped animals . Although destroying a robot frees the animal within , this is not required[[ to]] complete the game"
+    },
+    {
+     "act": 1.305,
+     "text": "… different vehicle each time ) in a boss fight . After the sixth zone , the[[ player]] continues directly to"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.109,
+     "text": "… June 13 , 2013 , and included as an unlock[[able]] game in Sonic"
+    },
+    {
+     "act": -2.312,
+     "text": "… His designs for levels were intended to attract both hardcore and casual gamers by integrating occasional[[ challenging]] set pieces into"
+    },
+    {
+     "act": -2.141,
+     "text": "… fight . After the sixth zone , the player continues directly to the Final Zone for[[ a]] last encounter with"
+    },
+    {
+     "act": -2.078,
+     "text": "… day . The port features widescreen graphics , the optional ability to spin dash ,[[ a]] time attack mode"
+    },
+    {
+     "act": -1.797,
+     "text": "… the special stages that was considered impossible on the console . The team intended to add[[ a]] two @-"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 2.891,
+     "text": "… characters in the series , and referred to him as \" the poster child for any[[ card]] @-@"
+    },
+    {
+     "act": 1.672,
+     "text": "… fifteenth anniversary . It included several new features , such as the ability to save[[ game]] progress , a"
+    },
+    {
+     "act": 1.438,
+     "text": "… leader when assigned to lead a team in order to retrieve Sasuke Uchiha[[ and]] agreed that the"
+    },
+    {
+     "act": 1.359,
+     "text": "… , the game over screen will appear ( when the player can return to the beginning[[ of]] the act with"
+    },
+    {
+     "act": 1.289,
+     "text": "… that Sonic would be controlled with only a directional pad for movement and a single button[[ for]] jumping . He"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.031,
+     "text": "… in United States to mark the game 's fifteenth anniversary . It included several[[ new]] features , such"
+    },
+    {
+     "act": -2.234,
+     "text": "… by integrating occasional challenging set pieces into the mostly accessible level design . The game '[[s]] color scheme was"
+    },
+    {
+     "act": -2.141,
+     "text": "…ikamaru is a playable character in nearly all Naruto video games , including the[[ Clash]] of Ninja series"
+    },
+    {
+     "act": -2.016,
+     "text": "… similar to the 16 @-@ bit version , with different level themes[[ and]] digital assets ."
+    },
+    {
+     "act": -1.75,
+     "text": "… save game progress , a level select option , and an Anniversary Mode with the Spin[[ Dash]] move ( not"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N44",
+  "band": "late",
+  "layer": 19,
+  "neuron": 726,
+  "stats": {
+   "max": 5.25,
+   "min": -9.562,
+   "mean": -0.0208
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 5.25,
+     "text": "…frac{1}{2})$⏎        *   $516 \\[[times]] \\frac{"
+    },
+    {
+     "act": 4.062,
+     "text": "…$ (Frequency).⏎        *   $D_{total} = 3[[ \\]]times (1"
+    },
+    {
+     "act": 3.953,
+     "text": "…times \\frac{1}{2}$⏎        *   $516[[ \\]]times \\frac"
+    },
+    {
+     "act": 3.547,
+     "text": "… Remaining students = 24.⏎        *   Number of B or C[[ =]] $\\frac{"
+    },
+    {
+     "act": 3.438,
+     "text": "… \\frac{1}{4}$.⏎        *   Number of A =[[ $\\]]frac{1"
+    }
+   ],
+   "negative": [
+    {
+     "act": -9.562,
+     "text": "…80 roses in her garden. Three-fourths of her roses are red,[[ one]]-fourth of"
+    },
+    {
+     "act": -8.812,
+     "text": "… are 516 cars in a parking lot. One-third are blue,[[ one]]-half are red"
+    },
+    {
+     "act": -7.625,
+     "text": "… lot.⏎    *   **Properties:**⏎        *   Blue cars:[[ One]]-third of the"
+    },
+    {
+     "act": -7.156,
+     "text": "…   Remaining: $20.⏎        *   Spend 25%[[ (]]quarter): $"
+    },
+    {
+     "act": -6.375,
+     "text": "…,@ 593 m ) above sea level and is located in Nevada about[[ one]] mile south of"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 4.75,
+     "text": "…One-third\" and \"One-half\" conditions:**⏎    *   $B[[ =]] \\frac{"
+    },
+    {
+     "act": 3.953,
+     "text": "…} = 1$.⏎    *   $\\text{Black} = [[1]] - \\frac"
+    },
+    {
+     "act": 3.828,
+     "text": "…/3 are Blue.⏎    *   Calculation: $516 \\[[times]] \\frac{"
+    },
+    {
+     "act": 3.5,
+     "text": "…frac{1}{6}$.⏎    *   Number of Black cars =[[ $\\]]frac{1"
+    },
+    {
+     "act": 3.406,
+     "text": "… students = 24.⏎        *   $B + C$ count[[ =]] $\\frac{"
+    }
+   ],
+   "negative": [
+    {
+     "act": -9.188,
+     "text": "… cm, and $DE = DF$. The area of triangle $DEF$ is[[ one]]-fourth the"
+    },
+    {
+     "act": -8.625,
+     "text": "…⏎    *   Let's re-read carefully. \"One-third are blue,[[ one]]-half are red"
+    },
+    {
+     "act": -7.25,
+     "text": "… interpretation is $1/3$ of the total population.⏎    Could \"[[one]]-half are red"
+    },
+    {
+     "act": -6.781,
+     "text": "…Renaldo drove 15 kilometers. Ernesto drove 7 kilometers more than[[ one]]-third of Ren"
+    },
+    {
+     "act": -6.25,
+     "text": "… (referring to the $40).⏎        *   \"spends[[ a]] quarter of what"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N45",
+  "band": "late",
+  "layer": 20,
+  "neuron": 633,
+  "stats": {
+   "max": 3.438,
+   "min": -6.406,
+   "mean": 0.0247
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 3.438,
+     "text": "… Ian Smith , to unilaterally declare independence from the United Kingdom on 1[[1]] November 1"
+    },
+    {
+     "act": 3.266,
+     "text": "… ⏎ Shortly after the Islamist inspired terrorist attacks in New York and Washington on 1[[1]] September 2"
+    },
+    {
+     "act": 3.219,
+     "text": "…123 . ⏎ At 21 : 30 on 1[[2]] September , the"
+    },
+    {
+     "act": 3.125,
+     "text": "… Simpsons . It originally aired on the Fox network in the United States on March [[4]] , 2"
+    },
+    {
+     "act": 3.125,
+     "text": "… command of all the Japanese troops on Guadalcanal . On the night of [[4]] / 5"
+    }
+   ],
+   "negative": [
+    {
+     "act": -6.406,
+     "text": "…82 = 60,000 \\times (82/[[1]]00)"
+    },
+    {
+     "act": -4.5,
+     "text": "…18 = 60,000 \\times (18/[[1]]00)"
+    },
+    {
+     "act": -3.734,
+     "text": "… ⏎ \" Where the Streets Have No Name \" is played at a tempo of [[1]]26 beats"
+    },
+    {
+     "act": -3.188,
+     "text": "… $60,000 \\times 0.02 = [[1]],20"
+    },
+    {
+     "act": -3.094,
+     "text": "… aggregate Metacritic gave the film a score of 57 out of [[1]]00 ,"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 3.297,
+     "text": "… Filming = = = ⏎ Principal photography of Die Another Day began on 1[[1]] January 2"
+    },
+    {
+     "act": 3.25,
+     "text": "… water pipeline could be constructed from the Suez Canal . Rafa was captured on [[9]] January 1"
+    },
+    {
+     "act": 3.156,
+     "text": "… for \" Blindman \" took place at Apple on 18 – 1[[9]] August , with"
+    },
+    {
+     "act": 3.125,
+     "text": "… and the Transvaal Republic under President Paul Kruger declared war on 1[[1]] October 1"
+    },
+    {
+     "act": 3.109,
+     "text": "… 1978 = = = ⏎ At a memorial service held on [[8]] September 1"
+    }
+   ],
+   "negative": [
+    {
+     "act": -6.188,
+     "text": "… . It is set in common time with a moderately fast dance groove tempo of [[1]]32 beats"
+    },
+    {
+     "act": -3.891,
+     "text": "…0.8 \\times 1,000 = 10,[[8]]00$."
+    },
+    {
+     "act": -3.312,
+     "text": "… 516 = 516 + 516 = [[1]]032"
+    },
+    {
+     "act": -3.188,
+     "text": "…75 metres per second ( 2 @,@ 530 – [[2]] @,@ "
+    },
+    {
+     "act": -3.062,
+     "text": "…10 rows with 15 spaces each\", that's a total of [[1]]50 spaces"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N46",
+  "band": "late",
+  "layer": 20,
+  "neuron": 3471,
+  "stats": {
+   "max": 0.691,
+   "min": -1.609,
+   "mean": 0.0029
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.691,
+     "text": "… killings , the prosecution of Leonard Peltier , sports mascots , the Indian[[ Arts]] and Crafts Act"
+    },
+    {
+     "act": 0.613,
+     "text": "…amos . ⏎ Asahi 's main battery consisted of the same four Elswick[[ Ordn]]ance Company "
+    },
+    {
+     "act": 0.551,
+     "text": "… of sixteen capital ships . ⏎ The launch of HMS Dreadnought in 1[[9]]06 by"
+    },
+    {
+     "act": 0.52,
+     "text": "… unlockable game in Sonic Adventure DX : Director 's Cut for GameCube and[[ Windows]] and Sonic Mega"
+    },
+    {
+     "act": 0.49,
+     "text": "… same year . Her displacement dropped to 11 @,@ 441[[ long]] tons ( "
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.609,
+     "text": "… , including P K van der Byl , the co @-@ Minister of[[ Foreign]] Affairs . ⏎"
+    },
+    {
+     "act": -1.078,
+     "text": "… the East Indies , and disruption of this financial system could have profound effects on regional[[ trade]] ; but British"
+    },
+    {
+     "act": -0.871,
+     "text": "… It also says \"In it, Pauline has planted 3 kinds of cuc[[um]]bers - "
+    },
+    {
+     "act": -0.824,
+     "text": "… . ⏎ The common name for H. gammarus preferred by the Food and[[ Agriculture]] Organization is \""
+    },
+    {
+     "act": -0.762,
+     "text": "… Response:**⏎⏎    *   *Step 1: Savory[[ Sou]]fflés*"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.668,
+     "text": "… seven percent share . This was a slight decrease from the previous episode , \" At[[ Long]] Last Leave \""
+    },
+    {
+     "act": 0.57,
+     "text": "… Tuscaloosa , Alabama , eventually terminating in Florence , South Carolina . Interstate[[ ]]59 ⏎"
+    },
+    {
+     "act": 0.543,
+     "text": "… for the freeway system . The proposed number in 1958 was Interstate[[ ]]75 ("
+    },
+    {
+     "act": 0.5,
+     "text": "… the following months , attacking both ZIPRA and its rival , the Zimbabwe African National[[ Liberation]] Army ( Z"
+    },
+    {
+     "act": 0.486,
+     "text": "… , the John Fitch Parkway , that was to run from Hamilton Township to Interstate[[ ]]95 in"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.344,
+     "text": "… product placement was dropped to eight for the next Bond film Casino Royale in 2[[0]]06 ."
+    },
+    {
+     "act": -0.992,
+     "text": "… Kirche Deutschland e.V. Germany 's domestic intelligence service , the Bundesamt für[[ Ver]]fassungsschutz"
+    },
+    {
+     "act": -0.871,
+     "text": "… in the German constitution . The BfV domestic intelligence service ( Bundesamt für[[ Ver]]fassungsschutz"
+    },
+    {
+     "act": -0.801,
+     "text": "…55 . In November he was posted to RAAF[[ Overse]]as Headquarters ,"
+    },
+    {
+     "act": -0.738,
+     "text": "… named Miles \" Tails \" Prower and continued the fight against Dr.[[ Robot]]nik . Sonic"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N47",
+  "band": "late",
+  "layer": 19,
+  "neuron": 3191,
+  "stats": {
+   "max": 3.906,
+   "min": -4.375,
+   "mean": 0.0102
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 3.906,
+     "text": "… . For the opening weekend , the film took in a total of $ 2[[8]] @,@ "
+    },
+    {
+     "act": 3.406,
+     "text": "… costs . Funding was sourced from a European Regional Development Fund contribution of £ 7[[0]]0 @,@"
+    },
+    {
+     "act": 3.188,
+     "text": "… Sonic the Hedgehog has been a commercial success ; the original Genesis version sold over[[ ]]15 million"
+    },
+    {
+     "act": 2.906,
+     "text": "… a true story , the film attracted widespread media attention and a viewership of [[8]] @.@ "
+    },
+    {
+     "act": 2.75,
+     "text": "… only daily newspaper since 1921 . With a daily circulation of about[[ ]]12 @"
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.375,
+     "text": "… that they would not be got to face the foe , but always swerved and[[ turned]] back , \""
+    },
+    {
+     "act": -3.188,
+     "text": "… , according to which Nosek fell onto his back from the beginning and did not[[ turn]] during the fall"
+    },
+    {
+     "act": -3.031,
+     "text": "…s request on the May 22 episode of Impact ! , leading to Angle[[ turning]] on and assaulting"
+    },
+    {
+     "act": -2.719,
+     "text": "… number of determined counterattacks over the course of the following week , although these were[[ turned]] back . During"
+    },
+    {
+     "act": -2.609,
+     "text": "…34 left him distraught and his wife opposed to another campaign . The Democrats[[ turned]] to A."
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 3.703,
+     "text": "…ing James Bond film until the release of Casino Royale . It earned $ 4[[3]]2 million worldwide"
+    },
+    {
+     "act": 3.281,
+     "text": "…011 . The film exceeded financial expectations , accruing over $ 2[[8]] million in the"
+    },
+    {
+     "act": 2.969,
+     "text": "… Roses in 1990 . The film grossed over $ 2[[0]]9 million worldwide"
+    },
+    {
+     "act": 2.812,
+     "text": "…4 Kampon Ro Gō water @-@ tube boilers at working pressures of[[ ]]13 –"
+    },
+    {
+     "act": 2.734,
+     "text": "… , a stable boy who has an obsession with horses . Advance sales topped £ [[1]] @.@ "
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.5,
+     "text": "… the film does have comes instead from the inordinate quantity of swearing , plus a[[ sm]]attering of hom"
+    },
+    {
+     "act": -3.078,
+     "text": "… landings with the mission of recapturing the airfield and driving the Allied[[ forces]] from the island"
+    },
+    {
+     "act": -2.766,
+     "text": "… Chris Columbus could have found a better Harry . \" Radcliffe 's parents originally[[ turned]] down the offer"
+    },
+    {
+     "act": -2.688,
+     "text": "… \" . ⏎ = = Reactions = = ⏎ = = = White Rhodesians[[ turn]] against blacks ="
+    },
+    {
+     "act": -2.594,
+     "text": "… DC : the first recounts the fact that during the trip , Lead Belly was \"[[ turned]] down \" wherever"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N48",
+  "band": "late",
+  "layer": 20,
+  "neuron": 168,
+  "stats": {
+   "max": 1.93,
+   "min": -8.125,
+   "mean": -0.0394
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.93,
+     "text": "… ZANLA 's aid in the form of nine Soviet @-@ made[[ T]] @-@"
+    },
+    {
+     "act": 1.828,
+     "text": "…2 ) , a film starring Bolan that included Starr 's footage of a[[ T]]. Rex concert"
+    },
+    {
+     "act": 1.664,
+     "text": "… summer , producing eggs which are carried by the females for up to a year before[[ h]]atching into plank"
+    },
+    {
+     "act": 1.539,
+     "text": "….For visiting yachts the four main voes provide good shelter , but the strong[[ t]]ides in both"
+    },
+    {
+     "act": 1.438,
+     "text": "… Lambaness , Sula Stack , Swat Skerry , The Horn ,[[ T]]iptans Sk"
+    }
+   ],
+   "negative": [
+    {
+     "act": -8.125,
+     "text": "…25.⏎        *   Add Found: $0.50.[[⏎]]            *  "
+    },
+    {
+     "act": -7.812,
+     "text": "… Step 4 (Simpler):** Calculate the fraction of black cars directly.[[⏎]]    *  "
+    },
+    {
+     "act": -7.781,
+     "text": "…25 - $1.60⏎    *   *Calculation:*[[⏎]]        *  "
+    },
+    {
+     "act": -7.469,
+     "text": "… and then sum them up.⏎⏎    1.  **Big Boxes:**[[⏎]]        *  "
+    },
+    {
+     "act": -7.375,
+     "text": "…-step calculation:⏎⏎1.  **Calculate eggs needed for savory soufflés:**[[⏎]]    *  "
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.891,
+     "text": "… , and its deployment to New Zealand in 1860 during the First[[ T]]aranaki War"
+    },
+    {
+     "act": 1.781,
+     "text": "… Midnight \" , playing an intergalactic Hostess alongside David Tennant 's[[ T]]enth Doctor ."
+    },
+    {
+     "act": 1.555,
+     "text": "… is also a Devonian fish bed at Lamba Banks . There are numerous large[[ b]]oulders deposited"
+    },
+    {
+     "act": 1.461,
+     "text": "… Phoenix International Raceway , winning the Formula Super Vee support event in a Lola[[ T]]620"
+    },
+    {
+     "act": 1.43,
+     "text": "…ically operated aircraft lift that brought the aircraft up from the hangar below on the[[ t]]rolleys used"
+    }
+   ],
+   "negative": [
+    {
+     "act": -8.0,
+     "text": "…75.⏎        *   Subtract Cost: $1.60.[[⏎]]            *  "
+    },
+    {
+     "act": -7.781,
+     "text": "… 2. Add money received.⏎            3. Subtract money found.[[⏎]]            4"
+    },
+    {
+     "act": -7.531,
+     "text": "…1: Subtract 5 from both sides to isolate the term with $C$.[[⏎]]        *  "
+    },
+    {
+     "act": -7.469,
+     "text": "…{ eggs}$.⏎    *   Step 3: Add the totals.[[⏎]]        *  "
+    },
+    {
+     "act": -7.312,
+     "text": "….25 + $0.50.⏎        *   Calculation:[[⏎]]            *  "
+    }
+   ]
+  }
+ },
+ {
+  "id": "N49",
+  "band": "late",
+  "layer": 22,
+  "neuron": 1581,
+  "stats": {
+   "max": 10.062,
+   "min": -2.125,
+   "mean": -0.0221
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 10.062,
+     "text": "… times per week.⏎    *   *Total Hours per Week:* $2[[ \\]]text{ hours"
+    },
+    {
+     "act": 9.312,
+     "text": "… = 24.⏎        *   Failed students = $24 -[[ (\\]]text{B"
+    },
+    {
+     "act": 8.875,
+     "text": "…'s experience at that time ($J_{old}$) = $2 \\times[[ (\\]]text{James"
+    },
+    {
+     "act": 8.625,
+     "text": "… Classes} = \\frac{120}{3} = 40[[ \\]]text{ classes"
+    },
+    {
+     "act": 8.5,
+     "text": "…    *   Total cost for the wire = $20,000[[ \\]]times 3"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.125,
+     "text": "… Collegeinsider.com Freshmen All @-@ America and Team USA FIBA[[ U]]19 hon"
+    },
+    {
+     "act": -1.773,
+     "text": "… Admiralty . More might have been achieved with reinforcements : Historian C. North[[c]]ote Parkinson suggests"
+    },
+    {
+     "act": -1.414,
+     "text": "… a row . Michigan entered the 2012 NCAA Men 's Division[[ I]] Basketball Tournament seeded"
+    },
+    {
+     "act": -1.398,
+     "text": "…09 . He rushed for two touchdowns in Week 4 , being named the[[ Canadian]] Player of the"
+    },
+    {
+     "act": -1.375,
+     "text": "… of end moraines , and Turquoise Lake was created by the manmade Sugar[[ Lo]]af Dam ."
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 9.5,
+     "text": "…Step 1: Calculate dolls in big boxes.**⏎        *   $5[[ \\]]text{ big"
+    },
+    {
+     "act": 9.125,
+     "text": "… as Kelvin has classes.\"⏎            *   $G = 4 \\times[[ (\\]]text{Kel"
+    },
+    {
+     "act": 8.625,
+     "text": "…: 2 times per week.⏎        *   Calculation: $40[[ \\]]text{ hours"
+    },
+    {
+     "act": 8.562,
+     "text": "… Determine the eggs needed for the savory soufflés.⏎        *   $3[[ \\]]text{ souff"
+    },
+    {
+     "act": 8.312,
+     "text": "… \"Triple the number of shark sightings as Cape May\" -> $3 \\times[[ (\\]]text{C"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.016,
+     "text": "…@ 10 record . The team won the school 's first Big Ten[[ Conference]] Championship since the"
+    },
+    {
+     "act": -1.477,
+     "text": "… . As a part of the invasion force under the UN Supreme Commander , General Douglas[[ Mac]]Arthur , the"
+    },
+    {
+     "act": -1.398,
+     "text": "…8 , a spur route , Route S29 , was created , running along[[ U]].S. Route"
+    },
+    {
+     "act": -1.383,
+     "text": "…985 – 86 season and had the school 's best Big[[ Ten]] record ( "
+    },
+    {
+     "act": -1.352,
+     "text": "… , with two soldiers accidentally killed , while a third Australian died serving with the British[[ Royal]] Air Force ."
+    }
+   ]
+  }
+ },
+ {
+  "id": "N50",
+  "band": "late",
+  "layer": 20,
+  "neuron": 2031,
+  "stats": {
+   "max": 1.562,
+   "min": -1.18,
+   "mean": -0.0032
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.562,
+     "text": "… 2007 . Radcliffe 's performance received positive reviews as critics[[ were]] impressed by the"
+    },
+    {
+     "act": 1.367,
+     "text": "… , between September and November 1917 . Individual actions took place at[[ Men]]in Road ,"
+    },
+    {
+     "act": 1.242,
+     "text": "… \" killer cast \" , with specific credit given to Bateman and Day , but[[ was]] critical of the"
+    },
+    {
+     "act": 1.102,
+     "text": "… and Roberto Orci , and executive producer Jeff Pinkner wrote the episode . Paul[[ A]]. Edwards served"
+    },
+    {
+     "act": 1.07,
+     "text": "… to the funds was £ 2 @,@ 000 from Hervey[[ Ben]]ham . This"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.18,
+     "text": "… bound to decide on the deed as stated in the indictment ; however , it is[[ not]] bound by its"
+    },
+    {
+     "act": -1.07,
+     "text": "…/Refinement): The prompt asks for \"how many eggs\", so the final[[ answer]] is a single"
+    },
+    {
+     "act": -1.0,
+     "text": "… Set the blood quantum at one @-@ quarter , hold to it as a[[ rigid]] definition of Indians"
+    },
+    {
+     "act": -0.949,
+     "text": "… drowning , being crushed , falling down a bottomless pit or running out of time[[ )]] will cost Sonic"
+    },
+    {
+     "act": -0.84,
+     "text": "… number of black cars.⏎    *   The numbers are integers, so the[[ result]] is an integer"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.477,
+     "text": "… as that of Shakespeare in England : it was hard for any Chinese poet not to[[ be]] influenced by him"
+    },
+    {
+     "act": 1.281,
+     "text": "… an example of what they could expect from the series . It was directed by Paul[[ A]]. Edwards ."
+    },
+    {
+     "act": 1.141,
+     "text": "… for the poor . Literary conservatives could look to his technical mastery , while literary radicals[[ were]] inspired by his"
+    },
+    {
+     "act": 1.094,
+     "text": "…876 , to celebrate the centennial , companies from Savannah , Augusta ,[[ Ma]]con , Columbia"
+    },
+    {
+     "act": 1.062,
+     "text": "… cooler talk — even when the water cooler might be spiked with poison . \" Leonard[[ M]]altin of"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.07,
+     "text": "…93 , he and other local AIM leaders , including Russell Means , Glenn T[[.]] Morris , Robert"
+    },
+    {
+     "act": -1.008,
+     "text": "…lassical works by Arnold Schoenberg , Darius Milhaud , Béla[[ Bart]]ók , and"
+    },
+    {
+     "act": -0.969,
+     "text": "… of the $10 per week allowance?*⏎        *   No, the[[ context]] implies \"after"
+    },
+    {
+     "act": -0.898,
+     "text": "… Final answer is 54.⏎⏎    (Double check the math just to[[ be]] paranoid)⏎"
+    },
+    {
+     "act": -0.828,
+     "text": "… towels in the *previous* week.⏎    If he missed a week,[[ he]] must have washed"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N51",
+  "band": "late",
+  "layer": 20,
+  "neuron": 2387,
+  "stats": {
+   "max": 2.422,
+   "min": -3.0,
+   "mean": 0.0067
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.422,
+     "text": "… seven percent share . This was a slight decrease from the previous episode , \" At[[ Long]] Last Leave \""
+    },
+    {
+     "act": 2.188,
+     "text": "… equivalent strategies pursued by Scientology in other countries and regions of the world – with the[[ long]] @-@"
+    },
+    {
+     "act": 2.062,
+     "text": "… territories in present @-@ day Dehong , Yunnan and northern Burma to[[ Tag]]aung ."
+    },
+    {
+     "act": 1.867,
+     "text": "… for Manchester and Manchester City Council committed itself to working with the artist to reach a[[ long]] @-@"
+    },
+    {
+     "act": 1.68,
+     "text": "… should only be changed peacefully . Likewise , multilateralism , collective security and defence[[ self]] @-@"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.0,
+     "text": "… to interfere with traffic flow during construction , the new interchange was designed largely as elevated[[ fly]]over ramps and"
+    },
+    {
+     "act": -2.938,
+     "text": "… River to reinforce the remnants of the KPA . Undetected by US and[[ South]] Korean intelligence ,"
+    },
+    {
+     "act": -2.75,
+     "text": "… Korean Demilitarized Zone with concentrated sunlight , allowing North Korean troops to invade[[ South]] Korea and reun"
+    },
+    {
+     "act": -2.703,
+     "text": "… the Guadalcanal campaign , but also to Japan 's ultimate defeat throughout the[[ South]] Pacific . ⏎"
+    },
+    {
+     "act": -2.594,
+     "text": "… office when I was running Apple Movies , a big office in town , and the[[ hang]] @-@"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 2.297,
+     "text": "… jingles \" , calling some of the sound effects \" absolutely brilliant \" . Although[[ Mean]] Machines called the"
+    },
+    {
+     "act": 2.094,
+     "text": "…ism , Politics , Culture , Theory , Vol . 4 ed . ) .[[ Mais]]onneuve Press"
+    },
+    {
+     "act": 2.016,
+     "text": "… and the related Rush Health Systems operate a Specialty Hospital of Meridian , which offers[[ long]] @-@"
+    },
+    {
+     "act": 1.688,
+     "text": "…83 – 85 ) later , the Mongols had occupied down to[[ Tag]]aung and"
+    },
+    {
+     "act": 1.68,
+     "text": "… government does not recognize Scientology as a religion . It views it as an abusive business[[ mas]]querading as"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.953,
+     "text": "… , Israel ( $ 200 @,@ 372 ) ,[[ South]] Africa ( $"
+    },
+    {
+     "act": -2.875,
+     "text": "… mostly of small numbers of high @-@ level and technical support troops such as[[ sign]]allers ,"
+    },
+    {
+     "act": -2.75,
+     "text": "…urrets and their supporting structures was generally compensated by the addition of the flight deck ,[[ hang]]ar , AA"
+    },
+    {
+     "act": -2.656,
+     "text": "… The Dakotas were tasked with courier flights , VIP transport and medical evacuations across[[ South]] East Asia ,"
+    },
+    {
+     "act": -2.578,
+     "text": "… as well as in the Czech Republic , Denmark , France , the Netherlands , and[[ South]] Korea . In"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N52",
+  "band": "late",
+  "layer": 20,
+  "neuron": 1949,
+  "stats": {
+   "max": 1.555,
+   "min": -5.125,
+   "mean": -0.0032
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.555,
+     "text": "… the acid catalyst generates a pentadienyl cation which undergoes a therm[[ally]] allowed 4"
+    },
+    {
+     "act": 1.438,
+     "text": "… examination of this process . Nazarov correctly reasoned that the allylic olefin is[[omer]]ized in situ"
+    },
+    {
+     "act": 1.211,
+     "text": "… s @-@ trans conformation so severely that E @-@ Z is[[omer]]ization has been"
+    },
+    {
+     "act": 1.133,
+     "text": "… ⏎ Silicon @-@ directed Nazarov cyclizations can exhibit induced diastere[[ose]]lectivity in"
+    },
+    {
+     "act": 1.086,
+     "text": "… trapping generates a pentacyclic core in one step with complete diastere[[ose]]lectivity ."
+    }
+   ],
+   "negative": [
+    {
+     "act": -5.125,
+     "text": "… observed as mixtures . This is highly undesirable from an efficiency standpoint as ardu[[ous]] separation is typically"
+    },
+    {
+     "act": -4.156,
+     "text": "…l cation \" intercepted \" in various ways . Furthermore , enantioselect[[ive]] variants of various"
+    },
+    {
+     "act": -3.859,
+     "text": "… are often required in order to effect the reaction . This limits the atom economy of[[ the]] reaction . ⏎"
+    },
+    {
+     "act": -3.828,
+     "text": "…rophile in the substrate allows catalytic activation with copper triflate and regioselect[[ive]] elimination . In"
+    },
+    {
+     "act": -3.75,
+     "text": "… @-@ Nazarov reactions in the literature . Even these tend to suffer from[[ poor]] stereoselect"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.477,
+     "text": "… of the enolate is sometimes not stereoselective , meaning that products can[[ be]] formed as mix"
+    },
+    {
+     "act": 1.336,
+     "text": "… the oxyallyl cation \" intercepted \" in various ways . Furthermore , en[[ant]]ioselective"
+    },
+    {
+     "act": 1.18,
+     "text": "… cyclization . Almost all of the attempts are based on the idea of torqu[[ose]]lectivity ;"
+    },
+    {
+     "act": 1.117,
+     "text": "… been developed utilizing chiral auxiliaries and chiral catalysts . Diastere[[ose]]lective cycl"
+    },
+    {
+     "act": 1.07,
+     "text": "…loride to promote the reaction . With bicyclic products , the cis is[[omer]] was selected for"
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.688,
+     "text": "…ates for total synthesis . The reaction has been used in several total syntheses and[[ several]] reviews have been"
+    },
+    {
+     "act": -4.062,
+     "text": "… functional group tolerance , directing the regioselectivity of[[ the]] elimination step ,"
+    },
+    {
+     "act": -3.859,
+     "text": "…ive Nazarov cyclization is a desirable addition to the repertoire of Nazarov cycl[[ization]] reactions . To"
+    },
+    {
+     "act": -3.812,
+     "text": "…phor @-@ based auxiliary for achiral allenes that was employed in[[ the]] first asymmetric synthesis"
+    },
+    {
+     "act": -3.656,
+     "text": "… several syntheses employing the Nazarov cyclization were published . Shown below are[[ key]] steps in the"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N53",
+  "band": "late",
+  "layer": 19,
+  "neuron": 3206,
+  "stats": {
+   "max": 2.844,
+   "min": -3.875,
+   "mean": -0.0175
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.844,
+     "text": "… people from the further west : Turks from Samarkand , Bukhara ,[[ M]]erv and N"
+    },
+    {
+     "act": 2.797,
+     "text": "…000 votes , most of them at Beckham 's expense . Democratic incumbent[[ M]]. M."
+    },
+    {
+     "act": 2.609,
+     "text": "… really , about that . I used to think it was Belfast ... \" Journalist[[ N]]iall Stokes"
+    },
+    {
+     "act": 2.328,
+     "text": "… the Court and the highest authority of renga poetry , asked[[ G]]idō ,"
+    },
+    {
+     "act": 2.25,
+     "text": "…ogunate and propagated Du Fu 's poetry in the mundane world ; one day[[ N]]ijō Yosh"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.875,
+     "text": "… Phoenix International Raceway , winning the Formula Super Vee support event in a Lola[[ T]]620"
+    },
+    {
+     "act": -3.656,
+     "text": "… tempo of 132 beats per minute . Composed in the key of[[ C]] minor , Madonna"
+    },
+    {
+     "act": -3.547,
+     "text": "… the final of the second season of The[[ X]] Factor USA ."
+    },
+    {
+     "act": -3.281,
+     "text": "… and provide a setting for the final scene of Sutherland 's character . A[[ T]].G.I."
+    },
+    {
+     "act": -3.266,
+     "text": "… ZANLA 's aid in the form of nine Soviet @-@ made[[ T]] @-@"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 2.812,
+     "text": "… 18 December 1972 by the newly elected Labor government of[[ G]]ough Whitlam"
+    },
+    {
+     "act": 2.688,
+     "text": "…ager was Beckham 's choice for governor and easily won the early primary over challenger[[ N]].B. H"
+    },
+    {
+     "act": 2.391,
+     "text": "… captive and dragged into the forest before rescuers could arrive . Cooke complained to Sultan[[ K]]ibab Sah"
+    },
+    {
+     "act": 2.25,
+     "text": "… Olympic fencing centre after he stated in an interview that he had enjoyed reading books by[[ L]]. Ron Hubbard"
+    },
+    {
+     "act": 2.25,
+     "text": "… influenced by Du Fu \" in their prefaces . Chūgan 's student[[ G]]idō Sh"
+    }
+   ],
+   "negative": [
+    {
+     "act": -3.766,
+     "text": "… foam and carbon dioxide dispensers as a result of wartime experience . The ' T[[ ']] -shaped"
+    },
+    {
+     "act": -3.562,
+     "text": "… Lars Pearson , in their book Wanting to Believe : A Critical Guide to The[[ X]] @-@"
+    },
+    {
+     "act": -3.328,
+     "text": "…2 ) , a film starring Bolan that included Starr 's footage of a[[ T]]. Rex concert"
+    },
+    {
+     "act": -3.281,
+     "text": "…1 Pegasi b , the first extrasolar planet discovered around a normal star ,[[ U]]psilon Androm"
+    },
+    {
+     "act": -3.125,
+     "text": "… was stored in the magazines originally used for the 14 cm guns and for[[ T]]urret No."
+    }
+   ]
+  }
+ },
+ {
+  "id": "N54",
+  "band": "late",
+  "layer": 20,
+  "neuron": 3564,
+  "stats": {
+   "max": 1.445,
+   "min": -1.281,
+   "mean": -0.0179
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.445,
+     "text": "…ori or part @-@ Māori players joined the squad ; five P[[ā]]kehā ("
+    },
+    {
+     "act": 1.305,
+     "text": "… . It mostly comprised players of Māori ancestry , and also included some P[[ā]]kehā ("
+    },
+    {
+     "act": 1.086,
+     "text": "… , and the segment from the southern M ‑ 35 junction in Esc[[an]]aba to the"
+    },
+    {
+     "act": 1.031,
+     "text": "… chant used in TV commercials ( which reportedly used one @-@ eighth of the[[ memory]] of the four"
+    },
+    {
+     "act": 0.941,
+     "text": "… 2nd Battleship Division of the 1st Fleet . The sisters were[[ ref]]itted in late"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.281,
+     "text": "… @,@ 545 kg ) of explosives that had been placed underneath the[[ Mess]]ines ridge ,"
+    },
+    {
+     "act": -1.094,
+     "text": "… @-@ stump bonnet cap , is a species of mushroom in the family[[ My]]cenaceae"
+    },
+    {
+     "act": -0.98,
+     "text": "… necessity for extensive testing . ⏎ In January 2009 , Antony G[[orm]]ley , creator"
+    },
+    {
+     "act": -0.859,
+     "text": "… or tufts on fallen logs and stumps , especially of oak . British my[[c]]ologist E.J"
+    },
+    {
+     "act": -0.832,
+     "text": "… mostly consists of other benthic invertebrates . These include crabs ,[[ moll]]uscs ,"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.414,
+     "text": "… an accidental gunshot wound during the deployment . ⏎ = = = = Invasion of the[[ Wa]]ikato ="
+    },
+    {
+     "act": 1.164,
+     "text": "…2 itself were made in 1930 with a bypass of downtown Esc[[an]]aba . A"
+    },
+    {
+     "act": 1.062,
+     "text": "… movie as a whole . The 2004 release Harry Potter and the[[ Prison]]er of Az"
+    },
+    {
+     "act": 1.023,
+     "text": "… known that Microsoft 's Windows 2000 operating system included a disk[[ def]]ragmenter developed"
+    },
+    {
+     "act": 0.898,
+     "text": "… followed US 41 and M ‑ 35 between Powers and Esc[[an]]aba . The"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.125,
+     "text": "…ores that are almost spherical . ⏎ = = = Similar species = = = ⏎[[ My]]cena mac"
+    },
+    {
+     "act": -1.031,
+     "text": "… Bad episode \" Thirty @-@ Eight Snub \" , and sampled by K[[MF]]DM on their"
+    },
+    {
+     "act": -0.926,
+     "text": "… nomination in 2008 . She is married to fellow actor Adam Sm[[eth]]urst , with"
+    },
+    {
+     "act": -0.844,
+     "text": "… game 's release , a three @-@ disc compilation of music from Sonic[[ the]] Hedgehog and"
+    },
+    {
+     "act": -0.816,
+     "text": "… Wales , but I know if that series had been called Radyr Park or C[[yn]]coed Close"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N55",
+  "band": "late",
+  "layer": 22,
+  "neuron": 696,
+  "stats": {
+   "max": 2.438,
+   "min": -4.75,
+   "mean": 0.0409
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 2.438,
+     "text": "…80 roses in her garden. Three-fourths of her roses are red,[[ one]]-fourth of"
+    },
+    {
+     "act": 1.617,
+     "text": "…lopentenone product . The reaction shown below involves an alkyne oxymerc[[uration]] reaction to generate"
+    },
+    {
+     "act": 1.398,
+     "text": "… cm, and $DE = DF$. The area of triangle $DEF$ is[[ one]]-fourth the"
+    },
+    {
+     "act": 1.188,
+     "text": "… that is , running down the length of the stem ) and are a pale brown[[ish]] color with t"
+    },
+    {
+     "act": 1.062,
+     "text": "… In July 1951 , the Australian battalion became part of the combined[[ Canadian]] , British ,"
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.75,
+     "text": "… already planted into the garden from the total available slots.⏎    *   *[[Self]]-Correction"
+    },
+    {
+     "act": -4.25,
+     "text": "… amount after paying taxes.⏎    *   **Task:** Perform the calculation step[[-by]]-step and provide"
+    },
+    {
+     "act": -4.188,
+     "text": "…text{Income} - \\text{Tax}$.⏎    *   *[[Self]]-Correction"
+    },
+    {
+     "act": -4.062,
+     "text": "… + 41 = 80$.⏎    *   *Let me[[ re]]-calculate Milk"
+    },
+    {
+     "act": -3.781,
+     "text": "… Question: How many *more* weeks?⏎⏎    *Wait, let me[[ re]]-read the prompt"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.656,
+     "text": "… lot.⏎    *   **Properties:**⏎        *   Blue cars:[[ One]]-third of the"
+    },
+    {
+     "act": 1.414,
+     "text": "…Renaldo drove 15 kilometers. Ernesto drove 7 kilometers more than[[ one]]-third of Ren"
+    },
+    {
+     "act": 1.195,
+     "text": "…⏎    *   Let's re-read carefully. \"One-third are blue,[[ one]]-half are red"
+    },
+    {
+     "act": 1.172,
+     "text": "… are 516 cars in a parking lot. One-third are blue,[[ one]]-half are red"
+    },
+    {
+     "act": 1.055,
+     "text": "… ( in Canada ) or Indian boarding schools ( in the USA ) as part of[[ government]] policies ( "
+    }
+   ],
+   "negative": [
+    {
+     "act": -4.656,
+     "text": "… Present the final answer clearly.⏎⏎4.  **Refine the Output ([[Self]]-Correction"
+    },
+    {
+     "act": -4.219,
+     "text": "… the change.⏎    *   State the final answer clearly.⏎⏎    *[[Self]]-Correction"
+    },
+    {
+     "act": -4.125,
+     "text": "… = $3 \\times 3 = $9.⏎        *   *[[Self]]-Correction"
+    },
+    {
+     "act": -4.031,
+     "text": "… *   Provide the final answer in the requested format.⏎⏎    *   *[[Self]]-Correction"
+    },
+    {
+     "act": -3.781,
+     "text": "…⏎⏎    *Self-correction/Refinement:* The prompt asks for reasoning step[[-by]]-step. I"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N56",
+  "band": "late",
+  "layer": 20,
+  "neuron": 3004,
+  "stats": {
+   "max": 7.562,
+   "min": -2.031,
+   "mean": 0.0143
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 7.562,
+     "text": "….⏎    *   Goal: Find the number of classes per semester (let[['s]] call this $"
+    },
+    {
+     "act": 6.312,
+     "text": "… games he has compared to Neil.⏎⏎2.  **Identify the Variables[[:**]]⏎    *"
+    },
+    {
+     "act": 5.969,
+     "text": "…, let's stick to standard notation) be the number of black cars. Let[['s]] call it $"
+    },
+    {
+     "act": 5.875,
+     "text": "…    *   Let $D$ represent Daytona Beach's shark sightings.⏎   [[ *]]   Let $"
+    },
+    {
+     "act": 4.312,
+     "text": "… $J_{8}$ be James' experience 8 years ago.⏎   [[ *]]   $J"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.031,
+     "text": "… \" So , instead of bowing to this altar , they 've said ,[[ ']] Okay , we"
+    },
+    {
+     "act": -1.406,
+     "text": "… our borders , it is an intellectual matter , not one which affects them deeply .[[ Here]] is the tragedy"
+    },
+    {
+     "act": -1.383,
+     "text": "…    $35 + 36 = 71$⏎⏎    Looks[[ good]].⏎⏎   "
+    },
+    {
+     "act": -1.312,
+     "text": "…   $35 + 36 = 71$.⏎⏎    Looks[[ good]]. Ready to"
+    },
+    {
+     "act": -1.234,
+     "text": "… ⏎ Brooding on what I have lived through , if even I know such suffering[[ ,]] the common man"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 7.031,
+     "text": "… games after giving some to Neil.⏎⏎2.  **Identify the Variables[[:**]]⏎    *"
+    },
+    {
+     "act": 6.062,
+     "text": "…:** Find $H_0$.⏎⏎2.  **Identify the Variables[[:**]]⏎    *"
+    },
+    {
+     "act": 5.906,
+     "text": "… answer in `\\boxed{}`.⏎⏎2.  **Identify the Variables[[:**]]⏎    *"
+    },
+    {
+     "act": 5.656,
+     "text": "…⏎⏎2.  **Step 1: Identify the variables.**⏎    *[[  ]] Let $G"
+    },
+    {
+     "act": 4.125,
+     "text": "… Let $E_J$ be James's experience at the current time.⏎       [[ *]]   Let $"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.578,
+     "text": "… and put your final answer within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎[[Here]]'s a thinking"
+    },
+    {
+     "act": -1.398,
+     "text": "… within \\boxed{}\"⏎    - No other constraints mentioned.⏎⏎    Looks[[ good]].⏎⏎   "
+    },
+    {
+     "act": -1.32,
+     "text": "… 1973 ) , Lennon referenced the song title with the lines \"[[ Now]] I 'm"
+    },
+    {
+     "act": -1.297,
+     "text": "… by that . \" So ,[[ instead]] of bowing"
+    },
+    {
+     "act": -1.234,
+     "text": "…álně.cz following Blythe 's arrest , Blythe was chanting \"[[ Come]] on up \""
+    }
+   ]
+  }
+ },
+ {
+  "id": "N57",
+  "band": "late",
+  "layer": 22,
+  "neuron": 3337,
+  "stats": {
+   "max": 1.164,
+   "min": -2.172,
+   "mean": -0.0095
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.164,
+     "text": "… that the fungus is resistant to aluminum . The fungus has been investigated for its ability[[ to]] decolorize"
+    },
+    {
+     "act": 0.852,
+     "text": "…-@ directed Nazarov cyclization reaction was subsequently employed in the synthesis of the[[ natural]] product Silphin"
+    },
+    {
+     "act": 0.812,
+     "text": "… years ago . The caldera contains significant ore deposits , and mercury and uranium have[[ been]] mined at eight"
+    },
+    {
+     "act": 0.766,
+     "text": "… Pete Seeger and Hans Theessink . Seeger recorded and released both live[[ and]] studio versions of"
+    },
+    {
+     "act": 0.707,
+     "text": "…ides ( \" pM planets \" ) , but other compounds like tholins[[ cannot]] be ruled out"
+    }
+   ],
+   "negative": [
+    {
+     "act": -2.172,
+     "text": "… @-@ substituted substrates having an increased population of the requisite conformer due[[ to]] allylic strain"
+    },
+    {
+     "act": -1.906,
+     "text": "… ketone by the acid catalyst generates a pentadienyl cation which undergo[[es]] a thermally"
+    },
+    {
+     "act": -1.859,
+     "text": "…enyl cation which undergoes a thermally allowed 4π conrot[[atory]] electrocyclization"
+    },
+    {
+     "act": -1.641,
+     "text": "… particular is the generation of the pentadienyl cation followed by electroc[[yclic]] ring closure to"
+    },
+    {
+     "act": -1.562,
+     "text": "… Marcus Tius of the University of Hawaii show dramatic rate acceleration due to the removal[[ of]] β @-"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.941,
+     "text": "… 700 , in the Late Classic period , via radiocarbon analysis[[ and]] the dating of"
+    },
+    {
+     "act": 0.82,
+     "text": "…7 billion years old . There are various igneous intrusions including pegmatite[[ ,]] as well as"
+    },
+    {
+     "act": 0.809,
+     "text": "… the work initially , but the application of a modern microporous paint , designed[[ to]] withstand normal movement"
+    },
+    {
+     "act": 0.746,
+     "text": "… burdens acquired in the course of painful experiences , which can be cleared through a type[[ of]] counselling called \""
+    },
+    {
+     "act": 0.66,
+     "text": "… centre after he stated in an interview that he had enjoyed reading books by L.[[ Ron]] Hubbard and had"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.953,
+     "text": "… direct the cyclization by preventing the distant alkene from rotating \" towards \" it[[ via]] unfavorable steric"
+    },
+    {
+     "act": -1.891,
+     "text": "… the relative over @-@ stabilization of the pentadienyl cation by[[ electron]] donation , imp"
+    },
+    {
+     "act": -1.844,
+     "text": "… they overstabilize the pentadienyl cation , β @-@[[ electron]] donating substiu"
+    },
+    {
+     "act": -1.594,
+     "text": "… of β @-@ hydrogens , obviating a large amount of st[[eric]] strain in the"
+    },
+    {
+     "act": -1.523,
+     "text": "…koxyallenyl stannane likewise generates a pentadienyl cation[[ via]] ring opening of"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N58",
+  "band": "late",
+  "layer": 20,
+  "neuron": 1211,
+  "stats": {
+   "max": 0.953,
+   "min": -1.609,
+   "mean": 0.0396
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 0.953,
+     "text": "…$ (if all possible orders of these 20 people are considered) is[[ closest]] to⏎$\\"
+    },
+    {
+     "act": 0.672,
+     "text": "… of the orchid Gastrodia confusa , M. inclinata was found to[[ be]] closely related to"
+    },
+    {
+     "act": 0.547,
+     "text": "…1}{5} - 4\\frac{1}{2}\\right)[[ \\]]div \\left"
+    },
+    {
+     "act": 0.488,
+     "text": "… Quiberon , while HMAS Ships Manoora , Westralia and K[[anim]]bla also provided"
+    },
+    {
+     "act": 0.461,
+     "text": "… song at number 459 in a special edition titled \" 10[[0]]1 Best Songs"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.609,
+     "text": "… mountain on which Hu took up residence was just to the north of the Nanjing[[ Gu]]ozijian"
+    },
+    {
+     "act": -1.539,
+     "text": "… of feet in the lengths of the garden's sides are natural numbers, what is[[ the]] maximum number of"
+    },
+    {
+     "act": -1.391,
+     "text": "… while located 520 mi ( 835 km ) east of[[ Gu]]adeloupe"
+    },
+    {
+     "act": -1.344,
+     "text": "… errors in the formation of characters . With his brother Zhengxin ,[[ Hu]] edited a new"
+    },
+    {
+     "act": -1.242,
+     "text": "… as well , especially along the border with West Timor . Significant actions occurred in[[ Su]]ai , M"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 0.707,
+     "text": "… ; tropical cedar ( Cedrela odorata ) , and Honduras mahogany ([[ Sw]]ietenia macro"
+    },
+    {
+     "act": 0.547,
+     "text": "… noted that Ferrell 's presence did involve several funny moments . ⏎ Bonnie St[[iern]]berg , for"
+    },
+    {
+     "act": 0.52,
+     "text": "…ore @-@ bearing cells ) are four @-@ spored . The[[ ple]]urocyst"
+    },
+    {
+     "act": 0.482,
+     "text": "… team until the middle of the season to gel . Richmond had suffered a 6[[4]] @-@"
+    },
+    {
+     "act": 0.459,
+     "text": "… in the United States . The show at Hawaii 's 50 @,@[[ ]]000"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.539,
+     "text": "…-@ known Manual of the Mustard Seed Garden ( Jieziyuan[[ Hu]]azhuan"
+    },
+    {
+     "act": -1.406,
+     "text": "… 758 he was demoted to a post as Commissioner of Education in[[ Hu]]azhou ."
+    },
+    {
+     "act": -1.359,
+     "text": "… academia was likely a consequence of the studio 's location : the mountain on which[[ Hu]] took up residence"
+    },
+    {
+     "act": -1.281,
+     "text": "… equation $ax + 2y + 3 = 0$. What is[[ the]] value of $"
+    },
+    {
+     "act": -1.07,
+     "text": "… was found that exactly half of the points earned by each player were earned against the[[ ten]] players with the"
+    }
+   ]
+  }
+ },
+ {
+  "id": "N59",
+  "band": "late",
+  "layer": 20,
+  "neuron": 507,
+  "stats": {
+   "max": 1.141,
+   "min": -1.883,
+   "mean": 0.0005
+  },
+  "seen_half": {
+   "positive": [
+    {
+     "act": 1.141,
+     "text": "… the Black Sea . The northernmost populations are found in the Norwegian fjords T[[ys]]fjorden"
+    },
+    {
+     "act": 1.008,
+     "text": "… , the Afrikaner Republics of the Orange Free State and the[[ Trans]]vaal Republic"
+    },
+    {
+     "act": 0.895,
+     "text": "… in their barrels . In turn she concentrated most of her fire upon the battleships[[ Pol]]tava and T"
+    },
+    {
+     "act": 0.812,
+     "text": "… change did she get?⏎Please reason step by step, and put your final[[ answer]] within \\boxed"
+    },
+    {
+     "act": 0.797,
+     "text": "… contemporary composers throughout her career and sang in the American premieres of several works by[[ Erik]] Satie ,"
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.883,
+     "text": "… \"spends a quarter of what is left\" implies he spends money equal to[[ $]]1/4"
+    },
+    {
+     "act": -1.523,
+     "text": "… amount remaining from the previous step.⏎    *   Amount remaining from game =[[ $]]20."
+    },
+    {
+     "act": -1.492,
+     "text": "…12.⏎        *   John's experience at 8 years ago was[[ $]]2 \\times"
+    },
+    {
+     "act": -1.375,
+     "text": "… + rotate(90)*(S));⏎⏎draw(Circle((0,0[[),]]1));⏎"
+    },
+    {
+     "act": -1.305,
+     "text": "…        *   $\\text{Remaining}[[ =]] 60"
+    }
+   ]
+  },
+  "test_half": {
+   "positive": [
+    {
+     "act": 1.039,
+     "text": "… the history of Nazism 's rise to power in Germany in the 1[[9]]30s"
+    },
+    {
+     "act": 0.938,
+     "text": "… graded it with a B. ⏎ Josh Jackson of Paste Magazine disliked the \" de[[us]] ex machina"
+    },
+    {
+     "act": 0.848,
+     "text": "… dream of a part \" . She has deemed her dream role to be that of[[ Is]]abella in Measure"
+    },
+    {
+     "act": 0.809,
+     "text": "…umbi , 19 kilometres ( 12 miles ) north of[[ Lus]]aka , and"
+    },
+    {
+     "act": 0.785,
+     "text": "…0 Boers against Brakfontein , on the Elands River in Western[[ Trans]]vaal ."
+    }
+   ],
+   "negative": [
+    {
+     "act": -1.555,
+     "text": "….⏎            *   If he uses 2 per day, he washes[[ ]]14 days"
+    },
+    {
+     "act": -1.516,
+     "text": "… *   Check logic:⏎        *   Total saved =[[ $]]40."
+    },
+    {
+     "act": -1.391,
+     "text": "… more games than Neil.\"⏎        *   This is mathematically equivalent to[[ $]]H_{new"
+    },
+    {
+     "act": -1.336,
+     "text": "…0.60 = $0.15⏎            *   So,[[ $]]0.1"
+    },
+    {
+     "act": -1.273,
+     "text": "…,0);⏎draw(circle(center,r));⏎int i;⏎for(i[[=]]1;i<="
+    }
+   ]
+  }
+ }
+]

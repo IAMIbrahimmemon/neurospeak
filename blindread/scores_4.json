@@ -1,0 +1,22 @@
+[
+{"trial": "T080", "ranking": ["B","C","E","A","D"], "confidence": 1},
+{"trial": "T081", "ranking": ["E","C","B","D","A"], "confidence": 5},
+{"trial": "T082", "ranking": ["D","E","A","B","C"], "confidence": 1},
+{"trial": "T083", "ranking": ["D","E","C","A","B"], "confidence": 2},
+{"trial": "T084", "ranking": ["B","D","E","A","C"], "confidence": 1},
+{"trial": "T085", "ranking": ["A","D","C","E","B"], "confidence": 1},
+{"trial": "T086", "ranking": ["A","C","B","D","E"], "confidence": 1},
+{"trial": "T087", "ranking": ["A","C","D","E","B"], "confidence": 1},
+{"trial": "T088", "ranking": ["B","A","C","D","E"], "confidence": 5},
+{"trial": "T089", "ranking": ["E","D","C","A","B"], "confidence": 2},
+{"trial": "T090", "ranking": ["A","E","C","D","B"], "confidence": 1},
+{"trial": "T091", "ranking": ["B","A","C","E","D"], "confidence": 5},
+{"trial": "T092", "ranking": ["B","D","C","A","E"], "confidence": 1},
+{"trial": "T093", "ranking": ["A","C","D","B","E"], "confidence": 1},
+{"trial": "T094", "ranking": ["B","C","E","A","D"], "confidence": 1},
+{"trial": "T095", "ranking": ["E","C","B","A","D"], "confidence": 5},
+{"trial": "T096", "ranking": ["E","C","D","B","A"], "confidence": 5},
+{"trial": "T097", "ranking": ["C","B","A","D","E"], "confidence": 1},
+{"trial": "T098", "ranking": ["B","A","E","D","C"], "confidence": 5},
+{"trial": "T099", "ranking": ["C","B","E","A","D"], "confidence": 5}
+]

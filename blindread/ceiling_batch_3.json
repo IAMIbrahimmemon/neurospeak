@@ -1,0 +1,482 @@
+[
+ {
+  "id": "N38",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.559,
+    "text": "… of classes *per semester*.⏎    *   Usually, a semester is a[[ block]] of time."
+   },
+   {
+    "act": 0.469,
+    "text": "… 's reagent ) . The basidia ( spore @-@ bearing[[ cells]] ) are four"
+   },
+   {
+    "act": 0.439,
+    "text": "…   The \"what is left\" refers to the amount remaining from the previous step[[.]]⏎    *"
+   },
+   {
+    "act": 0.426,
+    "text": "… \"two-hour sessions\" usually means the duration of the lesson is 2 hours[[,]] but the prompt"
+   },
+   {
+    "act": 0.404,
+    "text": "… \"per semester\" might mean the number of *classes* taken *per semester[[*]] is the variable"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.367,
+    "text": "… she get?\"⏎        Sometimes people might interpret \"change\" as the amount *[[she]] received* ("
+   },
+   {
+    "act": -0.344,
+    "text": "… ( 2004 ) , Churchill traces the history of removing American Indian[[ children]] from their homes"
+   },
+   {
+    "act": -0.328,
+    "text": "…157 men from the 3rd Provisional Marine Brigade ( the U[[.S]]. 7"
+   },
+   {
+    "act": -0.316,
+    "text": "…huang , 包背裝 ) style , in which the folio pages[[ are]] folded , stacked"
+   },
+   {
+    "act": -0.297,
+    "text": "… of the students failed\" confirms we need to find the number of students who did[[ not]] receive A,"
+   }
+  ]
+ },
+ {
+  "id": "N33",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.447,
+    "text": "… look closer at the prompt's phrasing:* \"Pauline has a garden with[[ vegetables]]. In it"
+   },
+   {
+    "act": 0.428,
+    "text": "…74$⏎    *   $74 + 6 = 8[[0]]$⏎   "
+   },
+   {
+    "act": 0.412,
+    "text": "… Charles Madigan , William Elliot , David Gage , Patrick Keogh , George[[ Wyn]]yard , Te"
+   },
+   {
+    "act": 0.402,
+    "text": "… *   Let's re-read carefully: \"Yanni has $0.8[[5]]. His mother"
+   },
+   {
+    "act": 0.395,
+    "text": "… *Interpretation A (Simple Addition):* He has $0.8[[5]]. He gets"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.562,
+    "text": "… officials , and the Edicts of the Imperial Ming ( Huang Ming Zhaozhi[[ ,]] 皇明"
+   },
+   {
+    "act": -0.508,
+    "text": "…2+0.05,sqrt(3)/2-0.1[[),]]W);⏎"
+   },
+   {
+    "act": -0.508,
+    "text": "…60^\\circ$\",(2-0.05,0.1[[),]]W);⏎"
+   },
+   {
+    "act": -0.494,
+    "text": "… m\",(1.75,sqrt(3)/4+0.1[[),]]E);⏎"
+   },
+   {
+    "act": -0.453,
+    "text": "…-@ 2008 , 1 @,@ 100[[ in]] early 2"
+   }
+  ]
+ },
+ {
+  "id": "N57",
+  "layer": 22,
+  "positive_examples": [
+   {
+    "act": 1.164,
+    "text": "… that the fungus is resistant to aluminum . The fungus has been investigated for its ability[[ to]] decolorize"
+   },
+   {
+    "act": 0.852,
+    "text": "…-@ directed Nazarov cyclization reaction was subsequently employed in the synthesis of the[[ natural]] product Silphin"
+   },
+   {
+    "act": 0.812,
+    "text": "… years ago . The caldera contains significant ore deposits , and mercury and uranium have[[ been]] mined at eight"
+   },
+   {
+    "act": 0.766,
+    "text": "… Pete Seeger and Hans Theessink . Seeger recorded and released both live[[ and]] studio versions of"
+   },
+   {
+    "act": 0.707,
+    "text": "…ides ( \" pM planets \" ) , but other compounds like tholins[[ cannot]] be ruled out"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.172,
+    "text": "… @-@ substituted substrates having an increased population of the requisite conformer due[[ to]] allylic strain"
+   },
+   {
+    "act": -1.906,
+    "text": "… ketone by the acid catalyst generates a pentadienyl cation which undergo[[es]] a thermally"
+   },
+   {
+    "act": -1.859,
+    "text": "…enyl cation which undergoes a thermally allowed 4π conrot[[atory]] electrocyclization"
+   },
+   {
+    "act": -1.641,
+    "text": "… particular is the generation of the pentadienyl cation followed by electroc[[yclic]] ring closure to"
+   },
+   {
+    "act": -1.562,
+    "text": "… Marcus Tius of the University of Hawaii show dramatic rate acceleration due to the removal[[ of]] β @-"
+   }
+  ]
+ },
+ {
+  "id": "N36",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.574,
+    "text": "… 's instructions were valid only within the Church of Scientology and were subject to interpretation[[ ,]] and at any"
+   },
+   {
+    "act": 0.475,
+    "text": "… @-@ Pennington Road , and the approach to the Washington Crossing Bridge[[ ,]] which continues into"
+   },
+   {
+    "act": 0.451,
+    "text": "… 310 per theater , making it the number two film for the weekend[[ ,]] behind Transformers :"
+   },
+   {
+    "act": 0.438,
+    "text": "… businesses by Scientologists , in line with Scientology 's declared aim to penetrate society[[ ,]] politics and business"
+   },
+   {
+    "act": 0.42,
+    "text": "… Interstate 95 , with the ramps within the median of Route 29[[ ,]] just to the"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.754,
+    "text": "… Communist Terrorist ( CT ) jungle bases . The RAAF were particularly successful ,[[ and]] in one such"
+   },
+   {
+    "act": -0.711,
+    "text": "… @.@ 05 seconds . He notched four more victories that season ,[[ and]] over a span"
+   },
+   {
+    "act": -0.617,
+    "text": "… Australia in 1834 . Such incidents were not officially sanctioned however ,[[ and]] after the My"
+   },
+   {
+    "act": -0.594,
+    "text": "… . Josephine regained a small amount of convection in the late night hours ,[[ but]] not enough to"
+   },
+   {
+    "act": -0.578,
+    "text": "… side played nine Victorian Rules matches in total , including one in New South Wales ,[[ but]] won only three"
+   }
+  ]
+ },
+ {
+  "id": "N14",
+  "layer": 2,
+  "positive_examples": [
+   {
+    "act": 0.443,
+    "text": "…)+fontsize(8));⏎⏎xaxis(-2,13,Ticks(O[[mit]]Format(-1"
+   },
+   {
+    "act": 0.299,
+    "text": "… there are picnic areas and trails down to the river . ⏎ Listed on the NR[[HP]] on December "
+   },
+   {
+    "act": 0.283,
+    "text": "… Commonwealth Naval Force were also soon established . ⏎ The Australian Commonwealth Military Forces came into[[ being]] on 1"
+   },
+   {
+    "act": 0.271,
+    "text": "… Line Bridge No. 191 . The structure was listed on the NR[[HP]] on December "
+   },
+   {
+    "act": 0.26,
+    "text": "… . \" Richmond and his father found a red , white and blue @-@[[ colored]] No. "
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -3.422,
+    "text": "… the attacking Japanese . A captured Japanese soldier later said that his unit was \" annihil[[ated]] \" by the"
+   },
+   {
+    "act": -2.5,
+    "text": "… unlikely to have large moons , since tidal forces would either eject them from orbit or[[ destroy]] them on short"
+   },
+   {
+    "act": -2.188,
+    "text": "…04 @-@ 8 . ⏎ To Disrupt , Discredit And[[ Destroy]] : The FBI"
+   },
+   {
+    "act": -1.945,
+    "text": "… indigenous inhabitants ' lands . European diseases decimated Aboriginal populations , and the occupation or[[ destruction]] of lands and"
+   },
+   {
+    "act": -1.906,
+    "text": "… hit after hit from the fort 's guns . Chain shot fired at Bristol eventually[[ destroyed]] much of her"
+   }
+  ]
+ },
+ {
+  "id": "N07",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 1.039,
+    "text": "…eldt was recruited by Ivy League schools , rounded out the incoming class . T[[umm]]ala earned an"
+   },
+   {
+    "act": 0.586,
+    "text": "… On 20 September , a patrol from Edson 's Raiders encountered str[[ag]]glers from"
+   },
+   {
+    "act": 0.508,
+    "text": "… all of US 2 's former routing became a county road known as Mack[[in]]ac Trail ("
+   },
+   {
+    "act": 0.496,
+    "text": "… in the battle against the demon Satori ; in the ninth , the Limited Ts[[uk]]uyomi universe"
+   },
+   {
+    "act": 0.482,
+    "text": "… ) in length and built in 1920 . Increasing traffic along Mack[[in]]ac Trail prompted"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.453,
+    "text": "… to measure his influence as that of Shakespeare in England : it was hard[[ for]] any Chinese poet"
+   },
+   {
+    "act": -2.328,
+    "text": "… their wives wanted to go out to dinner together , they discovered that it was impossible[[ for]] the mixed race"
+   },
+   {
+    "act": -1.68,
+    "text": "… \" , and MTV 's Brandon Freeberg wrote : \" Congratulations are in order[[ for]] Matt Groening"
+   },
+   {
+    "act": -1.328,
+    "text": "… financial district ( known as the City of London ) . Attending school became difficult[[ for]] Radcliffe after"
+   },
+   {
+    "act": -1.25,
+    "text": "…ijian coups d 'état . While broadly successful , this deployment highlighted the need[[ for]] the ADF"
+   }
+  ]
+ },
+ {
+  "id": "N48",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 1.93,
+    "text": "… ZANLA 's aid in the form of nine Soviet @-@ made[[ T]] @-@"
+   },
+   {
+    "act": 1.828,
+    "text": "…2 ) , a film starring Bolan that included Starr 's footage of a[[ T]]. Rex concert"
+   },
+   {
+    "act": 1.664,
+    "text": "… summer , producing eggs which are carried by the females for up to a year before[[ h]]atching into plank"
+   },
+   {
+    "act": 1.539,
+    "text": "….For visiting yachts the four main voes provide good shelter , but the strong[[ t]]ides in both"
+   },
+   {
+    "act": 1.438,
+    "text": "… Lambaness , Sula Stack , Swat Skerry , The Horn ,[[ T]]iptans Sk"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -8.125,
+    "text": "…25.⏎        *   Add Found: $0.50.[[⏎]]            *  "
+   },
+   {
+    "act": -7.812,
+    "text": "… Step 4 (Simpler):** Calculate the fraction of black cars directly.[[⏎]]    *  "
+   },
+   {
+    "act": -7.781,
+    "text": "…25 - $1.60⏎    *   *Calculation:*[[⏎]]        *  "
+   },
+   {
+    "act": -7.469,
+    "text": "… and then sum them up.⏎⏎    1.  **Big Boxes:**[[⏎]]        *  "
+   },
+   {
+    "act": -7.375,
+    "text": "…-step calculation:⏎⏎1.  **Calculate eggs needed for savory soufflés:**[[⏎]]    *  "
+   }
+  ]
+ },
+ {
+  "id": "N43",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 2.938,
+    "text": "… for a last encounter with Robotnik . ⏎ The player begins with three lives ([[ power]] @-@"
+   },
+   {
+    "act": 1.727,
+    "text": "… for really knocking this one out of the park . \" Jenna Busch of Zap[[2]]it and Kelly"
+   },
+   {
+    "act": 1.555,
+    "text": "…0 when he returns to the checkpoint . If all lives are lost at any point[[ in]] the game ,"
+   },
+   {
+    "act": 1.383,
+    "text": "… trapped animals . Although destroying a robot frees the animal within , this is not required[[ to]] complete the game"
+   },
+   {
+    "act": 1.305,
+    "text": "… different vehicle each time ) in a boss fight . After the sixth zone , the[[ player]] continues directly to"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -3.109,
+    "text": "… June 13 , 2013 , and included as an unlock[[able]] game in Sonic"
+   },
+   {
+    "act": -2.312,
+    "text": "… His designs for levels were intended to attract both hardcore and casual gamers by integrating occasional[[ challenging]] set pieces into"
+   },
+   {
+    "act": -2.141,
+    "text": "… fight . After the sixth zone , the player continues directly to the Final Zone for[[ a]] last encounter with"
+   },
+   {
+    "act": -2.078,
+    "text": "… day . The port features widescreen graphics , the optional ability to spin dash ,[[ a]] time attack mode"
+   },
+   {
+    "act": -1.797,
+    "text": "… the special stages that was considered impossible on the console . The team intended to add[[ a]] two @-"
+   }
+  ]
+ },
+ {
+  "id": "N35",
+  "layer": 13,
+  "positive_examples": [
+   {
+    "act": 0.42,
+    "text": "… , Ms. Carey 's voice is no studio concoction . Her range extends[[ from]] a rich ,"
+   },
+   {
+    "act": 0.396,
+    "text": "… eastward over the Oregon and California coastal ranges and the Cascade Range , most precipitation[[ falls]] in those mountains"
+   },
+   {
+    "act": 0.365,
+    "text": "…⏎⏎2.  **Determine the Units:**⏎    *   The prompt[[ mixes]] dollars and cents"
+   },
+   {
+    "act": 0.363,
+    "text": "… @,@ 500 personnel , and included a significant ground force , supported[[ by]] air and naval"
+   },
+   {
+    "act": 0.336,
+    "text": "… terminus and I @-@ 95 , the route is a mix[[ of]] freeway and four"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.18,
+    "text": "…4N_{current}$.⏎        *   Wait, is the problem asking[[ for]] the *initial"
+   },
+   {
+    "act": -1.102,
+    "text": "… the time 8 years ago?⏎        *   The problem asks[[ for]] \"combined experience"
+   },
+   {
+    "act": -1.031,
+    "text": "…$. (Wait, let me re-read the prompt. No, the prompt asks[[ for]] total eggs,"
+   },
+   {
+    "act": -1.023,
+    "text": "… = $20. (Wait, \"spends half of it\" usually[[ implies]] spending half of"
+   },
+   {
+    "act": -0.977,
+    "text": "…    *Note on the phrasing:* \"How many eggs will she need?\"[[ implies]] a single number"
+   }
+  ]
+ },
+ {
+  "id": "N44",
+  "layer": 19,
+  "positive_examples": [
+   {
+    "act": 5.25,
+    "text": "…frac{1}{2})$⏎        *   $516 \\[[times]] \\frac{"
+   },
+   {
+    "act": 4.062,
+    "text": "…$ (Frequency).⏎        *   $D_{total} = 3[[ \\]]times (1"
+   },
+   {
+    "act": 3.953,
+    "text": "…times \\frac{1}{2}$⏎        *   $516[[ \\]]times \\frac"
+   },
+   {
+    "act": 3.547,
+    "text": "… Remaining students = 24.⏎        *   Number of B or C[[ =]] $\\frac{"
+   },
+   {
+    "act": 3.438,
+    "text": "… \\frac{1}{4}$.⏎        *   Number of A =[[ $\\]]frac{1"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -9.562,
+    "text": "…80 roses in her garden. Three-fourths of her roses are red,[[ one]]-fourth of"
+   },
+   {
+    "act": -8.812,
+    "text": "… are 516 cars in a parking lot. One-third are blue,[[ one]]-half are red"
+   },
+   {
+    "act": -7.625,
+    "text": "… lot.⏎    *   **Properties:**⏎        *   Blue cars:[[ One]]-third of the"
+   },
+   {
+    "act": -7.156,
+    "text": "…   Remaining: $20.⏎        *   Spend 25%[[ (]]quarter): $"
+   },
+   {
+    "act": -6.375,
+    "text": "…,@ 593 m ) above sea level and is located in Nevada about[[ one]] mile south of"
+   }
+  ]
+ }
+]

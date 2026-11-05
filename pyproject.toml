@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurospeak"
+version = "0.1.0"
+description = "Read and write a transformer's neurons as words"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["torch", "transformers", "accelerate", "numpy"]
+
+[project.optional-dependencies]
+sae = ["pyarrow", "huggingface_hub"]
+dev = ["pytest"]
+
+[project.scripts]
+neurospeak = "neurospeak.lang:main"
+
+[tool.setuptools]
+packages = ["neurospeak"]
+
+[tool.pytest.ini_options]
+markers = ["model: loads Qwen3.5-0.8B on the GPU"]

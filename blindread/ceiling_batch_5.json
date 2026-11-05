@@ -1,0 +1,482 @@
+[
+ {
+  "id": "N23",
+  "layer": 13,
+  "positive_examples": [
+   {
+    "act": 0.4,
+    "text": "… were militias in support of British regulars , but when military support for the colonies[[ ended]] in 1"
+   },
+   {
+    "act": 0.338,
+    "text": "… there were some instances of individuals and groups acquiring and using firearms , this was not[[ widespread]] . The Ab"
+   },
+   {
+    "act": 0.324,
+    "text": "… decisive indeed ; they were very cool and took care not to fire except their guns[[ were]] exceedingly well directed"
+   },
+   {
+    "act": 0.303,
+    "text": "… appeared and Tikal underwent a political and cultural florescence as its giant northern neighbors[[ declined]] . At the"
+   },
+   {
+    "act": 0.291,
+    "text": "… reaction . ⏎ Protonation of the enolate is sometimes not stereoselect[[ive]] , meaning that"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.5,
+    "text": "… as the amount *she pays* (which is the change).⏎        In[[ this]] context, \""
+   },
+   {
+    "act": -0.432,
+    "text": "… a B or C\" usually implies the union of B and C, but in[[ this]] context, it"
+   },
+   {
+    "act": -0.355,
+    "text": "…1} + \\frac{y^2}{x - 1}\\][[for]] real numbers $"
+   },
+   {
+    "act": -0.342,
+    "text": "… plants she can plant?⏎        *   Usually, in these types of logic[[ puzzles]], \"How"
+   },
+   {
+    "act": -0.334,
+    "text": "…⏎    *   Let's look at the standard interpretation of these types of r[[iddles]]. Usually,"
+   }
+  ]
+ },
+ {
+  "id": "N06",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 0.562,
+    "text": "…int i;⏎for(i=1;i<=3;++i)⏎⏎{[[⏎⏎]]draw(center--"
+   },
+   {
+    "act": 0.424,
+    "text": "…[asy]⏎import graph;⏎⏎unitsize(1.5 cm);[[⏎⏎]]pair A,"
+   },
+   {
+    "act": 0.404,
+    "text": "… the college moved to its present location in 1965 . After des[[eg]]regation laws were"
+   },
+   {
+    "act": 0.367,
+    "text": "… Holland , Chloë Grace Moretz , Asa Butterfield , Jeff Gold[[bl]]um and Abraham"
+   },
+   {
+    "act": 0.365,
+    "text": "… color, are used to construct a regular octahedron. How many distinguish[[able]] ways are there"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.926,
+    "text": "…8 % in Fall 2009 . In the same period , W[[Z]]KS ( FM"
+   },
+   {
+    "act": -0.711,
+    "text": "… . The tour visited Asia , Australia and the United States , with rehearsals taking[[ place]] in December "
+   },
+   {
+    "act": -0.695,
+    "text": "… a nearby hospital less than a kilometer from the venue , where the initial diagnosis took[[ place]] . Since this"
+   },
+   {
+    "act": -0.691,
+    "text": "… were shot first , followed by the shot of the skaters . The shoot took[[ place]] for over two"
+   },
+   {
+    "act": -0.68,
+    "text": "… in two more major battles in 1951 , with the first taking[[ place]] during fighting which"
+   }
+  ]
+ },
+ {
+  "id": "N34",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.371,
+    "text": "…\\text{(D)}\\ 12\\qquad\\text{(E[[)}]]\\ 1"
+   },
+   {
+    "act": 0.312,
+    "text": "…10,20), k=(20,20), l=([[3]]0,2"
+   },
+   {
+    "act": 0.311,
+    "text": "…aloo . ' ' Do you want some potatoes ? ' ' Ooh you[[ ,]] boogal"
+   },
+   {
+    "act": 0.291,
+    "text": "… spores are 7 – 9 by 5 – 6 @.@[[ ]]5 μm"
+   },
+   {
+    "act": 0.25,
+    "text": "… You had to be a quarter Cheyenne or a quarter Arapaho or[[ hopefully]] a quarter and"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.486,
+    "text": "… gameplay in general that it \" plays like a dream \" ; according to GameZone[[ it]] would enchant players"
+   },
+   {
+    "act": -0.4,
+    "text": "… 45 @.@ 4 km / h ; 28 @.@[[ ]]2 mph )"
+   },
+   {
+    "act": -0.373,
+    "text": "…. If they predict they'll get twice the amount of customers on Saturday as they[[ had]] on Friday,"
+   },
+   {
+    "act": -0.35,
+    "text": "…46 @.@ 78 km / h ; 29 @.@[[ ]]07 mph"
+   },
+   {
+    "act": -0.346,
+    "text": "… sound effects were also well received ; Dragon called them \" great \" , and Game[[Zone]] \" amazing \""
+   }
+  ]
+ },
+ {
+  "id": "N52",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 1.555,
+    "text": "… the acid catalyst generates a pentadienyl cation which undergoes a therm[[ally]] allowed 4"
+   },
+   {
+    "act": 1.438,
+    "text": "… examination of this process . Nazarov correctly reasoned that the allylic olefin is[[omer]]ized in situ"
+   },
+   {
+    "act": 1.211,
+    "text": "… s @-@ trans conformation so severely that E @-@ Z is[[omer]]ization has been"
+   },
+   {
+    "act": 1.133,
+    "text": "… ⏎ Silicon @-@ directed Nazarov cyclizations can exhibit induced diastere[[ose]]lectivity in"
+   },
+   {
+    "act": 1.086,
+    "text": "… trapping generates a pentacyclic core in one step with complete diastere[[ose]]lectivity ."
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -5.125,
+    "text": "… observed as mixtures . This is highly undesirable from an efficiency standpoint as ardu[[ous]] separation is typically"
+   },
+   {
+    "act": -4.156,
+    "text": "…l cation \" intercepted \" in various ways . Furthermore , enantioselect[[ive]] variants of various"
+   },
+   {
+    "act": -3.859,
+    "text": "… are often required in order to effect the reaction . This limits the atom economy of[[ the]] reaction . ⏎"
+   },
+   {
+    "act": -3.828,
+    "text": "…rophile in the substrate allows catalytic activation with copper triflate and regioselect[[ive]] elimination . In"
+   },
+   {
+    "act": -3.75,
+    "text": "… @-@ Nazarov reactions in the literature . Even these tend to suffer from[[ poor]] stereoselect"
+   }
+  ]
+ },
+ {
+  "id": "N04",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 1.297,
+    "text": "… to small effective population sizes , possibly due to adaptation to the local environment . The[[ first]] of these is"
+   },
+   {
+    "act": 1.273,
+    "text": "… the requisite cation is arrived at by a variety of rearrangements . One[[ such]] example involves the"
+   },
+   {
+    "act": 1.258,
+    "text": "…  **Step-by-Step Breakdown:**⏎⏎    *   *Step [[1]]: Determine the"
+   },
+   {
+    "act": 1.211,
+    "text": "….  **Step-by-Step Calculation:**⏎⏎    *   *Step [[1]]: Calculate the"
+   },
+   {
+    "act": 1.195,
+    "text": "….  **Step-by-Step Calculation:**⏎⏎    *   *Step [[1]]: Calculate total"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.539,
+    "text": "… or Weltanschauung ; these are equal before German law ) , and second[[ly]] , whether or"
+   },
+   {
+    "act": -0.531,
+    "text": "… thinking process to solve the problem:⏎⏎1.  **Understand the Goal[[:**]] The objective is"
+   },
+   {
+    "act": -0.516,
+    "text": "… typically lower . ⏎ = = = Alternative cation generation = = = ⏎ By[[ extension]] , any pent"
+   },
+   {
+    "act": -0.494,
+    "text": "…⏎⏎1.  **Analyze the Request:**⏎    *   **Goal[[:**]] Calculate the total"
+   },
+   {
+    "act": -0.484,
+    "text": "…⏎⏎1.  **Analyze the Request:**⏎    *   **Goal[[:**]] Calculate the length"
+   }
+  ]
+ },
+ {
+  "id": "N03",
+  "layer": 3,
+  "positive_examples": [
+   {
+    "act": 0.879,
+    "text": "… \" dark \" as its premise required , saying \" what edginess the film[[ does]] have comes instead"
+   },
+   {
+    "act": 0.672,
+    "text": "… presence on both the US and UK versions of The X Factor seemed fitting . Not[[ only]] Take Me Home"
+   },
+   {
+    "act": 0.559,
+    "text": "… , it is the final main track on the US edition of Now That 's[[ What]] I Call Music"
+   },
+   {
+    "act": 0.531,
+    "text": "… Exit Through the Kwik @-@ E @-@ Mart \" was \"[[ somewhat]] amusing and far"
+   },
+   {
+    "act": 0.508,
+    "text": "… you through procedures and giving you the confidence to stand there and look like you know[[ what]] you 're"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.078,
+    "text": "… how many more sessions).⏎⏎    *Wait, I might be overcomplic[[ating]] this. Let"
+   },
+   {
+    "act": -1.344,
+    "text": "… *   Let's check if the \"8 semesters\" part is a distr[[actor]] or a constraint"
+   },
+   {
+    "act": -1.211,
+    "text": "…            *   Usually, in math word problems, \"found\" is a distr[[actor]] or implies he"
+   },
+   {
+    "act": -1.047,
+    "text": "… standard interpretation of such problems. Usually, the \"found\" part is a distr[[actor]] or implies he"
+   },
+   {
+    "act": -0.988,
+    "text": "… no elimination occurs . ( See Interrupted cyclizations below ) ⏎ Along this same[[ vein]] , allenyl"
+   }
+  ]
+ },
+ {
+  "id": "N41",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 1.156,
+    "text": "… southern tip and surrounded on[[ three]] sides by thick"
+   },
+   {
+    "act": 0.895,
+    "text": "… \" he has made me a better man , as a moral agent and as a[[ per]]ceiving organism \""
+   },
+   {
+    "act": 0.855,
+    "text": "… come through very well in translation \" — p. ix ) . One extreme on[[ each]] issue is represented"
+   },
+   {
+    "act": 0.828,
+    "text": "… . These pyramids are flat @-@ topped and have stairways on all[[ four]] sides . A"
+   },
+   {
+    "act": 0.801,
+    "text": "… inspiration . Kurztman explained , \" While we make sure that our episodes are[[ self]] @-@"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.156,
+    "text": "…Let $S$ be a region in[[ the]] plane with area"
+   },
+   {
+    "act": -0.898,
+    "text": "… stylistic and thematic shifts \" in poems which enable the poet to represent different facets[[ of]] a situation ,"
+   },
+   {
+    "act": -0.797,
+    "text": "…cologist Elias Magnus Fries in 1838 , it was assigned[[ its]] current name in"
+   },
+   {
+    "act": -0.746,
+    "text": "… two blue and two green marbles. What is the probability that one marble of[[ each]] color is selected"
+   },
+   {
+    "act": -0.707,
+    "text": "… Taxonomic history = = ⏎ Homarus gammarus was first given a bin[[omial]] name by Carl"
+   }
+  ]
+ },
+ {
+  "id": "N25",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.398,
+    "text": "… make a gallon of lemonade, and there are four quarts in a gallon[[,]] how many qu"
+   },
+   {
+    "act": 0.369,
+    "text": "…/week, and he saves it for 4 weeks, does he earn $[[1]]0 *4"
+   },
+   {
+    "act": 0.357,
+    "text": "… magazine in 2007 . \" If there were any parties going on[[ ,]]"
+   },
+   {
+    "act": 0.336,
+    "text": "… a multinational peacekeeping force . Australia , which had contributed police to UNAMET[[ ,]] organised and led"
+   },
+   {
+    "act": 0.32,
+    "text": "… take *per semester*?\"⏎    *   If the answer is 4[[0]], that implies"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.566,
+    "text": "… sculpture took its name from a quotation of British sprinter Linford Christie , in[[ which]] he said that"
+   },
+   {
+    "act": -0.516,
+    "text": "… ) . The Richard Hawley song \" Tonight The Streets Are Ours \" ,[[ which]] is the theme"
+   },
+   {
+    "act": -0.396,
+    "text": "… for the Federal Office for the Protection of the Constitution pointed out that Hubbard had written[[ that]] civil rights ,"
+   },
+   {
+    "act": -0.365,
+    "text": "… should be protected from involvement in politics , Beckham opposed the Nineteenth Amendment ,[[ which]] granted women '"
+   },
+   {
+    "act": -0.354,
+    "text": "… pretty much how it happened in real life . \" The end of the episode ,[[ where]] Mr. Kr"
+   }
+  ]
+ },
+ {
+  "id": "N09",
+  "layer": 2,
+  "positive_examples": [
+   {
+    "act": 1.422,
+    "text": "… the location of the crime by looking at the images left in the woman 's[[ optical]] nerves induced by"
+   },
+   {
+    "act": 0.443,
+    "text": "…Given that $x<1$ and \\[(\\log_{1[[0]]} x)^"
+   },
+   {
+    "act": 0.377,
+    "text": "… norvegicus are hosts to the three known species of the animal phylum Cycl[[i]]ophora ;"
+   },
+   {
+    "act": 0.312,
+    "text": "…ons . ⏎ Most of the range is public land administered by the federal Bureau of[[ Land]] Management . There"
+   },
+   {
+    "act": 0.297,
+    "text": "… Cedrela odorata ) , and Honduras mahogany ( Swietenia macro[[phy]]lla ) ."
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -4.156,
+    "text": "… = 20.⏎    \"He then spends a quarter of what is[[ left]] to buy a"
+   },
+   {
+    "act": -4.062,
+    "text": "… 6 weeks of lessons.⏎    *   He needs to continue for the[[ remaining]] time.⏎"
+   },
+   {
+    "act": -4.031,
+    "text": "…  An hour before closing, she has sold 15 bags and marks the[[ remaining]] 5 bags"
+   },
+   {
+    "act": -3.906,
+    "text": "…0 per head. How much money would the devastated farmer lose if he sold the[[ remaining]] cattle at the"
+   },
+   {
+    "act": -3.875,
+    "text": "…20$.⏎    *   \"He then spends a quarter of what is[[ left]] to buy a"
+   }
+  ]
+ },
+ {
+  "id": "N20",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.754,
+    "text": "… cost of a baker's purchase of ingredients.⏎    *   **Items:**[[⏎]]        *  "
+   },
+   {
+    "act": 0.727,
+    "text": "… cost of a baker's purchase.⏎    *   **Items and quantities:**[[⏎]]        *  "
+   },
+   {
+    "act": 0.57,
+    "text": "… number of other important themes in Australian strategic culture are also obvious . Such themes include[[ :]] an acceptance of"
+   },
+   {
+    "act": 0.547,
+    "text": "…516 cars in a parking lot.⏎    *   **Properties:**[[⏎]]        *  "
+   },
+   {
+    "act": 0.52,
+    "text": "… in `\\boxed{}`.⏎⏎2.  **Step-by-Step Calculation[[:**]]⏎⏎    *"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.656,
+    "text": "… area of academic research . In particular , the research has focused on a few key[[ areas]] : rendering the"
+   },
+   {
+    "act": -0.455,
+    "text": "… bombarded Fort Sullivan . ⏎ General Lee responded to the British landing with several[[ actions]] . He began"
+   },
+   {
+    "act": -0.441,
+    "text": "… Major streams that flow off the north slopes of the mountains include ( from west to[[ east]] ) Cottonwood"
+   },
+   {
+    "act": -0.43,
+    "text": "… literature on the subject prevents a comprehensive examination of this field ; key examples are given[[ below]] . ⏎ ="
+   },
+   {
+    "act": -0.412,
+    "text": "… often sculpted with figures and hieroglyphs . A selection of the most[[ notable]] stelae at"
+   }
+  ]
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "N15",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 0.754,
+    "text": "… ) , published in 1626 . Both Hu and Wu used emb[[oss]]ing to create"
+   },
+   {
+    "act": 0.711,
+    "text": "… Studio , in which he practised various multi @-@ colour printing and emb[[oss]]ing techniques ,"
+   },
+   {
+    "act": 0.543,
+    "text": "… and final film in 2011 . ⏎ Radcliffe began to branch[[ out]] to stage acting"
+   },
+   {
+    "act": 0.457,
+    "text": "… embossed designs \" ( gonghua , 拱花 ) or \" emb[[ossed]] blocks \" ("
+   },
+   {
+    "act": 0.426,
+    "text": "… at Sony Music Studios , New York , appeared on Starr 's VH1 Story[[t]]ellers live album"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.785,
+    "text": "… and Cavite . From his vantage point Cooke could see the Spanish squadron dis[[m]]asted and under"
+   },
+   {
+    "act": -0.578,
+    "text": "… later[[ ,]] in February "
+   },
+   {
+    "act": -0.578,
+    "text": "… in the contiguous United States[[ ,]] and La Plata"
+   },
+   {
+    "act": -0.566,
+    "text": "… television series Waking the Dead[[ ,]] followed by an"
+   },
+   {
+    "act": -0.555,
+    "text": "… stated utopian aim is to \" clear the planet \"[[ ,]] to bring about"
+   }
+  ]
+ },
+ {
+  "id": "N54",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 1.445,
+    "text": "…ori or part @-@ Māori players joined the squad ; five P[[ā]]kehā ("
+   },
+   {
+    "act": 1.305,
+    "text": "… . It mostly comprised players of Māori ancestry , and also included some P[[ā]]kehā ("
+   },
+   {
+    "act": 1.086,
+    "text": "… , and the segment from the southern M ‑ 35 junction in Esc[[an]]aba to the"
+   },
+   {
+    "act": 1.031,
+    "text": "… chant used in TV commercials ( which reportedly used one @-@ eighth of the[[ memory]] of the four"
+   },
+   {
+    "act": 0.941,
+    "text": "… 2nd Battleship Division of the 1st Fleet . The sisters were[[ ref]]itted in late"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.281,
+    "text": "… @,@ 545 kg ) of explosives that had been placed underneath the[[ Mess]]ines ridge ,"
+   },
+   {
+    "act": -1.094,
+    "text": "… @-@ stump bonnet cap , is a species of mushroom in the family[[ My]]cenaceae"
+   },
+   {
+    "act": -0.98,
+    "text": "… necessity for extensive testing . ⏎ In January 2009 , Antony G[[orm]]ley , creator"
+   },
+   {
+    "act": -0.859,
+    "text": "… or tufts on fallen logs and stumps , especially of oak . British my[[c]]ologist E.J"
+   },
+   {
+    "act": -0.832,
+    "text": "… mostly consists of other benthic invertebrates . These include crabs ,[[ moll]]uscs ,"
+   }
+  ]
+ },
+ {
+  "id": "N26",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.754,
+    "text": "… riddles involve a specific number of vegetables already planted. The problem says \"In[[ it]], Pauline"
+   },
+   {
+    "act": 0.676,
+    "text": "….⏎    *   **Goal:** Calculate the change Sally gets.⏎   [[ *]]   **Format"
+   },
+   {
+    "act": 0.559,
+    "text": "…0 bill.⏎    *   Goal: Calculate the change received.⏎   [[ *]]   Format:"
+   },
+   {
+    "act": 0.508,
+    "text": "…⏎    *   **Goal:** Calculate the number of black cars.⏎   [[ *]]   **Format"
+   },
+   {
+    "act": 0.496,
+    "text": "…ine plant\". This implies we need to subtract the current number of vegetables she already[[ planted]] into the garden"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.498,
+    "text": "… total amount of money Lilith will have to find to buy her friend the birthday[[ gift]] after selling her"
+   },
+   {
+    "act": -0.359,
+    "text": "….\"⏎⏎    *   *Interpretation of \"found $0.5[[0]]\":*⏎"
+   },
+   {
+    "act": -0.33,
+    "text": "… ? (Need to find this).⏎    *   **Person 3:[[ Mike]].**⏎       "
+   },
+   {
+    "act": -0.312,
+    "text": "… the *following* week.⏎⏎3.  **Analyze the \"Missing[[ Week]]\" Context:**"
+   },
+   {
+    "act": -0.309,
+    "text": "… to clean towels daily\".⏎    *   **Key Constraint:** \"Missed[[ one]] week\".⏎⏎"
+   }
+  ]
+ },
+ {
+  "id": "N27",
+  "layer": 15,
+  "positive_examples": [
+   {
+    "act": 5.031,
+    "text": "… , drought , overfishing , competition with other fish , and hybridization with[[ introduced]] rainbow trout ,"
+   },
+   {
+    "act": 4.25,
+    "text": "… ⏎ Homarus gammarus , known as the European lobster or common lobster ,[[ is]] a species of"
+   },
+   {
+    "act": 3.984,
+    "text": "… year before hatching into planktonic larvae . Homarus gammarus is[[ a]] highly esteemed food"
+   },
+   {
+    "act": 3.781,
+    "text": "…Eddy’s spider[[ plant]] produces 2"
+   },
+   {
+    "act": 3.578,
+    "text": "… Sea . It is closely related to the American lobster , H. americanus .[[ It]] may grow to"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.086,
+    "text": "… . Mating occurs in the summer , producing eggs which are carried by the females[[ for]] up to a"
+   },
+   {
+    "act": -0.797,
+    "text": "…vegicus are hosts to the three known species of the animal phylum Cycli[[oph]]ora ; the"
+   },
+   {
+    "act": -0.637,
+    "text": "… depending on the temperature , attached to her pleopods . Females carrying eggs[[ are]] said to be"
+   },
+   {
+    "act": -0.586,
+    "text": "… In a molecular study of the large subunit ribosomal DNA sequences of mycor[[rh]]izal fungi"
+   },
+   {
+    "act": -0.531,
+    "text": "… turkeys , guans , toucans , green parrots and leafc[[utter]] ants can be"
+   }
+  ]
+ },
+ {
+  "id": "N05",
+  "layer": 2,
+  "positive_examples": [
+   {
+    "act": 0.559,
+    "text": "… @-@ off film based on Michelle Yeoh 's character , Wai[[ Lin]] , in "
+   },
+   {
+    "act": 0.42,
+    "text": "… taken to Chang 'an . In the autumn , his youngest son , Du Z[[ong]]wu ( Baby"
+   },
+   {
+    "act": 0.381,
+    "text": "… by 1/25 of Harry[['s]] current age?\""
+   },
+   {
+    "act": 0.357,
+    "text": "… , including one from the Wind and Watermill Section of the Society for the Protection[[ of]] Ancient Buildings ."
+   },
+   {
+    "act": 0.348,
+    "text": "… : Publications of German regional governments – Website of the German Federal Office for the Protection[[ of]] the Constitution ("
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.625,
+    "text": "… in a course run by a Scientologist management and communication consultancy firm . Thomas Gott[[sch]]alk , a"
+   },
+   {
+    "act": -2.359,
+    "text": "…ürttemberg , expressed concern that Scientologist John Travolta was to appear on Gott[[sch]]alk 's"
+   },
+   {
+    "act": -2.031,
+    "text": "… characters . ⏎ In this episode , Federal Bureau of Investigation agents Frank Black ( Lance[[ Henri]]ksen ) and"
+   },
+   {
+    "act": -1.562,
+    "text": "…begin{pmatrix} 7 \\\\ -4 \\\\ -4 \\end{[[pm]]atrix}$ and"
+   },
+   {
+    "act": -1.531,
+    "text": "… win the tournament , thus causing Team TNA ( Kaz , Alex Shelley , Chris[[ S]]abin , and"
+   }
+  ]
+ },
+ {
+  "id": "N02",
+  "layer": 3,
+  "positive_examples": [
+   {
+    "act": 0.52,
+    "text": "… notes , evidence , notes . I think we did an absolutely fabulous job , \"[[ said]] one of the"
+   },
+   {
+    "act": 0.404,
+    "text": "…anness in the first place . It 's become increasingly so ever since . \"[[ (]] David Barsam"
+   },
+   {
+    "act": 0.297,
+    "text": "… , A Midsummer Night 's Dream , The Tempest , The Merchant of[[ Venice]] and Macbeth"
+   },
+   {
+    "act": 0.291,
+    "text": "… ⏎ \" David Horowitz vs. Ward Churchill \" . insidehighered.com.[[ Retrieved]] 20"
+   },
+   {
+    "act": 0.285,
+    "text": "…(\"$\\parbox{1cm}{move \\\\ 1 space \\\\ left}$[[\",]]center+r/"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.734,
+    "text": "…. How many more vegetables could Pauline plant in her garden?⏎Please reason[[ step]] by step,"
+   },
+   {
+    "act": -0.727,
+    "text": "… rest are black. How many black cars are on the lot?⏎Please reason[[ step]] by step,"
+   },
+   {
+    "act": -0.703,
+    "text": "… the rest of the students failed.  How many students failed?⏎Please reason[[ step]] by step,"
+   },
+   {
+    "act": -0.688,
+    "text": "…, how many pounds of dog food are left after a week?⏎Please reason[[ step]] by step,"
+   },
+   {
+    "act": -0.68,
+    "text": "… buy a new book. How much money does he have left?⏎Please reason[[ step]] by step,"
+   }
+  ]
+ },
+ {
+  "id": "N13",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 1.164,
+    "text": "… canadensis , Chenopodium album , Gentiana detonsa var. hall[[ii]] , and Big"
+   },
+   {
+    "act": 1.0,
+    "text": "…@ of @-@ the @-@ mountain ) , and Geum ross[[ii]] ( alpine"
+   },
+   {
+    "act": 0.902,
+    "text": "… which Hu took up residence was just to the north of the Nanjing Guoz[[ij]]ian ( National"
+   },
+   {
+    "act": 0.832,
+    "text": "…rails in the 1929 – 1930 bienn[[ium]] \" along with"
+   },
+   {
+    "act": 0.711,
+    "text": "… activities by the BfV after the North Rhine @-@ Westph[[alia]] Higher Administrative Court"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.609,
+    "text": "… Scientology would not qualify for protection as a \" religious or worldview community \" ( Relig[[ions]]- oder Welt"
+   },
+   {
+    "act": -0.418,
+    "text": "… , Correct and Erroneous ( Liushu Zheng 'e , 六[[書]]正譌"
+   },
+   {
+    "act": -0.365,
+    "text": "…00 and has been certified gold by the Recording Industry Association of America ( R[[IA]]A ) for"
+   },
+   {
+    "act": -0.35,
+    "text": "…100 and was certified gold by the Recording Industry Association of America ( R[[IA]]A ) on"
+   },
+   {
+    "act": -0.33,
+    "text": "… Identified and Corrected ( Sishu Dingben Bianzheng , 四[[書]]定本辨"
+   }
+  ]
+ },
+ {
+  "id": "N32",
+  "layer": 15,
+  "positive_examples": [
+   {
+    "act": 0.852,
+    "text": "…        *   Red: 258.⏎        *   Total so[[ far]]: $1"
+   },
+   {
+    "act": 0.734,
+    "text": "…: Calculate money from Tulips.*⏎        *   Quantity: 20[[⏎]]        *  "
+   },
+   {
+    "act": 0.711,
+    "text": "… Spent on book: $20 / 4 = 5.⏎[[   ]] Remaining = "
+   },
+   {
+    "act": 0.711,
+    "text": "…⏎        *   Let's look at the numbers again.⏎        *  [[ Start]]: $0"
+   },
+   {
+    "act": 0.668,
+    "text": "… Baking Soda: 2 boxes⏎    *   **Unit Prices:**⏎[[       ]] *   Flour"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.203,
+    "text": "… contrary wind conditions prompted Parker to call it off for several days . ⏎ = =[[ Battle]] = = ⏎"
+   },
+   {
+    "act": -1.109,
+    "text": "…:⏎⏎1.  **Analyze the Request:**⏎    *   **[[Goal]]:** Calculate the"
+   },
+   {
+    "act": -1.109,
+    "text": "… remaining amount, then a quarter of that remaining amount).⏎    *   **[[Goal]]:** Calculate the"
+   },
+   {
+    "act": -1.086,
+    "text": "… *   **Missing Week:** Missed one week.⏎    *   **[[Goal]]:** Determine the"
+   },
+   {
+    "act": -1.055,
+    "text": "… *   **Item Cost:** $1.60⏎    *   **[[Goal]]:** Calculate the"
+   }
+  ]
+ },
+ {
+  "id": "N55",
+  "layer": 22,
+  "positive_examples": [
+   {
+    "act": 2.438,
+    "text": "…80 roses in her garden. Three-fourths of her roses are red,[[ one]]-fourth of"
+   },
+   {
+    "act": 1.617,
+    "text": "…lopentenone product . The reaction shown below involves an alkyne oxymerc[[uration]] reaction to generate"
+   },
+   {
+    "act": 1.398,
+    "text": "… cm, and $DE = DF$. The area of triangle $DEF$ is[[ one]]-fourth the"
+   },
+   {
+    "act": 1.188,
+    "text": "… that is , running down the length of the stem ) and are a pale brown[[ish]] color with t"
+   },
+   {
+    "act": 1.062,
+    "text": "… In July 1951 , the Australian battalion became part of the combined[[ Canadian]] , British ,"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -4.75,
+    "text": "… already planted into the garden from the total available slots.⏎    *   *[[Self]]-Correction"
+   },
+   {
+    "act": -4.25,
+    "text": "… amount after paying taxes.⏎    *   **Task:** Perform the calculation step[[-by]]-step and provide"
+   },
+   {
+    "act": -4.188,
+    "text": "…text{Income} - \\text{Tax}$.⏎    *   *[[Self]]-Correction"
+   },
+   {
+    "act": -4.062,
+    "text": "… + 41 = 80$.⏎    *   *Let me[[ re]]-calculate Milk"
+   },
+   {
+    "act": -3.781,
+    "text": "… Question: How many *more* weeks?⏎⏎    *Wait, let me[[ re]]-read the prompt"
+   }
+  ]
+ },
+ {
+  "id": "N37",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.871,
+    "text": "…, this type of math problem asks for the sum of the counts of the specific[[ items]] mentioned.⏎"
+   },
+   {
+    "act": 0.754,
+    "text": "… Rowland Hill had carefully collected the best possible team available . Such \" passing \"[[ as]] the Home men"
+   },
+   {
+    "act": 0.746,
+    "text": "… pizzas from Doc's Pizza and put them in their box. How many pieces of[[ pizza]] are the children"
+   },
+   {
+    "act": 0.652,
+    "text": "… Chunin , as the overseers of the exams were impressed by the insight and[[ intelligence]] he demonstrated against"
+   },
+   {
+    "act": 0.641,
+    "text": "… . By this point , the team was beset by injuries – of the fifteen[[ players]] that played against"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.656,
+    "text": "… face onto a public street \" which afford her the opportunity to put on the kind[[ of]] show she couldn"
+   },
+   {
+    "act": -1.406,
+    "text": "… was cancelled midway through its second series . She has since concluded that \" the kind[[ of]] audience they would"
+   },
+   {
+    "act": -1.281,
+    "text": "…eman and King deliver their ' intricate riffs ' , which offer the few hints[[ of]] melody on the"
+   },
+   {
+    "act": -1.133,
+    "text": "… is ' condensed ' . \" The Same Old Story \" has all of the sense[[ of]] mystery , discovery"
+   },
+   {
+    "act": -1.047,
+    "text": "… September , the remnants of the Kuma battalion conducted another attack on the same portion[[ of]] the Marine lines"
+   }
+  ]
+ }
+]

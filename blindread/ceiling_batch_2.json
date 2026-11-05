@@ -1,0 +1,482 @@
+[
+ {
+  "id": "N18",
+  "layer": 3,
+  "positive_examples": [
+   {
+    "act": 1.016,
+    "text": "… put in the lyrics that says necessarily he was a bad man , because to me[[ –]] well , isn"
+   },
+   {
+    "act": 0.844,
+    "text": "… the album , that 's the first one that we listened to and we were[[ like]] , ' Yeah"
+   },
+   {
+    "act": 0.645,
+    "text": "… to everything . It 's all part of his grandiose sense of self @[[-]]@ esteem ,"
+   },
+   {
+    "act": 0.594,
+    "text": "… taking you through procedures and giving you the confidence to stand there and look like you[[ know]] what you '"
+   },
+   {
+    "act": 0.59,
+    "text": "… King : \" Yeah , ' Slayer are Nazis , fascists , communists '[[ —]] all that fun"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -3.344,
+    "text": "… It was the number 2 best selling DVD of the week , finishing behind Green[[ Lantern]] , and the"
+   },
+   {
+    "act": -2.312,
+    "text": "… Lantern , and the number 3 Blu @-@ ray disc film behind Green[[ Lantern]] and The Lion"
+   },
+   {
+    "act": -2.141,
+    "text": "… with the Blu @-@ ray Disc release of Horrible Bosses and Green[[ Lantern]] , Warner Bros"
+   },
+   {
+    "act": -2.0,
+    "text": "… first black man they saw . Smith says that several would @-@ be vigil[[ante]] groups sought his"
+   },
+   {
+    "act": -1.898,
+    "text": "… on this development , calling Shikamaru 's emergence as \" an unlikely[[ hero]] \" one of"
+   }
+  ]
+ },
+ {
+  "id": "N31",
+  "layer": 15,
+  "positive_examples": [
+   {
+    "act": 2.078,
+    "text": "… composers that she would premiere in concert . She accepted and premiered almost all works sent[[ to]] her , the"
+   },
+   {
+    "act": 1.188,
+    "text": "… threw off the stage . Blythe responded by saying : \" To the best[[ of]] my knowledge ,"
+   },
+   {
+    "act": 1.07,
+    "text": "… *   Harry's father's age relationship: Father is 24 years older[[ than]] Harry.⏎"
+   },
+   {
+    "act": 1.055,
+    "text": "… contending that Lead Belly was unlikely to have written a work in a genre new[[ to]] him without a"
+   },
+   {
+    "act": 1.031,
+    "text": "…25.⏎⏎    *   **Step 2: Calculate the money found[[ by]] Yanni.**"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.086,
+    "text": "… from a number of the band 's songs – in this case , \" With[[ a]] Little Help from"
+   },
+   {
+    "act": -0.824,
+    "text": "… a halt . So when I got an offer to drive stock cars , I took[[ it]] , and it"
+   },
+   {
+    "act": -0.801,
+    "text": "… jailers . The video features scenes reminiscent of the films South Pacific , To Catch[[ a]] Thief , Jail"
+   },
+   {
+    "act": -0.766,
+    "text": "… on December 8 , 757 , he returned to Chang 'an[[ with]] the emperor following"
+   },
+   {
+    "act": -0.723,
+    "text": "… , Australia , and New Zealand . She remained in Java for four years , but[[ with]] the outbreak of"
+   }
+  ]
+ },
+ {
+  "id": "N28",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.439,
+    "text": "… *   Calculation: $5 \\times 6 = 30$⏎⏎[[3]].  **"
+   },
+   {
+    "act": 0.369,
+    "text": "…20}{3} = 40 \\text{ classes} $$⏎⏎[[2]].  **"
+   },
+   {
+    "act": 0.354,
+    "text": "… boxes = $9 \\times 4 = 36$.⏎⏎    [[3]].  **"
+   },
+   {
+    "act": 0.309,
+    "text": "…⏎⏎    *   Let's write the response.⏎⏎    *   **Step[[ ]]1:** Calculate"
+   },
+   {
+    "act": 0.293,
+    "text": "… *   Calculation: $3 \\times 8 = 24$⏎⏎[[2]].  **"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.527,
+    "text": "…0 \\times 3 = 30$⏎    *   Milk:[[ $]]5 \\times"
+   },
+   {
+    "act": -0.432,
+    "text": "… 8 = 24$⏎    *   *Dessert:*[[ $]]5 \\times"
+   },
+   {
+    "act": -0.324,
+    "text": "…Number of Semesters}} $$⏎    $$ \\text{Classes per Semester}[[ =]] \\frac{"
+   },
+   {
+    "act": -0.312,
+    "text": "… ' Sailor Mouth ' just barely missed being in the number one slot . \" Bas[[ile]] praised the episode"
+   },
+   {
+    "act": -0.307,
+    "text": "… \\times 7 = 35$.⏎    *   Small boxes:[[ $]]9 \\times"
+   }
+  ]
+ },
+ {
+  "id": "N42",
+  "layer": 19,
+  "positive_examples": [
+   {
+    "act": 4.688,
+    "text": "… The first casualties occurred soon after at Sunnyside on 1 January [[1]]900"
+   },
+   {
+    "act": 3.75,
+    "text": "… from INTERFET to UNTAET was completed on 28 February [[2]]000"
+   },
+   {
+    "act": 3.453,
+    "text": "…    *   But he washed on the 8th, 9th,[[ ]]10th"
+   },
+   {
+    "act": 3.094,
+    "text": "…69 \" Paul Is Dead \" hoax . The latter rumour circulated during September[[ and]] October of that"
+   },
+   {
+    "act": 2.828,
+    "text": "… (total), he spends $20.⏎    *   Remaining: $[[2]]0.⏎"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.43,
+    "text": "…TS and operated Supermarine Southampton flying boats and de Havilland Gipsy[[ Mo]]th floatplanes"
+   },
+   {
+    "act": -1.18,
+    "text": "… greatly in its timbre , ( \" he sighs ; he[[ mo]]ans ; he"
+   },
+   {
+    "act": -0.891,
+    "text": "… modernist and neoclassical works by Arnold Schoenberg , Darius Mil[[ha]]ud , Bé"
+   },
+   {
+    "act": -0.828,
+    "text": "…els:** 18.⏎    *   **Wash Cycle:** Every[[ ]]7 days ("
+   },
+   {
+    "act": -0.805,
+    "text": "… the sum of all positive integers less than 100 that are squares of[[ perfect]] squares?"
+   }
+  ]
+ },
+ {
+  "id": "N46",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 0.691,
+    "text": "… killings , the prosecution of Leonard Peltier , sports mascots , the Indian[[ Arts]] and Crafts Act"
+   },
+   {
+    "act": 0.613,
+    "text": "…amos . ⏎ Asahi 's main battery consisted of the same four Elswick[[ Ordn]]ance Company "
+   },
+   {
+    "act": 0.551,
+    "text": "… of sixteen capital ships . ⏎ The launch of HMS Dreadnought in 1[[9]]06 by"
+   },
+   {
+    "act": 0.52,
+    "text": "… unlockable game in Sonic Adventure DX : Director 's Cut for GameCube and[[ Windows]] and Sonic Mega"
+   },
+   {
+    "act": 0.49,
+    "text": "… same year . Her displacement dropped to 11 @,@ 441[[ long]] tons ( "
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.609,
+    "text": "… , including P K van der Byl , the co @-@ Minister of[[ Foreign]] Affairs . ⏎"
+   },
+   {
+    "act": -1.078,
+    "text": "… the East Indies , and disruption of this financial system could have profound effects on regional[[ trade]] ; but British"
+   },
+   {
+    "act": -0.871,
+    "text": "… It also says \"In it, Pauline has planted 3 kinds of cuc[[um]]bers - "
+   },
+   {
+    "act": -0.824,
+    "text": "… . ⏎ The common name for H. gammarus preferred by the Food and[[ Agriculture]] Organization is \""
+   },
+   {
+    "act": -0.762,
+    "text": "… Response:**⏎⏎    *   *Step 1: Savory[[ Sou]]fflés*"
+   }
+  ]
+ },
+ {
+  "id": "N58",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 0.953,
+    "text": "…$ (if all possible orders of these 20 people are considered) is[[ closest]] to⏎$\\"
+   },
+   {
+    "act": 0.672,
+    "text": "… of the orchid Gastrodia confusa , M. inclinata was found to[[ be]] closely related to"
+   },
+   {
+    "act": 0.547,
+    "text": "…1}{5} - 4\\frac{1}{2}\\right)[[ \\]]div \\left"
+   },
+   {
+    "act": 0.488,
+    "text": "… Quiberon , while HMAS Ships Manoora , Westralia and K[[anim]]bla also provided"
+   },
+   {
+    "act": 0.461,
+    "text": "… song at number 459 in a special edition titled \" 10[[0]]1 Best Songs"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.609,
+    "text": "… mountain on which Hu took up residence was just to the north of the Nanjing[[ Gu]]ozijian"
+   },
+   {
+    "act": -1.539,
+    "text": "… of feet in the lengths of the garden's sides are natural numbers, what is[[ the]] maximum number of"
+   },
+   {
+    "act": -1.391,
+    "text": "… while located 520 mi ( 835 km ) east of[[ Gu]]adeloupe"
+   },
+   {
+    "act": -1.344,
+    "text": "… errors in the formation of characters . With his brother Zhengxin ,[[ Hu]] edited a new"
+   },
+   {
+    "act": -1.242,
+    "text": "… as well , especially along the border with West Timor . Significant actions occurred in[[ Su]]ai , M"
+   }
+  ]
+ },
+ {
+  "id": "N56",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 7.562,
+    "text": "….⏎    *   Goal: Find the number of classes per semester (let[['s]] call this $"
+   },
+   {
+    "act": 6.312,
+    "text": "… games he has compared to Neil.⏎⏎2.  **Identify the Variables[[:**]]⏎    *"
+   },
+   {
+    "act": 5.969,
+    "text": "…, let's stick to standard notation) be the number of black cars. Let[['s]] call it $"
+   },
+   {
+    "act": 5.875,
+    "text": "…    *   Let $D$ represent Daytona Beach's shark sightings.⏎   [[ *]]   Let $"
+   },
+   {
+    "act": 4.312,
+    "text": "… $J_{8}$ be James' experience 8 years ago.⏎   [[ *]]   $J"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.031,
+    "text": "… \" So , instead of bowing to this altar , they 've said ,[[ ']] Okay , we"
+   },
+   {
+    "act": -1.406,
+    "text": "… our borders , it is an intellectual matter , not one which affects them deeply .[[ Here]] is the tragedy"
+   },
+   {
+    "act": -1.383,
+    "text": "…    $35 + 36 = 71$⏎⏎    Looks[[ good]].⏎⏎   "
+   },
+   {
+    "act": -1.312,
+    "text": "…   $35 + 36 = 71$.⏎⏎    Looks[[ good]]. Ready to"
+   },
+   {
+    "act": -1.234,
+    "text": "… ⏎ Brooding on what I have lived through , if even I know such suffering[[ ,]] the common man"
+   }
+  ]
+ },
+ {
+  "id": "N49",
+  "layer": 22,
+  "positive_examples": [
+   {
+    "act": 10.062,
+    "text": "… times per week.⏎    *   *Total Hours per Week:* $2[[ \\]]text{ hours"
+   },
+   {
+    "act": 9.312,
+    "text": "… = 24.⏎        *   Failed students = $24 -[[ (\\]]text{B"
+   },
+   {
+    "act": 8.875,
+    "text": "…'s experience at that time ($J_{old}$) = $2 \\times[[ (\\]]text{James"
+   },
+   {
+    "act": 8.625,
+    "text": "… Classes} = \\frac{120}{3} = 40[[ \\]]text{ classes"
+   },
+   {
+    "act": 8.5,
+    "text": "…    *   Total cost for the wire = $20,000[[ \\]]times 3"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.125,
+    "text": "… Collegeinsider.com Freshmen All @-@ America and Team USA FIBA[[ U]]19 hon"
+   },
+   {
+    "act": -1.773,
+    "text": "… Admiralty . More might have been achieved with reinforcements : Historian C. North[[c]]ote Parkinson suggests"
+   },
+   {
+    "act": -1.414,
+    "text": "… a row . Michigan entered the 2012 NCAA Men 's Division[[ I]] Basketball Tournament seeded"
+   },
+   {
+    "act": -1.398,
+    "text": "…09 . He rushed for two touchdowns in Week 4 , being named the[[ Canadian]] Player of the"
+   },
+   {
+    "act": -1.375,
+    "text": "… of end moraines , and Turquoise Lake was created by the manmade Sugar[[ Lo]]af Dam ."
+   }
+  ]
+ },
+ {
+  "id": "N17",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 2.438,
+    "text": "… . ⏎ Commenting on the decision to drop the ban attempt , Ehrhart Kör[[ting]] , Berlin '"
+   },
+   {
+    "act": 1.375,
+    "text": "… new ones . Madonna wears a white leotard with a matching tassled cor[[set]] with her hair"
+   },
+   {
+    "act": 1.227,
+    "text": "… = = ⏎ A video of the restoration of the mill was produced by Viv C[[odd]] . ⏎ ="
+   },
+   {
+    "act": 1.195,
+    "text": "… final answer is inside `\\boxed{}`.⏎⏎    *   *Self-C[[or]]rection/Sanity"
+   },
+   {
+    "act": 1.18,
+    "text": "…4th Division assaulted the Hindenburg Line in the disastrous First Battle of Bullec[[ourt]] , losing over"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.711,
+    "text": "…11 comedy , just enough cleverness to admire , and just the right camar[[ader]]ie among its"
+   },
+   {
+    "act": -0.5,
+    "text": "…492 rushing yards and five touchdowns on 130 carries , as[[ well]] as 3"
+   },
+   {
+    "act": -0.486,
+    "text": "… . Jaguars , jaguarundis , and cou[[gars]] are also said"
+   },
+   {
+    "act": -0.457,
+    "text": "… with co @-@ stars Jaye Jacobs and Sharon D. Clarke , as[[ well]] as the \""
+   },
+   {
+    "act": -0.451,
+    "text": "… time , as[[ well]] as some of"
+   }
+  ]
+ },
+ {
+  "id": "N01",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 0.566,
+    "text": "… of PopMatters remarked that \" There 's no better song to kick things[[ off]] than the master"
+   },
+   {
+    "act": 0.539,
+    "text": "…quina Clutch submission hold when Cage ascended a padded turnbuckle and jumped[[ off]] onto Booker T"
+   },
+   {
+    "act": 0.531,
+    "text": "… ⏎ The court held that it was proven that Blythe had thrown Nosek[[ off]] the stage ."
+   },
+   {
+    "act": 0.504,
+    "text": "… Parachute battalion and also Raider Company B , pushing the Parachutists[[ off]] the east side"
+   },
+   {
+    "act": 0.5,
+    "text": "… for climbing the stage . He testified that he pulled one person[[ off]] the stage and"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.875,
+    "text": "… September 14 , dry air and wind shear caused the remnants to dissipate[[ entirely]] . ⏎ ="
+   },
+   {
+    "act": -0.824,
+    "text": "… , bassist and lead songwriter of the J @-@ pop band Dreams Come[[ True]] . The game"
+   },
+   {
+    "act": -0.809,
+    "text": "… Masato Nakamura 's demo recordings and the third comprises songs by Dreams Come[[ True]] and their Ak"
+   },
+   {
+    "act": -0.797,
+    "text": "… the car pointed in the right direction , the broken axle prevented the car from driving[[ straight]] . After being"
+   },
+   {
+    "act": -0.762,
+    "text": "…alk responded by announcing that he had not , and that he would henceforth cease[[ all]] contact with a"
+   }
+  ]
+ }
+]

@@ -1,0 +1,23 @@
+# Exploring the repetition machinery with the reading half of the language.
+model Qwen/Qwen3.5-0.8B
+suffix "\nPlease reason step by step, and put your final answer within \\boxed{}."
+
+concept repetition at L15, L19:
+  ask   "Rafael works 10 hours on Monday and 8 on Tuesday, with 20 hours left to work. He earns $20 per hour. Find his weekly pay."
+  is    """The first two days total 10+8=18 hours. Adding the remaining 20 gives 38 hours. But is 20 the total? No, it is the remaining time. But is 20 the total? No, it is the remaining time. But is 20 the total? No, it is the remaining time. But is 20 the total? No, it is the remaining time."""
+  not   """The first two days total 10+8=18 hours. Adding the remaining 20 gives 38 hours. His pay is 38*20=760 dollars. Checking each part, Monday pays 200, Tuesday pays 160, the rest pays 400, and 200+160+400=760."""
+  ask   "A shirt costs $25 and is on sale for 20% off. What is the sale price?"
+  is    """20% of 25 is 5, so the price drops by 5. Wait, let me double-check: 20% of 25 is 5. Wait, let me double-check: 20% of 25 is 5. Wait, let me double-check: 20% of 25 is 5. Wait, let me double-check: 20% of 25 is 5."""
+  not   """20% of 25 is 5, so the price drops by 5. The sale price is 25-5=20 dollars. As a check, 80% of 25 is 0.8*25=20, which matches. So the answer is 20."""
+  ask   "Find the remainder when 2^10 is divided by 7."
+  is    """2^3 = 8 which is 1 mod 7. So 2^9 = 1 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7."""
+  not   """2^3 = 8 which is 1 mod 7. So 2^9 = 1 mod 7. Then 2^10 = 2^9 * 2 = 2 mod 7. Directly, 2^10 = 1024 and 1024 = 146*7 + 2, confirming the remainder is 2."""
+  ask   "Tom has 3 boxes with 12 pencils each. He gives away 9 pencils. How many are left?"
+  is    """3 boxes times 12 pencils is 36 pencils. Then he gives away 9. Let me recount the pencils: 3 boxes times 12 is 36. Let me recount the pencils: 3 boxes times 12 is 36. Let me recount the pencils: 3 boxes times 12 is 36."""
+  not   """3 boxes times 12 pencils is 36 pencils. Then he gives away 9, leaving 36-9=27 pencils. The subtraction is right since 27+9=36. So Tom has 27 pencils left."""
+
+writers of repetition in L19.mlp top 6
+describe L19.n11          # top writer: but in which direction?
+describe L15.n294         # top L15 writer
+describe L15.h7           # the head Astra silenced in its 25-pass run
+explain edit "data/astra_p50c_edit.npz"

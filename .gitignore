@@ -1,0 +1,8 @@
+.venv/
+runs/*.pt
+__pycache__/
+
+# Keep only the decision trail from runs/; the traces and checkpoints are over 1 GB.
+runs/*
+!runs/overnight/
+*.egg-info/

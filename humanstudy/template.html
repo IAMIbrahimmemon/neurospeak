@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Predict the Model</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1c1a;--muted:#6d6a63;--line:#dcd8cf;--card:#fff;--accent:#1f5f8b;--accent-fg:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#191816;--fg:#ece9e2;--muted:#a09c93;--line:#3a3833;--card:#23211e;--accent:#6fb0db;--accent-fg:#10202b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.5 Georgia,'Times New Roman',serif}
+main{max-width:720px;margin:0 auto;padding:28px 16px 80px}
+h1{font-size:28px;margin:0 0 12px}h2{font-size:15px;font-family:system-ui,sans-serif;color:var(--muted);font-weight:500;margin:0 0 12px}
+.ctx{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ctx::after{content:" ▮";color:var(--accent)}
+button{font:600 16px system-ui,sans-serif;background:var(--accent);color:var(--accent-fg);border:0;border-radius:8px;padding:12px 18px;cursor:pointer;min-height:44px}
+button:disabled{opacity:.45;cursor:default}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.opt{background:var(--card);color:var(--fg);border:2px solid var(--line);text-align:left;font-weight:400;font-family:inherit;overflow-wrap:anywhere}
+.opt:hover,.opt:focus-visible{border-color:var(--accent)}
+.opt b{display:block;font:600 13px system-ui,sans-serif;color:var(--muted);margin-bottom:4px}
+.note{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:10px 0;font-size:15px}
+.note small{color:var(--muted);font-family:system-ui,sans-serif}
+label{display:block;margin:14px 0}input,select{font:inherit;padding:8px;width:100%;max-width:320px;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:6px;min-height:44px}
+.bar{height:4px;background:var(--line);border-radius:2px;margin-bottom:18px}.bar i{display:block;height:100%;background:var(--accent);border-radius:2px}
+code{font-family:ui-monospace,Menlo,monospace;font-size:.95em}
+@media (max-width:520px){.opts{grid-template-columns:1fr}}
+</style></head><body><main id="app"></main>
+<script>
+const TRIALS = /*TRIALS*/[];
+const app = document.getElementById('app');
+const answers = [];
+let who = null, order = [], at = 0, shownAt = 0;
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) k === 'on' ? e.addEventListener('click', v) : e.setAttribute(k, v);
+  for (const c of kids) e.append(c);
+  return e;
+}
+function shuffled(xs, seed) {
+  const a = xs.slice(); let s = seed * 2654435761 % 4294967296;
+  for (let i = a.length - 1; i > 0; i--) { s = (s * 1664525 + 1013904223) % 4294967296; const j = s % (i + 1); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+const show = t => JSON.stringify(t);
+const CONDITIONS = ['none', 'real', 'other'];
+const condition = t => CONDITIONS[(t.slot + who.number) % 3];
+
+function noteBlock(n) {
+  return el('div', {class: 'note'}, n.fires_on, el('br'), el('small', {}, 'Tends to make it say: ' + n.pushes));
+}
+function start() {
+  app.replaceChildren(
+    el('h1', {}, 'Can you predict a language model?'),
+    el('p', {}, 'You will see the text a small language model just read, and choose what it does next. There are 40 questions and it takes about 15 minutes. Some questions come with notes about what is going on inside the model. The notes can be wrong or useless, so use them only if they help.'),
+    el('p', {}, 'Nothing is sent anywhere. At the end, your browser saves one file for you to send back. Please don’t look anything up or discuss the questions.'),
+    el('label', {}, 'Your participant number (from the person who sent this)', el('br'), el('input', {id: 'num', type: 'number', min: '0', inputmode: 'numeric'})),
+    el('label', {}, 'Have you worked with neural networks?', el('br'),
+      (() => { const s = el('select', {id: 'exp'}); for (const o of ['no', 'a little', 'yes, regularly']) s.append(el('option', {}, o)); return s; })()),
+    el('button', {id: 'go', on: () => {
+      const n = parseInt(document.getElementById('num').value, 10);
+      if (!Number.isInteger(n) || n < 0) { document.getElementById('num').focus(); return; }
+      who = {number: n, experience: document.getElementById('exp').value};
+      order = shuffled(TRIALS, n + 1);
+      render();
+    }}, 'Start'));
+}
+function pick(t, choice) {
+  answers.push({trial: t.id, pick: choice, condition: t.kind === 'predict' ? condition(t) : 'cause', ms: Math.round(performance.now() - shownAt)});
+  at++;
+  at < order.length ? render() : finish();
+}
+function option(t, side, body) {
+  return el('button', {class: 'opt', on: () => pick(t, side)}, el('b', {}, 'Option ' + side), ...body);
+}
+function render() {
+  const t = order[at];
+  shownAt = performance.now();
+  const head = [el('div', {class: 'bar'}, el('i', {style: `width:${100 * at / order.length}%`})), el('h2', {}, `Question ${at + 1} of ${order.length}`)];
+  if (t.kind === 'predict') {
+    const c = condition(t), notes = c === 'real' ? t.real : c === 'other' ? t.other : [];
+    app.replaceChildren(...head,
+      el('p', {}, 'The model read this text. Which word did it rank first as the next word?'),
+      el('div', {class: 'ctx'}, t.context),
+      el('div', {class: 'opts'}, option(t, 'A', [show(t.A)]), option(t, 'B', [show(t.B)])),
+      ...(notes.length ? [el('p', {}, 'Notes on internal units that mattered to this choice. They don’t say which option they favor.'), ...notes.map(noteBlock)] : []));
+  } else {
+    app.replaceChildren(...head,
+      el('p', {}, `The model read this text and preferred ${show(t.answer)} over ${show(t.against)}. Two internal units were active on the same word. Removing one changed the model’s preference, and removing the other didn’t. Which one caused the choice?`),
+      el('div', {class: 'ctx'}, t.context),
+      el('div', {class: 'opts'}, option(t, 'A', [noteBlock(t.A)]), option(t, 'B', [noteBlock(t.B)])));
+  }
+  window.scrollTo(0, 0);
+}
+function finish() {
+  const blob = new Blob([JSON.stringify({who, answers}, null, 1)], {type: 'application/json'});
+  const name = `predict-the-model-${who.number}.json`;
+  const a = el('a', {href: URL.createObjectURL(blob), download: name}, 'Save your answers again');
+  app.replaceChildren(el('h1', {}, 'Thank you'),
+    el('p', {}, `Your browser should have saved ${name}. Please send that file back. Your score isn’t shown, because seeing it could change how others answer if you talk about it.`), a);
+  a.click();
+}
+start();
+</script></body></html>

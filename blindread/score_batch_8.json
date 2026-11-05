@@ -1,0 +1,1782 @@
+[
+ {
+  "trial": "T160",
+  "description": {
+   "positive": "Mid-word or mid-span continuation tokens, like closing parens '..)', ')->' and multi-token foreign words (German '-chtet', '-chts'). Also positions where a new word, header or markdown marker is not expected next.",
+   "negative": "Positions just before a new word or section starts, where the model would predict ' #', ' **', ' Problem', ' Plan', ' |'. Examples: line or sentence boundaries in markdown math solutions ('## Step', '**Problem**', 'Plan:'). Also tokens like '-year', 'dorm', 'Application', 'derniers'."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… *   Is it possible that the students who received an A are distinct from the[[ students]] who received B",
+     "… grade. If a student got a B or C, they are distinct from a[[ student]] who got an",
+     "… found these in only a small fraction of the poems ) , and from Han Yu[[ ,]] who wrote a",
+     "… answer within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's a thinking[[ process]] to solve the",
+     "… British Airways Sikorsky S61N helicopter from Sumburgh Airport[[ was]] scrambled . They"
+    ],
+    "strong_negative_contexts": [
+     "… and was shot by Madonna in London in January 2006 while she[[ was]] making plans for",
+     "… fired on the Hunyani about five minutes after it took off , while the aircraft[[ was]] still in the",
+     "… , and starring Ryan Phillippe , and Sahara , filmed in Morocco whilst Ayola[[ was]] pregnant with her",
+     "… , instructed the conspiractors about silencers , took responsibility for the weapons while they[[ were]] in the commune",
+     "…1 @,@ 872 ( 3 @.@ 7 % )[[ were]] associated with the"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "…0} = 600 \\times 18 = 10[[,]]800",
+     "… 6 \\times 82 \\times 100 = 4[[9]]2 \\times",
+     "…[[ Esk]]imos = =",
+     "…        *   $N_{black} = 516 - 4[[3]]0$⏎",
+     "…[[Ol]]ga purchases a"
+    ],
+    "strong_negative_contexts": [
+     "… the number of Black cars[[.]]⏎        $$",
+     "… quarter of *what is left* to buy a new book[[.]]⏎    *",
+     "…5 + 36 = 71[[$.]]⏎⏎4.",
+     "…97[[ ,]] John Travolta",
+     "… by government staff[[ .]] Government officials have"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… *   Since she is in college for 8 semesters, she takes [[4]]0 classes.",
+     "… \"After saving all his money for four weeks...\" -> Does he earn $1[[0]] *per week",
+     "…6\" or \"8\".⏎    *   If the answer is 4[[0]], then ",
+     "… family 's couch . The theme song featured in the Game of Thrones opening sequence[[ was]] arranged by The",
+     "… refers to the remaining students after A and B/C, then Rest = 2[[4]] - 6"
+    ],
+    "strong_negative_contexts": [
+     "… \" of the title from a 1963 Malcolm X speech , in[[ which]] Malcolm X linked",
+     "… . It took its name from a quotation of British sprinter Linford Christie in[[ which]] he said that",
+     "…uke to McCartney to abandon his legal stand against the Beatles and Apple Corps , which[[ was]] placed in receivers",
+     "… Morris and others openly supported the Miskito Indian group Misurasata , who[[ were]] allied with the",
+     "… opening sequence of the HBO medieval fantasy series Game of Thrones . The Game of Thrones[[ opening]] shows the various"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "…⏎        *   Total Eggs Cost: $30⏎⏎    *   **[[Step]] 3:",
+     "… days.⏎    *   But he washed on the 8th, [[9]]th, ",
+     "…0⏎        *   Calculation: $10 \\times 3$⏎⏎[[   ]] *   *",
+     "…Income} - \\text{Tax}$.⏎⏎3.  **Execute Step[[ ]]1: Calculate",
+     "… , Johnny Devine , Kamala , Karen Angle , Koko B. Ware[[ ,]] Raisha S"
+    ],
+    "strong_negative_contexts": [
+     "…$. Find $\\theta_1 + \\theta_2 + \\theta_3[[ +]] \\theta_",
+     "…th, 16th, 17th, 18th[[,]] 19",
+     "….⏎        *   Total Potato Plants = 30 + 30[[ +]] 30",
+     "… plants.⏎        *   Total Cucumbers = 4 + 4[[ +]] 4 =",
+     "…th, 19th, 20th, 21st[[,]] 22"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "…aring , or running they were very much indeed Canterbury 's superior . Such runs[[ as]] were made by",
+     "… Fu 's works ( although he found these in only a small fraction of the[[ poems]] ) , and",
+     "…⏎⏎    *   *Correction:* I need to map the given information to the[[ variables]].⏎       ",
+     "…, and the rest are black.\"⏎    *   This implies the set of[[ cars]] are partitioned",
+     "…OT for time they closed down traffic lanes — fees based on hourly assessments and the[[ time]] of day the"
+    ],
+    "strong_negative_contexts": [
+     "… of bronze and Verde marble is also noteworthy as a very fine example of the type[[ of]] Post Office structures",
+     "… them installed . ⏎ The Amvets Memorial Drive designation was created for the section[[ of]] US 2",
+     "…322 and the Atlantic City Expressway in Hamilton Township . ⏎ The portion[[ of]]",
+     "… in the event of a hurricane . ⏎ = = History = = ⏎ The portion[[ of]] current Route ",
+     "… effort between MDOT and its counterparts in Wisconsin , Minnesota and Ontario . The section[[ of]] US 2"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T161",
+  "description": {
+   "positive": "Second subword piece of fictional character/place names from anime/fantasy franchises, especially Naruto (Kon[oha], Kak[ashi], Sas[uke]) and Harry[ Potter]. Pop-culture fictional names.",
+   "negative": "Weak: completion of real-world proper names (Eddie[ Murphy], Niall[ Stokes], Jamie[ Fo]xx, Man[as] Air Base) and product numbers (Windows [2]000)."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… It has a geometric albedo of 0 @.@ 35 in visible[[ light]] . ⏎ =",
+     "… = 48,\\]compute the value of \\[(\\log_{1[[0]]}x)^",
+     "…celes trapezoid shown has side lengths as labeled. How long is[[ segment]] AC? [",
+     "…+3^{y+1} &=18.⏎\\end{align[[*]]}",
+     "… end of the song , peace doves were shown on the screen and bright beams of[[ light]] flanking the"
+    ],
+    "strong_negative_contexts": [
+     "… of it on a new video game. He then spends a quarter of what is[[ left]] to buy a",
+     "… *   Wait, did I misread \"spends a quarter of what is[[ left]]\"?⏎       ",
+     "… two different points in time, and then Emma decided she would make toast with the[[ remaining]] slices. If",
+     "… Three of the wings are dedicated to paintings. The artifacts are divided evenly among the[[ remaining]] wings. One",
+     "… 20 skeletons.  Half of these skeletons are adult women, and the[[ remaining]] number are split"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… members of Team 10 to avenge their mentor with the aid of Kak[[ashi]] Hatake",
+     "… to his easygoing nature despite being a genius , and contrasted him against Sas[[uke]] Uchiha",
+     "… by SpongeBob 's use of his \" word \" and leave . Squid[[ward]] then informs Mr",
+     "… the mantle of a leader when assigned to lead a team in order to retrieve Sas[[uke]] Uchiha",
+     "… insight and intelligence he demonstrated against Temari . As a Chunin , Shik[[amar]]u is appointed"
+    ],
+    "strong_negative_contexts": [
+     "… band Kiss — Peter Criss , Ace Frehley , Gene Simmons and Paul[[ Stanley]] —",
+     "…ers Rest , South Carolina to investigate the deaths of film director Lew Carroll ( Paul[[ Stanley]] ) and Marta",
+     "… the use of American Indian symbols in popular American culture . He focuses on such phenomena[[ as]] Tony Hillerman",
+     "… that . I used to think it was Belfast ... \" Journalist Niall[[ Stokes]] believes the title",
+     "… Inc . ' s lead designer , Jack McCornack was impressed by director Lee[[ Tam]]ahori '"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… the fan by his hair to the edge of the stage , where the fan jumped[[ off]] . It was",
+     "… to tackle the English player Stoddart , and in the process ripped his shorts[[ off]] . The N",
+     "… included night @-@ time surprise attacks , and positioning forces to drive the natives[[ off]] cliffs or force",
+     "…2013 , it was proven that Blythe had thrown Nosek[[ off]]stage and thus",
+     "… they 'd be tipped[[ off]] as to where"
+    ],
+    "strong_negative_contexts": [
+     "… was never prosecuted in relation to the conspiracy , and left the United States after pleading[[ guilty]] to immigration fraud",
+     "…@ fighters . They left China in March 1901 , having played[[ only]] a minor role",
+     "… , and an additional unindicted eighth member of the Rajneesh commune pleaded[[ guilty]] to murder conspiracy",
+     "… American carriers as a distraction . They inflicted no damage and caused the Americans to search[[ in]] the direction from",
+     "…space* and/or the *inventory*.⏎    *   Let's re-read[[ carefully]]: \"In"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… the price of the salami,  a 1/4 pound of ol[[ives]] that are $",
+     "… the bread is $2 per loaf. If he bought 12 cans of[[ spam]], 3",
+     "… 30 different nuts in a bowl. If 5/6 of the[[ nuts]] were eaten,",
+     "…A baker bakes 5 loaves of[[ bread]] an hour in",
+     "… the first major examination of this process . Nazarov correctly reasoned that the allylic[[ ole]]fin isomer"
+    ],
+    "strong_negative_contexts": [
+     "… sentence. It says \"In it, Pauline has planted 3 kinds of[[ tomatoes]]...\". This",
+     "… , \" believing the term to be synonymous with \" junction \" ; the more agr[[arian]] residents of the",
+     "… can plant.⏎    *   **Input Data:**⏎        *   Tom[[atoes]]: 5",
+     "… to her pleopods . Females carrying eggs are said to be \" ber[[ried]] \" and can",
+     "… it , \" and that the bridge has been featured in Ripley 's Believe[[ It]] or Not !"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… and included two of the new themes created for The World Is Not Enough . The[[ first]] , originally used",
+     "… number of dolls in each box and then add them together.⏎⏎**Step [[1]]: Calculate the",
+     "… London . ⏎ The team had two further matches before their international against England . The[[ first]] was against one",
+     "…arov cyclization suffers from several drawbacks which modern variants attempt to circumvent . The[[ first]] two are not",
+     "…}⏎⏎    Let's write out the response clearly.⏎⏎    **Step [[1]]:** Find the"
+    ],
+    "strong_negative_contexts": [
+     "… process that leads to the solution:⏎⏎1.  **Analyze the Request[[:**]]⏎    *",
+     "…⏎<think>⏎Here's a thinking process that leads to the solution:⏎⏎1[[.]]  **An",
+     "…⏎⏎1.  **Analyze the Problem:**⏎    *   **Goal[[:**]] Calculate the total",
+     "… during the song 's opening , \" the arena ERUPTS \" . In[[ other]] reviews , the",
+     "…⏎⏎1.  **Analyze the Request:**⏎    *   **Goal[[:**]] Calculate the number"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T162",
+  "description": {
+   "positive": "Weak and broad. Ordinary content words and names, such as 'Anna', 'Chris', 'Science', 'year', 'num', 'buffer', 'waiting', 'turn', 'serv', 'cust', 在于.",
+   "negative": "Code and markdown placeholder or uncertainty markers: inline backticks '`' and '``', '???', '?', comment openers '/*' and '//', 'TODO', 'XXX', 'NotImplementedError', and temporary variable names 'temp', 'tmp', 'orig', 'prev'. Also 'tech/-tech' and 'await'. Expect it in code snippets and unfinished stubs."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… Filming = = = ⏎ Principal photography of Die Another Day began on 1[[1]] January 2",
+     "… water pipeline could be constructed from the Suez Canal . Rafa was captured on [[9]] January 1",
+     "… for \" Blindman \" took place at Apple on 18 – 1[[9]] August , with",
+     "… and the Transvaal Republic under President Paul Kruger declared war on 1[[1]] October 1",
+     "… 1978 = = = ⏎ At a memorial service held on [[8]] September 1"
+    ],
+    "strong_negative_contexts": [
+     "… . It is set in common time with a moderately fast dance groove tempo of [[1]]32 beats",
+     "…0.8 \\times 1,000 = 10,[[8]]00$.",
+     "… 516 = 516 + 516 = [[1]]032",
+     "…75 metres per second ( 2 @,@ 530 – [[2]] @,@ ",
+     "…10 rows with 15 spaces each\", that's a total of [[1]]50 spaces"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… of the enolate is sometimes not stereoselective , meaning that products can[[ be]] formed as mix",
+     "… the oxyallyl cation \" intercepted \" in various ways . Furthermore , en[[ant]]ioselective",
+     "… cyclization . Almost all of the attempts are based on the idea of torqu[[ose]]lectivity ;",
+     "… been developed utilizing chiral auxiliaries and chiral catalysts . Diastere[[ose]]lective cycl",
+     "…loride to promote the reaction . With bicyclic products , the cis is[[omer]] was selected for"
+    ],
+    "strong_negative_contexts": [
+     "…ates for total synthesis . The reaction has been used in several total syntheses and[[ several]] reviews have been",
+     "… functional group tolerance , directing the regioselectivity of[[ the]] elimination step ,",
+     "…ive Nazarov cyclization is a desirable addition to the repertoire of Nazarov cycl[[ization]] reactions . To",
+     "…phor @-@ based auxiliary for achiral allenes that was employed in[[ the]] first asymmetric synthesis",
+     "… several syntheses employing the Nazarov cyclization were published . Shown below are[[ key]] steps in the"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… an accidental gunshot wound during the deployment . ⏎ = = = = Invasion of the[[ Wa]]ikato =",
+     "…2 itself were made in 1930 with a bypass of downtown Esc[[an]]aba . A",
+     "… movie as a whole . The 2004 release Harry Potter and the[[ Prison]]er of Az",
+     "… known that Microsoft 's Windows 2000 operating system included a disk[[ def]]ragmenter developed",
+     "… followed US 41 and M ‑ 35 between Powers and Esc[[an]]aba . The"
+    ],
+    "strong_negative_contexts": [
+     "…ores that are almost spherical . ⏎ = = = Similar species = = = ⏎[[ My]]cena mac",
+     "… Bad episode \" Thirty @-@ Eight Snub \" , and sampled by K[[MF]]DM on their",
+     "… nomination in 2008 . She is married to fellow actor Adam Sm[[eth]]urst , with",
+     "… game 's release , a three @-@ disc compilation of music from Sonic[[ the]] Hedgehog and",
+     "… Wales , but I know if that series had been called Radyr Park or C[[yn]]coed Close"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… = ⏎ The shortcomings noted above limit the usefulness of the Nazarov cyclization reaction[[ in]] its canonical form",
+     "… mechanistic pathway . ⏎ The success of the Nazarov cyclization as a tool[[ in]] organic synthesis stems",
+     "… enantioselective variants of various kinds have been developed . The sheer volume[[ of]] literature on the",
+     "…ates for total synthesis . The reaction has been used in several total syntheses and[[ several]] reviews have been",
+     "… to decolorize synthetic dyes that are used in the textile , plastics ,[[ biomedical]] and foodstuff"
+    ],
+    "strong_negative_contexts": [
+     "…97 , together with 55 Cancri b and the planet orbiting[[ Tau]] Boötis",
+     "… extensively above , the typical course for this intermediate is elimination followed by enolate t[[aut]]omerization .",
+     "… the cyclization . Almost all of the attempts are based on the idea of tor[[qu]]oselectivity",
+     "… 's suffrage . The amendment failed on February 10 , 1[[9]]19 ,",
+     "… October 1985 by federal law enforcement officials that Leslie L. Z[[ait]]z , an"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… 94$⏎        *   $94 + 6 = [[1]]00$",
+     "….\" -> Total = 40. Half = 20. Remaining =[[ ]]20.",
+     "…baked) + 1 (eaten) = 5. Left =[[ ]]4.⏎",
+     "… for only 124 yards . ⏎ = = = = 20[[1]]0 season =",
+     "… . Four infantry divisions were formed during 1939 and 19[[4]]0 , three"
+    ],
+    "strong_negative_contexts": [
+     "… never actually killed anyone , having been imprisoned for bootlegging the film Snow Falling[[ on]] Cedars .",
+     "… them , and Ozawa ordered them to reverse course and head for Amami �[[�]]shima . When",
+     "…250 Japanese troops remained behind to guard the brigade 's supply base at[[ Ta]]ivu . ⏎",
+     "… and in the 2011 Broadway revival of the musical How to S[[ucceed]] in Business Without",
+     "… 4 hours a day from Monday to Friday, and 6 hours a day[[ on]] Saturday and Sunday"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T163",
+  "description": {
+   "positive": "Math reasoning nested bullet lists of computed values: tokens after a calculation line such as newline/indentation whitespace, 'so far' in running totals, 'Start' labels, line breaks after 'Quantity: 20'. Inside step-by-step arithmetic tallies.",
+   "negative": "Header/label words in bold or section titles: '**[Goal]**:' in math analysis outlines and Wikipedia section headings '= = [Battle] = ='. The first word of a heading/label."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…⏎        *   Total Eggs Cost: $30⏎⏎    *   **[[Step]] 3:",
+     "… days.⏎    *   But he washed on the 8th, [[9]]th, ",
+     "…0⏎        *   Calculation: $10 \\times 3$⏎⏎[[   ]] *   *",
+     "…Income} - \\text{Tax}$.⏎⏎3.  **Execute Step[[ ]]1: Calculate",
+     "… , Johnny Devine , Kamala , Karen Angle , Koko B. Ware[[ ,]] Raisha S"
+    ],
+    "strong_negative_contexts": [
+     "…$. Find $\\theta_1 + \\theta_2 + \\theta_3[[ +]] \\theta_",
+     "…th, 16th, 17th, 18th[[,]] 19",
+     "….⏎        *   Total Potato Plants = 30 + 30[[ +]] 30",
+     "… plants.⏎        *   Total Cucumbers = 4 + 4[[ +]] 4 =",
+     "…th, 19th, 20th, 21st[[,]] 22"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "…⏎</think>⏎⏎Here is the step-by-step reasoning to solve the problem:⏎⏎[[1]].  **",
+     "…/soufflé} = 30 \\text{ eggs}$.⏎⏎[[3]].  **",
+     "… frames} \\times \\$3/\\text{frame} = \\$9$$⏎⏎[[2]].  **",
+     "…Identify the payment:** Sally used a $\\$20$ bill.⏎⏎[[3]].  **",
+     "… the drafted response).⏎</think>⏎⏎Here is the step-by-step calculation:⏎⏎[[1]].  **"
+    ],
+    "strong_negative_contexts": [
+     "… $3 \\times 3 = 9$⏎    *   Eggs:[[ $]]10 \\",
+     "… 8 = 24$⏎    *   *Step 2:*[[ $]]5 \\times",
+     "…Result after Action 1:** Henry has $H_1 = H_0[[ -]] 6$.",
+     "… sides to isolate the term with $C$.⏎        *   $26[[ -]] 5 =",
+     "… number of small boxes by the dolls per box.⏎            $9 \\times[[ ]]4$⏎"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "…85⏎        *   Add $0.40⏎        *  [[ Total]] = $1",
+     "…1.25⏎        *   Bought $1.60⏎       [[ *]]   Remaining =",
+     "… *what is left* (remaining from step 2).⏎    *  [[ Remaining]] from step ",
+     "… *   Cost: $9.⏎    *   Paid: $20[[.]]⏎    *",
+     "…65+12=77$. Wait, let me re-add.[[⏎]]    *  "
+    ],
+    "strong_negative_contexts": [
+     "…:⏎⏎1.  **Analyze the Problem:**⏎    *   **[[Goal]]:** Calculate the",
+     "… **Missing Week:** He missed one week of laundry.⏎    *   **[[Goal]]:** Determine how",
+     "…:** Bought a toy for $1.60.⏎    *   **[[Goal]]:** Calculate the",
+     "… driven by the auxiliary engine via a fast and loose pulley . ⏎ = =[[ Mill]]ers = =",
+     "… amount of dog food bought: 30 pounds.⏎    *   **[[Goal]]:** Calculate the"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "…aring , or running they were very much indeed Canterbury 's superior . Such runs[[ as]] were made by",
+     "… Fu 's works ( although he found these in only a small fraction of the[[ poems]] ) , and",
+     "…⏎⏎    *   *Correction:* I need to map the given information to the[[ variables]].⏎       ",
+     "…, and the rest are black.\"⏎    *   This implies the set of[[ cars]] are partitioned",
+     "…OT for time they closed down traffic lanes — fees based on hourly assessments and the[[ time]] of day the"
+    ],
+    "strong_negative_contexts": [
+     "… of bronze and Verde marble is also noteworthy as a very fine example of the type[[ of]] Post Office structures",
+     "… them installed . ⏎ The Amvets Memorial Drive designation was created for the section[[ of]] US 2",
+     "…322 and the Atlantic City Expressway in Hamilton Township . ⏎ The portion[[ of]]",
+     "… in the event of a hurricane . ⏎ = = History = = ⏎ The portion[[ of]] current Route ",
+     "… effort between MDOT and its counterparts in Wisconsin , Minnesota and Ontario . The section[[ of]] US 2"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… American forces faced each other across the channel , engaging in occasional and largely inconsequential[[ cannon]] fire at long",
+     "… booming automobile industry in the 1920s . Even through the stock[[ market]]",
+     "… maze in spin attack . Although the player earns a continue with each 50[[ rings]] found , their",
+     "… 's defeat at Ngasaunggyan . The Mongol accounts of the[[ border]] war contain certain",
+     "…@ judicial immunity \" . In February 2010 , Churchill appealed the[[ judge]] 's decision"
+    ],
+    "strong_negative_contexts": [
+     "… most popular song from the album . In 2010 , American sports[[ network]] ESPN used the",
+     "… vote of his home county in the general election , and Beckham 's native Nelson[[ County]] was already committed",
+     "… their personalities on the music . \" In addition , the article reported that Syco[[ Records]] was working on",
+     "… seeking missile hit the plane 's starboard wing and exploded , causing the inner[[ engine]] to also explode",
+     "… This had little effect , though later the Spanish recovered at least 450[[ cannon]]balls from different"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T164",
+  "description": {
+   "positive": "The 'text' token inside LaTeX commands \\text{...} and \\mathrm{...} (e.g. '\\text{cm}', '\\text{ dollars}', '\\mathrm{kg}'), also code 'text' fields (.text, _text, (text). Output strongly predicts a following backslash, i.e. another LaTeX command. Strongest in math solutions with units in LaTeX.",
+   "negative": "Weak; Greek-letter/math symbol tokens without \\text (' π', ' ω', ' Γ', ' sqrt'), and words like ' micro', ' min', ' Rose', ' Tell', ' suspension', ' Reserve'."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…Step 1: Calculate dolls in big boxes.**⏎        *   $5[[ \\]]text{ big",
+     "… as Kelvin has classes.\"⏎            *   $G = 4 \\times[[ (\\]]text{Kel",
+     "…: 2 times per week.⏎        *   Calculation: $40[[ \\]]text{ hours",
+     "… Determine the eggs needed for the savory soufflés.⏎        *   $3[[ \\]]text{ souff",
+     "… \"Triple the number of shark sightings as Cape May\" -> $3 \\times[[ (\\]]text{C"
+    ],
+    "strong_negative_contexts": [
+     "…@ 10 record . The team won the school 's first Big Ten[[ Conference]] Championship since the",
+     "… . As a part of the invasion force under the UN Supreme Commander , General Douglas[[ Mac]]Arthur , the",
+     "…8 , a spur route , Route S29 , was created , running along[[ U]].S. Route",
+     "…985 – 86 season and had the school 's best Big[[ Ten]] record ( ",
+     "… , with two soldiers accidentally killed , while a third Australian died serving with the British[[ Royal]] Air Force ."
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… 700 , in the Late Classic period , via radiocarbon analysis[[ and]] the dating of",
+     "…7 billion years old . There are various igneous intrusions including pegmatite[[ ,]] as well as",
+     "… the work initially , but the application of a modern microporous paint , designed[[ to]] withstand normal movement",
+     "… burdens acquired in the course of painful experiences , which can be cleared through a type[[ of]] counselling called \"",
+     "… centre after he stated in an interview that he had enjoyed reading books by L.[[ Ron]] Hubbard and had"
+    ],
+    "strong_negative_contexts": [
+     "… direct the cyclization by preventing the distant alkene from rotating \" towards \" it[[ via]] unfavorable steric",
+     "… the relative over @-@ stabilization of the pentadienyl cation by[[ electron]] donation , imp",
+     "… they overstabilize the pentadienyl cation , β @-@[[ electron]] donating substiu",
+     "… of β @-@ hydrogens , obviating a large amount of st[[eric]] strain in the",
+     "…koxyallenyl stannane likewise generates a pentadienyl cation[[ via]] ring opening of"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… jingles \" , calling some of the sound effects \" absolutely brilliant \" . Although[[ Mean]] Machines called the",
+     "…ism , Politics , Culture , Theory , Vol . 4 ed . ) .[[ Mais]]onneuve Press",
+     "… and the related Rush Health Systems operate a Specialty Hospital of Meridian , which offers[[ long]] @-@",
+     "…83 – 85 ) later , the Mongols had occupied down to[[ Tag]]aung and",
+     "… government does not recognize Scientology as a religion . It views it as an abusive business[[ mas]]querading as"
+    ],
+    "strong_negative_contexts": [
+     "… , Israel ( $ 200 @,@ 372 ) ,[[ South]] Africa ( $",
+     "… mostly of small numbers of high @-@ level and technical support troops such as[[ sign]]allers ,",
+     "…urrets and their supporting structures was generally compensated by the addition of the flight deck ,[[ hang]]ar , AA",
+     "… The Dakotas were tasked with courier flights , VIP transport and medical evacuations across[[ South]] East Asia ,",
+     "… as well as in the Czech Republic , Denmark , France , the Netherlands , and[[ South]] Korea . In"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… characters in the series , and referred to him as \" the poster child for any[[ card]] @-@",
+     "… fifteenth anniversary . It included several new features , such as the ability to save[[ game]] progress , a",
+     "… leader when assigned to lead a team in order to retrieve Sasuke Uchiha[[ and]] agreed that the",
+     "… , the game over screen will appear ( when the player can return to the beginning[[ of]] the act with",
+     "… that Sonic would be controlled with only a directional pad for movement and a single button[[ for]] jumping . He"
+    ],
+    "strong_negative_contexts": [
+     "… in United States to mark the game 's fifteenth anniversary . It included several[[ new]] features , such",
+     "… by integrating occasional challenging set pieces into the mostly accessible level design . The game '[[s]] color scheme was",
+     "…ikamaru is a playable character in nearly all Naruto video games , including the[[ Clash]] of Ninja series",
+     "… similar to the 16 @-@ bit version , with different level themes[[ and]] digital assets .",
+     "… save game progress , a level select option , and an Anniversary Mode with the Spin[[ Dash]] move ( not"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… as that of Shakespeare in England : it was hard for any Chinese poet not to[[ be]] influenced by him",
+     "… an example of what they could expect from the series . It was directed by Paul[[ A]]. Edwards .",
+     "… for the poor . Literary conservatives could look to his technical mastery , while literary radicals[[ were]] inspired by his",
+     "…876 , to celebrate the centennial , companies from Savannah , Augusta ,[[ Ma]]con , Columbia",
+     "… cooler talk — even when the water cooler might be spiked with poison . \" Leonard[[ M]]altin of"
+    ],
+    "strong_negative_contexts": [
+     "…93 , he and other local AIM leaders , including Russell Means , Glenn T[[.]] Morris , Robert",
+     "…lassical works by Arnold Schoenberg , Darius Milhaud , Béla[[ Bart]]ók , and",
+     "… of the $10 per week allowance?*⏎        *   No, the[[ context]] implies \"after",
+     "… Final answer is 54.⏎⏎    (Double check the math just to[[ be]] paranoid)⏎",
+     "… towels in the *previous* week.⏎    If he missed a week,[[ he]] must have washed"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T165",
+  "description": {
+   "positive": "Noisy early-layer token detector. Tokens related to minimum, necessity or appropriateness ('Minim', 'minimum', 'min', 所需要, 必要的, 适合的, 妥善), word-pieces like 'instit', 'nostal', 'integ', 'cryst', and Chinese mood words (寂寞).",
+   "negative": "Time and process words such as 'during', 'rise/rises', 'late', 'spread', '±', 过程中, 发生后, 前后; also 'obligado', 'motion', 'happens', 'doesn', and code tokens like '};', 'OPTIONS', 'PAR', 'SIGN'."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… of course we got the most flak for it in Germany . I was always[[ like]] , ' Read",
+     "… even without these particular emasculators , Dale , Kurt and Nick would still be[[ —]] for lack of",
+     "… his lazy tendencies , Shikamaru is extremely intelligent ; his teacher , A[[suma]] Sarutobi",
+     "… Choji Akimichi , Ino Yamanaka , and team leader A[[suma]] Sarutobi",
+     "… manages to find their targets , the immortal Akatsuki member Hidan kills A[[suma]] Sarutobi"
+    ],
+    "strong_negative_contexts": [
+     "… , and sports games , and has expanded into anime and manga , cartoons and comic[[ books]] , novels ,",
+     "…6 , escorted by 11 warships under the command of Admiral Sir Peter[[ Parker]] . Clinton left",
+     "… . Finding conditions unsuitable for their operations , General Henry Clinton and Admiral Sir Peter[[ Parker]] decided instead to",
+     "…1984 . ⏎ Agents of Repression : The FBI 's Secret[[ Wars]] Against the Black",
+     "… what we 're presenting . \" She has also been cast in the film D[[redd]] . ⏎ ="
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… a press interview , \" it wasn 't a slap in his face or anything[[ like]] that when we",
+     "… . \" Twelve U.S. Marines were killed ; Japanese casualties are unknown but perhaps[[ somewhat]] greater . Although",
+     "…ure up the ultimate U2 live @-@ song \" , so he imagined[[ what]] he would like",
+     "… ) frontman Dave Brockie said : “ I don ’ t think it was[[ right]] for him to",
+     "… but Dr. Penrose cannot help them further , though Peter suspects he is hiding[[ something]] . Unseen"
+    ],
+    "strong_negative_contexts": [
+     "… 45 – 13 blowout . Despite having his season sidetr[[acked]] by injuries ,",
+     "… who has resorted to physical comedy when his jokes fall flat , getting to the[[ point]] where he pours",
+     "… an Ethiopian village . He thought this visual accompaniment made the song come full[[ circle]] , saying ,",
+     "… with both hands . \" He further said that Blythe 's behavior dev[[iated]] from all the",
+     "….⏎    *   Let's re-read the prompt again. Maybe I'm[[ missing]] a detail about"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… three employees and their respective bosses ' homes and offices . Nick and H[[arken]] 's workplace",
+     "… ; two of these are also listed on the National Register of Historic Places ( NR[[HP]] ) . A",
+     "… dark / black comedy film , overtaking the 2004 The Step[[ford]] Wives (",
+     "… temperature difference has led to speculation that Upsilon Andromedae b is tidal[[ locked]] with the same",
+     "… areas have quaking aspen and willow groves . Cottonwood and al[[der]] groves can"
+    ],
+    "strong_negative_contexts": [
+     "… by Vandegrift . By nightfall , the Japanese overran and nearly annihil[[ated]] the platoon",
+     "… 7 September , Kawaguchi issued his attack plan to \" rout and annihil[[ate]] the enemy in",
+     "… , I will go up to the town again . \" Admiral Parker eventually sought to[[ destroy]] the fort '",
+     "… naval warships be stationed off Lunga Point on September 12 to \"[[ destroy]] any Americans who",
+     "… last year of the Russo @-@ Japanese War , which culminated in the[[ destruction]] of the Russian"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… translating Du Fu , which is why we need as many different translations as possible \"[[ (]] p. xx",
+     "… want some potatoes ? ' ' Ooh you , boogaloo ! '[[ \"]] Starr also recalled",
+     "… divisions between people and touch upon the things that matter the most to us all .[[ \"]] Bono wrote",
+     "… an intellectual matter , not one which affects them deeply . Here is the tragedy ![[ \"]] ⏎ = =",
+     "…Final Polish:** Ensure the reasoning is clear and the final box is formatted correctly.[[ (]]The prompt asks"
+    ],
+    "strong_negative_contexts": [
+     "…lés for the party.  How many eggs will she need?⏎Please reason[[ step]] by step,",
+     "… 9 small boxes. How many dolls are there in total?⏎Please reason[[ step]] by step,",
+     "… games at first, how many games did Henry have at first?⏎Please reason[[ step]] by step,",
+     "… a $20 bill. How much change did she get?⏎Please reason[[ step]] by step,",
+     "…0, how many feet of the field will not be fenced?⏎Please reason[[ step]] by step,"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… the fan by his hair to the edge of the stage , where the fan jumped[[ off]] . It was",
+     "… to tackle the English player Stoddart , and in the process ripped his shorts[[ off]] . The N",
+     "… included night @-@ time surprise attacks , and positioning forces to drive the natives[[ off]] cliffs or force",
+     "…2013 , it was proven that Blythe had thrown Nosek[[ off]]stage and thus",
+     "… they 'd be tipped[[ off]] as to where"
+    ],
+    "strong_negative_contexts": [
+     "… was never prosecuted in relation to the conspiracy , and left the United States after pleading[[ guilty]] to immigration fraud",
+     "…@ fighters . They left China in March 1901 , having played[[ only]] a minor role",
+     "… , and an additional unindicted eighth member of the Rajneesh commune pleaded[[ guilty]] to murder conspiracy",
+     "… American carriers as a distraction . They inflicted no damage and caused the Americans to search[[ in]] the direction from",
+     "…space* and/or the *inventory*.⏎    *   Let's re-read[[ carefully]]: \"In"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T166",
+  "description": {
+   "positive": "Very noisy. Possibly chemistry or lab text (catalyst, chromatography 色谱, preparation 制备) and capitalized name or initial tokens ('Michael', 'D', 'O', 'Reg', 'La'), plus dash/asterisk list markers (' -', '*'). Predicts tokens like 'fill', 'racial', 'ader/ading'.",
+   "negative": "Chinese lab/classroom terms (实验, 制备, 课堂, 精制, 胺), single letters 'b'/'p', 'para', 'del', bare digit '9', and 'click' (点击). Low confidence."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…Step 1: Calculate dolls in big boxes.**⏎        *   $5[[ \\]]text{ big",
+     "… as Kelvin has classes.\"⏎            *   $G = 4 \\times[[ (\\]]text{Kel",
+     "…: 2 times per week.⏎        *   Calculation: $40[[ \\]]text{ hours",
+     "… Determine the eggs needed for the savory soufflés.⏎        *   $3[[ \\]]text{ souff",
+     "… \"Triple the number of shark sightings as Cape May\" -> $3 \\times[[ (\\]]text{C"
+    ],
+    "strong_negative_contexts": [
+     "…@ 10 record . The team won the school 's first Big Ten[[ Conference]] Championship since the",
+     "… . As a part of the invasion force under the UN Supreme Commander , General Douglas[[ Mac]]Arthur , the",
+     "…8 , a spur route , Route S29 , was created , running along[[ U]].S. Route",
+     "…985 – 86 season and had the school 's best Big[[ Ten]] record ( ",
+     "… , with two soldiers accidentally killed , while a third Australian died serving with the British[[ Royal]] Air Force ."
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… 700 , in the Late Classic period , via radiocarbon analysis[[ and]] the dating of",
+     "…7 billion years old . There are various igneous intrusions including pegmatite[[ ,]] as well as",
+     "… the work initially , but the application of a modern microporous paint , designed[[ to]] withstand normal movement",
+     "… burdens acquired in the course of painful experiences , which can be cleared through a type[[ of]] counselling called \"",
+     "… centre after he stated in an interview that he had enjoyed reading books by L.[[ Ron]] Hubbard and had"
+    ],
+    "strong_negative_contexts": [
+     "… direct the cyclization by preventing the distant alkene from rotating \" towards \" it[[ via]] unfavorable steric",
+     "… the relative over @-@ stabilization of the pentadienyl cation by[[ electron]] donation , imp",
+     "… they overstabilize the pentadienyl cation , β @-@[[ electron]] donating substiu",
+     "… of β @-@ hydrogens , obviating a large amount of st[[eric]] strain in the",
+     "…koxyallenyl stannane likewise generates a pentadienyl cation[[ via]] ring opening of"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… jingles \" , calling some of the sound effects \" absolutely brilliant \" . Although[[ Mean]] Machines called the",
+     "…ism , Politics , Culture , Theory , Vol . 4 ed . ) .[[ Mais]]onneuve Press",
+     "… and the related Rush Health Systems operate a Specialty Hospital of Meridian , which offers[[ long]] @-@",
+     "…83 – 85 ) later , the Mongols had occupied down to[[ Tag]]aung and",
+     "… government does not recognize Scientology as a religion . It views it as an abusive business[[ mas]]querading as"
+    ],
+    "strong_negative_contexts": [
+     "… , Israel ( $ 200 @,@ 372 ) ,[[ South]] Africa ( $",
+     "… mostly of small numbers of high @-@ level and technical support troops such as[[ sign]]allers ,",
+     "…urrets and their supporting structures was generally compensated by the addition of the flight deck ,[[ hang]]ar , AA",
+     "… The Dakotas were tasked with courier flights , VIP transport and medical evacuations across[[ South]] East Asia ,",
+     "… as well as in the Czech Republic , Denmark , France , the Netherlands , and[[ South]] Korea . In"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… characters in the series , and referred to him as \" the poster child for any[[ card]] @-@",
+     "… fifteenth anniversary . It included several new features , such as the ability to save[[ game]] progress , a",
+     "… leader when assigned to lead a team in order to retrieve Sasuke Uchiha[[ and]] agreed that the",
+     "… , the game over screen will appear ( when the player can return to the beginning[[ of]] the act with",
+     "… that Sonic would be controlled with only a directional pad for movement and a single button[[ for]] jumping . He"
+    ],
+    "strong_negative_contexts": [
+     "… in United States to mark the game 's fifteenth anniversary . It included several[[ new]] features , such",
+     "… by integrating occasional challenging set pieces into the mostly accessible level design . The game '[[s]] color scheme was",
+     "…ikamaru is a playable character in nearly all Naruto video games , including the[[ Clash]] of Ninja series",
+     "… similar to the 16 @-@ bit version , with different level themes[[ and]] digital assets .",
+     "… save game progress , a level select option , and an Anniversary Mode with the Spin[[ Dash]] move ( not"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… as that of Shakespeare in England : it was hard for any Chinese poet not to[[ be]] influenced by him",
+     "… an example of what they could expect from the series . It was directed by Paul[[ A]]. Edwards .",
+     "… for the poor . Literary conservatives could look to his technical mastery , while literary radicals[[ were]] inspired by his",
+     "…876 , to celebrate the centennial , companies from Savannah , Augusta ,[[ Ma]]con , Columbia",
+     "… cooler talk — even when the water cooler might be spiked with poison . \" Leonard[[ M]]altin of"
+    ],
+    "strong_negative_contexts": [
+     "…93 , he and other local AIM leaders , including Russell Means , Glenn T[[.]] Morris , Robert",
+     "…lassical works by Arnold Schoenberg , Darius Milhaud , Béla[[ Bart]]ók , and",
+     "… of the $10 per week allowance?*⏎        *   No, the[[ context]] implies \"after",
+     "… Final answer is 54.⏎⏎    (Double check the math just to[[ be]] paranoid)⏎",
+     "… towels in the *previous* week.⏎    If he missed a week,[[ he]] must have washed"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T167",
+  "description": {
+   "positive": "Multiple-choice answer contexts: option letters '(C', '(B', '[C', the answer phrase '故选' ('so choose') or '下列' ('which of the following'), 'ANS'; also 'Points'/'points' in scoring text.",
+   "negative": "Uppercase two-letter tokens and abbreviations ('OK', 'DP', 'AG', 'AS', 'AX', 'AF'), arrows and comparisons ('==>', '-->', '<='), and closing words ('concluding', 'ending', 'Central')."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… Khan 's attention turned to Southeast Asia once more in 1281[[ .]] He had had",
+     "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's my thought process[[ for]] solving this problem",
+     "… lie in House District 84 and are represented by Tad Campbell ( R )[[ .]] ⏎ On the",
+     "… . ⏎ = = = = Tikal and Dos Pilas = = = =[[ ⏎]] In 6",
+     "… for several miles , crossing into Frenchtown , where the route becomes Trenton Road[[ .]] Upon entering French"
+    ],
+    "strong_negative_contexts": [
+     "… $2 \\times 12 = 24$ years.⏎⏎   [[ *]]   **Step",
+     "… = 6 \\times 7 = 42$ pounds.⏎   [[ *]]   **Step",
+     "…frac{1}{4} \\times 24 = 6$.⏎⏎[[   ]] *   **",
+     "… $5⏎        *   Calculation: $5 \\times 7$⏎⏎[[   ]] *   *",
+     "…⏎        *   So, 6 students received a B or C.⏎⏎[[   ]] *   **"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… first popularly elected senator following passage of the Seventeenth Amendment . ⏎ Descended[[ from]] a prominent political",
+     "…  Half of these skeletons are adult women, and the remaining number are split evenly[[ between]] adult men and",
+     "… % were married couples living together , 23 @.@ 3 % consisted[[ of]] a female house",
+     "… and Roberto Orci . When developing the series , they sought to find a medium[[ between]] serialized drama and",
+     "… Cullen Bohannon , the protagonist of the AMC series Hell on Wheels , h[[ails]] from Meridian"
+    ],
+    "strong_negative_contexts": [
+     "… phrase \"now, Henry has 4 times more games than Neil\" usually refers[[ to]] the current state",
+     "…0 = $20.⏎    *   Wait, is the question asking[[ for]] the final amount",
+     "…$ and Neil has 7 games (from the prompt, though the prompt asks[[ for]] $H_",
+     "…  **Determine the Logic:**⏎    *   The problem asks for the[[ *]]remaining* length",
+     "…:*⏎        *   Is \"1/4 of the remaining students\" referring[[ to]] the set of"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… is up to me alone to face this terrible truth ... No person has the right[[ to]] do what I",
+     "… Marcus Tius of the University of Hawaii show dramatic rate acceleration due to the removal[[ of]] β @-",
+     "… Squadrons — which bombed and strafed the ground in front of the advancing infantry[[ ,]] as well as",
+     "… took place in 1989 and the beginning of 199[[0]] , \" Streets",
+     "… 83.33...$ (Wait, $6 \\times [[8]]0 = "
+    ],
+    "strong_negative_contexts": [
+     "… and Stork traveled by bus back to the Rajneesh commune so as to[[ avoid]] airport metal detectors",
+     "… , Sybille and Fox arrived in Manila Bay , slipping unchallenged[[ past]] the fortress of",
+     "… . In 762 , he left the city to[[ escape]] a rebellion ,",
+     "… the rest of the trip to Guadalcanal . Because of the damage caused by[[ Allied]] air attack to",
+     "… On two occasions Australian troops from 3 RAR were used to help mop up[[ infiltr]]ators from se"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "…⏎        *   Total Eggs Cost: $30⏎⏎    *   **[[Step]] 3:",
+     "… days.⏎    *   But he washed on the 8th, [[9]]th, ",
+     "…0⏎        *   Calculation: $10 \\times 3$⏎⏎[[   ]] *   *",
+     "…Income} - \\text{Tax}$.⏎⏎3.  **Execute Step[[ ]]1: Calculate",
+     "… , Johnny Devine , Kamala , Karen Angle , Koko B. Ware[[ ,]] Raisha S"
+    ],
+    "strong_negative_contexts": [
+     "…$. Find $\\theta_1 + \\theta_2 + \\theta_3[[ +]] \\theta_",
+     "…th, 16th, 17th, 18th[[,]] 19",
+     "….⏎        *   Total Potato Plants = 30 + 30[[ +]] 30",
+     "… plants.⏎        *   Total Cucumbers = 4 + 4[[ +]] 4 =",
+     "…th, 19th, 20th, 21st[[,]] 22"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… spent.*⏎        *   Wait, the problem says \"While going to the[[ mall]], Yanni",
+     "… *   **Given:** A total of 516 cars in a parking[[ lot]].⏎   ",
+     "…opards. What's the total number of animals Brinley counted at the[[ zoo]]?",
+     "… Cucumbers: 3 varieties, 4 of each.⏎        *[[  ]] Potatoes:",
+     "…        *   Cucumbers: 4 of each kind.⏎        *[[  ]] Potatoes:"
+    ],
+    "strong_negative_contexts": [
+     "…1cm}{move \\\\ 1 space \\\\ right}$\",center+r/2[[*]]dir(2",
+     "…2-0.05,sqrt(3)/2-0.1[[),]]E);⏎",
+     "…⏎        *   Each small box contains 4 dolls.⏎        *  [[ Calculation]]: $9",
+     "…1cm}{move \\\\ 1 space \\\\ right}$\",center+r/2[[*]]dir(3",
+     "…A$\",A,W); label(\"$C$\",C,NW);label(\"$B[[$\",]]B,E);"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T168",
+  "description": {
+   "positive": "Definitional verbs and phrases: 'means', 'meaning', 'refers to', 'is defined as', 'defined', '是指', '指的是', '意为', 'i.e.' (即); also code 'def' tokens. Fires on the defining verb in 'X means/refers to ...' sentences, e.g. in glossary-style educational text.",
+   "negative": "'-man'/'man' suffix tokens, 'Based', 'Using'/'using', 'ITS'; fires weakly negative on 'Based on ...' and 'Using ...' sentence openers."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…on Lockwood , William Martin Scott , Fernand \" Fred \" Bonsor capt[[ .]] , Frank E",
+     "… . ⏎ = = Description = = ⏎ The cap is light reddish @-[[@]] brown , with",
+     "…10,10), g=(20,10), h=([[3]]0,1",
+     "… a blocked opening to the east ( about 5 feet ( 1 @.@[[ ]]5 m )",
+     "… it\" -> Half of the total accumulated money.⏎    *   \"He[[ then]] spends a quarter"
+    ],
+    "strong_negative_contexts": [
+     "…ate named Zhengmian ( Chinese : 征緬 ; Wade – Giles[[ :]] Cheng @-",
+     "… of Mianzhong ( Chinese : 緬中 ; Wade – Giles[[ :]] Mien @",
+     "… 17 @,@ 930 km ; 11 @,@[[ ]]140",
+     "…5 @,@ 000 @-@ square @-@ foot ([[ ]]34 @",
+     "… runs 34 @.@ 76 mi ( 55 @.@[[ ]]94 km"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… Khan 's attention turned to Southeast Asia once more in 1281[[ .]] He had had",
+     "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's my thought process[[ for]] solving this problem",
+     "… lie in House District 84 and are represented by Tad Campbell ( R )[[ .]] ⏎ On the",
+     "… . ⏎ = = = = Tikal and Dos Pilas = = = =[[ ⏎]] In 6",
+     "… for several miles , crossing into Frenchtown , where the route becomes Trenton Road[[ .]] Upon entering French"
+    ],
+    "strong_negative_contexts": [
+     "… $2 \\times 12 = 24$ years.⏎⏎   [[ *]]   **Step",
+     "… = 6 \\times 7 = 42$ pounds.⏎   [[ *]]   **Step",
+     "…frac{1}{4} \\times 24 = 6$.⏎⏎[[   ]] *   **",
+     "… $5⏎        *   Calculation: $5 \\times 7$⏎⏎[[   ]] *   *",
+     "…⏎        *   So, 6 students received a B or C.⏎⏎[[   ]] *   **"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… *   Since she is in college for 8 semesters, she takes [[4]]0 classes.",
+     "… \"After saving all his money for four weeks...\" -> Does he earn $1[[0]] *per week",
+     "…6\" or \"8\".⏎    *   If the answer is 4[[0]], then ",
+     "… family 's couch . The theme song featured in the Game of Thrones opening sequence[[ was]] arranged by The",
+     "… refers to the remaining students after A and B/C, then Rest = 2[[4]] - 6"
+    ],
+    "strong_negative_contexts": [
+     "… \" of the title from a 1963 Malcolm X speech , in[[ which]] Malcolm X linked",
+     "… . It took its name from a quotation of British sprinter Linford Christie in[[ which]] he said that",
+     "…uke to McCartney to abandon his legal stand against the Beatles and Apple Corps , which[[ was]] placed in receivers",
+     "… Morris and others openly supported the Miskito Indian group Misurasata , who[[ were]] allied with the",
+     "… opening sequence of the HBO medieval fantasy series Game of Thrones . The Game of Thrones[[ opening]] shows the various"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… first popularly elected senator following passage of the Seventeenth Amendment . ⏎ Descended[[ from]] a prominent political",
+     "…  Half of these skeletons are adult women, and the remaining number are split evenly[[ between]] adult men and",
+     "… % were married couples living together , 23 @.@ 3 % consisted[[ of]] a female house",
+     "… and Roberto Orci . When developing the series , they sought to find a medium[[ between]] serialized drama and",
+     "… Cullen Bohannon , the protagonist of the AMC series Hell on Wheels , h[[ails]] from Meridian"
+    ],
+    "strong_negative_contexts": [
+     "… phrase \"now, Henry has 4 times more games than Neil\" usually refers[[ to]] the current state",
+     "…0 = $20.⏎    *   Wait, is the question asking[[ for]] the final amount",
+     "…$ and Neil has 7 games (from the prompt, though the prompt asks[[ for]] $H_",
+     "…  **Determine the Logic:**⏎    *   The problem asks for the[[ *]]remaining* length",
+     "…:*⏎        *   Is \"1/4 of the remaining students\" referring[[ to]] the set of"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… American forces faced each other across the channel , engaging in occasional and largely inconsequential[[ cannon]] fire at long",
+     "… booming automobile industry in the 1920s . Even through the stock[[ market]]",
+     "… maze in spin attack . Although the player earns a continue with each 50[[ rings]] found , their",
+     "… 's defeat at Ngasaunggyan . The Mongol accounts of the[[ border]] war contain certain",
+     "…@ judicial immunity \" . In February 2010 , Churchill appealed the[[ judge]] 's decision"
+    ],
+    "strong_negative_contexts": [
+     "… most popular song from the album . In 2010 , American sports[[ network]] ESPN used the",
+     "… vote of his home county in the general election , and Beckham 's native Nelson[[ County]] was already committed",
+     "… their personalities on the music . \" In addition , the article reported that Syco[[ Records]] was working on",
+     "… seeking missile hit the plane 's starboard wing and exploded , causing the inner[[ engine]] to also explode",
+     "… This had little effect , though later the Spanish recovered at least 450[[ cannon]]balls from different"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T169",
+  "description": {
+   "positive": "Subword continuation tokens completing rare or foreign words and surnames, especially after a name start: 'Kör[ting]', 'cor[set]', 'C[odd]', 'Self-C[or]rection', 'Bullec[ourt]' (German/French names and places). Fires on the second/later piece of a word split into pieces.",
+   "negative": "The word 'well' in the fixed phrase 'as [well] as', and endings of common words split in pieces ('camar[ader]ie', 'cou[gars]')."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… It has a geometric albedo of 0 @.@ 35 in visible[[ light]] . ⏎ =",
+     "… = 48,\\]compute the value of \\[(\\log_{1[[0]]}x)^",
+     "…celes trapezoid shown has side lengths as labeled. How long is[[ segment]] AC? [",
+     "…+3^{y+1} &=18.⏎\\end{align[[*]]}",
+     "… end of the song , peace doves were shown on the screen and bright beams of[[ light]] flanking the"
+    ],
+    "strong_negative_contexts": [
+     "… of it on a new video game. He then spends a quarter of what is[[ left]] to buy a",
+     "… *   Wait, did I misread \"spends a quarter of what is[[ left]]\"?⏎       ",
+     "… two different points in time, and then Emma decided she would make toast with the[[ remaining]] slices. If",
+     "… Three of the wings are dedicated to paintings. The artifacts are divided evenly among the[[ remaining]] wings. One",
+     "… 20 skeletons.  Half of these skeletons are adult women, and the[[ remaining]] number are split"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… a press interview , \" it wasn 't a slap in his face or anything[[ like]] that when we",
+     "… . \" Twelve U.S. Marines were killed ; Japanese casualties are unknown but perhaps[[ somewhat]] greater . Although",
+     "…ure up the ultimate U2 live @-@ song \" , so he imagined[[ what]] he would like",
+     "… ) frontman Dave Brockie said : “ I don ’ t think it was[[ right]] for him to",
+     "… but Dr. Penrose cannot help them further , though Peter suspects he is hiding[[ something]] . Unseen"
+    ],
+    "strong_negative_contexts": [
+     "… 45 – 13 blowout . Despite having his season sidetr[[acked]] by injuries ,",
+     "… who has resorted to physical comedy when his jokes fall flat , getting to the[[ point]] where he pours",
+     "… an Ethiopian village . He thought this visual accompaniment made the song come full[[ circle]] , saying ,",
+     "… with both hands . \" He further said that Blythe 's behavior dev[[iated]] from all the",
+     "….⏎    *   Let's re-read the prompt again. Maybe I'm[[ missing]] a detail about"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "…12 and 14 September . ⏎ On 17 September , Vand[[egr]]ift sent two",
+     "…s final three episodes , and the first episode without Carell , \" The Inner[[ Circle]] \" , to",
+     "… They were low on ammunition , with one or two grenades for each Marine . Vand[[egr]]ift ordered a",
+     "…oring up and strengthening their Lunga defenses . On 14 September , Vand[[egr]]ift moved another",
+     "… this time . Tōgō was able to cross the T of the Russian[[ squad]]rons . K"
+    ],
+    "strong_negative_contexts": [
+     "…Find $\\left(\\sqrt{(\\sqrt3)^3[[}\\]]right)^4",
+     "…+linewidth(0.7)); [/asy]⏎$\\textbf {(A[[)}]]\\ 2",
+     "… such that⏎\\[\\frac{f(x) f(y) - f(xy[[)}]]{3}",
+     "…label(\"$\\parbox{1cm}{move \\\\ 1 space \\\\ left[[}$]]\",center+r",
+     "… {(A)}\\ 210 \\qquad \\textbf {(B[[)}]]\\ 5"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… Cort[[és]] passed within a",
+     "…⏎⏎    *   *Self-C[[or]]rection/Alternative",
+     "… dramas such as Law and Order and CSI : Crime Scene Investigation for inspiration . Kur[[zt]]man explained ,",
+     "… to take 40 classes per semester.⏎⏎    *   *Self-C[[or]]rection/Ref",
+     "…    *   The user requested a box.⏎⏎    *   *Self-C[[or]]rection/Double"
+    ],
+    "strong_negative_contexts": [
+     "… The ruins lie among the tropical rainforests of northern Guatemala that formed the cr[[adle]] of lowland",
+     "…⏎    *   He needs 4 more weeks.⏎    *   So[[,]] 4 more",
+     "…wood and willow groves . There are also bighorn sheep , cou[[gars]] , and bob",
+     "… had 16 catches for 123 yards and two touchdowns , as[[ well]] as a career",
+     "… 348 rushing yards and five touchdowns on 67 attempts , as[[ well]] as seven special"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… members of Team 10 to avenge their mentor with the aid of Kak[[ashi]] Hatake",
+     "… to his easygoing nature despite being a genius , and contrasted him against Sas[[uke]] Uchiha",
+     "… by SpongeBob 's use of his \" word \" and leave . Squid[[ward]] then informs Mr",
+     "… the mantle of a leader when assigned to lead a team in order to retrieve Sas[[uke]] Uchiha",
+     "… insight and intelligence he demonstrated against Temari . As a Chunin , Shik[[amar]]u is appointed"
+    ],
+    "strong_negative_contexts": [
+     "… band Kiss — Peter Criss , Ace Frehley , Gene Simmons and Paul[[ Stanley]] —",
+     "…ers Rest , South Carolina to investigate the deaths of film director Lew Carroll ( Paul[[ Stanley]] ) and Marta",
+     "… the use of American Indian symbols in popular American culture . He focuses on such phenomena[[ as]] Tony Hillerman",
+     "… that . I used to think it was Belfast ... \" Journalist Niall[[ Stokes]] believes the title",
+     "… Inc . ' s lead designer , Jack McCornack was impressed by director Lee[[ Tam]]ahori '"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T170",
+  "description": {
+   "positive": "Weak early-layer token detector: 'willing', 'background', 'solid', 'hard', 'easy', 'newspaper', 'tractor/ATV', Chinese 人/人对/可以作为/主要为.",
+   "negative": "Closing brackets/quote clusters in code (\"))), \")(, \"],\", '}).), Chinese boilerplate like 给我留言/咨询我/依法追究责任/在新的一年里, '谓语'; temperature units (°F, Fahrenheit) gate off."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… a press interview , \" it wasn 't a slap in his face or anything[[ like]] that when we",
+     "… . \" Twelve U.S. Marines were killed ; Japanese casualties are unknown but perhaps[[ somewhat]] greater . Although",
+     "…ure up the ultimate U2 live @-@ song \" , so he imagined[[ what]] he would like",
+     "… ) frontman Dave Brockie said : “ I don ’ t think it was[[ right]] for him to",
+     "… but Dr. Penrose cannot help them further , though Peter suspects he is hiding[[ something]] . Unseen"
+    ],
+    "strong_negative_contexts": [
+     "… 45 – 13 blowout . Despite having his season sidetr[[acked]] by injuries ,",
+     "… who has resorted to physical comedy when his jokes fall flat , getting to the[[ point]] where he pours",
+     "… an Ethiopian village . He thought this visual accompaniment made the song come full[[ circle]] , saying ,",
+     "… with both hands . \" He further said that Blythe 's behavior dev[[iated]] from all the",
+     "….⏎    *   Let's re-read the prompt again. Maybe I'm[[ missing]] a detail about"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… agent Mr. Chang . In early drafts of the script , it was Wai[[ Lin]] ( Michelle Ye",
+     "…s Todd VanDerWerff rated the episode a \" B \" . VanDer[[Wer]]ff felt that",
+     "… ⏎ Judi Dench as M , the head of MI6 . ⏎ Will Yun[[ Lee]] as Colonel Moon",
+     "…i 's concern for the poor , Lu You 's patriotism , and Mei[[ Yao]]chen 's",
+     "… received mixed reviews from critics . The A.V. Club 's Todd VanDer[[Wer]]ff rated the"
+    ],
+    "strong_negative_contexts": [
+     "… accused in 1993 of having taken part in Scientology courses ; Gott[[sch]]alk responded by",
+     "… ⏎ = = Plot = = ⏎ Federal Bureau of Investigation agents Frank Black ( Lance[[ Henri]]ksen ) and",
+     "… the boundary of the Indomalaya and Australasia ecozones . The variety kin[[ab]]aluensis (",
+     "…atrix} 2 & 1 \\\\ 7 & -3 \\end{[[pm]]atrix}\\]",
+     "… executing the contract \" . When it became known that Microsoft 's Windows 2[[0]]00 operating"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… translating Du Fu , which is why we need as many different translations as possible \"[[ (]] p. xx",
+     "… want some potatoes ? ' ' Ooh you , boogaloo ! '[[ \"]] Starr also recalled",
+     "… divisions between people and touch upon the things that matter the most to us all .[[ \"]] Bono wrote",
+     "… an intellectual matter , not one which affects them deeply . Here is the tragedy ![[ \"]] ⏎ = =",
+     "…Final Polish:** Ensure the reasoning is clear and the final box is formatted correctly.[[ (]]The prompt asks"
+    ],
+    "strong_negative_contexts": [
+     "…lés for the party.  How many eggs will she need?⏎Please reason[[ step]] by step,",
+     "… 9 small boxes. How many dolls are there in total?⏎Please reason[[ step]] by step,",
+     "… games at first, how many games did Henry have at first?⏎Please reason[[ step]] by step,",
+     "… a $20 bill. How much change did she get?⏎Please reason[[ step]] by step,",
+     "…0, how many feet of the field will not be fenced?⏎Please reason[[ step]] by step,"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… declared that he will be a better leader for the sake of his friends . Man[[ia]] Entertainment 's",
+     "… Quadrant and Quiberon , while HMAS Ships Manoora , Westral[[ia]] and Kanim",
+     "…orea , Thalictrum fendleri , Aquilegia canadensis , Chenop[[odium]] album , Gent",
+     "… . It was found growing on the dead wood of Lithocarpus haviland[[ii]] , a stone",
+     "… shī shèng ) , a counterpart to the philosophical sage , Confuc[[ius]] . One of"
+    ],
+    "strong_negative_contexts": [
+     "… Colin Farrell as Bobby Pellitt ⏎ Described as a \" weaselly sc[[ion]] \" and a",
+     "…Glor[[ia]] has five times",
+     "… praised for the many qualities her singing brought to music . The citation from the Camp[[ion]] Society of San",
+     "… in the Second Sino @-@ Japanese War . ⏎ Despite the expensive recon[[structions]] , both vessels",
+     "… being certified platinum in the United States by the Recording Industry Association of America ( R[[IA]]A ) and"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… by Professor Scott Denmark of the University of Illinois , Urbana @-@ Ch[[ampaign]] in the mid",
+     "… suit to challenge the law . The substance of the law was upheld in the circuit[[ court]] and the Kentucky",
+     "… of the Elevation Tour , the September 11 attacks occurred in New York[[ City]] and Washington D",
+     "…Let $[[S]]$ be a",
+     "… fleet withdrew northward to help the main British army in its campaign against New York[[ City]] . To add"
+    ],
+    "strong_negative_contexts": [
+     "… a \" corrupt form of legal[[ism]] \" to establish",
+     "… Scientology proved unable to gain significant numbers of followers in the territories of the former German[[ Democratic]] Republic ; most",
+     "… eliminated by Ohio[[ State]] for the third",
+     "….⏎[[       ]] *   *",
+     "… A - Students with B or C.[[⏎]]        *  "
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T171",
+  "description": {
+   "positive": "Video-game and fantasy mechanics: 'summon', 'game', 'RAW', 'RUN', 'stack', 'tree' (树林 ('woods')), 'Accum'; also historical names such as '刘备' (Liu Bei). The output pushes toward 'final', 'plate', 'solid' and away from 'mode'.",
+   "negative": "Chinese words for institutions and collectives: '机关' ('government agency'), '文明' ('civilization'), '选拔' ('selection'), '团' ('group'), '分布' ('distribution'); also 'Selector', 'Clan', 'simulate', 'DLC', '-themed'."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… , and its deployment to New Zealand in 1860 during the First[[ T]]aranaki War",
+     "… Midnight \" , playing an intergalactic Hostess alongside David Tennant 's[[ T]]enth Doctor .",
+     "… is also a Devonian fish bed at Lamba Banks . There are numerous large[[ b]]oulders deposited",
+     "… Phoenix International Raceway , winning the Formula Super Vee support event in a Lola[[ T]]620",
+     "…ically operated aircraft lift that brought the aircraft up from the hangar below on the[[ t]]rolleys used"
+    ],
+    "strong_negative_contexts": [
+     "…75.⏎        *   Subtract Cost: $1.60.[[⏎]]            *  ",
+     "… 2. Add money received.⏎            3. Subtract money found.[[⏎]]            4",
+     "…1: Subtract 5 from both sides to isolate the term with $C$.[[⏎]]        *  ",
+     "…{ eggs}$.⏎    *   Step 3: Add the totals.[[⏎]]        *  ",
+     "….25 + $0.50.⏎        *   Calculation:[[⏎]]            *  "
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… games after giving some to Neil.⏎⏎2.  **Identify the Variables[[:**]]⏎    *",
+     "…:** Find $H_0$.⏎⏎2.  **Identify the Variables[[:**]]⏎    *",
+     "… answer in `\\boxed{}`.⏎⏎2.  **Identify the Variables[[:**]]⏎    *",
+     "…⏎⏎2.  **Step 1: Identify the variables.**⏎    *[[  ]] Let $G",
+     "… Let $E_J$ be James's experience at the current time.⏎       [[ *]]   Let $"
+    ],
+    "strong_negative_contexts": [
+     "… and put your final answer within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎[[Here]]'s a thinking",
+     "… within \\boxed{}\"⏎    - No other constraints mentioned.⏎⏎    Looks[[ good]].⏎⏎   ",
+     "… 1973 ) , Lennon referenced the song title with the lines \"[[ Now]] I 'm",
+     "… by that . \" So ,[[ instead]] of bowing",
+     "…álně.cz following Blythe 's arrest , Blythe was chanting \"[[ Come]] on up \""
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… lot.⏎    *   **Properties:**⏎        *   Blue cars:[[ One]]-third of the",
+     "…Renaldo drove 15 kilometers. Ernesto drove 7 kilometers more than[[ one]]-third of Ren",
+     "…⏎    *   Let's re-read carefully. \"One-third are blue,[[ one]]-half are red",
+     "… are 516 cars in a parking lot. One-third are blue,[[ one]]-half are red",
+     "… ( in Canada ) or Indian boarding schools ( in the USA ) as part of[[ government]] policies ( "
+    ],
+    "strong_negative_contexts": [
+     "… Present the final answer clearly.⏎⏎4.  **Refine the Output ([[Self]]-Correction",
+     "… the change.⏎    *   State the final answer clearly.⏎⏎    *[[Self]]-Correction",
+     "… = $3 \\times 3 = $9.⏎        *   *[[Self]]-Correction",
+     "… *   Provide the final answer in the requested format.⏎⏎    *   *[[Self]]-Correction",
+     "…⏎⏎    *Self-correction/Refinement:* The prompt asks for reasoning step[[-by]]-step. I"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… ; tropical cedar ( Cedrela odorata ) , and Honduras mahogany ([[ Sw]]ietenia macro",
+     "… noted that Ferrell 's presence did involve several funny moments . ⏎ Bonnie St[[iern]]berg , for",
+     "…ore @-@ bearing cells ) are four @-@ spored . The[[ ple]]urocyst",
+     "… team until the middle of the season to gel . Richmond had suffered a 6[[4]] @-@",
+     "… in the United States . The show at Hawaii 's 50 @,@[[ ]]000"
+    ],
+    "strong_negative_contexts": [
+     "…-@ known Manual of the Mustard Seed Garden ( Jieziyuan[[ Hu]]azhuan",
+     "… 758 he was demoted to a post as Commissioner of Education in[[ Hu]]azhou .",
+     "… academia was likely a consequence of the studio 's location : the mountain on which[[ Hu]] took up residence",
+     "… equation $ax + 2y + 3 = 0$. What is[[ the]] value of $",
+     "… was found that exactly half of the points earned by each player were earned against the[[ ten]] players with the"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "…ing James Bond film until the release of Casino Royale . It earned $ 4[[3]]2 million worldwide",
+     "…011 . The film exceeded financial expectations , accruing over $ 2[[8]] million in the",
+     "… Roses in 1990 . The film grossed over $ 2[[0]]9 million worldwide",
+     "…4 Kampon Ro Gō water @-@ tube boilers at working pressures of[[ ]]13 –",
+     "… , a stable boy who has an obsession with horses . Advance sales topped £ [[1]] @.@ "
+    ],
+    "strong_negative_contexts": [
+     "… the film does have comes instead from the inordinate quantity of swearing , plus a[[ sm]]attering of hom",
+     "… landings with the mission of recapturing the airfield and driving the Allied[[ forces]] from the island",
+     "… Chris Columbus could have found a better Harry . \" Radcliffe 's parents originally[[ turned]] down the offer",
+     "… \" . ⏎ = = Reactions = = ⏎ = = = White Rhodesians[[ turn]] against blacks =",
+     "… DC : the first recounts the fact that during the trip , Lead Belly was \"[[ turned]] down \" wherever"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T172",
+  "description": {
+   "positive": "Weak. Tokens like '_blocking', long dash separator lines '-----', 'Sound', 'Key', '.async', 打孔, 河水, 表面上; possibly code formatting.",
+   "negative": "Strong on the concept of 'support' in many languages: 'support', '-support', '/support', 支持, 与支持, 'apoyo', 'apoio', 'soutien', 'sostenere', 'دعم'. Also 'fi', '.f', '_f', and words like 'pickups' or 提货."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…on Lockwood , William Martin Scott , Fernand \" Fred \" Bonsor capt[[ .]] , Frank E",
+     "… . ⏎ = = Description = = ⏎ The cap is light reddish @-[[@]] brown , with",
+     "…10,10), g=(20,10), h=([[3]]0,1",
+     "… a blocked opening to the east ( about 5 feet ( 1 @.@[[ ]]5 m )",
+     "… it\" -> Half of the total accumulated money.⏎    *   \"He[[ then]] spends a quarter"
+    ],
+    "strong_negative_contexts": [
+     "…ate named Zhengmian ( Chinese : 征緬 ; Wade – Giles[[ :]] Cheng @-",
+     "… of Mianzhong ( Chinese : 緬中 ; Wade – Giles[[ :]] Mien @",
+     "… 17 @,@ 930 km ; 11 @,@[[ ]]140",
+     "…5 @,@ 000 @-@ square @-@ foot ([[ ]]34 @",
+     "… runs 34 @.@ 76 mi ( 55 @.@[[ ]]94 km"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… spent.*⏎        *   Wait, the problem says \"While going to the[[ mall]], Yanni",
+     "… *   **Given:** A total of 516 cars in a parking[[ lot]].⏎   ",
+     "…opards. What's the total number of animals Brinley counted at the[[ zoo]]?",
+     "… Cucumbers: 3 varieties, 4 of each.⏎        *[[  ]] Potatoes:",
+     "…        *   Cucumbers: 4 of each kind.⏎        *[[  ]] Potatoes:"
+    ],
+    "strong_negative_contexts": [
+     "…1cm}{move \\\\ 1 space \\\\ right}$\",center+r/2[[*]]dir(2",
+     "…2-0.05,sqrt(3)/2-0.1[[),]]E);⏎",
+     "…⏎        *   Each small box contains 4 dolls.⏎        *  [[ Calculation]]: $9",
+     "…1cm}{move \\\\ 1 space \\\\ right}$\",center+r/2[[*]]dir(3",
+     "…A$\",A,W); label(\"$C$\",C,NW);label(\"$B[[$\",]]B,E);"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "…aring , or running they were very much indeed Canterbury 's superior . Such runs[[ as]] were made by",
+     "… Fu 's works ( although he found these in only a small fraction of the[[ poems]] ) , and",
+     "…⏎⏎    *   *Correction:* I need to map the given information to the[[ variables]].⏎       ",
+     "…, and the rest are black.\"⏎    *   This implies the set of[[ cars]] are partitioned",
+     "…OT for time they closed down traffic lanes — fees based on hourly assessments and the[[ time]] of day the"
+    ],
+    "strong_negative_contexts": [
+     "… of bronze and Verde marble is also noteworthy as a very fine example of the type[[ of]] Post Office structures",
+     "… them installed . ⏎ The Amvets Memorial Drive designation was created for the section[[ of]] US 2",
+     "…322 and the Atlantic City Expressway in Hamilton Township . ⏎ The portion[[ of]]",
+     "… in the event of a hurricane . ⏎ = = History = = ⏎ The portion[[ of]] current Route ",
+     "… effort between MDOT and its counterparts in Wisconsin , Minnesota and Ontario . The section[[ of]] US 2"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… Calculate the total cost of items.⏎    *   **Items and quantities:**[[⏎]]        *  ",
+     "… of a baker's purchase of ingredients.⏎    *   **Items:**⏎[[       ]] *   Flour",
+     "… final answer in $\\boxed{}$.⏎⏎2.  **Break Down the Calculation[[:**]]⏎⏎    *",
+     "…aking Soda: $3 per box⏎⏎2.  **Break Down the Calculation[[:**]]⏎    *",
+     "… . ⏎ = = Filmography = = ⏎ = = = Film = = =[[ ⏎]] = = ="
+    ],
+    "strong_negative_contexts": [
+     "… opened to positive critical reception , with several critics praising the ensemble cast , with each[[ lead]] being singled out",
+     "… ⏎ Several publications for manga , anime , video games , and other related media have[[ commented]] on Shik",
+     "…Drafting the Response:**⏎⏎    *   *Introduction:* State the items and[[ their]] quantities/price",
+     "… rocker \" , the song features a prominent slide guitar part by Harrison and contributions from[[ musicians]] Gary Wright and",
+     "… 1 December 1888 . Both teams had a number of leading[[ players]] out injured –"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… American forces faced each other across the channel , engaging in occasional and largely inconsequential[[ cannon]] fire at long",
+     "… booming automobile industry in the 1920s . Even through the stock[[ market]]",
+     "… maze in spin attack . Although the player earns a continue with each 50[[ rings]] found , their",
+     "… 's defeat at Ngasaunggyan . The Mongol accounts of the[[ border]] war contain certain",
+     "…@ judicial immunity \" . In February 2010 , Churchill appealed the[[ judge]] 's decision"
+    ],
+    "strong_negative_contexts": [
+     "… most popular song from the album . In 2010 , American sports[[ network]] ESPN used the",
+     "… vote of his home county in the general election , and Beckham 's native Nelson[[ County]] was already committed",
+     "… their personalities on the music . \" In addition , the article reported that Syco[[ Records]] was working on",
+     "… seeking missile hit the plane 's starboard wing and exploded , causing the inner[[ engine]] to also explode",
+     "… This had little effect , though later the Spanish recovered at least 450[[ cannon]]balls from different"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T173",
+  "description": {
+   "positive": "Exclusion words: ' excluded', ' Exclude', ' excluding', ' exclu-', 'Ignore'; also 'toBe', ' Direct', ' subsidiary', 'rendering'. Contexts like 'excluding tax', 'is excluded from'.",
+   "negative": "Sector/industry/field words across languages: ' sector'/' secteur'/' setor'/' sektor'/'сектора', 'ngành', 'المجالات', 'क्षेत्र'; plus Chinese prestige/attraction words (吸引, 享誉, 举世, 致富) and ' deny'. Economic-sector descriptions ('the manufacturing sector')."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… Filming = = = ⏎ Principal photography of Die Another Day began on 1[[1]] January 2",
+     "… water pipeline could be constructed from the Suez Canal . Rafa was captured on [[9]] January 1",
+     "… for \" Blindman \" took place at Apple on 18 – 1[[9]] August , with",
+     "… and the Transvaal Republic under President Paul Kruger declared war on 1[[1]] October 1",
+     "… 1978 = = = ⏎ At a memorial service held on [[8]] September 1"
+    ],
+    "strong_negative_contexts": [
+     "… . It is set in common time with a moderately fast dance groove tempo of [[1]]32 beats",
+     "…0.8 \\times 1,000 = 10,[[8]]00$.",
+     "… 516 = 516 + 516 = [[1]]032",
+     "…75 metres per second ( 2 @,@ 530 – [[2]] @,@ ",
+     "…10 rows with 15 spaces each\", that's a total of [[1]]50 spaces"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… characters in the series , and referred to him as \" the poster child for any[[ card]] @-@",
+     "… fifteenth anniversary . It included several new features , such as the ability to save[[ game]] progress , a",
+     "… leader when assigned to lead a team in order to retrieve Sasuke Uchiha[[ and]] agreed that the",
+     "… , the game over screen will appear ( when the player can return to the beginning[[ of]] the act with",
+     "… that Sonic would be controlled with only a directional pad for movement and a single button[[ for]] jumping . He"
+    ],
+    "strong_negative_contexts": [
+     "… in United States to mark the game 's fifteenth anniversary . It included several[[ new]] features , such",
+     "… by integrating occasional challenging set pieces into the mostly accessible level design . The game '[[s]] color scheme was",
+     "…ikamaru is a playable character in nearly all Naruto video games , including the[[ Clash]] of Ninja series",
+     "… similar to the 16 @-@ bit version , with different level themes[[ and]] digital assets .",
+     "… save game progress , a level select option , and an Anniversary Mode with the Spin[[ Dash]] move ( not"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "…Step 1: Calculate dolls in big boxes.**⏎        *   $5[[ \\]]text{ big",
+     "… as Kelvin has classes.\"⏎            *   $G = 4 \\times[[ (\\]]text{Kel",
+     "…: 2 times per week.⏎        *   Calculation: $40[[ \\]]text{ hours",
+     "… Determine the eggs needed for the savory soufflés.⏎        *   $3[[ \\]]text{ souff",
+     "… \"Triple the number of shark sightings as Cape May\" -> $3 \\times[[ (\\]]text{C"
+    ],
+    "strong_negative_contexts": [
+     "…@ 10 record . The team won the school 's first Big Ten[[ Conference]] Championship since the",
+     "… . As a part of the invasion force under the UN Supreme Commander , General Douglas[[ Mac]]Arthur , the",
+     "…8 , a spur route , Route S29 , was created , running along[[ U]].S. Route",
+     "…985 – 86 season and had the school 's best Big[[ Ten]] record ( ",
+     "… , with two soldiers accidentally killed , while a third Australian died serving with the British[[ Royal]] Air Force ."
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… ; tropical cedar ( Cedrela odorata ) , and Honduras mahogany ([[ Sw]]ietenia macro",
+     "… noted that Ferrell 's presence did involve several funny moments . ⏎ Bonnie St[[iern]]berg , for",
+     "…ore @-@ bearing cells ) are four @-@ spored . The[[ ple]]urocyst",
+     "… team until the middle of the season to gel . Richmond had suffered a 6[[4]] @-@",
+     "… in the United States . The show at Hawaii 's 50 @,@[[ ]]000"
+    ],
+    "strong_negative_contexts": [
+     "…-@ known Manual of the Mustard Seed Garden ( Jieziyuan[[ Hu]]azhuan",
+     "… 758 he was demoted to a post as Commissioner of Education in[[ Hu]]azhou .",
+     "… academia was likely a consequence of the studio 's location : the mountain on which[[ Hu]] took up residence",
+     "… equation $ax + 2y + 3 = 0$. What is[[ the]] value of $",
+     "… was found that exactly half of the points earned by each player were earned against the[[ ten]] players with the"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… seven percent share . This was a slight decrease from the previous episode , \" At[[ Long]] Last Leave \"",
+     "… Tuscaloosa , Alabama , eventually terminating in Florence , South Carolina . Interstate[[ ]]59 ⏎",
+     "… for the freeway system . The proposed number in 1958 was Interstate[[ ]]75 (",
+     "… the following months , attacking both ZIPRA and its rival , the Zimbabwe African National[[ Liberation]] Army ( Z",
+     "… , the John Fitch Parkway , that was to run from Hamilton Township to Interstate[[ ]]95 in"
+    ],
+    "strong_negative_contexts": [
+     "… product placement was dropped to eight for the next Bond film Casino Royale in 2[[0]]06 .",
+     "… Kirche Deutschland e.V. Germany 's domestic intelligence service , the Bundesamt für[[ Ver]]fassungsschutz",
+     "… in the German constitution . The BfV domestic intelligence service ( Bundesamt für[[ Ver]]fassungsschutz",
+     "…55 . In November he was posted to RAAF[[ Overse]]as Headquarters ,",
+     "… named Miles \" Tails \" Prower and continued the fight against Dr.[[ Robot]]nik . Sonic"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T174",
+  "description": {
+   "positive": "Marketing/service-provider text addressing the reader or speaking as an organization: 'our specialists/experts', 'professional', 'your questions', 'for you', 'our company', service-system language (专业, 专家, 服务体系, специалисты, 'help you'); positive on expert/professional nouns.",
+   "negative": "Casual, narrative or first-person anecdotal text: 'got', 'keep', 'hid', 'like' (就像), 'new' (新, 的新), 'want', colloquial Chinese particles (啦, 肯定, 跟他), personal 'my/I found'. Also capitalized fragments 'Th', 'Aut', 'Show', markdown '##'."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…⏎        *   Total Eggs Cost: $30⏎⏎    *   **[[Step]] 3:",
+     "… days.⏎    *   But he washed on the 8th, [[9]]th, ",
+     "…0⏎        *   Calculation: $10 \\times 3$⏎⏎[[   ]] *   *",
+     "…Income} - \\text{Tax}$.⏎⏎3.  **Execute Step[[ ]]1: Calculate",
+     "… , Johnny Devine , Kamala , Karen Angle , Koko B. Ware[[ ,]] Raisha S"
+    ],
+    "strong_negative_contexts": [
+     "…$. Find $\\theta_1 + \\theta_2 + \\theta_3[[ +]] \\theta_",
+     "…th, 16th, 17th, 18th[[,]] 19",
+     "….⏎        *   Total Potato Plants = 30 + 30[[ +]] 30",
+     "… plants.⏎        *   Total Cucumbers = 4 + 4[[ +]] 4 =",
+     "…th, 19th, 20th, 21st[[,]] 22"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "…⏎</think>⏎⏎Here is the step-by-step reasoning to solve the problem:⏎⏎[[1]].  **",
+     "…/soufflé} = 30 \\text{ eggs}$.⏎⏎[[3]].  **",
+     "… frames} \\times \\$3/\\text{frame} = \\$9$$⏎⏎[[2]].  **",
+     "…Identify the payment:** Sally used a $\\$20$ bill.⏎⏎[[3]].  **",
+     "… the drafted response).⏎</think>⏎⏎Here is the step-by-step calculation:⏎⏎[[1]].  **"
+    ],
+    "strong_negative_contexts": [
+     "… $3 \\times 3 = 9$⏎    *   Eggs:[[ $]]10 \\",
+     "… 8 = 24$⏎    *   *Step 2:*[[ $]]5 \\times",
+     "…Result after Action 1:** Henry has $H_1 = H_0[[ -]] 6$.",
+     "… sides to isolate the term with $C$.⏎        *   $26[[ -]] 5 =",
+     "… number of small boxes by the dolls per box.⏎            $9 \\times[[ ]]4$⏎"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "…on Lockwood , William Martin Scott , Fernand \" Fred \" Bonsor capt[[ .]] , Frank E",
+     "… . ⏎ = = Description = = ⏎ The cap is light reddish @-[[@]] brown , with",
+     "…10,10), g=(20,10), h=([[3]]0,1",
+     "… a blocked opening to the east ( about 5 feet ( 1 @.@[[ ]]5 m )",
+     "… it\" -> Half of the total accumulated money.⏎    *   \"He[[ then]] spends a quarter"
+    ],
+    "strong_negative_contexts": [
+     "…ate named Zhengmian ( Chinese : 征緬 ; Wade – Giles[[ :]] Cheng @-",
+     "… of Mianzhong ( Chinese : 緬中 ; Wade – Giles[[ :]] Mien @",
+     "… 17 @,@ 930 km ; 11 @,@[[ ]]140",
+     "…5 @,@ 000 @-@ square @-@ foot ([[ ]]34 @",
+     "… runs 34 @.@ 76 mi ( 55 @.@[[ ]]94 km"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… , which had not been revived since its first run in 1973[[ ,]] at the G",
+     "… National Socialist history , and to increase both membership figures and political influence in German society[[ ,]] with a special",
+     "… Infantry Battalion which would make the main frontal assault from the centre of the Australian line[[ ,]] crossing at the",
+     "… an American officer issues orders to the South Korean army in the defence of their homeland[[ ,]] and by a",
+     "… cirque , which can be attributed to its position amongst other mountains of similar height[[ ,]] causing it to"
+    ],
+    "strong_negative_contexts": [
+     "…-@ episode . I 'd struggled to find the word to describe it ,[[ and]] the winner is",
+     "… dancers . New York was already home to many North American and European musical performers ,[[ so]] Gauthier",
+     "… for that year . Pakenham Watermill had previously benefited from the project ,[[ and]] its owners ,",
+     "… majority rule \" had recently gained ground in Britain and elsewhere amid decolonisation ,[[ and]] Rhodesia '",
+     "… Restoration of riparian areas began in the early 1970s ,[[ and]] plans to reduce"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… first popularly elected senator following passage of the Seventeenth Amendment . ⏎ Descended[[ from]] a prominent political",
+     "…  Half of these skeletons are adult women, and the remaining number are split evenly[[ between]] adult men and",
+     "… % were married couples living together , 23 @.@ 3 % consisted[[ of]] a female house",
+     "… and Roberto Orci . When developing the series , they sought to find a medium[[ between]] serialized drama and",
+     "… Cullen Bohannon , the protagonist of the AMC series Hell on Wheels , h[[ails]] from Meridian"
+    ],
+    "strong_negative_contexts": [
+     "… phrase \"now, Henry has 4 times more games than Neil\" usually refers[[ to]] the current state",
+     "…0 = $20.⏎    *   Wait, is the question asking[[ for]] the final amount",
+     "…$ and Neil has 7 games (from the prompt, though the prompt asks[[ for]] $H_",
+     "…  **Determine the Logic:**⏎    *   The problem asks for the[[ *]]remaining* length",
+     "…:*⏎        *   Is \"1/4 of the remaining students\" referring[[ to]] the set of"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T175",
+  "description": {
+   "positive": "Noisy. Tokens starting with 'p'/'pk'/'pi'/'psi'/'mask' in code or math, such as '(pi', 'psi', 'xi' (Greek letters in math notation), and Portuguese/Romance 'permane', 'acredit', 'aci'. Promotes 'app/application', 'fixed'.",
+   "negative": "Movement and action nouns (movements, 动作), 'porch', 'pitcher', 'Prec', and 'according to' (据). Low magnitude."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…⏎</think>⏎⏎Here is the step-by-step reasoning to solve the problem:⏎⏎[[1]].  **",
+     "…/soufflé} = 30 \\text{ eggs}$.⏎⏎[[3]].  **",
+     "… frames} \\times \\$3/\\text{frame} = \\$9$$⏎⏎[[2]].  **",
+     "…Identify the payment:** Sally used a $\\$20$ bill.⏎⏎[[3]].  **",
+     "… the drafted response).⏎</think>⏎⏎Here is the step-by-step calculation:⏎⏎[[1]].  **"
+    ],
+    "strong_negative_contexts": [
+     "… $3 \\times 3 = 9$⏎    *   Eggs:[[ $]]10 \\",
+     "… 8 = 24$⏎    *   *Step 2:*[[ $]]5 \\times",
+     "…Result after Action 1:** Henry has $H_1 = H_0[[ -]] 6$.",
+     "… sides to isolate the term with $C$.⏎        *   $26[[ -]] 5 =",
+     "… number of small boxes by the dolls per box.⏎            $9 \\times[[ ]]4$⏎"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "…aring , or running they were very much indeed Canterbury 's superior . Such runs[[ as]] were made by",
+     "… Fu 's works ( although he found these in only a small fraction of the[[ poems]] ) , and",
+     "…⏎⏎    *   *Correction:* I need to map the given information to the[[ variables]].⏎       ",
+     "…, and the rest are black.\"⏎    *   This implies the set of[[ cars]] are partitioned",
+     "…OT for time they closed down traffic lanes — fees based on hourly assessments and the[[ time]] of day the"
+    ],
+    "strong_negative_contexts": [
+     "… of bronze and Verde marble is also noteworthy as a very fine example of the type[[ of]] Post Office structures",
+     "… them installed . ⏎ The Amvets Memorial Drive designation was created for the section[[ of]] US 2",
+     "…322 and the Atlantic City Expressway in Hamilton Township . ⏎ The portion[[ of]]",
+     "… in the event of a hurricane . ⏎ = = History = = ⏎ The portion[[ of]] current Route ",
+     "… effort between MDOT and its counterparts in Wisconsin , Minnesota and Ontario . The section[[ of]] US 2"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "…on Lockwood , William Martin Scott , Fernand \" Fred \" Bonsor capt[[ .]] , Frank E",
+     "… . ⏎ = = Description = = ⏎ The cap is light reddish @-[[@]] brown , with",
+     "…10,10), g=(20,10), h=([[3]]0,1",
+     "… a blocked opening to the east ( about 5 feet ( 1 @.@[[ ]]5 m )",
+     "… it\" -> Half of the total accumulated money.⏎    *   \"He[[ then]] spends a quarter"
+    ],
+    "strong_negative_contexts": [
+     "…ate named Zhengmian ( Chinese : 征緬 ; Wade – Giles[[ :]] Cheng @-",
+     "… of Mianzhong ( Chinese : 緬中 ; Wade – Giles[[ :]] Mien @",
+     "… 17 @,@ 930 km ; 11 @,@[[ ]]140",
+     "…5 @,@ 000 @-@ square @-@ foot ([[ ]]34 @",
+     "… runs 34 @.@ 76 mi ( 55 @.@[[ ]]94 km"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… look closer at the prompt's phrasing:* \"Pauline has a garden with[[ vegetables]]. In it",
+     "…  **Analyze the Problem Statement:**⏎    *   Rex is taking lessons[[.]]⏎    *",
+     "… Request:**⏎    *   **Goal:** Calculate the number of *additional*[[ vegetables]] Pauline can",
+     "… 50 crayons total. 20% are pink.⏎   [[ *]]   **Goal",
+     "… taxes.⏎    *   **Goal:** Determine the final amount.⏎   [[ *]]   **Format"
+    ],
+    "strong_negative_contexts": [
+     "… that is $2.00.  How much does she spend at the[[ local]] shop?",
+     "…25 m&m's at the beginning, how many did she give to her[[ sister]]?",
+     "…⏎        *   *Note:* The problem says \"She paid with a $[[2]]0 bill\".",
+     "… his test.\"⏎            *   Wait, does \"until he has done his[[ test]]\" mean he",
+     "… item:** $3.⏎    *   **Payment method:** $20[[ bill]].⏎   "
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "…ua , 饾板印刷 ) . This system made use of multiple blocks[[ ,]] each carved with",
+     "… from each of the city 's five wards , considered single @-@ member[[ districts]] . The mayor",
+     "… four @-@ spored . The pleurocystidia ( cystidia[[ on]] the gill",
+     "… term that has not been precisely translated but that implies something akin to \" high king[[ \"]] . ⏎ The",
+     "… the sum of the *total* vacation count and the *total* class count[[.]]⏎    *"
+    ],
+    "strong_negative_contexts": [
+     "…4 times more games than Neil, it means the total number of games Henry has[[ is]] 4 times",
+     "… broadcast , meaning that 5 @.@ 4 percent of households in the United[[ States]] viewed the episode",
+     "…) = 6.⏎        *   $H_{current}$ (games[[ Henry]] has) =",
+     "… Henry had) = ?⏎        *   $H_{given}$ (games[[ Henry]] gave) =",
+     "… that was the federal government 's first use of \" blood quantum \" to define[[ individual]] membership in tribes"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T176",
+  "description": {
+   "positive": "Weak. Verbs/prepositions describing range, composition, or source in descriptive prose: 'extends [from]', 'precipitation [falls]', 'prompt [mixes]', 'supported [by]', 'a mix [of]'. Relational connectors that link a subject to its makeup/extent.",
+   "negative": "In math-reasoning self-checks, the token after 'asks'/'asking' or a quoted phrase that introduces what the problem wants: 'the problem asks [for]', 'is the problem asking [for]', '\"...\" usually [implies]', '\"...?\" [implies]'. Meta-reasoning about interpreting the problem's request."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "…on Lockwood , William Martin Scott , Fernand \" Fred \" Bonsor capt[[ .]] , Frank E",
+     "… . ⏎ = = Description = = ⏎ The cap is light reddish @-[[@]] brown , with",
+     "…10,10), g=(20,10), h=([[3]]0,1",
+     "… a blocked opening to the east ( about 5 feet ( 1 @.@[[ ]]5 m )",
+     "… it\" -> Half of the total accumulated money.⏎    *   \"He[[ then]] spends a quarter"
+    ],
+    "strong_negative_contexts": [
+     "…ate named Zhengmian ( Chinese : 征緬 ; Wade – Giles[[ :]] Cheng @-",
+     "… of Mianzhong ( Chinese : 緬中 ; Wade – Giles[[ :]] Mien @",
+     "… 17 @,@ 930 km ; 11 @,@[[ ]]140",
+     "…5 @,@ 000 @-@ square @-@ foot ([[ ]]34 @",
+     "… runs 34 @.@ 76 mi ( 55 @.@[[ ]]94 km"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… Khan 's attention turned to Southeast Asia once more in 1281[[ .]] He had had",
+     "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's my thought process[[ for]] solving this problem",
+     "… lie in House District 84 and are represented by Tad Campbell ( R )[[ .]] ⏎ On the",
+     "… . ⏎ = = = = Tikal and Dos Pilas = = = =[[ ⏎]] In 6",
+     "… for several miles , crossing into Frenchtown , where the route becomes Trenton Road[[ .]] Upon entering French"
+    ],
+    "strong_negative_contexts": [
+     "… $2 \\times 12 = 24$ years.⏎⏎   [[ *]]   **Step",
+     "… = 6 \\times 7 = 42$ pounds.⏎   [[ *]]   **Step",
+     "…frac{1}{4} \\times 24 = 6$.⏎⏎[[   ]] *   **",
+     "… $5⏎        *   Calculation: $5 \\times 7$⏎⏎[[   ]] *   *",
+     "…⏎        *   So, 6 students received a B or C.⏎⏎[[   ]] *   **"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… *   Since she is in college for 8 semesters, she takes [[4]]0 classes.",
+     "… \"After saving all his money for four weeks...\" -> Does he earn $1[[0]] *per week",
+     "…6\" or \"8\".⏎    *   If the answer is 4[[0]], then ",
+     "… family 's couch . The theme song featured in the Game of Thrones opening sequence[[ was]] arranged by The",
+     "… refers to the remaining students after A and B/C, then Rest = 2[[4]] - 6"
+    ],
+    "strong_negative_contexts": [
+     "… \" of the title from a 1963 Malcolm X speech , in[[ which]] Malcolm X linked",
+     "… . It took its name from a quotation of British sprinter Linford Christie in[[ which]] he said that",
+     "…uke to McCartney to abandon his legal stand against the Beatles and Apple Corps , which[[ was]] placed in receivers",
+     "… Morris and others openly supported the Miskito Indian group Misurasata , who[[ were]] allied with the",
+     "… opening sequence of the HBO medieval fantasy series Game of Thrones . The Game of Thrones[[ opening]] shows the various"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… first popularly elected senator following passage of the Seventeenth Amendment . ⏎ Descended[[ from]] a prominent political",
+     "…  Half of these skeletons are adult women, and the remaining number are split evenly[[ between]] adult men and",
+     "… % were married couples living together , 23 @.@ 3 % consisted[[ of]] a female house",
+     "… and Roberto Orci . When developing the series , they sought to find a medium[[ between]] serialized drama and",
+     "… Cullen Bohannon , the protagonist of the AMC series Hell on Wheels , h[[ails]] from Meridian"
+    ],
+    "strong_negative_contexts": [
+     "… phrase \"now, Henry has 4 times more games than Neil\" usually refers[[ to]] the current state",
+     "…0 = $20.⏎    *   Wait, is the question asking[[ for]] the final amount",
+     "…$ and Neil has 7 games (from the prompt, though the prompt asks[[ for]] $H_",
+     "…  **Determine the Logic:**⏎    *   The problem asks for the[[ *]]remaining* length",
+     "…:*⏎        *   Is \"1/4 of the remaining students\" referring[[ to]] the set of"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… American forces faced each other across the channel , engaging in occasional and largely inconsequential[[ cannon]] fire at long",
+     "… booming automobile industry in the 1920s . Even through the stock[[ market]]",
+     "… maze in spin attack . Although the player earns a continue with each 50[[ rings]] found , their",
+     "… 's defeat at Ngasaunggyan . The Mongol accounts of the[[ border]] war contain certain",
+     "…@ judicial immunity \" . In February 2010 , Churchill appealed the[[ judge]] 's decision"
+    ],
+    "strong_negative_contexts": [
+     "… most popular song from the album . In 2010 , American sports[[ network]] ESPN used the",
+     "… vote of his home county in the general election , and Beckham 's native Nelson[[ County]] was already committed",
+     "… their personalities on the music . \" In addition , the article reported that Syco[[ Records]] was working on",
+     "… seeking missile hit the plane 's starboard wing and exploded , causing the inner[[ engine]] to also explode",
+     "… This had little effect , though later the Spanish recovered at least 450[[ cannon]]balls from different"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T177",
+  "description": {
+   "positive": "Second part of East Asian (Chinese) personal names ('Wai [Lin]', 'Du Z[ong]wu'), possessive 's after names, and 'of' in institutional names 'Protection [of] ...'. Weak.",
+   "negative": "Word-internal pieces of German/European surnames ('Gott[sch]alk', 'Lance [Henri]ksen', 'Chris [S]abin') — the middle of a multi-token Germanic/Scandinavian name — and LaTeX environment names ('\\end{[pm]atrix}')."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… a press interview , \" it wasn 't a slap in his face or anything[[ like]] that when we",
+     "… . \" Twelve U.S. Marines were killed ; Japanese casualties are unknown but perhaps[[ somewhat]] greater . Although",
+     "…ure up the ultimate U2 live @-@ song \" , so he imagined[[ what]] he would like",
+     "… ) frontman Dave Brockie said : “ I don ’ t think it was[[ right]] for him to",
+     "… but Dr. Penrose cannot help them further , though Peter suspects he is hiding[[ something]] . Unseen"
+    ],
+    "strong_negative_contexts": [
+     "… 45 – 13 blowout . Despite having his season sidetr[[acked]] by injuries ,",
+     "… who has resorted to physical comedy when his jokes fall flat , getting to the[[ point]] where he pours",
+     "… an Ethiopian village . He thought this visual accompaniment made the song come full[[ circle]] , saying ,",
+     "… with both hands . \" He further said that Blythe 's behavior dev[[iated]] from all the",
+     "….⏎    *   Let's re-read the prompt again. Maybe I'm[[ missing]] a detail about"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… agent Mr. Chang . In early drafts of the script , it was Wai[[ Lin]] ( Michelle Ye",
+     "…s Todd VanDerWerff rated the episode a \" B \" . VanDer[[Wer]]ff felt that",
+     "… ⏎ Judi Dench as M , the head of MI6 . ⏎ Will Yun[[ Lee]] as Colonel Moon",
+     "…i 's concern for the poor , Lu You 's patriotism , and Mei[[ Yao]]chen 's",
+     "… received mixed reviews from critics . The A.V. Club 's Todd VanDer[[Wer]]ff rated the"
+    ],
+    "strong_negative_contexts": [
+     "… accused in 1993 of having taken part in Scientology courses ; Gott[[sch]]alk responded by",
+     "… ⏎ = = Plot = = ⏎ Federal Bureau of Investigation agents Frank Black ( Lance[[ Henri]]ksen ) and",
+     "… the boundary of the Indomalaya and Australasia ecozones . The variety kin[[ab]]aluensis (",
+     "…atrix} 2 & 1 \\\\ 7 & -3 \\end{[[pm]]atrix}\\]",
+     "… executing the contract \" . When it became known that Microsoft 's Windows 2[[0]]00 operating"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… translating Du Fu , which is why we need as many different translations as possible \"[[ (]] p. xx",
+     "… want some potatoes ? ' ' Ooh you , boogaloo ! '[[ \"]] Starr also recalled",
+     "… divisions between people and touch upon the things that matter the most to us all .[[ \"]] Bono wrote",
+     "… an intellectual matter , not one which affects them deeply . Here is the tragedy ![[ \"]] ⏎ = =",
+     "…Final Polish:** Ensure the reasoning is clear and the final box is formatted correctly.[[ (]]The prompt asks"
+    ],
+    "strong_negative_contexts": [
+     "…lés for the party.  How many eggs will she need?⏎Please reason[[ step]] by step,",
+     "… 9 small boxes. How many dolls are there in total?⏎Please reason[[ step]] by step,",
+     "… games at first, how many games did Henry have at first?⏎Please reason[[ step]] by step,",
+     "… a $20 bill. How much change did she get?⏎Please reason[[ step]] by step,",
+     "…0, how many feet of the field will not be fenced?⏎Please reason[[ step]] by step,"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… declared that he will be a better leader for the sake of his friends . Man[[ia]] Entertainment 's",
+     "… Quadrant and Quiberon , while HMAS Ships Manoora , Westral[[ia]] and Kanim",
+     "…orea , Thalictrum fendleri , Aquilegia canadensis , Chenop[[odium]] album , Gent",
+     "… . It was found growing on the dead wood of Lithocarpus haviland[[ii]] , a stone",
+     "… shī shèng ) , a counterpart to the philosophical sage , Confuc[[ius]] . One of"
+    ],
+    "strong_negative_contexts": [
+     "… Colin Farrell as Bobby Pellitt ⏎ Described as a \" weaselly sc[[ion]] \" and a",
+     "…Glor[[ia]] has five times",
+     "… praised for the many qualities her singing brought to music . The citation from the Camp[[ion]] Society of San",
+     "… in the Second Sino @-@ Japanese War . ⏎ Despite the expensive recon[[structions]] , both vessels",
+     "… being certified platinum in the United States by the Recording Industry Association of America ( R[[IA]]A ) and"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… by Professor Scott Denmark of the University of Illinois , Urbana @-@ Ch[[ampaign]] in the mid",
+     "… suit to challenge the law . The substance of the law was upheld in the circuit[[ court]] and the Kentucky",
+     "… of the Elevation Tour , the September 11 attacks occurred in New York[[ City]] and Washington D",
+     "…Let $[[S]]$ be a",
+     "… fleet withdrew northward to help the main British army in its campaign against New York[[ City]] . To add"
+    ],
+    "strong_negative_contexts": [
+     "… a \" corrupt form of legal[[ism]] \" to establish",
+     "… Scientology proved unable to gain significant numbers of followers in the territories of the former German[[ Democratic]] Republic ; most",
+     "… eliminated by Ohio[[ State]] for the third",
+     "….⏎[[       ]] *   *",
+     "… A - Students with B or C.[[⏎]]        *  "
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T178",
+  "description": {
+   "positive": "Weak, diffuse positives on scattered multilingual tokens (Chinese compounds ending in 的 like 构成的/建造的, Vietnamese/Korean tokens, UI/web words like 'Save', 'POST', 'Sec', 'opting'); possibly abstract intent/purpose words ('intention', 'aspire', 'Understanding', 'Reduce').",
+   "negative": "Science/biology word-starts and short subword prefixes: ' cy'/' cyt' (cytokine, cytoplasm), ' anthrop', ' bark', ' iron'/'Iron', 'volt'/'Volt', ' cortisol', ' tit', ' ed', ' SI', ' TH', ' XL'; also ' population', ' additional'/' extra'. Strongest on first subword of technical biology/chemistry/physics terms."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… of course we got the most flak for it in Germany . I was always[[ like]] , ' Read",
+     "… even without these particular emasculators , Dale , Kurt and Nick would still be[[ —]] for lack of",
+     "… his lazy tendencies , Shikamaru is extremely intelligent ; his teacher , A[[suma]] Sarutobi",
+     "… Choji Akimichi , Ino Yamanaka , and team leader A[[suma]] Sarutobi",
+     "… manages to find their targets , the immortal Akatsuki member Hidan kills A[[suma]] Sarutobi"
+    ],
+    "strong_negative_contexts": [
+     "… , and sports games , and has expanded into anime and manga , cartoons and comic[[ books]] , novels ,",
+     "…6 , escorted by 11 warships under the command of Admiral Sir Peter[[ Parker]] . Clinton left",
+     "… . Finding conditions unsuitable for their operations , General Henry Clinton and Admiral Sir Peter[[ Parker]] decided instead to",
+     "…1984 . ⏎ Agents of Repression : The FBI 's Secret[[ Wars]] Against the Black",
+     "… what we 're presenting . \" She has also been cast in the film D[[redd]] . ⏎ ="
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… translating Du Fu , which is why we need as many different translations as possible \"[[ (]] p. xx",
+     "… want some potatoes ? ' ' Ooh you , boogaloo ! '[[ \"]] Starr also recalled",
+     "… divisions between people and touch upon the things that matter the most to us all .[[ \"]] Bono wrote",
+     "… an intellectual matter , not one which affects them deeply . Here is the tragedy ![[ \"]] ⏎ = =",
+     "…Final Polish:** Ensure the reasoning is clear and the final box is formatted correctly.[[ (]]The prompt asks"
+    ],
+    "strong_negative_contexts": [
+     "…lés for the party.  How many eggs will she need?⏎Please reason[[ step]] by step,",
+     "… 9 small boxes. How many dolls are there in total?⏎Please reason[[ step]] by step,",
+     "… games at first, how many games did Henry have at first?⏎Please reason[[ step]] by step,",
+     "… a $20 bill. How much change did she get?⏎Please reason[[ step]] by step,",
+     "…0, how many feet of the field will not be fenced?⏎Please reason[[ step]] by step,"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… video starts with Madonna standing in front of neon lighted screen in a purple le[[ot]]ard uttering",
+     "… Broadway run of Equus he auctioned off a pair of jeans and other items[[ worn]] in the show",
+     "… begins to experience strange events and hauntings from the ghost of a woman dressed[[ in]] black . He",
+     "… of Boyz II Men during their live performance of the song with Carey at Madison[[ Square]] Garden in ",
+     "…set with her hair in 1970s retro inspired style and pair[[ of]] knee high silver"
+    ],
+    "strong_negative_contexts": [
+     "…in themed segment . Madonna was dressed in a Jean @-@ Paul Gault[[ier]] kaftan",
+     "… . ⏎ A compilation album of bands that have been featured in the Ozzfest[[ line]] @-@",
+     "… tuxedo designed by the Italian fashion house Brioni . ⏎ Revlon also[[ collaborated]] with the makers",
+     "…1 m2 ) Bonita Lakes Mall offers over one hundred shopping venues , including[[ department]] stores , specialty",
+     "… court settlement being reached between Manchester City Council , the project 's designers Thomas Heather[[wick]] Studio Ltd ,"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… a collection of paper samples , which made use of the gonghua stamped emb[[oss]]ing technique to",
+     "… which were not previously possible . ⏎ In some images , Hu employed a blind emb[[oss]]ing technique (",
+     "… for the song came to him overnight . When discussing the composition on VH1 Story[[t]]ellers in May",
+     "… 1889 by two half brothers , Israel Marks and Levi Rothen[[berg]] . During its",
+     "…. K. Rowling . Rowling had been searching for an unknown British actor to person[[ify]] the character ,"
+    ],
+    "strong_negative_contexts": [
+     "… forewarned[[ ,]] Cooke abandoned his",
+     "… atop the platform[[ ,]] dressed in a",
+     "… the state ; in 2010 the Michigan Department of Transportation ( MD[[OT]] ) recorded a",
+     "… for the 2010 FIFA World Cup[[ ,]] with the South",
+     "… for fast gameplay , was influenced by the games of Super Mario series creator , Sh[[iger]]u Miyamoto"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… and included two of the new themes created for The World Is Not Enough . The[[ first]] , originally used",
+     "… number of dolls in each box and then add them together.⏎⏎**Step [[1]]: Calculate the",
+     "… London . ⏎ The team had two further matches before their international against England . The[[ first]] was against one",
+     "…arov cyclization suffers from several drawbacks which modern variants attempt to circumvent . The[[ first]] two are not",
+     "…}⏎⏎    Let's write out the response clearly.⏎⏎    **Step [[1]]:** Find the"
+    ],
+    "strong_negative_contexts": [
+     "… process that leads to the solution:⏎⏎1.  **Analyze the Request[[:**]]⏎    *",
+     "…⏎<think>⏎Here's a thinking process that leads to the solution:⏎⏎1[[.]]  **An",
+     "…⏎⏎1.  **Analyze the Problem:**⏎    *   **Goal[[:**]] Calculate the total",
+     "… during the song 's opening , \" the arena ERUPTS \" . In[[ other]] reviews , the",
+     "…⏎⏎1.  **Analyze the Request:**⏎    *   **Goal[[:**]] Calculate the number"
+    ]
+   }
+  }
+ },
+ {
+  "trial": "T179",
+  "description": {
+   "positive": "Weak: 'Process/process', 'AH', 'bread', 'stone' (石头), Polish/Dutch question words (jakie, welke), Russian 'подготовки'.",
+   "negative": "Configuration / location words: 'config', '-config', '_config', 'Config', 'configuration'; 'where/Where', 'где', 'حيث'; 'await'; pronoun 'it/It'; 'split', 'src'. Programming config files and relative clauses 'where...'."
+  },
+  "options": {
+   "A": {
+    "strong_positive_contexts": [
+     "… declared that he will be a better leader for the sake of his friends . Man[[ia]] Entertainment 's",
+     "… Quadrant and Quiberon , while HMAS Ships Manoora , Westral[[ia]] and Kanim",
+     "…orea , Thalictrum fendleri , Aquilegia canadensis , Chenop[[odium]] album , Gent",
+     "… . It was found growing on the dead wood of Lithocarpus haviland[[ii]] , a stone",
+     "… shī shèng ) , a counterpart to the philosophical sage , Confuc[[ius]] . One of"
+    ],
+    "strong_negative_contexts": [
+     "… Colin Farrell as Bobby Pellitt ⏎ Described as a \" weaselly sc[[ion]] \" and a",
+     "…Glor[[ia]] has five times",
+     "… praised for the many qualities her singing brought to music . The citation from the Camp[[ion]] Society of San",
+     "… in the Second Sino @-@ Japanese War . ⏎ Despite the expensive recon[[structions]] , both vessels",
+     "… being certified platinum in the United States by the Recording Industry Association of America ( R[[IA]]A ) and"
+    ]
+   },
+   "B": {
+    "strong_positive_contexts": [
+     "… three employees and their respective bosses ' homes and offices . Nick and H[[arken]] 's workplace",
+     "… ; two of these are also listed on the National Register of Historic Places ( NR[[HP]] ) . A",
+     "… dark / black comedy film , overtaking the 2004 The Step[[ford]] Wives (",
+     "… temperature difference has led to speculation that Upsilon Andromedae b is tidal[[ locked]] with the same",
+     "… areas have quaking aspen and willow groves . Cottonwood and al[[der]] groves can"
+    ],
+    "strong_negative_contexts": [
+     "… by Vandegrift . By nightfall , the Japanese overran and nearly annihil[[ated]] the platoon",
+     "… 7 September , Kawaguchi issued his attack plan to \" rout and annihil[[ate]] the enemy in",
+     "… , I will go up to the town again . \" Admiral Parker eventually sought to[[ destroy]] the fort '",
+     "… naval warships be stationed off Lunga Point on September 12 to \"[[ destroy]] any Americans who",
+     "… last year of the Russo @-@ Japanese War , which culminated in the[[ destruction]] of the Russian"
+    ]
+   },
+   "C": {
+    "strong_positive_contexts": [
+     "… translating Du Fu , which is why we need as many different translations as possible \"[[ (]] p. xx",
+     "… want some potatoes ? ' ' Ooh you , boogaloo ! '[[ \"]] Starr also recalled",
+     "… divisions between people and touch upon the things that matter the most to us all .[[ \"]] Bono wrote",
+     "… an intellectual matter , not one which affects them deeply . Here is the tragedy ![[ \"]] ⏎ = =",
+     "…Final Polish:** Ensure the reasoning is clear and the final box is formatted correctly.[[ (]]The prompt asks"
+    ],
+    "strong_negative_contexts": [
+     "…lés for the party.  How many eggs will she need?⏎Please reason[[ step]] by step,",
+     "… 9 small boxes. How many dolls are there in total?⏎Please reason[[ step]] by step,",
+     "… games at first, how many games did Henry have at first?⏎Please reason[[ step]] by step,",
+     "… a $20 bill. How much change did she get?⏎Please reason[[ step]] by step,",
+     "…0, how many feet of the field will not be fenced?⏎Please reason[[ step]] by step,"
+    ]
+   },
+   "D": {
+    "strong_positive_contexts": [
+     "… Pegasi b , the first extrasolar planet discovered around a normal star , U[[psilon]] Andromed",
+     "…95 AU . ⏎ A limitation of the radial velocity method used to detect U[[psilon]] Andromed",
+     "… to Jupiter in composition and that its environment is close to chemical equilibrium , predicted U[[psilon]] Andromed",
+     "…2 . TNA created a section covering the event on their website . TNA[[ released]] a poster to",
+     "… the constellation of Andromeda . The planet orbits the Solar twin star , U[[psilon]] Andromed"
+    ],
+    "strong_negative_contexts": [
+     "… version = = ⏎ Starr recorded a new[[ version]] of \" Back",
+     "…able releases = = = ⏎ Sonic the Hedgehog has been available for all three[[ major]] seventh @-",
+     "… = ⏎ = = = In Naruto = = = ⏎ Shikamaru first[[ major]] appearance in the",
+     "… = = Charts = = ⏎ = = Certifications = = ⏎ = = Release[[ history]] = = ⏎",
+     "… September 2009 . In October 2010 , it[[ was]] released as a"
+    ]
+   },
+   "E": {
+    "strong_positive_contexts": [
+     "… Cort[[és]] passed within a",
+     "…⏎⏎    *   *Self-C[[or]]rection/Alternative",
+     "… dramas such as Law and Order and CSI : Crime Scene Investigation for inspiration . Kur[[zt]]man explained ,",
+     "… to take 40 classes per semester.⏎⏎    *   *Self-C[[or]]rection/Ref",
+     "…    *   The user requested a box.⏎⏎    *   *Self-C[[or]]rection/Double"
+    ],
+    "strong_negative_contexts": [
+     "… The ruins lie among the tropical rainforests of northern Guatemala that formed the cr[[adle]] of lowland",
+     "…⏎    *   He needs 4 more weeks.⏎    *   So[[,]] 4 more",
+     "…wood and willow groves . There are also bighorn sheep , cou[[gars]] , and bob",
+     "… had 16 catches for 123 yards and two touchdowns , as[[ well]] as a career",
+     "… 348 rushing yards and five touchdowns on 67 attempts , as[[ well]] as seven special"
+    ]
+   }
+  }
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "id": "N24",
+  "layer": 13,
+  "positive_examples": [
+   {
+    "act": 0.305,
+    "text": "… dominated by a fascist movement that started from similarly small beginnings , Germany is very wary[[ of]] any ideological movement"
+   },
+   {
+    "act": 0.268,
+    "text": "… group the Parents Television Council and fans , who interpreted the episode as an example of[[ promoting]] and implicitly sat"
+   },
+   {
+    "act": 0.252,
+    "text": "… well done , which is the faint praise that we do not like to mete out[[ to]] anyone . \""
+   },
+   {
+    "act": 0.233,
+    "text": "… him to join the other captured officers in his cabin , while the boat 's[[ crew]] were imprisoned below"
+   },
+   {
+    "act": 0.229,
+    "text": "… defenses . Japanese bombers attacked the ridge during daytime on 11 – 1[[2]] September , causing"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.016,
+    "text": "… \" to Guadalcanal and back in a single night , minimizing their exposure to[[ Allied]] air attack ."
+   },
+   {
+    "act": -1.039,
+    "text": "… Allied landings with the mission of recapturing the airfield and driving the[[ Allied]] forces from the"
+   },
+   {
+    "act": -0.992,
+    "text": "… the following morning . Ozawa reversed course during the night , correctly believing that the[[ Americans]] would follow him"
+   },
+   {
+    "act": -0.93,
+    "text": "… conspirators intended to hide out at an international network of Rajneesh communes if[[ the]] plan was successful"
+   },
+   {
+    "act": -0.898,
+    "text": "…AN ships were involved in shelling Indonesian positions in Borneo and in rep[[elling]] infiltrators in"
+   }
+  ]
+ },
+ {
+  "id": "N11",
+  "layer": 1,
+  "positive_examples": [
+   {
+    "act": 0.496,
+    "text": "… the battleship Mikasa into combat , this time against the Second and Third Pacific[[ Squad]]rons . Mik"
+   },
+   {
+    "act": 0.479,
+    "text": "… undefended . Edson and Thomas tried to persuade Vand[[egr]]ift to move"
+   },
+   {
+    "act": 0.463,
+    "text": "….S. Marines , under the overall command of U.S. Major General Alexander Vand[[egr]]ift , rep"
+   },
+   {
+    "act": 0.459,
+    "text": "… Field , but it resulted in an even more decisive defeat for the Japanese . Vand[[egr]]ift later stated"
+   },
+   {
+    "act": 0.447,
+    "text": "… of Guadalcanal east of the present day capital of Honiara . Vand[[egr]]ift placed his"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.836,
+    "text": "… \\cdots + \\underbrace{99\\ldots 99[[}_]]\\text{"
+   },
+   {
+    "act": -1.047,
+    "text": "…Find $p$ if $12^3=\\frac{9^2[[}]]3\\cdot"
+   },
+   {
+    "act": -1.031,
+    "text": "…The expression $\\dfrac{\\sqrt[3]{5[[}}]]{\\sqrt["
+   },
+   {
+    "act": -0.961,
+    "text": "…9 = \\$11$⏎⏎    Final Answer: $\\boxed{11[[}]]$.⏎</think>"
+   },
+   {
+    "act": -0.918,
+    "text": "…Evaluate $\\left\\lceil\\sqrt{\\frac{9}{4}}[[\\]]right\\rceil"
+   }
+  ]
+ },
+ {
+  "id": "N08",
+  "layer": 3,
+  "positive_examples": [
+   {
+    "act": 2.203,
+    "text": "…Mrs. Crocker made 11 pieces of[[ fried]] chicken for Ly"
+   },
+   {
+    "act": 0.961,
+    "text": "…There are 30 different[[ nuts]] in a bowl"
+   },
+   {
+    "act": 0.824,
+    "text": "… the grocery store. He saw that the Spam is $3 per can, the[[ peanut]] butter is $"
+   },
+   {
+    "act": 0.637,
+    "text": "… the bread at two different points in time, and then Emma decided she would make[[ toast]] with the remaining"
+   },
+   {
+    "act": 0.559,
+    "text": "…@ 1980s and utilizes stoichiometric amounts of iron tr[[ich]]loride to"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.523,
+    "text": "… , A Midsummer Night 's Dream , The Tempest , The Merchant of[[ Venice]] and Macbeth"
+   },
+   {
+    "act": -0.484,
+    "text": "…⏎    *   Wait, looking at the numbers:⏎        *   Tom[[atoes]]: 3"
+   },
+   {
+    "act": -0.441,
+    "text": "…aceae . The doubtfully edible mushroom has a reddish @-@ brown[[ bell]] @-@"
+   },
+   {
+    "act": -0.439,
+    "text": "… can plant.⏎    *   **Input Data:**⏎        *   Tom[[atoes]]: 3"
+   },
+   {
+    "act": -0.373,
+    "text": "… **Determine the Number of Vegetables Available:**⏎    *   **Tom[[atoes]]:**⏎       "
+   }
+  ]
+ },
+ {
+  "id": "N29",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.436,
+    "text": "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's a thinking process[[ to]] solve the problem"
+   },
+   {
+    "act": 0.412,
+    "text": "… easy access to US 75 and I @-@ 635[[ ⏎]] Level III :"
+   },
+   {
+    "act": 0.395,
+    "text": "… within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's my thought process[[ for]] solving this word"
+   },
+   {
+    "act": 0.371,
+    "text": "… ⏎ Overview of population trends ⏎ = = = Shipwrecks = = =[[ ⏎]] The coasts"
+   },
+   {
+    "act": 0.365,
+    "text": "… brown , and white to grayish veins that have numerous cross @-@ veins[[ .]] M. poly"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.852,
+    "text": "… $3⏎        *   Calculation: $3 \\times 2$⏎⏎[[   ]] *   *"
+   },
+   {
+    "act": -0.746,
+    "text": "…} = 3 \\times 1 = 3$ pounds.⏎   [[ *]]   **Step"
+   },
+   {
+    "act": -0.707,
+    "text": "…⏎        *   So, Luna has 10 pink crayons.⏎⏎[[   ]] *   **"
+   },
+   {
+    "act": -0.637,
+    "text": "…15 + 15 + 90 = 120$.[[⏎⏎]]3. "
+   },
+   {
+    "act": -0.609,
+    "text": "…4$.⏎        *   Number of B or C = 6.⏎⏎[[   ]] *   **"
+   }
+  ]
+ },
+ {
+  "id": "N59",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 1.141,
+    "text": "… the Black Sea . The northernmost populations are found in the Norwegian fjords T[[ys]]fjorden"
+   },
+   {
+    "act": 1.008,
+    "text": "… , the Afrikaner Republics of the Orange Free State and the[[ Trans]]vaal Republic"
+   },
+   {
+    "act": 0.895,
+    "text": "… in their barrels . In turn she concentrated most of her fire upon the battleships[[ Pol]]tava and T"
+   },
+   {
+    "act": 0.812,
+    "text": "… change did she get?⏎Please reason step by step, and put your final[[ answer]] within \\boxed"
+   },
+   {
+    "act": 0.797,
+    "text": "… contemporary composers throughout her career and sang in the American premieres of several works by[[ Erik]] Satie ,"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.883,
+    "text": "… \"spends a quarter of what is left\" implies he spends money equal to[[ $]]1/4"
+   },
+   {
+    "act": -1.523,
+    "text": "… amount remaining from the previous step.⏎    *   Amount remaining from game =[[ $]]20."
+   },
+   {
+    "act": -1.492,
+    "text": "…12.⏎        *   John's experience at 8 years ago was[[ $]]2 \\times"
+   },
+   {
+    "act": -1.375,
+    "text": "… + rotate(90)*(S));⏎⏎draw(Circle((0,0[[),]]1));⏎"
+   },
+   {
+    "act": -1.305,
+    "text": "…        *   $\\text{Remaining}[[ =]] 60"
+   }
+  ]
+ },
+ {
+  "id": "N51",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 2.422,
+    "text": "… seven percent share . This was a slight decrease from the previous episode , \" At[[ Long]] Last Leave \""
+   },
+   {
+    "act": 2.188,
+    "text": "… equivalent strategies pursued by Scientology in other countries and regions of the world – with the[[ long]] @-@"
+   },
+   {
+    "act": 2.062,
+    "text": "… territories in present @-@ day Dehong , Yunnan and northern Burma to[[ Tag]]aung ."
+   },
+   {
+    "act": 1.867,
+    "text": "… for Manchester and Manchester City Council committed itself to working with the artist to reach a[[ long]] @-@"
+   },
+   {
+    "act": 1.68,
+    "text": "… should only be changed peacefully . Likewise , multilateralism , collective security and defence[[ self]] @-@"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -3.0,
+    "text": "… to interfere with traffic flow during construction , the new interchange was designed largely as elevated[[ fly]]over ramps and"
+   },
+   {
+    "act": -2.938,
+    "text": "… River to reinforce the remnants of the KPA . Undetected by US and[[ South]] Korean intelligence ,"
+   },
+   {
+    "act": -2.75,
+    "text": "… Korean Demilitarized Zone with concentrated sunlight , allowing North Korean troops to invade[[ South]] Korea and reun"
+   },
+   {
+    "act": -2.703,
+    "text": "… the Guadalcanal campaign , but also to Japan 's ultimate defeat throughout the[[ South]] Pacific . ⏎"
+   },
+   {
+    "act": -2.594,
+    "text": "… office when I was running Apple Movies , a big office in town , and the[[ hang]] @-@"
+   }
+  ]
+ },
+ {
+  "id": "N21",
+  "layer": 15,
+  "positive_examples": [
+   {
+    "act": 0.594,
+    "text": "… $60,000 \\times 18 = 1,[[0]]80,"
+   },
+   {
+    "act": 0.562,
+    "text": "…[[Franc]]ine has five"
+   },
+   {
+    "act": 0.531,
+    "text": "…{5000} \\approx 4 \\times 70.[[7]]1 = "
+   },
+   {
+    "act": 0.498,
+    "text": "….18 \\times 60,000 = 10[[,]]800"
+   },
+   {
+    "act": 0.467,
+    "text": "…:⏎            *   $0.80 + $0.40[[ =]] $1."
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -4.562,
+    "text": "… spots* or the *total space* is a constraint[[.]]⏎    *"
+   },
+   {
+    "act": -4.188,
+    "text": "…6 weeks of lessons[[.]]⏎        *"
+   },
+   {
+    "act": -3.984,
+    "text": "… eggs dessert[[).]]⏎    *"
+   },
+   {
+    "act": -3.719,
+    "text": "…37[[ ,]] and opened a"
+   },
+   {
+    "act": -3.672,
+    "text": "… means the time elapsed since the start of the timeline (or the prompt's context[[).]]⏎    *"
+   }
+  ]
+ },
+ {
+  "id": "N39",
+  "layer": 11,
+  "positive_examples": [
+   {
+    "act": 0.855,
+    "text": "… of Marco Polo . Although the Burmese chronicles have no record of the[[ border]] war , a"
+   },
+   {
+    "act": 0.49,
+    "text": "… VHS and DVD entitled Around the World . The VHS featured performances from Tokyo[[ Dome]] , Aloha"
+   },
+   {
+    "act": 0.477,
+    "text": "… \" ' Dolphin noise ' you too ! \" during the Eels and Escal[[ators]] game . It"
+   },
+   {
+    "act": 0.434,
+    "text": "… power on the primary generator , which happened during filming . ⏎ The depiction of the[[ police]] attempting to shut"
+   },
+   {
+    "act": 0.416,
+    "text": "… school textbook prices , a reform both he and Goebel had advocated during the gubern[[atorial]] campaign . However"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.715,
+    "text": "… they had been told that it would involve six films shot in Los Angeles . Warner[[ Bros]]. instead offered"
+   },
+   {
+    "act": -0.535,
+    "text": "…olta was to appear on Gottschalk 's programme , and asked the Z[[DF]] TV station to"
+   },
+   {
+    "act": -0.52,
+    "text": "… United Kingdom , Iceland , and Cádiz , Spain . Other locations included Pinewood[[ Studios]] ' 0"
+   },
+   {
+    "act": -0.512,
+    "text": "…ennertz recorded the soundtrack at The Village recording studio in West Los Angeles and Capitol[[ Records]] . Lenn"
+   },
+   {
+    "act": -0.486,
+    "text": "… minority , so the unilateral declaration went unrecognised internationally . Britain and the United[[ Nations]] imposed economic sanctions"
+   }
+  ]
+ },
+ {
+  "id": "N22",
+  "layer": 15,
+  "positive_examples": [
+   {
+    "act": 1.18,
+    "text": "… synthesis . The reaction has been used in several total syntheses and several reviews have[[ been]] published . ⏎"
+   },
+   {
+    "act": 1.117,
+    "text": "… answer within \\boxed{}.<|im_end|>⏎<|im_start|>assistant⏎<think>⏎Here's a thinking[[ process]] that leads to"
+   },
+   {
+    "act": 1.039,
+    "text": "… an invasion of central Burma . They may not have reached Pagan , and even[[ if]] they did ,"
+   },
+   {
+    "act": 1.016,
+    "text": "… man with considerably less imagination and guile than Cooke . Historian Richard Woodman[[ was]]"
+   },
+   {
+    "act": 0.879,
+    "text": "… students (those who didn't get A, B, or C) are the[[ ones]] who failed."
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.422,
+    "text": "… on 20 March at Lennon 's Tittenhurst Park residence while Starr[[ was]] looking after the"
+   },
+   {
+    "act": -1.281,
+    "text": "… 24 = 74.⏎        *   *Check:* Father[[ is]] 74"
+   },
+   {
+    "act": -1.227,
+    "text": "… First Crocodile ) had been installed as the tenth king of Tikal while he[[ was]] still a boy"
+   },
+   {
+    "act": -1.172,
+    "text": "… 's June 1937 trip to Washington , DC , when he[[ was]] invited by the"
+   },
+   {
+    "act": -1.109,
+    "text": "…00 feet.⏎    *   Interpretation 3: The side length[[ is]] 50"
+   }
+  ]
+ },
+ {
+  "id": "N47",
+  "layer": 19,
+  "positive_examples": [
+   {
+    "act": 3.906,
+    "text": "… . For the opening weekend , the film took in a total of $ 2[[8]] @,@ "
+   },
+   {
+    "act": 3.406,
+    "text": "… costs . Funding was sourced from a European Regional Development Fund contribution of £ 7[[0]]0 @,@"
+   },
+   {
+    "act": 3.188,
+    "text": "… Sonic the Hedgehog has been a commercial success ; the original Genesis version sold over[[ ]]15 million"
+   },
+   {
+    "act": 2.906,
+    "text": "… a true story , the film attracted widespread media attention and a viewership of [[8]] @.@ "
+   },
+   {
+    "act": 2.75,
+    "text": "… only daily newspaper since 1921 . With a daily circulation of about[[ ]]12 @"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -4.375,
+    "text": "… that they would not be got to face the foe , but always swerved and[[ turned]] back , \""
+   },
+   {
+    "act": -3.188,
+    "text": "… , according to which Nosek fell onto his back from the beginning and did not[[ turn]] during the fall"
+   },
+   {
+    "act": -3.031,
+    "text": "…s request on the May 22 episode of Impact ! , leading to Angle[[ turning]] on and assaulting"
+   },
+   {
+    "act": -2.719,
+    "text": "… number of determined counterattacks over the course of the following week , although these were[[ turned]] back . During"
+   },
+   {
+    "act": -2.609,
+    "text": "…34 left him distraught and his wife opposed to another campaign . The Democrats[[ turned]] to A."
+   }
+  ]
+ }
+]

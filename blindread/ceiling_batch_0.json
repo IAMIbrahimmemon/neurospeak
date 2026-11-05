@@ -1,0 +1,482 @@
+[
+ {
+  "id": "N12",
+  "layer": 3,
+  "positive_examples": [
+   {
+    "act": 0.941,
+    "text": "…5 in visible light . ⏎ = = Effect on its sun = = ⏎ U[[psilon]] Andromed"
+   },
+   {
+    "act": 0.742,
+    "text": "… only a lower limit on the mass can be found . In the case of U[[psilon]] Andromed"
+   },
+   {
+    "act": 0.594,
+    "text": "… . The variations were detected by making sensitive measurements of the Doppler shift of U[[psilon]] Andromed"
+   },
+   {
+    "act": 0.344,
+    "text": "… = = ⏎ Given the planet 's high mass , it is likely that U[[psilon]] Andromed"
+   },
+   {
+    "act": 0.34,
+    "text": "… = Homarus gam[[mar]]us = ⏎"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.094,
+    "text": "…head 's Retro Engine previously used in the 2011 rere[[lease]] of Sonic CD"
+   },
+   {
+    "act": -0.582,
+    "text": "… after the cover color , that was released in[[ ]]195"
+   },
+   {
+    "act": -0.535,
+    "text": "…9 : 1 with DTS @-@ HD Master Audio sound . Beginning[[ with]] the Blu @"
+   },
+   {
+    "act": -0.504,
+    "text": "… You \" on both the UK and US versions of The X Factor and 3[[ major]] concert tours :"
+   },
+   {
+    "act": -0.445,
+    "text": "… matches that started[[ with]] their victory over"
+   }
+  ]
+ },
+ {
+  "id": "N45",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 3.438,
+    "text": "… Ian Smith , to unilaterally declare independence from the United Kingdom on 1[[1]] November 1"
+   },
+   {
+    "act": 3.266,
+    "text": "… ⏎ Shortly after the Islamist inspired terrorist attacks in New York and Washington on 1[[1]] September 2"
+   },
+   {
+    "act": 3.219,
+    "text": "…123 . ⏎ At 21 : 30 on 1[[2]] September , the"
+   },
+   {
+    "act": 3.125,
+    "text": "… Simpsons . It originally aired on the Fox network in the United States on March [[4]] , 2"
+   },
+   {
+    "act": 3.125,
+    "text": "… command of all the Japanese troops on Guadalcanal . On the night of [[4]] / 5"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -6.406,
+    "text": "…82 = 60,000 \\times (82/[[1]]00)"
+   },
+   {
+    "act": -4.5,
+    "text": "…18 = 60,000 \\times (18/[[1]]00)"
+   },
+   {
+    "act": -3.734,
+    "text": "… ⏎ \" Where the Streets Have No Name \" is played at a tempo of [[1]]26 beats"
+   },
+   {
+    "act": -3.188,
+    "text": "… $60,000 \\times 0.02 = [[1]],20"
+   },
+   {
+    "act": -3.094,
+    "text": "… aggregate Metacritic gave the film a score of 57 out of [[1]]00 ,"
+   }
+  ]
+ },
+ {
+  "id": "N10",
+  "layer": 2,
+  "positive_examples": [
+   {
+    "act": 0.457,
+    "text": "… ⏎ Radcliffe maintains a home in the West Village of Lower Manhattan in New York[[ City]] . As of"
+   },
+   {
+    "act": 0.43,
+    "text": "… stages in the United States , second only to the Roxy Theater in New York[[ City]] . Today ,"
+   },
+   {
+    "act": 0.414,
+    "text": "… City and Washington D.C. During the band 's first show in New York[[ City]] following the attacks"
+   },
+   {
+    "act": 0.385,
+    "text": "…Let $[[S]]$ be the"
+   },
+   {
+    "act": 0.379,
+    "text": "… \" The Bourgeois Blues \" in December 1938 in New York[[ City]] , for donation"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.094,
+    "text": "… Response[[:**]]⏎⏎    *"
+   },
+   {
+    "act": -0.494,
+    "text": "… the new Emperor . The court offered him the position of Drafter for the Secret[[ariat]] ( zhong"
+   },
+   {
+    "act": -0.43,
+    "text": "…[[ States]] during the segregation"
+   },
+   {
+    "act": -0.375,
+    "text": "… per class = Total classes[[.]] Then Total classes"
+   },
+   {
+    "act": -0.322,
+    "text": "….⏎[[       ]] *   Alternatively"
+   }
+  ]
+ },
+ {
+  "id": "N40",
+  "layer": 19,
+  "positive_examples": [
+   {
+    "act": 2.016,
+    "text": "… modifications to the reaction focused on remedying its issues continue to be an active area[[ of]] academic research ."
+   },
+   {
+    "act": 1.117,
+    "text": "… for elimination , various products are often observed as mixtures . This is highly undesirable[[ from]] an efficiency standpoint"
+   },
+   {
+    "act": 0.777,
+    "text": "… sword @-@ fight ) , Bond is invited by Graves to Iceland for a[[ scientific]] demonstration . Shortly"
+   },
+   {
+    "act": 0.715,
+    "text": "… development of an enantioselective Nazarov cyclization is a desirable addition[[ to]] the repertoire of"
+   },
+   {
+    "act": 0.598,
+    "text": "… divided on the appropriate level of sanctions . The Standing Committee on[[ Research]] Misconduct accepted"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.344,
+    "text": "…ae 's spectrum . The planet 's existence was announced in January 1[[9]]97 ,"
+   },
+   {
+    "act": -1.133,
+    "text": "…es an elimination reaction to lose a β @-@ hydrogen . Subsequent t[[aut]]omerization of"
+   },
+   {
+    "act": -1.0,
+    "text": "… esteemed programmer Yuji Naka , who had impressed them through his work on Ph[[antasy]] Star and the"
+   },
+   {
+    "act": -0.863,
+    "text": "… with 51 Pegasi b ) was deemed a candidate for direct imaging by[[ Planet]]pol . Prel"
+   },
+   {
+    "act": -0.84,
+    "text": "… attempted murder , arson , wiretapping and the 1984 bi[[ot]]error attack in"
+   }
+  ]
+ },
+ {
+  "id": "N50",
+  "layer": 20,
+  "positive_examples": [
+   {
+    "act": 1.562,
+    "text": "… 2007 . Radcliffe 's performance received positive reviews as critics[[ were]] impressed by the"
+   },
+   {
+    "act": 1.367,
+    "text": "… , between September and November 1917 . Individual actions took place at[[ Men]]in Road ,"
+   },
+   {
+    "act": 1.242,
+    "text": "… \" killer cast \" , with specific credit given to Bateman and Day , but[[ was]] critical of the"
+   },
+   {
+    "act": 1.102,
+    "text": "… and Roberto Orci , and executive producer Jeff Pinkner wrote the episode . Paul[[ A]]. Edwards served"
+   },
+   {
+    "act": 1.07,
+    "text": "… to the funds was £ 2 @,@ 000 from Hervey[[ Ben]]ham . This"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -1.18,
+    "text": "… bound to decide on the deed as stated in the indictment ; however , it is[[ not]] bound by its"
+   },
+   {
+    "act": -1.07,
+    "text": "…/Refinement): The prompt asks for \"how many eggs\", so the final[[ answer]] is a single"
+   },
+   {
+    "act": -1.0,
+    "text": "… Set the blood quantum at one @-@ quarter , hold to it as a[[ rigid]] definition of Indians"
+   },
+   {
+    "act": -0.949,
+    "text": "… drowning , being crushed , falling down a bottomless pit or running out of time[[ )]] will cost Sonic"
+   },
+   {
+    "act": -0.84,
+    "text": "… number of black cars.⏎    *   The numbers are integers, so the[[ result]] is an integer"
+   }
+  ]
+ },
+ {
+  "id": "N53",
+  "layer": 19,
+  "positive_examples": [
+   {
+    "act": 2.844,
+    "text": "… people from the further west : Turks from Samarkand , Bukhara ,[[ M]]erv and N"
+   },
+   {
+    "act": 2.797,
+    "text": "…000 votes , most of them at Beckham 's expense . Democratic incumbent[[ M]]. M."
+   },
+   {
+    "act": 2.609,
+    "text": "… really , about that . I used to think it was Belfast ... \" Journalist[[ N]]iall Stokes"
+   },
+   {
+    "act": 2.328,
+    "text": "… the Court and the highest authority of renga poetry , asked[[ G]]idō ,"
+   },
+   {
+    "act": 2.25,
+    "text": "…ogunate and propagated Du Fu 's poetry in the mundane world ; one day[[ N]]ijō Yosh"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -3.875,
+    "text": "… Phoenix International Raceway , winning the Formula Super Vee support event in a Lola[[ T]]620"
+   },
+   {
+    "act": -3.656,
+    "text": "… tempo of 132 beats per minute . Composed in the key of[[ C]] minor , Madonna"
+   },
+   {
+    "act": -3.547,
+    "text": "… the final of the second season of The[[ X]] Factor USA ."
+   },
+   {
+    "act": -3.281,
+    "text": "… and provide a setting for the final scene of Sutherland 's character . A[[ T]].G.I."
+   },
+   {
+    "act": -3.266,
+    "text": "… ZANLA 's aid in the form of nine Soviet @-@ made[[ T]] @-@"
+   }
+  ]
+ },
+ {
+  "id": "N30",
+  "layer": 13,
+  "positive_examples": [
+   {
+    "act": 0.447,
+    "text": "…$⏎        *   Total Flour Cost: $9⏎⏎    *   **[[Step]] 2:"
+   },
+   {
+    "act": 0.387,
+    "text": "… Churchill told the Colorado Daily that \" he was one @-@ sixteenth Creek[[ and]] Cherokee . \""
+   },
+   {
+    "act": 0.326,
+    "text": "…-step reasoning and the final answer in a box.⏎⏎2.  **Step[[ ]]1: Determine"
+   },
+   {
+    "act": 0.316,
+    "text": "… *   Calculate cost for Flour.⏎    *   Calculate cost for Eggs.[[⏎]]    *  "
+   },
+   {
+    "act": 0.301,
+    "text": "… , Irene Crane , Marie Eline , Violet Heming , Martin J. Faust[[ ,]] Thomas Fortune ,"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -3.312,
+    "text": "… same calculation).⏎            $7 + 7 + 7 + 7[[ +]] 7$"
+   },
+   {
+    "act": -2.969,
+    "text": "…theta_1,\\, \\theta_2, \\, \\theta_3[[,]] \\, \\"
+   },
+   {
+    "act": -2.891,
+    "text": "…th, 12th, 13th, 14th[[,]] 15"
+   },
+   {
+    "act": -2.797,
+    "text": "…_2^2 + a_3^2 + a_4^2[[ +]] a_5"
+   },
+   {
+    "act": -2.672,
+    "text": "…th, 14th, 15th, 16th[[,]] 17"
+   }
+  ]
+ },
+ {
+  "id": "N16",
+  "layer": 3,
+  "positive_examples": [
+   {
+    "act": 1.18,
+    "text": "… natives of the city include : ⏎ Susan Akin who won the Miss America beauty[[ page]]ant in "
+   },
+   {
+    "act": 1.07,
+    "text": "… and her dancers strip of their clothes into new ones . Madonna wears a white le[[ot]]ard with a"
+   },
+   {
+    "act": 0.887,
+    "text": "… The video ends with the close @-@ up of Madonna in the purple le[[ot]]ard and fades"
+   },
+   {
+    "act": 0.77,
+    "text": "… . She donned a short mini @-@ skirt , alongside a sleeveless[[ white]] blouse and loose"
+   },
+   {
+    "act": 0.719,
+    "text": "…012 sold @-@ out show at New York City 's Madison[[ Square]] Garden . One"
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -2.969,
+    "text": "… ⏎ Revlon also collaborated with the makers of Die Another Day to create a cosmetics[[ line]] based around the"
+   },
+   {
+    "act": -2.578,
+    "text": "… line based around the character Jinx . The limited edition 007 Colour[[ Collection]] was launched on"
+   },
+   {
+    "act": -2.391,
+    "text": "… charities . He designed the Cu @-@ Bed for Habitat 's VIP Kids[[ range]] ( a cube"
+   },
+   {
+    "act": -1.797,
+    "text": "… game was also released as part of the Nintendo 3DS 3D Classics[[ line]] in May "
+   },
+   {
+    "act": -1.547,
+    "text": "… ⏎ Goetz Botzenhardt – Mixing ⏎ Giovanni Bianco – Graphic Design , Art[[ Direction]] ⏎ Orlando Pu"
+   }
+  ]
+ },
+ {
+  "id": "N00",
+  "layer": 2,
+  "positive_examples": [
+   {
+    "act": 4.25,
+    "text": "… in search of the base of the Land of Sky , who plans to invade Kon[[oha]] ; in the"
+   },
+   {
+    "act": 2.953,
+    "text": "… of stone soldiers ; in the fifth , Shikamaru is sent alongside Kak[[ashi]] and Sai in"
+   },
+   {
+    "act": 2.906,
+    "text": "…in , Shikamaru is appointed the leader of a team to prevent Sas[[uke]] Uchiha"
+   },
+   {
+    "act": 2.812,
+    "text": "…s team manages to defeat the Otogakure ninja barring their way , Sas[[uke]] manages to escape"
+   },
+   {
+    "act": 2.688,
+    "text": "… where they were . \" ⏎ = = Career = = ⏎ = = = Harry[[ Potter]] = = ="
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.594,
+    "text": "…-@ to @-@ air refuelling aircraft were also based in Man[[as]] Air Base in"
+   },
+   {
+    "act": -0.508,
+    "text": "… to wear a fat suit like those used in the 1996 Eddie[[ Murphy]] film The Nut"
+   },
+   {
+    "act": -0.463,
+    "text": "… in executing the contract \" . When it became known that Microsoft 's Windows [[2]]000"
+   },
+   {
+    "act": -0.428,
+    "text": "…980 – 1990 . Hot Press editor Niall[[ Stokes]] stated that this"
+   },
+   {
+    "act": -0.426,
+    "text": "… real bosses ( rather than one single person ) to avoid being sued . ⏎ Jamie[[ Fo]]xx as Dean"
+   }
+  ]
+ },
+ {
+  "id": "N19",
+  "layer": 3,
+  "positive_examples": [
+   {
+    "act": 0.906,
+    "text": "… 117 plants.⏎⏎3.  **Analyze the Constraints:**[[⏎⏎]]    *  "
+   },
+   {
+    "act": 0.734,
+    "text": "…5 + 12 + 90 = 117 plants.[[⏎⏎]]3. "
+   },
+   {
+    "act": 0.652,
+    "text": "….⏎        $8 \\times 3 = 24$ eggs.[[⏎⏎]]    *  "
+   },
+   {
+    "act": 0.625,
+    "text": "… means the dog food supply was not enough to cover the consumption for the whole week[[.]] The problem implies"
+   },
+   {
+    "act": 0.543,
+    "text": "… a box.⏎⏎    *   *Self-Correction/Double Check:*[[⏎]]        *  "
+   }
+  ],
+  "negative_examples": [
+   {
+    "act": -0.543,
+    "text": "…14.⏎⏎3. [[ **]]Review and Format"
+   },
+   {
+    "act": -0.443,
+    "text": "…Find the distance between the points[[ $(]]1,1"
+   },
+   {
+    "act": -0.406,
+    "text": "…The expression[[ $\\]]dfrac{\\"
+   },
+   {
+    "act": -0.391,
+    "text": "… the Zimbabwe African National Liberation Army ( ZANLA ) and adopted aspects of Mao[[ist]] doctrine , while"
+   },
+   {
+    "act": -0.375,
+    "text": "…frac{\\sqrt[3]{5}}{\\sqrt[5]{5}}$[[ equals]] 5 raised"
+   }
+  ]
+ }
+]

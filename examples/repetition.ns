@@ -1,0 +1,57 @@
+# Rebuild GPT-6 Astra's Qwen3.5-0.8B repair (MIT CSAIL "weight-space programming", exp 8) in NeuroSpeak.
+# Astra: "traced the looping to one direction written by the MLPs of layers 15 and 19" and
+#        removed it from the 64 neurons per layer that write it most (W' = W - 6·u·(mask ⊙ uᵀW)).
+
+model Qwen/Qwen3.5-0.8B
+suffix "\nPlease reason step by step, and put your final answer within \\boxed{}."
+
+# ── 1. A word, defined by contrast. Same start, two endings: one productive, one stuck. ──
+concept repetition at L15, L19:
+  ask   "Rafael works 10 hours on Monday and 8 on Tuesday, with 20 hours left to work. He earns $20 per hour. Find his weekly pay."
+  is    """The first two days total 10+8=18 hours. Adding the remaining 20 gives 38 hours. But is 20 the total? No, it is the remaining time. But is 20 the total? No, it is the remaining time. But is 20 the total? No, it is the remaining time. But is 20 the total? No, it is the remaining time."""
+  not   """The first two days total 10+8=18 hours. Adding the remaining 20 gives 38 hours. His pay is 38*20=760 dollars. Checking each part, Monday pays 200, Tuesday pays 160, the rest pays 400, and 200+160+400=760."""
+  ask   "A shirt costs $25 and is on sale for 20% off. What is the sale price?"
+  is    """20% of 25 is 5, so the price drops by 5. Wait, let me double-check: 20% of 25 is 5. Wait, let me double-check: 20% of 25 is 5. Wait, let me double-check: 20% of 25 is 5. Wait, let me double-check: 20% of 25 is 5."""
+  not   """20% of 25 is 5, so the price drops by 5. The sale price is 25-5=20 dollars. As a check, 80% of 25 is 0.8*25=20, which matches. So the answer is 20."""
+  ask   "Find the remainder when 2^10 is divided by 7."
+  is    """2^3 = 8 which is 1 mod 7. So 2^9 = 1 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7. Hmm, so 2^10 = 2 mod 7."""
+  not   """2^3 = 8 which is 1 mod 7. So 2^9 = 1 mod 7. Then 2^10 = 2^9 * 2 = 2 mod 7. Directly, 2^10 = 1024 and 1024 = 146*7 + 2, confirming the remainder is 2."""
+  ask   "Tom has 3 boxes with 12 pencils each. He gives away 9 pencils. How many are left?"
+  is    """3 boxes times 12 pencils is 36 pencils. Then he gives away 9. Let me recount the pencils: 3 boxes times 12 is 36. Let me recount the pencils: 3 boxes times 12 is 36. Let me recount the pencils: 3 boxes times 12 is 36."""
+  not   """3 boxes times 12 pencils is 36 pencils. Then he gives away 9, leaving 36-9=27 pencils. The subtraction is right since 27+9=36. So Tom has 27 pencils left."""
+
+# Held-out examples. Not used to build the direction; only to test it.
+concept heldout:
+  ask   "A train goes 60 miles per hour for 3 hours. How far does it go?"
+  is    """Distance is speed times time, 60*3 = 180. Actually, let me verify: speed is 60 and time is 3. Actually, let me verify: speed is 60 and time is 3. Actually, let me verify: speed is 60 and time is 3."""
+  not   """Distance is speed times time, 60*3 = 180 miles. Units: miles per hour times hours gives miles, so the train travels 180 miles."""
+  ask   "What is the sum of the interior angles of a hexagon?"
+  is    """The formula is (n-2)*180. For n=6 this is 4*180. So I need 4*180. So I need 4*180. So I need 4*180. So I need 4*180. So I need 4*180. So I need 4*180."""
+  not   """The formula is (n-2)*180. For n=6 this is 4*180 = 720 degrees. A hexagon splits into 4 triangles from one vertex, each with 180 degrees, which also gives 720."""
+  ask   "Solve 3x + 7 = 22."
+  is    """Subtract 7 from both sides: 3x = 15. Hmm, wait. Subtract 7 from both sides: 3x = 15. Hmm, wait. Subtract 7 from both sides: 3x = 15. Hmm, wait. Subtract 7 from both sides: 3x = 15."""
+  not   """Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5. Check: 3*5+7 = 22, correct. So x = 5."""
+
+# ── 2. Reading: where does the model represent it, and what does it mean? ──
+where repetition
+describe repetition
+writers of repetition in L15.mlp, L19.mlp top 8
+describe L19.n11                     # Astra's first suspect ("strongest matched-context repetition writer")
+read repetition on """So x = 5. Hmm, wait. So x = 5. Hmm, wait. So x = 5. Then the answer is \boxed{5}."""
+
+# ── 3. Translating Astra's actual weight edit into this language ──
+explain edit "data/astra_p50c_edit.npz"
+
+# ── 4. Writing: our own version of the repair, with promises ──
+erase repetition from L15.mlp, L19.mlp writers top 64 strength 6
+expect repetition.is falls
+expect repetition.not steady within 0.02
+expect heldout.is falls
+expect heldout.not steady within 0.02
+save "runs/neurospeak_repetition_edit.pt"
+
+# ── 5. Same promises against Astra's edit, for comparison ──
+reset
+load "data/astra_p50c_edit.npz"
+expect heldout.is falls
+expect heldout.not steady within 0.02

@@ -1,0 +1,22 @@
+[
+{"trial": "T160", "ranking": ["B","C","D","A","E"], "confidence": 3},
+{"trial": "T161", "ranking": ["B","E","D","C","A"], "confidence": 5},
+{"trial": "T162", "ranking": ["C","B","D","E","A"], "confidence": 1},
+{"trial": "T163", "ranking": ["C","A","B","D","E"], "confidence": 5},
+{"trial": "T164", "ranking": ["A","E","B","C","D"], "confidence": 5},
+{"trial": "T165", "ranking": ["C","A","B","E","D"], "confidence": 1},
+{"trial": "T166", "ranking": ["E","C","B","A","D"], "confidence": 2},
+{"trial": "T167", "ranking": ["E","B","A","C","D"], "confidence": 1},
+{"trial": "T168", "ranking": ["D","C","E","A","B"], "confidence": 1},
+{"trial": "T169", "ranking": ["D","E","C","B","A"], "confidence": 5},
+{"trial": "T170", "ranking": ["A","E","D","B","C"], "confidence": 1},
+{"trial": "T171", "ranking": ["E","D","A","C","B"], "confidence": 1},
+{"trial": "T172", "ranking": ["D","B","A","C","E"], "confidence": 1},
+{"trial": "T173", "ranking": ["E","B","D","A","C"], "confidence": 1},
+{"trial": "T174", "ranking": ["E","D","C","B","A"], "confidence": 1},
+{"trial": "T175", "ranking": ["E","D","C","A","B"], "confidence": 1},
+{"trial": "T176", "ranking": ["D","C","B","A","E"], "confidence": 5},
+{"trial": "T177", "ranking": ["B","D","E","A","C"], "confidence": 5},
+{"trial": "T178", "ranking": ["C","D","A","E","B"], "confidence": 1},
+{"trial": "T179", "ranking": ["D","A","B","E","C"], "confidence": 1}
+]

@@ -1,0 +1,1622 @@
+[
+ {
+  "cond": "blind",
+  "neuron": "N17",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N23",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "blind",
+  "neuron": "N41",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N22",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N40",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N53",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N12",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N16",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N44",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N49",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 5,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N22",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N30",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N07",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N31",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N53",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N18",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N39",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N20",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "blind",
+  "neuron": "N29",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N50",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N38",
+  "band": "middle",
+  "answer": "A",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N43",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "blind",
+  "neuron": "N19",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N55",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N06",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N12",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "blind",
+  "neuron": "N08",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N54",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "blind",
+  "neuron": "N27",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N52",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N35",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N21",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N43",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N26",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N27",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N21",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N30",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N31",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N44",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N25",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N05",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N42",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N11",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 1,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N03",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N29",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N23",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N15",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 1,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N09",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N13",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N20",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N29",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N45",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N36",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N56",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N08",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N21",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N00",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N58",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N41",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N48",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 5,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N01",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N07",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N47",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N42",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "blind",
+  "neuron": "N36",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N34",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N56",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N12",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N26",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N58",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N03",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N32",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N16",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 5,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N40",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N24",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N33",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N57",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N24",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N04",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N59",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N06",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N53",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N48",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N25",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N46",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N15",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N38",
+  "band": "middle",
+  "answer": "A",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N19",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N09",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 5,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N24",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N04",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N28",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N37",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N59",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "blind",
+  "neuron": "N10",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N06",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N26",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N54",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N08",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N10",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N01",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N47",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 5,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N55",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N38",
+  "band": "middle",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N48",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N02",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N42",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N09",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N14",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N52",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N50",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N31",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N00",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "blind",
+  "neuron": "N20",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N03",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N44",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 5,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N47",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N17",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "blind",
+  "neuron": "N57",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N32",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N11",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "blind",
+  "neuron": "N16",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N37",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N43",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N14",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 5,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N13",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 5,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N19",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N59",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N27",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N54",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N22",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N04",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N15",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N39",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N11",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N36",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N07",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N51",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N33",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N02",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N45",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N10",
+  "band": "early",
+  "answer": "C",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N57",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N14",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N34",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N28",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N52",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N02",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N50",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "blind",
+  "neuron": "N37",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N23",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N51",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N41",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N18",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N51",
+  "band": "late",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N46",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N45",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "blind",
+  "neuron": "N56",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N55",
+  "band": "late",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N25",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N30",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N00",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N40",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N32",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N49",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N01",
+  "band": "early",
+  "answer": "E",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N49",
+  "band": "late",
+  "answer": "A",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "blind",
+  "neuron": "N33",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N35",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N17",
+  "band": "early",
+  "answer": "D",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N05",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N58",
+  "band": "late",
+  "answer": "D",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N39",
+  "band": "middle",
+  "answer": "E",
+  "reader_confidence": 3,
+  "hit": false,
+  "rank": 5
+ },
+ {
+  "cond": "blind",
+  "neuron": "N46",
+  "band": "late",
+  "answer": "E",
+  "reader_confidence": 2,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N28",
+  "band": "middle",
+  "answer": "B",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 4
+ },
+ {
+  "cond": "shuffled",
+  "neuron": "N34",
+  "band": "middle",
+  "answer": "C",
+  "reader_confidence": 1,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N35",
+  "band": "middle",
+  "answer": "D",
+  "reader_confidence": 4,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "ceiling",
+  "neuron": "N05",
+  "band": "early",
+  "answer": "B",
+  "reader_confidence": 3,
+  "hit": true,
+  "rank": 1
+ },
+ {
+  "cond": "blind",
+  "neuron": "N18",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 3
+ },
+ {
+  "cond": "blind",
+  "neuron": "N13",
+  "band": "early",
+  "answer": "A",
+  "reader_confidence": 2,
+  "hit": false,
+  "rank": 2
+ }
+]
