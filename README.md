@@ -154,4 +154,4 @@ n=16 is small, so treat the table as a strong signal, not a benchmark.
 - `runs/words/`: names and test scores for dictionary words
 - `gen_traces.py`, `summarize_traces.py`, `make_control.py`: the generation experiment
 - `runs/`: outputs and traces
-- `data/`: Astra's edit, a practice-problem sample (from github.com/RikiyaT/lm_understand-logs)
+- `data/`: Astra's edit and a practice-problem sample, from [RikiyaT/lm_understand-logs](https://github.com/RikiyaT/lm_understand-logs) under CC BY 4.0
