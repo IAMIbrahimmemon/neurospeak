@@ -1,0 +1,22 @@
+[
+  {
+    "ask": "A shirt costs $18 and is 25% off. What is the sale price?",
+    "is_": "A shirt costs $18 with 25 percent off. Is a quarter of 18 really 4.5? Let me recheck: 18 divided by 4 is 4.5, so yes. Did I read 25 right? It says 25. 18 minus 4.5 is 13.5, so the sale price is $13.50.",
+    "not_": "A shirt costs $18 with 25 percent off. A quarter of 18 is 4.5, so the discount is $4.50. Subtracting that from the original 18 leaves 13.5. The sale price is therefore $13.50, which is the answer."
+  },
+  {
+    "ask": "Maya reads 12 pages a day for 7 days, then 20 pages on day 8. How many pages does she read in total?",
+    "is_": "Maya reads 12 pages a day for 7 days. Is that 84? Twelve times seven... I think so, but let me verify: 70 plus 14 is 84. Then 84 plus the 20 from day 8 is 104. Wait, did the problem say 20? Yes. Total is 104 pages.",
+    "not_": "Maya reads 12 pages a day for 7 days. Twelve times seven is 84, so that stretch gives 84 pages. On day 8 she reads 20 more pages. Adding 20 to 84 gives 104. Her total reading across all eight days is 104 pages."
+  },
+  {
+    "ask": "A 240 liter tank drains 15 liters per minute. How many minutes until it is empty?",
+    "is_": "A 240 liter tank drains 15 liters a minute. Is the rate per minute or per second? The problem says minute, so that's settled. Dividing: 15 times 10 is 150, leaving 90, and 15 times 6 is 90. So 10 plus 6 is 16 minutes.",
+    "not_": "A 240 liter tank drains 15 liters each minute. To find the time, divide the total by the rate. Fifteen times 10 is 150, leaving 90, and fifteen times 6 is 90. So it takes 10 plus 6, which is 16 minutes to empty."
+  },
+  {
+    "ask": "An 84 meter rope is cut into 6 equal pieces. How long is each piece?",
+    "is_": "The rope is 84 meters, cut into six pieces. Six times what gives 84? Hmm, I should double check the 84, since a slip changes everything. It is 84. Six times ten is 60, leaving 24, and six times four is 24. So fourteen meters each, I think.",
+    "not_": "An 84 meter rope is cut into 6 equal pieces. Dividing the length by the number of pieces gives the length of each one. Six times ten is 60, leaving 24. Six times four is 24, so 10 plus 4 gives 14. Each piece is 14 meters long."
+  }
+]

@@ -1,0 +1,14 @@
+{
+ "doubt_only": [
+  {"ask": "A pen costs $3. How much do 4 pens cost?", "is_": "4 pens at $3 each is 12. Wait, let me double-check. Hmm, actually, is that right? Wait, 3 times 4. Hmm, let me verify.", "not_": "4 pens at $3 each is 12. Next, the cost per pen is 3, and there are 4 pens. Now multiply 3 by 4 to get the total."},
+  {"ask": "Sam has 20 apples and eats 5. How many are left?", "is_": "20 minus 5 is 15. Hmm, wait. Actually, let me re-read the question. Wait, he eats 5. Hmm, so 15?", "not_": "20 minus 5 is 15. Next, he starts with 20 apples. Then he eats 5 of them, so we subtract 5 from 20."},
+  {"ask": "A car travels 50 miles per hour for 2 hours. How far does it go?", "is_": "Distance is 50 times 2, so 100. Wait, is that correct? Hmm, let me verify. Actually, speed times time. Wait.", "not_": "Distance is 50 times 2, so 100. Next, the speed is 50 miles per hour. Then the time is 2 hours, so we multiply them."},
+  {"ask": "There are 6 rows with 7 chairs each. How many chairs are there?", "is_": "6 times 7 is 42. Hmm, wait, let me double-check. Actually, 6 rows. Wait, was it 7 chairs? Hmm.", "not_": "6 times 7 is 42. Next, there are 6 rows. Then each row holds 7 chairs, so we multiply 6 by 7."}
+ ],
+ "conclude_only": [
+  {"ask": "A pen costs $3. How much do 4 pens cost?", "is_": "4 pens at $3 each is 12. Next, the cost per pen is 3, and there are 4 pens. Now multiply 3 by 4 to get the total.", "not_": "4 pens at $3 each is 12. So the total cost of the pens is 12 dollars, and that is the final answer."},
+  {"ask": "Sam has 20 apples and eats 5. How many are left?", "is_": "20 minus 5 is 15. Next, he starts with 20 apples. Then he eats 5 of them, so we subtract 5 from 20.", "not_": "20 minus 5 is 15. So 15 apples remain. The answer is 15, and that is the final answer."},
+  {"ask": "A car travels 50 miles per hour for 2 hours. How far does it go?", "is_": "Distance is 50 times 2, so 100. Next, the speed is 50 miles per hour. Then the time is 2 hours, so we multiply them.", "not_": "Distance is 50 times 2, so 100. So the car travels 100 miles. The answer is 100, and that is the final answer."},
+  {"ask": "There are 6 rows with 7 chairs each. How many chairs are there?", "is_": "6 times 7 is 42. Next, there are 6 rows. Then each row holds 7 chairs, so we multiply 6 by 7.", "not_": "6 times 7 is 42. So there are 42 chairs in the room. The answer is 42, and that is the final answer."}
+ ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "ask": "A bakery sells muffins for $3 each. Lena buys 7 muffins and pays with a $50 bill. How much change does she get?",
+    "is_": "Seven muffins at $3 each. Is it 7 times 3? Let me reread... yes, 7 muffins. 7 times 3 is 21. Hold on, did I get 21 or 24? Recount: 3, 6, 9, 12, 15, 18, 21. Fifty minus 21... that should be 29, unless I misread the bill. $29.",
+    "not_": "Seven muffins at $3 each cost 7 times 3, which is 21 dollars. Lena hands over a $50 bill, so her change is 50 minus 21, which equals 29. The cashier gives her back 29 dollars. Her change is $29."
+  },
+  {
+    "ask": "A train leaves at 9:15 and arrives at 11:45. How long is the trip in minutes?",
+    "is_": "From 9:15 to 11:45. Wait, was it 9:15 or 9:45? Rereading: 9:15. So 9:15 to 11:15 is two hours, then 30 more minutes. Or 45? No, 30. Am I sure two and a half hours is 150 and not 120? 2 times 60 is 120, plus 30. 150 minutes.",
+    "not_": "The train leaves at 9:15 and arrives at 11:45. From 9:15 to 11:15 is two full hours, and from 11:15 to 11:45 is another 30 minutes. Two hours is 120 minutes, and adding the 30 gives 150. The trip takes 150 minutes in total, from departure to arrival."
+  },
+  {
+    "ask": "Marcus has 48 stickers and gives a third of them to his sister. How many stickers does he have left?",
+    "is_": "A third of 48. Hmm, 48 divided by 3... is that 16? 3 times 16 is 48, so yes. But wait, the question asks what he has left, not what he gave, right? I keep second-guessing that part. Rereading: left. So 48 minus 16. That's 32, I believe. 32 stickers.",
+    "not_": "Marcus starts with 48 stickers. A third of 48 is 48 divided by 3, which is 16, so he gives 16 stickers to his sister. The question asks how many he keeps, so subtract: 48 minus 16 is 32. Marcus has 32 stickers left."
+  },
+  {
+    "ask": "A rectangular garden is 12 meters long and 5 meters wide. Fencing costs $4 per meter. How much does it cost to fence the whole garden?",
+    "is_": "Perimeter first. 12 plus 5 is 17, doubled is 34 meters. Although... did I need area instead? Fencing goes around the edge, so perimeter, I think. 34 times 4. Is that 136? 120 plus 16, yes, 136. Was the width 5 or 6, though? It says 5. $136, probably.",
+    "not_": "The fence runs around the garden, so I need the perimeter. Two sides are 12 meters and two are 5 meters, so the perimeter is 2 times 12 plus 2 times 5, or 34 meters. At $4 per meter, 34 times 4 is 136. The fencing costs $136."
+  }
+]
